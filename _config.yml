@@ -1,0 +1,22 @@
+# Site settings
+title: Péter's Research Reports
+email: pkiraly@gmail.com
+description: ""
+baseurl: ""
+twitter_username: kiru
+github_username:  pkiraly
+facebook_username:  pkiraly
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 80
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+#WordPress-style excerpt
+excerpt_separator: "<!-- more -->"
+
+highlighter: pygments
+github: [Repository metadata]
+

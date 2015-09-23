@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+    <section id='container'>
+        <section class='posts'>
+            <header class='blog-header' role='banner'>
+                <a class="logo" href="{{ site.baseurl }}/"></a>
+                <h1 class='blog-title'>{{ page.title }}</h1>
+                <h5 class='author'>by <a href="https://twitter.com/{{ site.twitter_username }}">@kiru</a> &mdash; {{ page.date | date: "%Y-%m-%d." }}</h2>
+                <hr />
+            </header>
+
+            <div class='post-content'>
+                <article>
+                    {{ content }}
+                    <p>
+                        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ site.url }}{{ page.url }}&amp;via={{ site.twitter_username }}&amp;related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a> /
+                        <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+                    </p>
+                </article>
+            </div>
+        </section>
+    </section>
