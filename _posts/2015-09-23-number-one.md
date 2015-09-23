@@ -8,6 +8,8 @@ author:     "pkiraly"
 I have started working on the implementation of my plan, <a name="ref1"></a>[[1]](#note1)
 and now I attached a resulting image came from it.
 
+<!-- more -->
+
 <img src="{{ site.url }}/assets/completeness.jpg" class="big" title="Completeness Boxplot" alt="Completeness Boxplot" />
 
 What you can see in the image is three charts. The first one contains
