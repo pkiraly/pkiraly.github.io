@@ -1,3 +1,3 @@
 # pkiraly.github.io
 
-Hello, this is just a readme
+This repository stores the source of my GitHub.io pages [North Sea Data Refinery](http://pkiraly.github.io)
