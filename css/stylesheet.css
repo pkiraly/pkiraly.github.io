@@ -25,10 +25,10 @@ header.blog-header hr {
 
 a.logo {
 	display: block;
-	width: 100px;
-	height: 100px;
-	border-radius: 50px;
-	background: #FFFFFF url("../img/pkiraly.jpg");
+	width: 120px;
+	height: 120px;
+	border-radius: 10px;
+	background: #FFFFFF url("../img/pkiraly_120.jpg");
 	margin: 3em auto 2em auto;
 }
 
