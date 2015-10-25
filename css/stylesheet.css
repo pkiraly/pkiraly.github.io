@@ -166,3 +166,8 @@ footer {
 		line-height: 150%;
 	}
 }
+
+#disqus_thread {
+    margin: 0 25% 40px;
+    width: 50%;
+}
