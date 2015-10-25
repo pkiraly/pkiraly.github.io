@@ -5,7 +5,7 @@ date:       2015-10-25 11:02:00
 author:     "pkiraly"
 ---
 
-<img src="https://lh3.googleusercontent.com/-YADBvaC2hUQ/AAAAAAAAAAI/AAAAAAAAAEg/_fr6798_2Uo/photo.jpg" align="center" alt="Logo of the Metropolitan Museum of Art" width="250" height="250" style="width: 250px; height: 250px; text-align: center; margin-left: 30%; margin-right: 30%"/>
+<img src="https://lh3.googleusercontent.com/-YADBvaC2hUQ/AAAAAAAAAAI/AAAAAAAAAEg/_fr6798_2Uo/photo.jpg" align="center" alt="Logo of the Metropolitan Museum of Art" width="250" height="250" style="width: 250px; height: 250px; text-align: center; margin-left: 30%; margin-right: 30%; border-radius: 50%;"/>
 
 Last Friday I heard a presentation of [Fernando Pérez](http://fperez.org/ "Fernando Pérez"), who is — among 
 many other things — one of the founders of Berkeley Institute for Data Science (shortly BIDS). 
@@ -16,10 +16,9 @@ They create R packages in several scientific domains.
 
 <!-- more -->
 
-I checked "musemeta", an [R Client for Scraping Museum Metadata](https://github.com/ropensci/musemeta "R Client 
+I checked `musemeta`, an [R Client for Scraping Museum Metadata](https://github.com/ropensci/musemeta "R Client 
 for Scraping Museum Metadata") created by [Scott Chamberlain](http://scottchamberlain.info/ "Scott Chamberlain"). 
-By the way, you can find all of their R packages in [GitHub](https://github.com/ropensci).
-
+By the way, you can find all of their R packages in [GitHub](https://github.com/ropensci). 
 The `musemeta` package lets users to integrate metadata from different museums (The Metropolitan Museum of Art, 
 The Canadian Science & Technology Museum Corporation, The National Gallery of Art, The Getty Museum, The Art 
 Institute of Chicago, and The Asian Art Museum of San Francisco). For accessing MET data the package provides two 
@@ -29,7 +28,7 @@ valuable information — the metadata of the object. This method is a bit of fra
 the institution introduces a technological change, the HTML layout will be changed by high chance, and 
 you should modify your extracting code accordingly otherwise the result will be crap. The author of `musemeta` 
 is aware of this problem, and he provides an alternative method: using an API dedicated to MET data. It is 
-called ''scrapi'' (or scrAPI) a metropolitan museum collections api, and available at
+called `scrapi` (or scrAPI) a metropolitan museum collections API, and available at
 [scrapi.org](http://scrapi.org/ "scrapi.org").
 
 This API is also an Open Source software and its code is also available on 
