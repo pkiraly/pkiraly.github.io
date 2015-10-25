@@ -5,6 +5,8 @@ date:       2015-10-25 11:02:00
 author:     "pkiraly"
 ---
 
+<img src="https://lh3.googleusercontent.com/-YADBvaC2hUQ/AAAAAAAAAAI/AAAAAAAAAEg/_fr6798_2Uo/photo.jpg" align="center" alt="Logo of the Metropolitan Museum of Art" />
+
 Last Friday I heard a presentation of [Fernando Pérez](http://fperez.org/ "Fernando Pérez"), who is — among 
 many other things — one of the founders of Berkeley Institute for Data Science (shortly BIDS). 
 After his presentation I spent some time on the 
@@ -13,8 +15,6 @@ After his presentation I spent some time on the
 They create R packages in several scientific domains.
 
 <!-- more -->
-
-<img src="https://lh3.googleusercontent.com/-YADBvaC2hUQ/AAAAAAAAAAI/AAAAAAAAAEg/_fr6798_2Uo/photo.jpg" />
 
 I checked "musemeta", an [R Client for Scraping Museum Metadata](https://github.com/ropensci/musemeta "R Client 
 for Scraping Museum Metadata") created by [Scott Chamberlain](http://scottchamberlain.info/ "Scott Chamberlain"). 
