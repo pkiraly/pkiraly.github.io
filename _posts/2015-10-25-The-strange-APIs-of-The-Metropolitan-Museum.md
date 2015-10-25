@@ -12,6 +12,8 @@ After his presentation I spent some time on the
 [ROpenSci](https://ropensci.org/ "ROpenSci"), which is a community for „transforming science through open data”. 
 They create R packages in several scientific domains.
 
+<!-- more -->
+
 I checked "musemeta", an [R Client for Scraping Museum Metadata](https://github.com/ropensci/musemeta "R Client 
 for Scraping Museum Metadata") created by [Scott Chamberlain](http://scottchamberlain.info/ "Scott Chamberlain"). 
 By the way, you can find all of their R packages in [GitHub](https://github.com/ropensci).
