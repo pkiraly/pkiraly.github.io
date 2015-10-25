@@ -5,7 +5,7 @@ date:       2015-10-25 11:02:00
 author:     "pkiraly"
 ---
 
-<img src="https://lh3.googleusercontent.com/-YADBvaC2hUQ/AAAAAAAAAAI/AAAAAAAAAEg/_fr6798_2Uo/photo.jpg" align="center" alt="Logo of the Metropolitan Museum of Art" width="250" height="250" style="width: 250px; height: 250px; margin: 0 40% 0 40%;"/>
+<img src="https://lh3.googleusercontent.com/-YADBvaC2hUQ/AAAAAAAAAAI/AAAAAAAAAEg/_fr6798_2Uo/photo.jpg" align="center" alt="Logo of the Metropolitan Museum of Art" width="250" height="250" style="width: 250px; height: 250px; text-align: center;"/>
 
 Last Friday I heard a presentation of [Fernando Pérez](http://fperez.org/ "Fernando Pérez"), who is — among 
 many other things — one of the founders of Berkeley Institute for Data Science (shortly BIDS). 
