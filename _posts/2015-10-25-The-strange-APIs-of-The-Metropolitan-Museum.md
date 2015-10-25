@@ -14,7 +14,7 @@ They create R packages in several scientific domains.
 
 <!-- more -->
 
-<img href="https://lh3.googleusercontent.com/-YADBvaC2hUQ/AAAAAAAAAAI/AAAAAAAAAEg/_fr6798_2Uo/photo.jpg">
+<img src="https://lh3.googleusercontent.com/-YADBvaC2hUQ/AAAAAAAAAAI/AAAAAAAAAEg/_fr6798_2Uo/photo.jpg" />
 
 I checked "musemeta", an [R Client for Scraping Museum Metadata](https://github.com/ropensci/musemeta "R Client 
 for Scraping Museum Metadata") created by [Scott Chamberlain](http://scottchamberlain.info/ "Scott Chamberlain"). 
