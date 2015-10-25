@@ -1,5 +1,9 @@
-The strange APIs of The Metropolitan Museum, New York
------------------------------------------------------
+---
+title:      The strange APIs of The Metropolitan Museum, New York
+layout:     post
+date:       2015-10-25 11:02:00
+author:     "pkiraly"
+---
 
 Last Friday I heard a presentation of [Fernando Pérez](http://fperez.org/ "Fernando Pérez"), who is — among 
 many other things — one of the founders of Berkeley Institute for Data Science (shortly BIDS). 
