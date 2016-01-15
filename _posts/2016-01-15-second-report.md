@@ -22,9 +22,11 @@ At the end I had a bit more than 47 million records in JSON. JSON? How it comes,
 
 ## Measuring completeness
 
+## Statistical analyses
 
+## Web interface
 
-
+## Important links
 
 * [Quality reports](http://141.5.103.129/europeana-qa/index.html)
 * [Harvester client project](https://github.com/pkiraly/europeana-oai-pmh-client)
