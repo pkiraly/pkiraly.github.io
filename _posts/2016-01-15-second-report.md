@@ -67,6 +67,8 @@ You can find the source code of this part in the [europeana-qa-web](https://gith
 
 Regarding to this project there were some important happenings recently. The first one is that within Europeana a special working group concentrating on metadata quality is forming, and I was asked to participate. The group is launching very soon, I can not show yet any public links. The other were an a presentation I held as part of GWDG eScience Group's Oberseminar. [Here](http://www.slideshare.net/pkiraly/metadata-quality-assurance) you can find the slides.
 
+<img src="{{ site.url }}/assets/further-steps.png" title="Extract from the slides" alt="Extract from the slides" />
+
 ## Conclusion and next steps
 
 To download all the Europeana records is on the wish list of several projects, I hope, that my feedbacks help Europeana to improve the OAI-PMH service to fulfill this whish. Having all the records I can concentrate more on the measurement and analysis part. I should finish to generate the analyses (on the web you can find only some datasets' report). The web part now shows HTML pages, and I would like to start building a real API, which combines some features of the existing Europeana REST API (mainly the searching) and the result of the analyses. For example: you could run a search, and this API would give you statistics of the result set. This API would be useful to share completeness metrics with Europeana and the end reuse the results in the relevance ranking (to place the "good" records to the top of the hit list). And finally it could be useful for the data providers to get feedback on their cataloguing costumes.
