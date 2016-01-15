@@ -50,13 +50,15 @@ You can find the source code of this part in the [europeana-qa](https://github.c
 
 ## Statistical analyses
 
+<img src="{{ site.url }}/assets/reusability.png" class="real" title="Completeness table" alt="Completeness table" />
+
 The statistical analyses are written in [R language](https://www.r-project.org/) scripts. At current iteration there are two scripts: one creates and saves three graphs (a barplot, a boxplot and a quantile-quantile plot) for each of the above mention dimensions (descriptiveness, searchability etc.), the other export some descriptive statistics (minimum, maximum, mean, median, standard deviation etc.) to a JSON file. The scripts run an all the sets. In the future I will create the same analyses on collection level, which could be more important for the data creators.
 
 You can find the source code of this part in the [europeana-qa-r](https://github.com/pkiraly/europeana-qa-r) project on Github.
 
 ## Web interface
 
-<img src="{{ site.url }}/assets/completeness-table.png" title="Completeness table" alt="Completeness table" />
+<img src="{{ site.url }}/assets/completeness-table.png" class="real" title="Completeness table" alt="Completeness table" />
 
 You can access the [quality reports](http://141.5.103.129/europeana-qa/index.html) temporary in a GWDG machine. Since right now this part is the less elaborated part of the project, it will be change soon. Now it has two parts:
 
@@ -69,7 +71,7 @@ You can find the source code of this part in the [europeana-qa-web](https://gith
 
 Regarding to this project there were some important happenings recently. The first one is that within Europeana a special working group concentrating on metadata quality is forming, and I was asked to participate. The group is launching very soon, I can not show yet any public links. The other were an a presentation I held as part of GWDG eScience Group's Oberseminar. [Here](http://www.slideshare.net/pkiraly/metadata-quality-assurance) you can find the slides.
 
-<img src="{{ site.url }}/assets/further-steps.png" title="Extract from the slides" alt="Extract from the slides" />
+<img src="{{ site.url }}/assets/further-steps.png" class="real" title="Extract from the slides" alt="Extract from the slides" />
 
 ## Conclusion and next steps
 
