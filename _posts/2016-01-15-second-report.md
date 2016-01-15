@@ -22,13 +22,54 @@ At the end I had a bit more than 47 million records in JSON. JSON? How it comes,
 
 ## Measuring completeness
 
+In October 2015 Valentine Charles from the Research and Development Team of Europeana published a set of criteria for the completeness measurements.
+
+She defined the following dimensions of completeness
+
+* Descriptiveness: a complete EDM record should contain rich descriptive information 
+* Searchability and Findability: a complete EDM record should have all the properties that correspond to Europeana’s users search pattern. 
+* Contextualisation: a complete EDM record should have all the properties that provide contextual information or can trigger the creation of contextual information (e.g. enrichment framework). 
+* Identification: a complete EDM record should have all the properties that will allow a user to distinguish a CHO from another one within Europeana. 
+* Browsing: a complete EDM record should have all the properties that will allow a user to navigate within a graph of CHO through a series of relationships. 
+* Viewing: a complete EDM record has all the properties that allows a user to view, play, listen a given CHO 
+* Re-usability: a complete EDM record has all the properties that allows a user to know how to re-use a CHO
+* Multilinguality: a complete EDM record should have language information 
+
+Each dimensions of functionality covers several fields of the Europeana Data Model (mainly from the "Proxy" part, which is the core of the EDM records). In current first iteration I measured the existence of those fields, and calculated the ratio of the existing and required fields. So if all the fields are presented, then the result will be 1, if only a half of it, then 0.5.
+
+In the previous approach the program iterated all fields within the document, and since Valentine's table did not covered all the fields only the most important ones, I did not wanted to follow that approach. I needed for JSON records something like the XPath for XML files: an addressing method with which I can check some selected leaves in a tree like structure. Fortunatelly the Swedish [Jayway](http://www.jayway.com/) software development company published an Open Source [Java implementation](https://github.com/jayway/JsonPath) of Stefan Goessner's JsonPath which does exactly what I needed.
+
+I used [GWDG](http://www.gwdg.de)'s machine for this purpose which tuned for high performance computing, but lacks disk space enough for the purpose, so I have to upload compressed files to the server, uncompress it, upload to HDFS file system, run the Hadoop code, save the result and delete the file. It took 2 days of which half were spent to the file operations. Meantime I received access to a Europeana machine, which has enough space, so the next iteration will take only one day or less expectedly. The result of the calculations are Comma Separated Value files, something like these lines:
+
+    "Bildarchiv Foto Marburg",08501/Athena_Update_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_00000001_192_356,0.472222,0.692308,0.545455,0.388889,0.272727,0.600000,0.285714,0.500000,0.500000,0.400000
+    "Bildarchiv Foto Marburg",08501/Athena_Update_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_00000003_192_358,0.444444,0.692308,0.454545,0.333333,0.181818,0.600000,0.214286,0.500000,0.500000,0.400000
+    "Bildarchiv Foto Marburg",08501/Athena_Update_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_00000004_192_359,0.472222,0.692308,0.545455,0.388889,0.272727,0.600000,0.285714,0.500000,0.500000,0.400000
+    "Bildarchiv Foto Marburg",08501/Athena_Update_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_00000004_1_201_181,0.472222,0.692308,0.545455,0.388889,0.272727,0.600000,0.285714,0.500000,0.500000,0.400000
+
+You can find the source code of this part in the [europeana-qa](https://github.com/pkiraly/europeana-qa) project on Github, and you can find there installation and usage notes as well.
+
 ## Statistical analyses
 
+The statistical analyses are written in [R language](https://www.r-project.org/) scripts. At current iteration there are two scripts: one creates and saves three graphs (a barplot, a boxplot and a quantile-quantile plot) for each of the above mention dimensions (descriptiveness, searchability etc.), the other export some descriptive statistics (minimum, maximum, mean, median, standard deviation etc.) to a JSON file. The scripts run an all the sets. In the future I will create the same analyses on collection level, which could be more important for the data creators.
+
+You can find the source code of this part in the [europeana-qa-r](https://github.com/pkiraly/europeana-qa-r) project on Github.
+
 ## Web interface
+
+You can access the [quality reports](http://141.5.103.129/europeana-qa/index.html) temporary in a GWDG machine. Since right now this part is the less elaborated part of the project, it will be change soon. Now it has two parts:
+
+* a dataset level summary which contains for each dimensions the list of fields covered, the descriptive statistics, the graphics, links to record-level analysis of records having the "best" and "worst" score in that particular dimension
+* a record level summary which visualizes the existing and missing fields, the completeness measurements, links to different manifestations (portal, API, OAI-PMH) of the record, and the full JSON code of the metadata record. It also has a search form, so you can check any Europeana record.
+
+You can find the source code of this part in the [europeana-qa-web](https://github.com/pkiraly/europeana-qa-web) project on Github. 
 
 ## Events
 
 Regarding to this project there were some important happenings recently. The first one is that within Europeana a special working group concentrating on metadata quality is forming, and I was asked to participate. The group is launching very soon, I can not show yet any public links. The other were an a presentation I held as part of GWDG eScience Group's Oberseminar. [Here](http://www.slideshare.net/pkiraly/metadata-quality-assurance) you can find the slides.
+
+## Conclusion and next steps
+
+To download all the Europeana records is on the wish list of several projects, I hope, that my feedbacks help Europeana to improve the OAI-PMH service to fulfill this whish. Having all the records I can concentrate more on the measurement and analysis part. I should finish to generate the analyses (on the web you can find only some datasets' report). The web part now shows HTML pages, and I would like to start building a real API, which combines some features of the existing Europeana REST API (mainly the searching) and the result of the analyses. For example: you could run a search, and this API would give you statistics of the result set. This API would be useful to share completeness metrics with Europeana and the end reuse the results in the relevance ranking (to place the "good" records to the top of the hit list). And finally it could be useful for the data providers to get feedback on their cataloguing costumes.
 
 ## Important links
 
