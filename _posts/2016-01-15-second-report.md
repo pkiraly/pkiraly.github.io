@@ -18,9 +18,9 @@ I followed a new approach: harvesting by sets instead of the whole database. It 
 
 When I reported these problems to Europeana they were nice enough to send me the list of IDs of all Europeana records. The approach this time were to compare the IDs of the downloaded records with this ID list, and harvesting individual records by their identifiers. This went perfectly, but more slower than the previous methods.
 
-At the end I had a bit more than 47 million records in JSON. JSON? How it comes, since OAI-PMH returns XML? Well, that's true, but JSON is a more compact format, requires less space, and since I started with the REST API, which produces JSON response and space is a critical issue for me, I decided not to save the XML response but transform each records to JSON files as one record per line.
+At the end I had a bit more than 47 million records in JSON. JSON? How it comes, since OAI-PMH returns XML? Well, that's true, but JSON is a more compact format, requires less space, and since I started with the REST API, which produces JSON response and space is a critical issue for me, I decided not to save the XML response but transform each records to JSON files as one record per line, each file represents a dataset. The total size takes roughly 400 GB.
 
-
+## Measuring completeness
 
 
 
