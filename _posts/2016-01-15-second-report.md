@@ -67,7 +67,7 @@ You can find the source code of this part in the [europeana-qa-web](https://gith
 
 Regarding to this project there were some important happenings recently. The first one is that within Europeana a special working group concentrating on metadata quality is forming, and I was asked to participate. The group is launching very soon, I can not show yet any public links. The other were an a presentation I held as part of GWDG eScience Group's Oberseminar. [Here](http://www.slideshare.net/pkiraly/metadata-quality-assurance) you can find the slides.
 
-<img src="{{ site.url }}/assets/further-steps.png" class="big" title="Extract from the slides" alt="Extract from the slides" />
+<img src="{{ site.url }}/assets/further-steps.png" title="Extract from the slides" alt="Extract from the slides" />
 
 ## Conclusion and next steps
 
