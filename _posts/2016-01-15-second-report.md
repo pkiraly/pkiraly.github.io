@@ -56,6 +56,8 @@ You can find the source code of this part in the [europeana-qa-r](https://github
 
 ## Web interface
 
+<img src="{{ site.url }}/assets/completeness-table.png" title="Completeness table" alt="Completeness table" />
+
 You can access the [quality reports](http://141.5.103.129/europeana-qa/index.html) temporary in a GWDG machine. Since right now this part is the less elaborated part of the project, it will be change soon. Now it has two parts:
 
 * a dataset level summary which contains for each dimensions the list of fields covered, the descriptive statistics, the graphics, links to record-level analysis of records having the "best" and "worst" score in that particular dimension
