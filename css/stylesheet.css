@@ -113,6 +113,10 @@ h2.author {
 	height: auto;
 }
 
+.post-content article img.real {
+  width: auto !important;
+}
+
 .post-content article img.big {
 	width: 160%;
 	max-width: 1120px;
