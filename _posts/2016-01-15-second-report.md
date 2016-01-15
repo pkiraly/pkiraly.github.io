@@ -26,6 +26,10 @@ At the end I had a bit more than 47 million records in JSON. JSON? How it comes,
 
 ## Web interface
 
+## Events
+
+Regarding to this project there were some important happenings recently. The first one is that within Europeana a special working group concentrating on metadata quality is forming, and I was asked to participate. The group is launching very soon, I can not show yet any public links. The other were an a presentation I held as part of GWDG eScience Group's Oberseminar. [Here](http://www.slideshare.net/pkiraly/metadata-quality-assurance) you can find the slides.
+
 ## Important links
 
 * [Quality reports](http://141.5.103.129/europeana-qa/index.html)
