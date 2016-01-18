@@ -1,0 +1,1 @@
+$("table").last().addClass("table");
