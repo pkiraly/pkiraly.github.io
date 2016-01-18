@@ -3,6 +3,9 @@ title:      Report Number Two (Finishing harvest)
 layout:     post
 date:       2016-01-15 09:50:00
 author:     "pkiraly"
+customjs:
+ - http://code.jquery.com/jquery-1.4.2.min.js
+ - http://pkiraly.github.io/yourscript.js
 ---
 
 The second report describing the process of harvest with tricks and tips, the running 
@@ -100,7 +103,3 @@ After writing the post ran both the measurements and statistical analyses parts 
 
 In the measurement ran at GWDG the process contained the tasks of copy of compressed files, uncompressing them, uploading to and finally deleting from the HDSF (Hadoop Distributed File System) storage, while on the Europeana provided machine I were able to upload all the files at once. However if I should repeate the steps again (and I will), then I have to follow roughly the same process, and it will require the same amount of time.
 
-<script src="http://code.jquery.com/jquery-1.4.2.min.js"\></script\>
-<script\>
-$("table").last().addClass( "table" );
-</script\>
