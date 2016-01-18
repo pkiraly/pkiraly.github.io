@@ -5,7 +5,7 @@ date:       2016-01-15 09:50:00
 author:     "pkiraly"
 customjs:
  - http://code.jquery.com/jquery-1.4.2.min.js
- - http://pkiraly.github.io/yourscript.js
+ - http://pkiraly.github.io/js/table.js
 ---
 
 The second report describing the process of harvest with tricks and tips, the running 
