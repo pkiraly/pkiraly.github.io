@@ -99,3 +99,8 @@ After writing the post ran both the measurements and statistical analyses parts 
 | statistics time | 13.5 hours | 4.5 hours |
 
 In the measurement ran at GWDG the process contained the tasks of copy of compressed files, uncompressing them, uploading to and finally deleting from the HDSF (Hadoop Distributed File System) storage, while on the Europeana provided machine I were able to upload all the files at once. However if I should repeate the steps again (and I will), then I have to follow roughly the same process, and it will require the same amount of time.
+
+<script src="http://code.jquery.com/jquery-1.4.2.min.js"\></script\>
+<script\>
+$("table").last().addClass( "table" );
+</script\>
