@@ -92,6 +92,6 @@ After writing the post ran both the measurements and statistical analyses parts 
 | machine | features | measurement | statistics |
 | ------- | ------- | ------- |
 | GWDG | 8 cores, 16GB RAM | 44.5 hours | 13.5 hours |
-| Europeana | i7-4770 Quad-Core, 32 GB DDR2 RAM | 6 hours | 4.5 hours |
+| Europeana | i7-4770 Quad-Core, 32 GB RAM | 6 hours | 4.5 hours |
 
 In the measurement ran at GWDG the process contained the tasks of copy of compressed files, uncompressing them, uploading to and finally deleting from the HDSF (Hadoop Distributed File System) storage, while on the Europeana provided machine I were able to upload all the files at once. However if I should repeate the steps again (and I will), then I have to follow roughly the same process, and it will require the same amount of time.
