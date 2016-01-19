@@ -63,7 +63,7 @@ You can find the source code of this part in the [europeana-qa-r](https://github
 
 <img src="{{ site.url }}/assets/completeness-table.png" class="real" title="Completeness table" alt="Completeness table" />
 
-You can access the [quality reports](http://141.5.103.129/europeana-qa/index.html) temporary in a GWDG machine. Since right now this part is the less elaborated portion of the project, it will be changed soon. Now it has two parts:
+You can access the [quality reports](http://141.5.103.129/europeana-qa/) temporary in a GWDG machine. Since right now this part is the less elaborated portion of the project, it will be changed soon. Now it has two parts:
 
 * a dataset level summary which contains for each dimensions the list of fields covered, the descriptive statistics, the graphics, links to record-level analysis of records having the "best" and "worst" score in that particular dimension
 * a record level summary which visualizes the existing and missing fields, the completeness measurements, links to different manifestations (portal, API, OAI-PMH) of the record, and the full JSON code of the metadata record. It also has a search form, so you can check any Europeana record.
@@ -82,7 +82,7 @@ Downloading all the Europeana records is on the wish list of several projects, I
 
 ## Important links
 
-* [Quality reports](http://141.5.103.129/europeana-qa/index.html)
+* [Quality reports](http://141.5.103.129/europeana-qa/)
 * [Harvester client project](https://github.com/pkiraly/europeana-oai-pmh-client)
 * [Measurement project](https://github.com/pkiraly/europeana-qa)
 * [Analysis project](https://github.com/pkiraly/europeana-qa-r)
