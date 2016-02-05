@@ -17,6 +17,6 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 #WordPress-style excerpt
 excerpt_separator: "<!-- more -->"
 
-highlighter: pygments
+highlighter: rouge
 github: [Repository metadata]
 
