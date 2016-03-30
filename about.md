@@ -10,14 +10,17 @@ These pages are about the process of the research -- my early findings, results,
 
 ## Important links
 
-The first version of the web interface: [http://141.5.103.129/europeana-qa/](http://141.5.103.129/europeana-qa/)
+The first version of the web interface: [http://144.76.218.178/europeana-qa](http://144.76.218.178/europeana-qa)
 
 Source codes
 
 * Harvester client: [https://github.com/pkiraly/europeana-oai-pmh-client](https://github.com/pkiraly/europeana-oai-pmh-client)
+* Measurement with Spark: [https://github.com/pkiraly/europeana-qa-spark](https://github.com/pkiraly/europeana-qa-spark)
 * Measurement with Hadoop: [https://github.com/pkiraly/europeana-qa](https://github.com/pkiraly/europeana-qa)
 * Analysis with R: [https://github.com/pkiraly/europeana-qa-r](https://github.com/pkiraly/europeana-qa-r)
 * Web interface: [https://github.com/pkiraly/europeana-qa-web](https://github.com/pkiraly/europeana-qa-web)
+* Solr connector: [https://github.com/pkiraly/europeana-qa-solr](https://github.com/pkiraly/europeana-qa-solr)
+* Cassandra connector: [https://github.com/pkiraly/europeana-qa-cassandra](https://github.com/pkiraly/europeana-qa-cassandra)
 
 ## About me
 My name is Péter Király, and I am a software developer, analyst. My main interests are publishing and searching large text corporas in the web, and the new ways of web presence of cultural heritage (mainly library and archival materials with special focus on semantic web technologies). You can reach me via the methods listed in the [contact page](/contact).
