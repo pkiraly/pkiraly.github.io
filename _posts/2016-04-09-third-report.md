@@ -69,8 +69,7 @@ setup so I have created a new Solr instance with this special settings, and crea
 limited fieldset. (If you want to check how to setup Solr and what interface you can use, check this 
 [wiki page](https://cwiki.apache.org/confluence/display/solr/The+Term+Vector+Component).
 
-When the index were created (it took five days, but it is improvable) the scores can be read from it in 
-the following form:
+When the index were created (it took five days, but it is improvable) the scores of a field (in this case the dc:title "Fleming/Mair wedding, Slaithwaite, Huddersfield" -- from the record  [/2022320/3F61C612ED9C42CCB85E533B47367…](http://www.europeana.eu/portal/record/2022320/3F61C612ED9C42CCB85E533B4736795E8BDC7E77.html)) can be read from Solr API in the following form:
 
       "dc_title_txt":{
         "fleming":{
@@ -98,8 +97,9 @@ the following form:
           "df":10226,
           "tf-idf":9.778994719342852E-5
         }
+      ]
 
-(for [http://www.europeana.eu/portal/record/2022320/3F61C612ED9C42CCB85E533B47367…](http://www.europeana.eu/portal/record/2022320/3F61C612ED9C42CCB85E533B4736795E8BDC7E77.html)).
+Note: I removed some properties Solr reports but irrelevant from our current perspective.
 
 I have extracted these info for the above mentiond three fields, and created two scores: a cumulative 
 score which summarizes the all terms in the field, and an average, which is the average of 
