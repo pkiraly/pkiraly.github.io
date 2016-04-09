@@ -40,11 +40,16 @@ of it, and on the interface I introduces the d3.js data visualization library to
 some filters in the UI: the user can hide those collections which doesn't have a particular field, those in which
 every records have it, and those in which some records have it. The user can investigate each fields.
 
-Here is an [example](http://144.76.218.178/europeana-qa/field.php?field=proxy_dcterms_alternative&type=data-providers&exclusions%5B%5D=0&exclusions%5B%5D=1){:target="_blank"}
+The usage of the fields accross all the records:
+
+<img src="{{ site.url }}/assets/field-frequency.png" class="real" title="Field frequency" alt="Field frequency" />
+
+The usage of dcterms:alternative in those data providers, which uses it in some of the records, but not in all:
+
+<img src="{{ site.url }}/assets/field-alternative-per-data-providers.png" class="real" title="dcterms:alternative frequency" alt="dcterms:alternative frequency" />
+
+An [example](http://144.76.218.178/europeana-qa/field.php?field=proxy_dcterms_alternative&type=data-providers&exclusions%5B%5D=0&exclusions%5B%5D=1){:target="_blank"}
 about the dcterms:alternative across data providers.
-
-
-<img src="{{ site.url }}/assets/reusability.png" class="real" title="Completeness table" alt="Completeness table" />
 
 ## Storing records in Apache Cassandra
 
@@ -110,8 +115,15 @@ I have extracted these info for the above mentiond three fields, and created two
 score which summarizes the all terms in the field, and an average, which is the average of 
 the terms' tf-idf score. Those records which don't have the field get 0 for both.
 
-I run the basic statistical analytics (the generation of graphs are on the way), so you can access them 
-in the usual web interface:
+<img src="{{ site.url }}/assets/uniquness.png" class="real" title="Uniqueness" alt="Uniquenes" />
+
+The graphs visualize the average uniqueness of terms in the field. You can see that - as expected - there are lots of records where this value is quite low - it means that the words of the title are usually common words. There are however some titles which have unique words. If the value is higher than 1, it means that a unique word appears multiple times in this field (unique means that it appears in only one record). In this particularly record set there is no such an example, but there are others, such as "Doog, Doog, Doog, Doog" (an indian one) or "Csalo! Csalo!" (a Hungarian one). In this particular dataset the most unique title is "Iganteçtaco pronoua, eta hilen pronoua." in which "eta" is a common term, "hilen" and "Iganteçtaco" is unique, and "pronoua" is repeated unique.
+
+<img src="{{ site.url }}/assets/term-frequencies.png" class="real" title="Term frequencies" alt="Term frequencies" />
+
+<img src="{{ site.url }}/assets/record-view.png" class="real" title="Record view" alt="Record view" />
+
+You can access thhe UI in the usual web interface:
 
 http://144.76.218.178/europeana-qa/
 
