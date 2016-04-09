@@ -40,7 +40,7 @@ of it, and on the interface I introduces the d3.js data visualization library to
 some filters in the UI: the user can hide those collections which doesn't have a particular field, those in which
 every records have it, and those in which some records have it. The user can investigate each fields.
 
-Here is an [example](http://144.76.218.178/europeana-qa/field.php?field=proxy_dcterms_alternative&type=data-providers&exclusions%5B%5D=0&exclusions%5B%5D=1) 
+Here is an [example](http://144.76.218.178/europeana-qa/field.php?field=proxy_dcterms_alternative&type=data-providers&exclusions%5B%5D=0&exclusions%5B%5D=1){:target="_blank"}
 about the dcterms:alternative across data providers.
 
 ## Storing records in Apache Cassandra
@@ -69,7 +69,7 @@ setup so I have created a new Solr instance with this special settings, and crea
 limited fieldset. (If you want to check how to setup Solr and what interface you can use, check this 
 [wiki page](https://cwiki.apache.org/confluence/display/solr/The+Term+Vector+Component).
 
-When the index were created (it took five days, but it is improvable) the scores of a field (in this case the dc:title "Fleming/Mair wedding, Slaithwaite, Huddersfield" -- from the record  [/2022320/3F61C612ED9C42CCB85E533B47367…](http://www.europeana.eu/portal/record/2022320/3F61C612ED9C42CCB85E533B4736795E8BDC7E77.html)) can be read from Solr API in the following form:
+When the index were created (it took five days, but it is improvable) the scores of a field (in this case the dc:title "Fleming/Mair wedding, Slaithwaite, Huddersfield" -- from [this record](http://www.europeana.eu/portal/record/2022320/3F61C612ED9C42CCB85E533B4736795E8BDC7E77.html){:target="_blank"}) can be read from Solr API in the following form:
 
       "dc_title_txt":{
         "fleming":{
