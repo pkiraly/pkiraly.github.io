@@ -43,6 +43,9 @@ every records have it, and those in which some records have it. The user can inv
 Here is an [example](http://144.76.218.178/europeana-qa/field.php?field=proxy_dcterms_alternative&type=data-providers&exclusions%5B%5D=0&exclusions%5B%5D=1){:target="_blank"}
 about the dcterms:alternative across data providers.
 
+
+<img src="{{ site.url }}/assets/reusability.png" class="real" title="Completeness table" alt="Completeness table" />
+
 ## Storing records in Apache Cassandra
 
 So far it was a problem, that in the record view of the UI I was nat able to extract an individual record from the 
