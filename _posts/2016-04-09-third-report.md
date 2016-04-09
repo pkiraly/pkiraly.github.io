@@ -1,7 +1,7 @@
 ---
 title:      Report Number Three (Cassandra, Spark and Solr)
 layout:     post
-date:       2016-01-15 09:50:00
+date:       2016-04-09 09:50:00
 author:     "pkiraly"
 customjs:
  - http://code.jquery.com/jquery-1.4.2.min.js
@@ -15,9 +15,10 @@ in Cassandra, indexing with Solr and calculating uniqueness.
 
 ## Changing to Spark
 
-Last year I did some Coursera courses on Big Data and Data Science (I recommend you Bill Howe's course 
+Last year I did some Coursera courses on Big Data and Data Science (I recommend you [Bill Howe's course](https://www.coursera.org/learn/data-manipulation){:target="_blank"} 
 from the University of Washington if you like to understand theoretical background behind relational databases and
-data science, and I don't recommend the courses provided by the University of California San Diego) where I have learnt
+data science, and I don't recommend [these courses](https://www.coursera.org/specializations/big-data){:target="_blank"}
+provided by the University of California San Diego) where I have learnt
 about Spark. Spark's big promise is that it is quicker than Hadoop's MapReduce and more memory effective. For me it
 was even more important, that I really don't use the "reduce" part of MapReduce, and Spark is fine with that.
 The change was not hard at all, since the business logic is separated in different classes to which Hadoop was 
@@ -67,7 +68,7 @@ I have started investigating the uniqueness or entropy of some selected fields (
 and dc:description). The basic idea is that if the terms in these fields are frequent accross the records, then 
 it is less unique, so less important. If a term is frequent in the same field it is more important than terms 
 appear only once. This is called information entropy or in the search engive world TF-IDF formula (term frequency, 
-inverse document frequency) -- see [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) Wikipedia article.
+inverse document frequency) -- see [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf){:target="_blank"} Wikipedia article.
 
 The Solr search engine's relevancy ranking mostly based on this formula (however there are lots of tuning 
 possibilities, such as give fields weights etc.), but Solr doesn't provide an interface by default for 
@@ -75,7 +76,7 @@ extracting the terms TF-IDF score. There is a Term Vector Component however whic
 given that you apply some additional indexing rules. It is not available in the ordinary Europeana Solr 
 setup so I have created a new Solr instance with this special settings, and created a brand new index with 
 limited fieldset. (If you want to check how to setup Solr and what interface you can use, check this 
-[wiki page](https://cwiki.apache.org/confluence/display/solr/The+Term+Vector+Component).
+[wiki page](https://cwiki.apache.org/confluence/display/solr/The+Term+Vector+Component){:target="_blank"}.
 
 When the index were created (it took five days, but it is improvable) the scores of a field (in this case the dc:title "Fleming/Mair wedding, Slaithwaite, Huddersfield" -- from [this record](http://www.europeana.eu/portal/record/2022320/3F61C612ED9C42CCB85E533B4736795E8BDC7E77.html){:target="_blank"}) can be read from Solr API in the following form:
 
@@ -137,12 +138,12 @@ Select one of the last six dimension to get the results.
 
 ## Events, presentation, article
 
-The big news is that the Europeana [Data Quality Committee](http://pro.europeana.eu/page/data-quality-committee) as a Europeana Network and EuropeanaTech Working Group is formed in March. It is a great honor, that I was involved. We have a quite active message board, a bi-weekly teleconference and a bi-yearly face-to-face meeting.
+The big news is that the Europeana [Data Quality Committee](http://pro.europeana.eu/page/data-quality-committee){:target="_blank"} as a Europeana Network and EuropeanaTech Working Group is formed in March. It is a great honor, that I was involved. We have a quite active message board, a bi-weekly teleconference and a bi-yearly face-to-face meeting.
 
 <img src="{{ site.url }}/assets/gwdg-nachrichten.png" class="real" title="GWDG Nachrichten" alt="GWDG Nachrichten" />
 
-I wrote an [article for GWDG Nachrichten](https://www.gwdg.de/documents/20182/27257/GN_3-2016_www.pdf) about the metadata quality issues in Europeana covering the roles of the Data Quality Committee, and Mr Yahyapour, the director of GWDG wrote a recommendation in the editorial column. The GWDG Nachrichten is circulated in the Göttingen Campus and in Max Planck Institutes.
+I wrote an [article for GWDG Nachrichten](https://www.gwdg.de/documents/20182/27257/GN_3-2016_www.pdf){:target="_blank"} about the metadata quality issues in Europeana covering the roles of the Data Quality Committee, and Mr Yahyapour, the director of GWDG wrote a recommendation in the editorial column. The GWDG Nachrichten is circulated in the Göttingen Campus and in Max Planck Institutes.
 
 <img src="{{ site.url }}/assets/networkshop.png" class="real" title="networkshop" alt="networkshop" />
 
-I presented the research in Networkshop 2016 conference at the end of March in my home town. It was exceptional for me that I talked at the Auditorium Maximum of the University of Debrecen where I saw soo many unforgottable concerts, movies and speachhes as a teenager. Unfortunatelly I was the very last speaker on that day, and there were no time left for discussions. Here you can see [the slides](http://www.slideshare.net/pkiraly/a-jk-s-a-rosszak-metaadatok-minsgellenrzse) however they are in Hungarian.
+I presented the research in Networkshop 2016 conference at the end of March in my home town. It was exceptional for me that I talked at the Auditorium Maximum of the University of Debrecen where I saw soo many unforgottable concerts, movies and speachhes as a teenager. Unfortunatelly I was the very last speaker on that day, and there were no time left for discussions. Here you can see [the slides](http://www.slideshare.net/pkiraly/a-jk-s-a-rosszak-metaadatok-minsgellenrzse){:target="_blank"} (note: they are in Hungarian).
