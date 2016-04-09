@@ -71,35 +71,37 @@ limited fieldset. (If you want to check how to setup Solr and what interface you
 
 When the index were created (it took five days, but it is improvable) the scores of a field (in this case the dc:title "Fleming/Mair wedding, Slaithwaite, Huddersfield" -- from [this record](http://www.europeana.eu/portal/record/2022320/3F61C612ED9C42CCB85E533B4736795E8BDC7E77.html){:target="_blank"}) can be read from Solr API in the following form:
 
-      "dc_title_txt":{
-        "fleming":{
-          "tf":1,
-          "df":1073,
-          "tf-idf":9.319664492078285E-4
-        },
-        "huddersfield":{
-          "tf":1,
-          "df":12073,
-          "tf-idf":8.282945415389712E-5
-        },
-        "mair":{
-          "tf":1,
-          "df":178,
-          "tf-idf":0.0056179775280898875
-        },
-        "slaithwaite":{
-          "tf":1,
-          "df":477,
-          "tf-idf":0.0020964360587002098
-        },
-        "wedding":{
-          "tf":1,
-          "df":10226,
-          "tf-idf":9.778994719342852E-5
-        }
-      ]
+    "dc_title_txt":{
+      "fleming":{
+        "tf":1,
+        "df":1073,
+        "tf-idf":9.319664492078285E-4
+      },
+      "huddersfield":{
+        "tf":1,
+        "df":12073,
+        "tf-idf":8.282945415389712E-5
+      },
+      "mair":{
+        "tf":1,
+        "df":178,
+        "tf-idf":0.0056179775280898875
+      },
+      "slaithwaite":{
+        "tf":1,
+        "df":477,
+        "tf-idf":0.0020964360587002098
+      },
+      "wedding":{
+        "tf":1,
+        "df":10226,
+        "tf-idf":9.778994719342852E-5
+      }
+    }
 
-Note: I removed some properties Solr reports but irrelevant from our current perspective.
+Note: I did not applied truncation and other fancy Solr analyzes on the fields, it is only the lower case transformation
+applied. The API returns the stored terms in alphabetical order. I removed some properties Solr reports but 
+irrelevant from our current perspective.
 
 I have extracted these info for the above mentiond three fields, and created two scores: a cumulative 
 score which summarizes the all terms in the field, and an average, which is the average of 
