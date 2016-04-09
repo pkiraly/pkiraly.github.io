@@ -8,7 +8,20 @@ customjs:
  - http://pkiraly.github.io/js/table.js
 ---
 
-The second report describing the process of harvest with tricks and tips, the running 
-of full 'completeness' analyses, and the first visible results.
+Changing from Hadoop to Spark, refining mandatory calculation, adding field statistics, storing records 
+in Cassandra, indexing with Solr and calculating uniqueness.
 
 <!-- more --> 
+
+## Changing to Spark
+
+Last year I did some Coursera courses on Big Data and Data Science (I recommend you Bill Howe's course 
+from the University of Washington if you like to understand theoretical background behind relational databases and
+data science, and I don't recommend the courses provided by the University of California San Diego) where I have learnt
+about Spark. Spark's big promise is that it is quicker than Hadoop's MapReduce and more memory effective. For me it
+was even more important, that I really don't use the "reduce" part of MapReduce, and Spark is fine with that.
+The change was not hard at all, since the business logic is separated in different classes to which Hadoop was 
+just a client (the only existing client actually, but I planned to add other interfaces). For the same functionality Spark
+ran 4 times faster than Hadoop (1.5 hours versus 6 hours). It was a real gain, it means that I can change the codes and
+run it again several times a day if I want to implement something new.
+
