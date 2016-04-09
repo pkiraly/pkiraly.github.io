@@ -119,7 +119,13 @@ the terms' tf-idf score. Those records which don't have the field get 0 for both
 
 The graphs visualize the average uniqueness of terms in the field. You can see that - as expected - there are lots of records where this value is quite low - it means that the words of the title are usually common words. There are however some titles which have unique words. If the value is higher than 1, it means that a unique word appears multiple times in this field (unique means that it appears in only one record). In this particularly record set there is no such an example, but there are others, such as "Doog, Doog, Doog, Doog" (an indian one) or "Csalo! Csalo!" (a Hungarian one). In this particular dataset the most unique title is "Iganteçtaco pronoua, eta hilen pronoua." in which "eta" is a common term, "hilen" and "Iganteçtaco" is unique, and "pronoua" is repeated unique.
 
+In order to make comparision of the scores and the record, a two new features were added to the record view.
+
+The first one is the term frequency viewer. Here you can see the terms stored, the term frequency (how many times the term appears in the current field instance), the document frequency (how many document has this term in this field) and the tf-idf scores Solr calculated.
+
 <img src="{{ site.url }}/assets/term-frequencies.png" class="real" title="Term frequencies" alt="Term frequencies" />
+
+The second one is a "naked" record view: it displays the non technical fields of the `ore:Aggregation` and `ore:Proxy` of the record. Those fields which are not analyzed in the current session (such as tableOfContents) are displayed in grey.
 
 <img src="{{ site.url }}/assets/record-view.png" class="real" title="Record view" alt="Record view" />
 
@@ -129,3 +135,14 @@ http://144.76.218.178/europeana-qa/
 
 Select one of the last six dimension to get the results.
 
+## Events, presentation, article
+
+The big news is that the Europeana [Data Quality Committee](http://pro.europeana.eu/page/data-quality-committee) as a Europeana Network and EuropeanaTech Working Group is formed in March. It is a great honor, that I was involved. We have a quite active message board, a bi-weekly teleconference and a bi-yearly face-to-face meeting.
+
+<img src="{{ site.url }}/assets/gwdg-nachrichten.png" class="real" title="GWDG Nachrichten" alt="GWDG Nachrichten" />
+
+I wrote an [article for GWDG Nachrichten](https://www.gwdg.de/documents/20182/27257/GN_3-2016_www.pdf) about the metadata quality issues in Europeana covering the roles of the Data Quality Committee, and Mr Yahyapour, the director of GWDG wrote a recommendation in the editorial column. The GWDG Nachrichten is circulated in the Göttingen Campus and in Max Planck Institutes.
+
+<img src="{{ site.url }}/assets/networkshop.png" class="real" title="networkshop" alt="networkshop" />
+
+I presented the research in Networkshop 2016 conference at the end of March in my home town. It was exceptional for me that I talked at the Auditorium Maximum of the University of Debrecen where I saw soo many unforgottable concerts, movies and speachhes as a teenager. Unfortunatelly I was the very last speaker on that day, and there were no time left for discussions. Here you can see [the slides](http://www.slideshare.net/pkiraly/a-jk-s-a-rosszak-metaadatok-minsgellenrzse) however they are in Hungarian.
