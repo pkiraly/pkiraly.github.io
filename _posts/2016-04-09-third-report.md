@@ -19,7 +19,8 @@ Last year I did some Coursera courses on Big Data and Data Science (I recommend 
 from the University of Washington if you like to understand theoretical background behind relational databases and
 data science, and I don't recommend [these courses](https://www.coursera.org/specializations/big-data){:target="_blank"}
 provided by the University of California San Diego) where I have learnt
-about Spark. Spark's big promise is that it is quicker than Hadoop's MapReduce and more memory effective. For me it
+about [Apache Spark](http://spark.apache.org/){:target="_blank"}. Spark's big promise is that it is quicker 
+than [Hadoop](http://hadoop.apache.org/){:target="_blank"}'s MapReduce and more memory effective. For me it
 was even more important, that I really don't use the "reduce" part of MapReduce, and Spark is fine with that.
 The change was not hard at all, since the business logic is separated in different classes to which Hadoop was 
 just a client (the only existing client actually, but I planned to add other interfaces). For the same functionality Spark
@@ -55,7 +56,8 @@ about the dcterms:alternative across data providers.
 ## Storing records in Apache Cassandra
 
 So far it was a problem, that in the record view of the UI I was nat able to extract an individual record from the 
-huge JSON files I stored the data. After sime investigation I choosed Apache Cassandra, which has an interface for 
+huge JSON files I stored the data. After sime investigation I choosed 
+[Apache Cassandra](http://cassandra.apache.org/){:target="_blank"}, which has an interface for 
 both Java and PHP. I imported every records to it, but now I still use thhe JSON files stored in HDFS (Hadoop Distributed 
 File System) in the Spark analysis. It is on my TODO list to compare the performance if using files and interating over 
 every Cassandra records -- my hipothesis is that file based iteration is quicker. Now only the ID and the JSON content is
@@ -70,7 +72,8 @@ it is less unique, so less important. If a term is frequent in the same field it
 appear only once. This is called information entropy or in the search engive world TF-IDF formula (term frequency, 
 inverse document frequency) -- see [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf){:target="_blank"} Wikipedia article.
 
-The Solr search engine's relevancy ranking mostly based on this formula (however there are lots of tuning 
+The [Apache Solr](http://lucene.apache.org/solr/){:target="_blank"} search engine's relevancy ranking 
+mostly based on this formula (however there are lots of tuning 
 possibilities, such as give fields weights etc.), but Solr doesn't provide an interface by default for 
 extracting the terms TF-IDF score. There is a Term Vector Component however which provides this interface 
 given that you apply some additional indexing rules. It is not available in the ordinary Europeana Solr 
@@ -132,7 +135,7 @@ The second one is a "naked" record view: it displays the non technical fields of
 
 You can access thhe UI in the usual web interface:
 
-http://144.76.218.178/europeana-qa/
+[http://144.76.218.178/europeana-qa/](http://144.76.218.178/europeana-qa/){:target="_blank"}
 
 Select one of the last six dimension to get the results.
 
