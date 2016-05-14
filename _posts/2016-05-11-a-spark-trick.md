@@ -72,6 +72,6 @@ merge-uniqueness.sh (excerpt):
     runSpark "1"
     ...
 
-See full file at https://github.com/pkiraly/europeana-qa-spark/blob/master/scala/merge-uniqueness.sh. The full Scala class is available here: https://github.com/pkiraly/europeana-qa-spark/blob/master/scala/src/main/scala/MergeUniqueness.scala.
+See full file at [merge-uniqueness.sh](https://github.com/pkiraly/europeana-qa-spark/blob/master/scala/merge-uniqueness.sh). The full Scala class is available here: [MergeUniqueness.scala]( https://github.com/pkiraly/europeana-qa-spark/blob/master/scala/src/main/scala/MergeUniqueness.scala).
 
 If you have any idea about the hibernated state of Spark, how to prevent it, or you can suggest me a more elegant solution for the problem, please let me know.
