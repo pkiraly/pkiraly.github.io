@@ -28,29 +28,17 @@ Since my problem is really a MapReduce problem, I tried the combination of `unio
 
 This approach is more memory effective, but I was not able to run on more than 10 million records. I did not mentioned so far that this machine is not dedicated to Spark processes. It runs several other services, and the memory consumption of those affects the performance of Spark. At the end I had to play with the data to find the chuncks which do not throws out of memory errors. Since this process creates a number of smaller files instead of one big file, outside of Spark we have to merge them.
 
-The final Scala code is here:
-
-    # preprocessing the uniqueness file
-    val tfidfFile = sc.textFile("hdfs://localhost:54310/join/tfidf.csv").filter(_.nonEmpty)
-    val tfidf = tfidfFile.map(line => line.split(","))
-                          # 0th element is the record identifier that will be the key
-                          # the rest are the metrics, those will be the value
-                          .map(x => (x(0), x(1) + "," + x(2) + "," + x(3) + "," + x(4) + "," + x(5) + "," + x(6)))
-    tfidf.cache()
-
-    # preprocessing the result file
-    val csv = sc.textFile("hdfs://localhost:54310/join/result.csv").filter(_.nonEmpty)
-    val data = csv.map(line => line.split(","))
-                  # here the 2nd element is the record id
-                  .map(x => (x(2), x.mkString(",")))
-    data.cache()
+The Scala function:
 
     def selectAndSave(filt:String) = {
+      // tfidf and data are the two RDD defined outside of the function
       val tfidfFiltered = tfidf.filter(x => x._1.startsWith(filt))
       val dataFiltered = data.filter(x => x._1.startsWith(filt))
       val united = dataFiltered.union(tfidfFiltered)
-      val merged = united.groupByKey()
+      val merged = united
+        .groupByKey()
         .map(x => 
+          // we have to fix the order of lists
           if (x._2.toList.head.length > x._2.toList.last.length) {
             x._2.toList.mkString(",")
           } else {
@@ -59,3 +47,31 @@ The final Scala code is here:
         )
       merged.saveAsTextFile("hdfs://localhost:54310/join/merged-" + filt + ".csv")
     }
+
+I have called it as 
+
+    selectAndSave("0")
+    selectAndSave("1")
+    ...
+
+But after some calls Spark became silent: it stopped emitting new log messages, even if I waited hours. But somehow it was not fully dead: on Spark UI the status was 'running', and I was able to stop the process. I don't know exactly what happened technically, but from the perspective of getting the task completed the question if it was dead or hibernated is academic. If I call the function only once and then let Spark exits, I was able to process all the records.
+
+The final solution was to transform the script into a Scala class with a main method which accepts the prefix as parameter, building a .jar file, and submitting it to Spark several times.
+
+merge-uniqueness.sh (excerpt):
+
+    function runSpark {
+      spark-submit \
+        --class MergeUniqueness \
+        --master local[*] \
+        $JAR \
+        hdfs://localhost:54310/join/$CSV_FILE $1
+    }
+
+    runSpark "0"
+    runSpark "1"
+    ...
+
+See full file at https://github.com/pkiraly/europeana-qa-spark/blob/master/scala/merge-uniqueness.sh. The full Scala class is available here: https://github.com/pkiraly/europeana-qa-spark/blob/master/scala/src/main/scala/MergeUniqueness.scala.
+
+If you have any idea about the hibernated state of Spark, how to prevent it, or you can suggest me a more elegant solution for the problem, please let me know.
