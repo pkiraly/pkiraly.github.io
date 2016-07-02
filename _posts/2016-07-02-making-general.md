@@ -498,6 +498,10 @@ the following files:
 
 [sessionId].hist.json -- the histograms of the measured features 
 
+* `label`: the label of the bins
+* `count`: the count of records in the bin
+* `density`: the percent of records in the bin
+
 ```json
 {
   "total":[
@@ -518,13 +522,17 @@ the following files:
   "descriptiveness":[
     {"label":"0.36 - 0.37","count":"15","density":"65.2173913043478"},
     {"label":"0.37 - 0.38","count":"0","density":"0"},
-    ..
+    ...
   ],
-  ..
+  ...
 }
 ```
 
-[sessionId].freq.json -- the field frequencies 
+[sessionId].freq.json -- the field frequencies
+
+* `field`: the name of the field
+* `count`: how many records has the field
+* `frequency`: the ratio of the field existence (between 0-1)
 
 ```json
 [
@@ -539,12 +547,7 @@ the following files:
   {"field":"proxy_dc_identifier","count":23,"frequency":1},
   {"field":"proxy_dc_language","count":23,"frequency":1},
   {"field":"proxy_dc_coverage","count":0,"frequency":0},
-  {"field":"proxy_dcterms_temporal","count":19,"frequency":0.8261},
-  {"field":"proxy_dcterms_spatial","count":8,"frequency":0.3478},
-  {"field":"proxy_dc_subject","count":8,"frequency":0.3478},
-  {"field":"proxy_dc_date","count":16,"frequency":0.6957},
-  {"field":"proxy_dcterms_created","count":0,"frequency":0},
-  - - -
+  ...
 ]
 ```
 
