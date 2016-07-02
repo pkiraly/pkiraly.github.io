@@ -468,8 +468,11 @@ curl -i http://example.com/europeana-qa/batch/analyzing/90836afd-c3ec-4718-bece-
 wget --content-disposition http://example.com/europeana-qa/batch/analyzing/90836afd-c3ec-4718-bece-38df214b90a9/retrieve
 ```
 
-At the end it will save the analysis.zip into the current directory. The file contains
-the following files:
+At the end it will save the analysis.zip into the current directory.
+
+## The result
+
+The `analysis.zip` file contains the following files:
 
 ```
 .
@@ -496,7 +499,7 @@ the following files:
 └── viewing.png
 ```
 
-[sessionId].hist.json -- the histograms of the measured features 
+### [sessionId].hist.json -- the histograms of the measured features 
 
 * `label`: the label of the bins
 * `count`: the count of records in the bin
@@ -528,7 +531,7 @@ the following files:
 }
 ```
 
-[sessionId].freq.json -- the field frequencies
+### [sessionId].freq.json -- the field frequencies
 
 * `field`: the name of the field
 * `count`: how many records has the field
@@ -551,3 +554,117 @@ the following files:
 ]
 ```
 
+### [sessionId].count.json -- the count of records
+
+
+```json
+[{"count":23,"_row":"count"}]
+```
+
+## [sessionId].json -- the descriptive statistics of the completeness sub-dimensions
+
+```json
+[
+   {
+      "min":0.4571,
+      "max":0.5429,
+      "range":0.0857,
+      "median":0.4857,
+      "mean":0.4932,
+      "SE.mean":0.0051,
+      "CI.mean.0.95":0.0107,
+      "var":0.0006,
+      "std.dev":0.0247,
+      "coef.var":0.0501,
+      "recMin":"Landesarchiv Baden-Württemberg",
+      "recMax":"Landesarchiv Baden-Württemberg",
+      "_row":"total"
+   },
+   {
+      ...
+      "_row":"mandatory"
+   },
+   {
+      ...
+      "_row":"descriptiveness"
+   },
+   {
+      ...
+      "_row":"searchability"
+   },
+   {
+      ...
+      "_row":"contextualization"
+   },
+   {
+      ...
+      "_row":"identification"
+   },
+   {
+      ...
+      "_row":"browsing"
+   },
+   {
+      ...
+      "_row":"viewing"
+   },
+   {
+      ...
+      "_row":"reusability"
+   },
+   {
+      ...
+      "_row":"multilinguality"
+   },
+   {
+      ...
+      "_row":"entropy_dc_title_sum"
+   },
+   {
+      ...
+      "_row":"entropy_dc_title_avg"
+   },
+   {
+      ...
+      "_row":"entropy_dcterms_alternative_sum"
+   },
+   {
+      ...
+      "_row":"entropy_dcterms_alternative_avg"
+   },
+   {
+      ...
+      "_row":"entropy_dc_description_sum"
+   },
+   {
+      ...
+      "_row":"entropy_dc_description_avg"
+   }
+]
+```
+
+### [sessionId].collector.json -- an all-in-one JSON
+
+It contains
+
+* the count
+* the frequencies
+* general statistics about the completeness
+* histograms
+
+```json
+{
+   "count":[
+      23
+   ],
+   "frequencies":[
+     ...
+   ],
+   "stats":[
+     ...
+   ],
+   "histograms":{
+     ...
+   }
+}
+```
