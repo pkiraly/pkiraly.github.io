@@ -13,4 +13,9 @@ in other project.  The initiative came from Europeana.  They would like to build
 the measurement into their ingestion service.  It was a good occasion to separate
 different concerns of the source code.
 
-Now we have a top level (software) project: [Metadata Quality Assurance Framework API](http://github.com/pkiraly/metadata-qa-api) 
+Now we have a top level (software) project: [Metadata Quality Assurance Framework API](http://github.com/pkiraly/metadata-qa-api). It contains the actual measurements,
+and definition of the workflow. It also contains examples of metadata schema
+abstractions.  
+
+I have started working with records come from an OAI-PMH service. 
+
