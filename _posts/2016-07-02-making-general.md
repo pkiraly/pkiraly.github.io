@@ -286,7 +286,7 @@ because the first Hamlet doesn't have any language code specified, and the secon
 
 # The REST API
 
-## Measure record
+## Measure a record
 
 ### JSON response
 
