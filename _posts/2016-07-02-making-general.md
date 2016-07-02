@@ -281,3 +281,170 @@ _0:1;en:1
 ```
 because the first Hamlet doesn't have any language code specified, and the second one has `"en"`.
 
+# The REST API
+
+## The Workflow API
+
+Measuring of individual records has a serious some limitation: it doesn't cover the 
+analysis phase, so we add a Workflow API, which helps collections to measure arbitrary
+records, run the analysis, then download the results. The analysis is created by an R
+script (from the [europeana-qa-r](http://github.com/pkiraly/europeana-qa-r) package), and 
+it produces PNG images and JSON files.
+
+The workflow has the following parts:
+
+1. Measuring individual records
+    1. Initializing the measuring session. The server returns a sessionId, which should be used in the whole session
+    2. Measure individual records one-by-one
+    3. Finishing the measuring session
+2. Analyzing the records
+    1. Initializing the analyzation phase
+    2. Checking the current status perodically. While it is "in progress" the analyzation is running. When it returns "ready" the analyzation is done, and prepared to download.
+    3. Downloading the results as a compressed package of JSON and image files.
+
+Here is the workflow illustrating as communication between the client and the API:
+
+1.i. Initializing the measuring session
+```
+   [client]                                         [server]
+      || o- /batch/measuring/start  - - - - - - - - -> ||
+      || <- - - - - - - - - - - - - - - [sessionId] -o ||
+```
+The returned information:
+```json
+{
+  "sessionId": "61d62786-97c0-4b67-8f5d-fb38184a35be",
+  "status": "MEASURING",
+  "result": "success"
+}
+```
+
+1.ii. Measure individual records one-by-one
+```
+   [client]                                         [server]
+      || o- /batch/[recordId]?sessionId=[sessionId] -> ||
+      || <- - - - - - - - - - - - - - - - - - [csv] -o ||
+      || o- /[recordId].csv?sessionId=[sessionId] - -> ||
+      || <- - - - - - - - - - - - - - - - - - [csv] -o ||
+      || o- /[recordId].csv?sessionId=[sessionId] - -> ||
+      || <- - - - - - - - - - - - - - - - - - [csv] -o ||
+```
+The returned information:
+```json
+{
+  "sessionId": "61d62786-97c0-4b67-8f5d-fb38184a35be",
+  "status": "MEASURING",
+  "result": "success"
+}
+```
+
+1.iii. Finishing the measuring session
+```
+   [client]                                         [server]
+      || o- /measuring-session/[sessionId]/stop - - -> ||
+      || <- - - - - - - - - - - - - - - - "success" -o ||
+```
+
+The returned information:
+```json
+{
+   "sessionId": "09441177-566e-472c-93e8-7ca002bbaa09",
+   "status": "IDLE",
+   "result": "success"
+}
+```
+
+2.i. Initializing the analyzation phase
+```
+   [client]                                         [server]
+      || o- /batch/analyzing/[sessionId]/start  - - -> ||
+      || <- - - - - - - - - - - - - - - - "success" -o ||
+```
+The returned information:
+```json
+{
+   "sessionId": "61d62786-97c0-4b67-8f5d-fb38184a35be",
+   "status": "ANALYZING",
+   "result": "success"
+}
+```
+
+
+2.ii. Checking the current status perodically.
+```
+   [client]                                         [server]
+      || o- /batch/analyzing/[sessionId]/status - - -> ||
+      || <- - - - - - - - - - - - - - "in progress" -o ||
+      || o- /batch/analyzing/[sessionId]/status - - -> ||
+      || <- - - - - - - - - - - - - - - - - "ready" -o ||
+```
+The returned information:
+```json
+{
+   "sessionId": "61d62786-97c0-4b67-8f5d-fb38184a35be",
+   "status": "ANALYZING",
+   "result":"in progress"
+}
+```
+and when ready
+```json
+{
+   "sessionId": "61d62786-97c0-4b67-8f5d-fb38184a35be",
+   "status": "ANALYZING",
+   "result": "ready"
+}
+```
+
+2.iii. Downloading the results as a compressed package of JSON and image files.
+```
+   [client]                                         [server]
+      || o- /batch/analyzing/[sessionId]/retrieve - -> ||
+      || <- - - - - - - - - -  [compressed package] -o ||
+```
+The returned information is a zipped package. Here is the HTTP header:
+```
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Disposition: attachment; filename=analysis.zip
+Content-Type: application/zip
+Transfer-Encoding: chunked
+Date: Wed, 29 Jun 2016 15:31:27 GMT
+```
+
+A full session with command line tools:
+```
+curl -i http://example.com/europeana-qa/batch/measuring/start
+```
+extract the `sessionId` from the response and apply to the consecutive calls. In this example we use `90836afd-c3ec-4718-bece-38df214b90a9` as `sessionId`.
+
+```
+curl -i "http://example.com/europeana-qa/batch/00718/plink__f_1_358116?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00719/plink__f_1_100466?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00720/plink__f_1_324593?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00721/plink__f_1_513237?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00722/plink__f_1_823046?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00723/plink__f_1_117537?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00724/plink__f_2_316301?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00725/plink__f_2_392027?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00732/plink__f_5_132900?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00733/plink__f_5_171135?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00734/plink__f_5_191118?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00735/plink__f_5_196907?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00736/plink__f_5_216082?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00737/plink__f_5_90496?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00738/plink__f_5_128247?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00739/plink__f_5_405012?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00740/plink__f_5_169255?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00741/plink__f_5_118287?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00742/plink__f_6_361080?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00743/plink__f_6_111738?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00744/plink__f_1_696030?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00746/plink__f_6_456644?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i "http://example.com/europeana-qa/batch/00747/plink__f_6_455430?sessionId=90836afd-c3ec-4718-bece-38df214b90a9"
+curl -i http://example.com/europeana-qa/batch/measuring/90836afd-c3ec-4718-bece-38df214b90a9/stop
+curl -i http://example.com/europeana-qa/batch/analyzing/90836afd-c3ec-4718-bece-38df214b90a9/start
+curl -i http://example.com/europeana-qa/batch/analyzing/90836afd-c3ec-4718-bece-38df214b90a9/status
+wget --content-disposition http://example.com/europeana-qa/batch/analyzing/90836afd-c3ec-4718-bece-38df214b90a9/retrieve
+```
+
+At the end it will save the analysis.zip into the current directory.
