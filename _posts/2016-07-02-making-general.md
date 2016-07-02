@@ -496,7 +496,7 @@ the following files:
 └── viewing.png
 ```
 
-[sessionId].hist.json -- the historgams of the measured features 
+[sessionId].hist.json -- the histograms of the measured features 
 
 ```json
 {
@@ -522,5 +522,29 @@ the following files:
   ],
   ..
 }
+```
+
+[sessionId].freq.json -- the field frequencies 
+
+```json
+[
+  {"field":"identifier","count":23,"frequency":1},
+  {"field":"proxy_dc_title","count":23,"frequency":1},
+  {"field":"proxy_dcterms_alternative","count":0,"frequency":0},
+  {"field":"proxy_dc_description","count":23,"frequency":1},
+  {"field":"proxy_dc_creator","count":0,"frequency":0},
+  {"field":"proxy_dc_publisher","count":0,"frequency":0},
+  {"field":"proxy_dc_contributor","count":0,"frequency":0},
+  {"field":"proxy_dc_type","count":1,"frequency":0.0435},
+  {"field":"proxy_dc_identifier","count":23,"frequency":1},
+  {"field":"proxy_dc_language","count":23,"frequency":1},
+  {"field":"proxy_dc_coverage","count":0,"frequency":0},
+  {"field":"proxy_dcterms_temporal","count":19,"frequency":0.8261},
+  {"field":"proxy_dcterms_spatial","count":8,"frequency":0.3478},
+  {"field":"proxy_dc_subject","count":8,"frequency":0.3478},
+  {"field":"proxy_dc_date","count":16,"frequency":0.6957},
+  {"field":"proxy_dcterms_created","count":0,"frequency":0},
+  - - -
+]
 ```
 
