@@ -468,4 +468,59 @@ curl -i http://example.com/europeana-qa/batch/analyzing/90836afd-c3ec-4718-bece-
 wget --content-disposition http://example.com/europeana-qa/batch/analyzing/90836afd-c3ec-4718-bece-38df214b90a9/retrieve
 ```
 
-At the end it will save the analysis.zip into the current directory.
+At the end it will save the analysis.zip into the current directory. The file contains
+the following files:
+
+```
+.
+├── 813158d3-a0f3-4620-8fc5-2ef3162cbd18.collector.json
+├── 813158d3-a0f3-4620-8fc5-2ef3162cbd18.count.json
+├── 813158d3-a0f3-4620-8fc5-2ef3162cbd18.freq.json
+├── 813158d3-a0f3-4620-8fc5-2ef3162cbd18.hist.json
+├── 813158d3-a0f3-4620-8fc5-2ef3162cbd18.json
+├── browsing.png
+├── contextualization.png
+├── descriptiveness.png
+├── entropy_dc_description_avg.png
+├── entropy_dc_description_sum.png
+├── entropy_dcterms_alternative_avg.png
+├── entropy_dcterms_alternative_sum.png
+├── entropy_dc_title_avg.png
+├── entropy_dc_title_sum.png
+├── identification.png
+├── mandatory.png
+├── multilinguality.png
+├── reusability.png
+├── searchability.png
+├── total.png
+└── viewing.png
+```
+
+[sessionId].hist.json -- the historgams of the measured features 
+
+```json
+{
+  "total":[
+    {"label":"0.45 - 0.46","count":"3","density":"13.0434782608696"},
+    {"label":"0.46 - 0.47","count":"0","density":"0"},
+    {"label":"0.47 - 0.48","count":"0","density":"0"},
+    {"label":"0.48 - 0.49","count":"14","density":"60.8695652173913"},
+    {"label":"0.49 - 0.5","count":"0","density":"0"},
+    {"label":"0.5 - 0.51","count":"0","density":"0"},
+    {"label":"0.51 - 0.52","count":"3","density":"13.0434782608696"},
+    {"label":"0.52 - 0.53","count":"0","density":"0"},
+    {"label":"0.53 - 0.54","count":"0","density":"0"},
+    {"label":"0.54 - 0.55","count":"3","density":"13.0434782608696"}
+  ],
+  "mandatory":[
+    {"label":"0 - 1","count":"23","density":"100"}
+  ],
+  "descriptiveness":[
+    {"label":"0.36 - 0.37","count":"15","density":"65.2173913043478"},
+    {"label":"0.37 - 0.38","count":"0","density":"0"},
+    ...
+  ],
+  ...
+}
+```
+
