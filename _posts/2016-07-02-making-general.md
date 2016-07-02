@@ -1,7 +1,7 @@
 ---
 title:      Making General
 layout:     post
-date:       2016-07-02 12:25:00
+date:       2016-07-02 00:00:00
 author:     "pkiraly"
 customjs:
  - http://code.jquery.com/jquery-1.4.2.min.js
