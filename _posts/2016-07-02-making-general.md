@@ -554,7 +554,7 @@ The `analysis.zip` file contains the following files:
 ]
 ```
 
-### [sessionId].count.json -- the count of records
+### sessionId.count.json -- the count of records
 
 
 ```json
@@ -562,6 +562,10 @@ The `analysis.zip` file contains the following files:
 ```
 
 ### sessionId.json -- the descriptive statistics of the completeness sub-dimensions
+
+* _min_: minimum value
+* _max_: maximum value
+* _range_: range between minimum and maximum
 
 ```json
 [
