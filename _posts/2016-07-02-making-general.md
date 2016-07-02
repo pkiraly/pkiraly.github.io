@@ -257,10 +257,11 @@ As you can see the first three fields are the same as for the basic one (data pr
 ```
 
 where
+
 * `[language 1]`, `[language 2]` etc. means the language code as it appears in the record. There are special codes as well:
-   * `_0`: no language code specified
-   * `_1`: the field is missing (the very same information that of field existence metric)
-   * `_2`: the field is a resource (it contains a URL and tagged as resource)
+    * `_0`: no language code specified
+    * `_1`: the field is missing (the very same information that of field existence metric)
+    * `_2`: the field is a resource (it contains a URL and tagged as resource)
 * `[count]` means the number of times a language appears in field instances
 
 For example the following JSON fragment 
@@ -274,11 +275,13 @@ For example the following JSON fragment
   }
 ]
 ```
+
 will produce
 
 ```CSV
 _0:1;en:1
 ```
+
 because the first Hamlet doesn't have any language code specified, and the second one has `"en"`.
 
 # The REST API
@@ -305,12 +308,15 @@ The workflow has the following parts:
 Here is the workflow illustrating as communication between the client and the API:
 
 1.i. Initializing the measuring session
+
 ```
    [client]                                         [server]
       || o- /batch/measuring/start  - - - - - - - - -> ||
       || <- - - - - - - - - - - - - - - [sessionId] -o ||
 ```
+
 The returned information:
+
 ```json
 {
   "sessionId": "61d62786-97c0-4b67-8f5d-fb38184a35be",
@@ -320,6 +326,7 @@ The returned information:
 ```
 
 1.ii. Measure individual records one-by-one
+
 ```
    [client]                                         [server]
       || o- /batch/[recordId]?sessionId=[sessionId] -> ||
@@ -329,7 +336,9 @@ The returned information:
       || o- /[recordId].csv?sessionId=[sessionId] - -> ||
       || <- - - - - - - - - - - - - - - - - - [csv] -o ||
 ```
+
 The returned information:
+
 ```json
 {
   "sessionId": "61d62786-97c0-4b67-8f5d-fb38184a35be",
@@ -339,6 +348,7 @@ The returned information:
 ```
 
 1.iii. Finishing the measuring session
+
 ```
    [client]                                         [server]
       || o- /measuring-session/[sessionId]/stop - - -> ||
@@ -346,6 +356,7 @@ The returned information:
 ```
 
 The returned information:
+
 ```json
 {
    "sessionId": "09441177-566e-472c-93e8-7ca002bbaa09",
@@ -355,12 +366,15 @@ The returned information:
 ```
 
 2.i. Initializing the analyzation phase
+
 ```
    [client]                                         [server]
       || o- /batch/analyzing/[sessionId]/start  - - -> ||
       || <- - - - - - - - - - - - - - - - "success" -o ||
 ```
+
 The returned information:
+
 ```json
 {
    "sessionId": "61d62786-97c0-4b67-8f5d-fb38184a35be",
@@ -369,8 +383,8 @@ The returned information:
 }
 ```
 
-
 2.ii. Checking the current status perodically.
+
 ```
    [client]                                         [server]
       || o- /batch/analyzing/[sessionId]/status - - -> ||
@@ -378,7 +392,9 @@ The returned information:
       || o- /batch/analyzing/[sessionId]/status - - -> ||
       || <- - - - - - - - - - - - - - - - - "ready" -o ||
 ```
+
 The returned information:
+
 ```json
 {
    "sessionId": "61d62786-97c0-4b67-8f5d-fb38184a35be",
@@ -386,7 +402,9 @@ The returned information:
    "result":"in progress"
 }
 ```
+
 and when ready
+
 ```json
 {
    "sessionId": "61d62786-97c0-4b67-8f5d-fb38184a35be",
@@ -396,12 +414,15 @@ and when ready
 ```
 
 2.iii. Downloading the results as a compressed package of JSON and image files.
+
 ```
    [client]                                         [server]
       || o- /batch/analyzing/[sessionId]/retrieve - -> ||
       || <- - - - - - - - - -  [compressed package] -o ||
 ```
+
 The returned information is a zipped package. Here is the HTTP header:
+
 ```
 HTTP/1.1 200 OK
 Server: Apache-Coyote/1.1
