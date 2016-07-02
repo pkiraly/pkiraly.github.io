@@ -32,3 +32,8 @@ the same big structure, but have different naming conventions: OAI-PMH uses
 qualified XML names, such as dc:title, while the MongoDB records follow the
 camel-case naming convention, such as dcTitle.
 
+The third layer contains the software which use Europeana QA API project. Now
+we have two of them: [Europeana QA Spark](http://github.com/pkiraly/europeana-qa-spark), 
+which is the Apache Spark interface, used for batch processing of record-level
+measurements, and [Europeana QA Clients](http://github.com/pkiraly/europeana-qa-client)
+which provides a REST interface to measuring.
