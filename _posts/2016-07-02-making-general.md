@@ -286,6 +286,304 @@ because the first Hamlet doesn't have any language code specified, and the secon
 
 # The REST API
 
+## Measure record
+
+### JSON response
+
+```
+http://example.com/europeana-qa/07602/696BE60475DFAF290B7CD7759E840CD4FFF86E24.json
+```
+
+```json
+{
+   "existingFields":[
+      "edm:ProvidedCHO/@about",
+      "Proxy/dc:title",
+      "Proxy/dc:creator",
+      "Proxy/dc:publisher",
+      "Proxy/dc:type",
+      "Proxy/dcterms:spatial",
+      "Proxy/dc:subject",
+      "Proxy/dcterms:created",
+      "Proxy/dcterms:extent",
+      "Proxy/dcterms:isPartOf",
+      "Proxy/dc:format",
+      "Proxy/dc:rights",
+      "Proxy/edm:type",
+      "Aggregation/edm:rights",
+      "Aggregation/edm:provider",
+      "Aggregation/edm:dataProvider",
+      "Aggregation/edm:isShownAt",
+      "Aggregation/edm:isShownBy",
+      "Aggregation/edm:object"
+   ],
+   "missingFields":[
+      "Proxy/dcterms:alternative",
+      "Proxy/dc:description",
+      "Proxy/dc:contributor",
+      "Proxy/dc:identifier",
+      "Proxy/dc:language",
+      "Proxy/dc:coverage",
+      "Proxy/dcterms:temporal",
+      "Proxy/dc:date",
+      "Proxy/dcterms:issued",
+      "Proxy/dcterms:medium",
+      "Proxy/dcterms:provenance",
+      "Proxy/dcterms:hasPart",
+      "Proxy/dc:source",
+      "Proxy/dc:relation",
+      "Proxy/edm:isNextInSequence",
+      "Aggregation/edm:hasView"
+   ],
+   "emptyFields":[],
+   "labelledResults":{
+      "fields":{
+         "recordId":"/07602/696BE60475DFAF290B7CD7759E840CD4FFF86E24",
+         "dataset":"07602_Ag_IT_Culturalitalia_RegioneMarche",
+         "dataProvider":"Regione Marche / SchedeS:AN"
+      },
+      "completeness":{
+         "TOTAL":0.5428571428571428,
+         "MANDATORY":1.0,
+         "DESCRIPTIVENESS":0.45454545454545453,
+         "SEARCHABILITY":0.5555555555555556,
+         "CONTEXTUALIZATION":0.45454545454545453,
+         "IDENTIFICATION":0.5,
+         "BROWSING":0.5,
+         "VIEWING":0.75,
+         "REUSABILITY":0.7272727272727273,
+         "MULTILINGUALITY":0.4
+      },
+      "existence":{
+         "edm:ProvidedCHO/@about":true,
+         "Proxy/dc:title":true,
+         "Proxy/dcterms:alternative":false,
+         "Proxy/dc:description":false,
+         "Proxy/dc:creator":true,
+         "Proxy/dc:publisher":true,
+         "Proxy/dc:contributor":false,
+         "Proxy/dc:type":true,
+         "Proxy/dc:identifier":false,
+         "Proxy/dc:language":false,
+         "Proxy/dc:coverage":false,
+         "Proxy/dcterms:temporal":false,
+         "Proxy/dcterms:spatial":true,
+         "Proxy/dc:subject":true,
+         "Proxy/dc:date":false,
+         "Proxy/dcterms:created":true,
+         "Proxy/dcterms:issued":false,
+         "Proxy/dcterms:extent":true,
+         "Proxy/dcterms:medium":false,
+         "Proxy/dcterms:provenance":false,
+         "Proxy/dcterms:hasPart":false,
+         "Proxy/dcterms:isPartOf":true,
+         "Proxy/dc:format":true,
+         "Proxy/dc:source":false,
+         "Proxy/dc:rights":true,
+         "Proxy/dc:relation":false,
+         "Proxy/edm:isNextInSequence":false,
+         "Proxy/edm:type":true,
+         "Aggregation/edm:rights":true,
+         "Aggregation/edm:provider":true,
+         "Aggregation/edm:dataProvider":true,
+         "Aggregation/edm:isShownAt":true,
+         "Aggregation/edm:isShownBy":true,
+         "Aggregation/edm:object":true,
+         "Aggregation/edm:hasView":false
+      },
+      "cardinality":{
+         "edm:ProvidedCHO/@about":1,
+         "Proxy/dc:title":1,
+         "Proxy/dcterms:alternative":0,
+         "Proxy/dc:description":0,
+         "Proxy/dc:creator":1,
+         "Proxy/dc:publisher":1,
+         "Proxy/dc:contributor":0,
+         "Proxy/dc:type":2,
+         "Proxy/dc:identifier":0,
+         "Proxy/dc:language":0,
+         "Proxy/dc:coverage":0,
+         "Proxy/dcterms:temporal":0,
+         "Proxy/dcterms:spatial":1,
+         "Proxy/dc:subject":3,
+         "Proxy/dc:date":0,
+         "Proxy/dcterms:created":1,
+         "Proxy/dcterms:issued":0,
+         "Proxy/dcterms:extent":2,
+         "Proxy/dcterms:medium":0,
+         "Proxy/dcterms:provenance":0,
+         "Proxy/dcterms:hasPart":0,
+         "Proxy/dcterms:isPartOf":1,
+         "Proxy/dc:format":1,
+         "Proxy/dc:source":0,
+         "Proxy/dc:rights":1,
+         "Proxy/dc:relation":0,
+         "Proxy/edm:isNextInSequence":0,
+         "Proxy/edm:type":1,
+         "Aggregation/edm:rights":1,
+         "Aggregation/edm:provider":1,
+         "Aggregation/edm:dataProvider":1,
+         "Aggregation/edm:isShownAt":1,
+         "Aggregation/edm:isShownBy":1,
+         "Aggregation/edm:object":1,
+         "Aggregation/edm:hasView":0
+      },
+      "uniqueness":{
+         "dc:title:sum":0.001084612782467948,
+         "dc:title:avg":1.8076879707799135E-4,
+         "dcterms:alternative:sum":0.0,
+         "dcterms:alternative:avg":0.0,
+         "dc:description:sum":0.0,
+         "dc:description:avg":0.0
+      },
+      "problemCatalog":{
+         "LongSubject":1.0,
+         "TitleAndDescriptionAreSame":0.0,
+         "EmptyStrings":0.0
+      },
+      "languages":{
+         "Proxy/dc:title":{
+            "_0":1
+         },
+         "Proxy/dcterms:alternative":{
+            "_1":1
+         },
+         "Proxy/dc:description":{
+            "_1":1
+         },
+         "Proxy/dc:creator":{
+            "_0":1
+         },
+         "Proxy/dc:publisher":{
+            "_0":1
+         },
+         "Proxy/dc:contributor":{
+            "_1":1
+         },
+         "Proxy/dc:type":{
+            "_0":2
+         },
+         "Proxy/dc:identifier":{
+            "_1":1
+         },
+         "Proxy/dc:language":{
+            "_1":1
+         },
+         "Proxy/dc:coverage":{
+            "_1":1
+         },
+         "Proxy/dcterms:temporal":{
+            "_1":1
+         },
+         "Proxy/dcterms:spatial":{
+            "_0":1
+         },
+         "Proxy/dc:subject":{
+            "_0":3
+         },
+         "Proxy/dc:date":{
+            "_1":1
+         },
+         "Proxy/dcterms:created":{
+            "_0":1
+         },
+         "Proxy/dcterms:issued":{
+            "_1":1
+         },
+         "Proxy/dcterms:extent":{
+            "_0":2
+         },
+         "Proxy/dcterms:medium":{
+            "_1":1
+         },
+         "Proxy/dcterms:provenance":{
+            "_1":1
+         },
+         "Proxy/dcterms:hasPart":{
+            "_1":1
+         },
+         "Proxy/dcterms:isPartOf":{
+            "_0":1
+         },
+         "Proxy/dc:format":{
+            "_0":1
+         },
+         "Proxy/dc:source":{
+            "_1":1
+         },
+         "Proxy/dc:rights":{
+            "_0":1
+         },
+         "Proxy/dc:relation":{
+            "_1":1
+         },
+         "Aggregation/edm:rights":{
+            "_0":1
+         },
+         "Aggregation/edm:provider":{
+            "_0":1
+         },
+         "Aggregation/edm:dataProvider":{
+            "_0":1
+         }
+      }
+   },
+   "termsCollection":{
+      "dc:title":[
+         {
+            "term":"ancona",
+            "tf":1,
+            "df":12388,
+            "tfIdf":8.072328059412334E-5
+         },
+         {
+            "term":"carta",
+            "tf":1,
+            "df":87048,
+            "tfIdf":1.1487914713721165E-5
+         },
+         {
+            "term":"della",
+            "tf":1,
+            "df":629250,
+            "tfIdf":1.5891934843067143E-6
+         },
+         {
+            "term":"di",
+            "tf":1,
+            "df":1837113,
+            "tfIdf":5.443323301288489E-7
+         },
+         {
+            "term":"marca",
+            "tf":1,
+            "df":15752,
+            "tfIdf":6.348400203148806E-5
+         },
+         {
+            "term":"topografica",
+            "tf":1,
+            "df":1079,
+            "tfIdf":9.267840593141798E-4
+         }
+      ],
+      "dcterms:alternative":[],
+      "dc:description":[]
+   }
+}
+```
+
+### CSV response
+
+```
+http://example.com/europeana-qa/07602/696BE60475DFAF290B7CD7759E840CD4FFF86E24.csv
+```
+
+```csv
+/07602/696BE60475DFAF290B7CD7759E840CD4FFF86E24,07602_Ag_IT_Culturalitalia_RegioneMarche,Regione Marche / SchedeS:AN,0.542857,1.0,0.454545,0.555556,0.454545,0.5,0.5,0.75,0.727273,0.4,1,1,0,0,1,1,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,1,1,0,1,0,0,1,1,1,1,1,1,1,0,0.001085,0.000181,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+```
+
+
 ## The Workflow API
 
 Measuring of individual records has a serious some limitation: it doesn't cover the 
