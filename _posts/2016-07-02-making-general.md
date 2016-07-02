@@ -518,9 +518,9 @@ the following files:
   "descriptiveness":[
     {"label":"0.36 - 0.37","count":"15","density":"65.2173913043478"},
     {"label":"0.37 - 0.38","count":"0","density":"0"},
-    ...
+    ..
   ],
-  ...
+  ..
 }
 ```
 
