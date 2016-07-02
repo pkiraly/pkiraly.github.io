@@ -258,11 +258,11 @@ As you can see the first three fields are the same as for the basic one (data pr
 
 where
 
-* `[language 1]`, `[language 2]` etc. means the language code as it appears in the record. There are special codes as well:
-    * `_0`: no language code specified
-    * `_1`: the field is missing (the very same information that of field existence metric)
-    * `_2`: the field is a resource (it contains a URL and tagged as resource)
-* `[count]` means the number of times a language appears in field instances
+* _[language 1]_, _[language 2]_ etc. means the language code as it appears in the record. There are special codes as well:
+    * __0_: no language code specified
+    * __1_: the field is missing (the very same information that of field existence metric)
+    * __2_: the field is a resource (it contains a URL and tagged as resource)
+* _[count]_ means the number of times a language appears in field instances
 
 For example the following JSON fragment 
 
@@ -501,9 +501,9 @@ The `analysis.zip` file contains the following files:
 
 ### sessionId.hist.json -- the histograms of the measured features 
 
-* `label`: the label of the bins
-* `count`: the count of records in the bin
-* `density`: the percent of records in the bin
+* _label_: the label of the bins
+* _count_: the count of records in the bin
+* _density_: the percent of records in the bin
 
 ```json
 {
@@ -533,9 +533,9 @@ The `analysis.zip` file contains the following files:
 
 ### sessionId.freq.json -- the field frequencies
 
-* `field`: the name of the field
-* `count`: how many records has the field
-* `frequency`: the ratio of the field existence (between 0-1)
+* _field_: the name of the field
+* _count_: how many records has the field
+* _frequency_: the ratio of the field existence (between 0-1)
 
 ```json
 [
@@ -566,6 +566,15 @@ The `analysis.zip` file contains the following files:
 * _min_: minimum value
 * _max_: maximum value
 * _range_: range between minimum and maximum
+* _mean_: the mean
+* _SE.mean_:
+* _CI.mean_:
+* _var_: variance
+* _std.dev_: standard deviation
+* _coaf.var_: coefficient variance
+* _recMin_: record identifier with minimum value
+* _recMax_: record identifier with maximum value
+* __row_: the name of the metrics
 
 ```json
 [
