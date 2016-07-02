@@ -499,7 +499,7 @@ The `analysis.zip` file contains the following files:
 └── viewing.png
 ```
 
-### [sessionId].hist.json -- the histograms of the measured features 
+### sessionId.hist.json -- the histograms of the measured features 
 
 * `label`: the label of the bins
 * `count`: the count of records in the bin
@@ -531,7 +531,7 @@ The `analysis.zip` file contains the following files:
 }
 ```
 
-### [sessionId].freq.json -- the field frequencies
+### sessionId.freq.json -- the field frequencies
 
 * `field`: the name of the field
 * `count`: how many records has the field
@@ -561,7 +561,7 @@ The `analysis.zip` file contains the following files:
 [{"count":23,"_row":"count"}]
 ```
 
-## [sessionId].json -- the descriptive statistics of the completeness sub-dimensions
+### sessionId.json -- the descriptive statistics of the completeness sub-dimensions
 
 ```json
 [
@@ -576,8 +576,8 @@ The `analysis.zip` file contains the following files:
       "var":0.0006,
       "std.dev":0.0247,
       "coef.var":0.0501,
-      "recMin":"Landesarchiv Baden-Württemberg",
-      "recMax":"Landesarchiv Baden-Württemberg",
+      "recMin":"[recordId]",
+      "recMax":"[recordId]",
       "_row":"total"
    },
    {
@@ -643,7 +643,7 @@ The `analysis.zip` file contains the following files:
 ]
 ```
 
-### [sessionId].collector.json -- an all-in-one JSON
+### sessionId.collector.json -- an all-in-one JSON
 
 It contains
 
