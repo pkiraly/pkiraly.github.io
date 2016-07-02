@@ -259,9 +259,9 @@ As you can see the first three fields are the same as for the basic one (data pr
 where
 
 * _[language 1]_, _[language 2]_ etc. means the language code as it appears in the record. There are special codes as well:
-    * __0_: no language code specified
-    * __1_: the field is missing (the very same information that of field existence metric)
-    * __2_: the field is a resource (it contains a URL and tagged as resource)
+    * _ _0_: no language code specified
+    * _ _1_: the field is missing (the very same information that of field existence metric)
+    * _ _2_: the field is a resource (it contains a URL and tagged as resource)
 * _[count]_ means the number of times a language appears in field instances
 
 For example the following JSON fragment 
@@ -574,7 +574,7 @@ The `analysis.zip` file contains the following files:
 * _coaf.var_: coefficient variance
 * _recMin_: record identifier with minimum value
 * _recMax_: record identifier with maximum value
-* __row_: the name of the metrics
+* _ _row_: the name of the metrics
 
 ```json
 [
