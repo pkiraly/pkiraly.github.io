@@ -1,3 +1,8 @@
+---
+title: How to run the analysis?
+layout: post
+---
+
 # How to run the analysis? A cheat sheet
 
 ```
