@@ -5,12 +5,25 @@ layout: post
 
 # How to run the analysis? A cheat sheet
 
+## Preparation
+
+```
+cd ~/git
+git clone https://github.com/pkiraly/metadata-qa-api.git
+git clone https://github.com/pkiraly/europeana-qa-api.git
+git clone https://github.com/pkiraly/europeana-qa-spark.git
+git clone https://github.com/pkiraly/europeana-qa-r.git
+git clone https://github.com/pkiraly/europeana-qa-web.git /var/www/html/europeana-qa
+```
+
+## Build the sources
+
 ```
 cd ~/git/europeana-qa-spark
 ./build
 ```
 
-run normal analyses
+## Run normal analyses
 
 ```
 nano run-all
@@ -18,7 +31,7 @@ nano run-all
 nohup ./run-all &
 ```
 
-run frequency and cardinality analyses
+## Run frequency and cardinality analyses
 
 ```
 hdfs dfs -copyLocal result14.csv /join
@@ -28,7 +41,7 @@ nano cardinality.sh
 nohup ./cardinality.sh > cardinality.log
 ```
 
-run language detection (~ 6 hours)
+## Run language detection (~ 6 hours)
 
 ```
 nano run-all-language-detection
@@ -39,7 +52,7 @@ hdfs dfs -copyLocal result14-language.csv /join
 nohup ./language.sh > language.log
 ```
 
-split files
+## Split files
 
 ```
 cd ~/git/europeana-qa-r
@@ -49,7 +62,7 @@ nano split.php
 nohup php split.php &&
 ```
 
-run R
+## Run R analysis
 
 ```
 rm r-report.txt
