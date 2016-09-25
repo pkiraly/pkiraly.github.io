@@ -11,6 +11,7 @@ cd ~/git/europeana-qa-spark
 ```
 
 run normal analyses
+
 ```
 nano run-all
 	# edit output file resultXX.csv
@@ -18,6 +19,7 @@ nohup ./run-all &
 ```
 
 run frequency and cardinality analyses
+
 ```
 hdfs dfs -copyLocal result14.csv /join
 cd scala
@@ -27,6 +29,7 @@ nohup ./cardinality.sh > cardinality.log
 ```
 
 run language detection (~ 6 hours)
+
 ```
 nano run-all-language-detection
 	# edit output file resultXX.csv
@@ -37,6 +40,7 @@ nohup ./language.sh > language.log
 ```
 
 split files
+
 ```
 cd ~/git/europeana-qa-r
 rm resultXX
@@ -46,6 +50,7 @@ nohup php split.php &&
 ```
 
 run R
+
 ```
 rm r-report.txt
 rm launch-report.txt
