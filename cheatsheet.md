@@ -44,8 +44,7 @@ nohup ./cardinality.sh > cardinality.log
 ## Run language detection (~ 6 hours)
 
 ```
-nano run-all-language-detection
-	# edit output file resultXX.csv
+nano run-all-language-detection # edit output file resultXX.csv
 nohup ./run-all &
 nohup ./run-all-language-detection > nohup-result14-language.log &
 hdfs dfs -copyLocal result14-language.csv /join
@@ -69,5 +68,5 @@ rm r-report.txt
 rm launch-report.txt
 cp master-setlist.txt setlist.txt
 crontab -e
-	*/1 * * * * cd /path/to/europeana-qa-r && php launcher.php >> launch-report.txt
+  */1 * * * * cd /path/to/europeana-qa-r && php launcher.php >> launch-report.log
 ```
