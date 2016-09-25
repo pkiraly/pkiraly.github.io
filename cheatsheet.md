@@ -11,6 +11,7 @@ cd ~/git/europeana-qa-spark
 ```
 
 run normal analyses
+```
 nano run-all
 	# edit output file resultXX.csv
 nohup ./run-all &
