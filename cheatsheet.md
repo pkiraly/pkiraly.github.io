@@ -34,7 +34,7 @@ nohup ./run-all &
 ## Run frequency and cardinality analyses
 
 ```
-hdfs dfs -copyLocal result14.csv /join
+hdfs dfs -put result14.csv /join
 cd scala
 nano cardinality.sh
 	# hdfs://localhost:54310/join/resultXX.csv
@@ -47,7 +47,7 @@ nohup ./cardinality.sh > cardinality.log
 nano run-all-language-detection # edit output file resultXX.csv
 nohup ./run-all &
 nohup ./run-all-language-detection > nohup-result14-language.log &
-hdfs dfs -copyLocal result14-language.csv /join
+hdfs dfs -put result14-language.csv /join
 nohup ./language.sh > language.log
 ```
 
