@@ -44,30 +44,6 @@ nano cardinality.sh
 nohup ./cardinality.sh > cardinality.log
 ```
 
-## Run language detection (~ 6 hours)
-
-```
-nano run-all-language-detection # edit output file resultXX.csv
-nohup ./run-all &
-nohup ./run-all-language-detection > nohup-result14-language.log &
-hdfs dfs -put result14-language.csv /join
-nohup ./language.sh > language.log
-```
-
-### Top level measurement (~ 26 mins)
-
-```
-nano languages.sh
-nohup ./languages.sh > languages.log &
-```
-
-### Collection level measurement (~ 46 mins)
-
-```
-nano languages-per-collections.sh
-nohup ./languages-per-collections.sh > languages-per-collections.log &
-```
-
 
 ## Split files
 
@@ -88,3 +64,28 @@ cp master-setlist.txt setlist.txt
 crontab -e
   */1 * * * * cd /path/to/europeana-qa-r && php launcher.php >> launch-report.log
 ```
+
+## Run record level language detection (~ 6 hours)
+
+```
+nano run-all-language-detection # edit output file resultXX.csv
+nohup ./run-all &
+nohup ./run-all-language-detection > nohup-result14-language.log &
+hdfs dfs -put result14-language.csv /join
+nohup ./language.sh > language.log
+```
+
+### Top level language measurement (~ 26 mins)
+
+```
+nano languages.sh
+nohup ./languages.sh > languages.log &
+```
+
+### Collection level language measurement (~ 46 mins)
+
+```
+nano languages-per-collections.sh
+nohup ./languages-per-collections.sh > languages-per-collections.log &
+```
+
