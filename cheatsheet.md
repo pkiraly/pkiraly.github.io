@@ -26,7 +26,9 @@ cd ~/git/europeana-qa-spark
 ./build
 ```
 
-## Run record level measurement (~ 7:40)
+## Measurement of main features
+
+### Run record level measurement (~ 7:40)
 
 ```
 cd ~/git/europeana-qa-spark
@@ -35,7 +37,7 @@ nano run-all
 nohup ./run-all > run-all.log &
 ```
 
-## Run frequency and cardinality analyses
+### Run frequency and cardinality analyses
 
 ```
 cd ~/git/europeana-qa-spark
@@ -47,8 +49,7 @@ nano cardinality.sh
 nohup ./cardinality.sh > cardinality.log
 ```
 
-
-## Split files
+### Split files
 
 ```
 cd ~/git/europeana-qa-r
@@ -58,7 +59,7 @@ nano split.php
 nohup php split.php &&
 ```
 
-## Run R analysis
+### Run R analysis
 
 ```
 cd ~/git/europeana-qa-r
@@ -69,7 +70,9 @@ crontab -e
   */1 * * * * cd /path/to/europeana-qa-r && php launcher.php >> launch-report.log
 ```
 
-## Run record level language detection (~ 6 hours)
+## Measurement of multilinguality
+
+### Run record level language detection (~ 6 hours)
 
 ```
 cd ~/git/europeana-qa-spark
