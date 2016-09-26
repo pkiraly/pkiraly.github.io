@@ -54,14 +54,14 @@ hdfs dfs -put result14-language.csv /join
 nohup ./language.sh > language.log
 ```
 
-### Top level measurement
+### Top level measurement (~ 26 mins)
 
 ```
 nano languages.sh
 nohup ./languages.sh > languages.log &
 ```
 
-### Collection level measurement
+### Collection level measurement (~ 46 mins)
 
 ```
 nano languages-per-collections.sh
