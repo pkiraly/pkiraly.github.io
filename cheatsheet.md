@@ -5,6 +5,9 @@ layout: post
 
 # How to run the analysis? A cheat sheet
 
+<img src="{{ site.url }}/img/process-workflow.png" class="big" title="Process workflow" alt="Process workflow" />
+
+
 ## Preparation
 
 ```
