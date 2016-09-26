@@ -77,7 +77,6 @@ crontab -e
 ```
 cd ~/git/europeana-qa-spark
 nano run-all-language-detection # edit output file resultXX.csv
-nohup ./run-all &
 nohup ./run-all-language-detection > nohup-result14-language.log &
 hdfs dfs -put result14-language.csv /join
 nohup ./language.sh > language.log
