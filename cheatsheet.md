@@ -89,3 +89,16 @@ nano languages-per-collections.sh
 nohup ./languages-per-collections.sh > languages-per-collections.log &
 ```
 
+### Convert top level language results to JSON file
+
+```
+cd ~/git/europeana-qa-spark/scripts
+php languages-csv2json.php
+```
+
+### Convert collection level language results to JSON files
+
+```
+cd ~/git/europeana-qa-spark/scripts
+php lang-group-to-json.php 
+```
