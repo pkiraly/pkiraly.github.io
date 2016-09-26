@@ -26,26 +26,30 @@ cd ~/git/europeana-qa-spark
 ./build
 ```
 
-## Run record level measurement
+## Measurement of main features
+
+### Run record level measurement (~ 7:40)
 
 ```
+cd ~/git/europeana-qa-spark
 nano run-all
 	# edit output file resultXX.csv
-nohup ./run-all &
+nohup ./run-all > run-all.log &
 ```
 
-## Run frequency and cardinality analyses
+### Run frequency and cardinality analyses
 
 ```
+cd ~/git/europeana-qa-spark
 hdfs dfs -put result14.csv /join
-cd scala
+
+cd ~/git/europeana-qa-spark/scala
 nano cardinality.sh
 	# hdfs://localhost:54310/join/resultXX.csv
 nohup ./cardinality.sh > cardinality.log
 ```
 
-
-## Split files
+### Split files
 
 ```
 cd ~/git/europeana-qa-r
@@ -55,9 +59,10 @@ nano split.php
 nohup php split.php &&
 ```
 
-## Run R analysis
+### Run R analysis
 
 ```
+cd ~/git/europeana-qa-r
 rm r-report.txt
 rm launch-report.txt
 cp master-setlist.txt setlist.txt
@@ -65,11 +70,13 @@ crontab -e
   */1 * * * * cd /path/to/europeana-qa-r && php launcher.php >> launch-report.log
 ```
 
-## Run record level language detection (~ 6 hours)
+## Measurement of multilinguality
+
+### Run record level language detection (~ 6 hours)
 
 ```
+cd ~/git/europeana-qa-spark
 nano run-all-language-detection # edit output file resultXX.csv
-nohup ./run-all &
 nohup ./run-all-language-detection > nohup-result14-language.log &
 hdfs dfs -put result14-language.csv /join
 nohup ./language.sh > language.log
@@ -78,6 +85,7 @@ nohup ./language.sh > language.log
 ### Top level language measurement (~ 26 mins)
 
 ```
+cd ~/git/europeana-qa-spark/scala
 nano languages.sh
 nohup ./languages.sh > languages.log &
 ```
@@ -85,7 +93,22 @@ nohup ./languages.sh > languages.log &
 ### Collection level language measurement (~ 46 mins)
 
 ```
+cd ~/git/europeana-qa-spark/scala
 nano languages-per-collections.sh
 nohup ./languages-per-collections.sh > languages-per-collections.log &
 ```
 
+### Convert top level language results to JSON file
+
+```
+cd ~/git/europeana-qa-spark/scripts
+php languages-csv2json.php
+cp languages.json ~/git/europeana-qa-r/json2/
+```
+
+### Convert collection level language results to JSON files
+
+```
+cd ~/git/europeana-qa-spark/scripts
+php lang-group-to-json.php 
+```
