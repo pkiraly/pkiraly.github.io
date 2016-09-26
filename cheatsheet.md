@@ -19,14 +19,14 @@ git clone https://github.com/pkiraly/europeana-qa-r.git
 git clone https://github.com/pkiraly/europeana-qa-web.git /var/www/html/europeana-qa
 ```
 
-## Build the sources
+## Build the codes
 
 ```
 cd ~/git/europeana-qa-spark
 ./build
 ```
 
-## Run normal analyses
+## Run record level measurement
 
 ```
 nano run-all
@@ -53,6 +53,21 @@ nohup ./run-all-language-detection > nohup-result14-language.log &
 hdfs dfs -put result14-language.csv /join
 nohup ./language.sh > language.log
 ```
+
+### Top level measurement
+
+```
+nano languages.sh
+nohup ./languages.sh > languages.log &
+```
+
+### Collection level measurement
+
+```
+nano languages-per-collections.sh
+nohup ./languages-per-collections.sh > languages-per-collections.log &
+```
+
 
 ## Split files
 
