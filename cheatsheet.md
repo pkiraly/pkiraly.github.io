@@ -29,16 +29,19 @@ cd ~/git/europeana-qa-spark
 ## Run record level measurement
 
 ```
+cd ~/git/europeana-qa-spark
 nano run-all
 	# edit output file resultXX.csv
-nohup ./run-all &
+nohup ./run-all > run-all.log &
 ```
 
 ## Run frequency and cardinality analyses
 
 ```
+cd ~/git/europeana-qa-spark
 hdfs dfs -put result14.csv /join
-cd scala
+
+cd ~/git/europeana-qa-spark/scala
 nano cardinality.sh
 	# hdfs://localhost:54310/join/resultXX.csv
 nohup ./cardinality.sh > cardinality.log
@@ -58,6 +61,7 @@ nohup php split.php &&
 ## Run R analysis
 
 ```
+cd ~/git/europeana-qa-r
 rm r-report.txt
 rm launch-report.txt
 cp master-setlist.txt setlist.txt
@@ -68,6 +72,7 @@ crontab -e
 ## Run record level language detection (~ 6 hours)
 
 ```
+cd ~/git/europeana-qa-spark
 nano run-all-language-detection # edit output file resultXX.csv
 nohup ./run-all &
 nohup ./run-all-language-detection > nohup-result14-language.log &
@@ -78,6 +83,7 @@ nohup ./language.sh > language.log
 ### Top level language measurement (~ 26 mins)
 
 ```
+cd ~/git/europeana-qa-spark/scala
 nano languages.sh
 nohup ./languages.sh > languages.log &
 ```
@@ -85,6 +91,7 @@ nohup ./languages.sh > languages.log &
 ### Collection level language measurement (~ 46 mins)
 
 ```
+cd ~/git/europeana-qa-spark/scala
 nano languages-per-collections.sh
 nohup ./languages-per-collections.sh > languages-per-collections.log &
 ```
@@ -94,6 +101,7 @@ nohup ./languages-per-collections.sh > languages-per-collections.log &
 ```
 cd ~/git/europeana-qa-spark/scripts
 php languages-csv2json.php
+cp languages.json ~/git/europeana-qa-r/json2/
 ```
 
 ### Convert collection level language results to JSON files
