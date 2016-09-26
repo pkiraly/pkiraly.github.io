@@ -26,7 +26,7 @@ cd ~/git/europeana-qa-spark
 ./build
 ```
 
-## Run record level measurement
+## Run record level measurement (~ 7:40)
 
 ```
 cd ~/git/europeana-qa-spark
