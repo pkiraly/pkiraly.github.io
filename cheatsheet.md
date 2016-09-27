@@ -37,7 +37,7 @@ nano run-all
 nohup ./run-all > run-all.log &
 ```
 
-### Run frequency and cardinality analyses
+### Run top level frequency and cardinality analyses (~ 0:08)
 
 ```
 cd ~/git/europeana-qa-spark
@@ -49,7 +49,21 @@ nano cardinality.sh
 nohup ./cardinality.sh > cardinality.log
 ```
 
-### Split files
+### Convert top level cardinality csv to json
+
+```
+cd ~/git/europeana-qa-spark/script
+php cardinality-csv2json.php
+```
+
+### Convert top level frequency .csv to .json
+
+```
+cd ~/git/europeana-qa-spark/script
+php frequency-csv2json.php
+```
+
+### Split files result.csv to to collection level .csv files
 
 ```
 cd ~/git/europeana-qa-r
@@ -59,7 +73,7 @@ nano split.php
 nohup php split.php &&
 ```
 
-### Run R analysis
+### Run collection level analysis (~ 17:17)
 
 ```
 cd ~/git/europeana-qa-r
@@ -72,7 +86,7 @@ crontab -e
 
 ## Measurement of multilinguality
 
-### Run record level language detection (~ 6 hours)
+### Run record level language detection (~ 5:14)
 
 ```
 cd ~/git/europeana-qa-spark
