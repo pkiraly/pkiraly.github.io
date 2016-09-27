@@ -54,6 +54,7 @@ nohup ./cardinality.sh > cardinality.log
 ```
 cd ~/git/europeana-qa-spark/script
 php cardinality-csv2json.php
+cp cardinality.json ~/git/europeana-qa-r/json2
 ```
 
 ### Convert top level frequency .csv to .json
@@ -61,6 +62,7 @@ php cardinality-csv2json.php
 ```
 cd ~/git/europeana-qa-spark/script
 php frequency-csv2json.php
+cp frequency.json ~/git/europeana-qa-r/json2
 ```
 
 ### Split files result.csv to to collection level .csv files
@@ -96,7 +98,7 @@ hdfs dfs -put result14-language.csv /join
 nohup ./language.sh > language.log
 ```
 
-### Top level language measurement (~ 26 mins)
+### Top level language measurement (~ 0:26)
 
 ```
 cd ~/git/europeana-qa-spark/scala
@@ -104,7 +106,7 @@ nano languages.sh
 nohup ./languages.sh > languages.log &
 ```
 
-### Collection level language measurement (~ 46 mins)
+### Collection level language measurement (~ 0:46)
 
 ```
 cd ~/git/europeana-qa-spark/scala
@@ -126,3 +128,5 @@ cp languages.json ~/git/europeana-qa-r/json2/
 cd ~/git/europeana-qa-spark/scripts
 php lang-group-to-json.php 
 ```
+
+Total time: 31:31:00
