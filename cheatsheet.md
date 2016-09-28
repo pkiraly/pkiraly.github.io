@@ -41,12 +41,10 @@ nohup ./run-all > run-all.log &
 
 ```
 cd ~/git/europeana-qa-spark
-hdfs dfs -put result14.csv /join
+hdfs dfs -put resultXX.csv /join
 
 cd ~/git/europeana-qa-spark/scala
-nano cardinality.sh
-	# hdfs://localhost:54310/join/resultXX.csv
-nohup ./cardinality.sh > cardinality.log
+nohup ./cardinality.sh resultXX.csv > cardinality.log
 ```
 
 ### Convert top level cardinality csv to json
@@ -94,7 +92,7 @@ crontab -e
 cd ~/git/europeana-qa-spark
 nano run-all-language-detection # edit output file resultXX.csv
 nohup ./run-all-language-detection > nohup-result14-language.log &
-hdfs dfs -put result14-language.csv /join
+hdfs dfs -put resultXX-language.csv /join
 nohup ./language.sh > language.log
 ```
 
@@ -102,16 +100,14 @@ nohup ./language.sh > language.log
 
 ```
 cd ~/git/europeana-qa-spark/scala
-nano languages.sh
-nohup ./languages.sh > languages.log &
+nohup ./languages.sh resultXX-language.csv > languages.log &
 ```
 
 ### Collection level language measurement (~ 0:46)
 
 ```
 cd ~/git/europeana-qa-spark/scala
-nano languages-per-collections.sh
-nohup ./languages-per-collections.sh > languages-per-collections.log &
+nohup ./languages-per-collections.sh resultXX-language.csv > languages-per-collections.log &
 ```
 
 ### Convert top level language results to JSON file
