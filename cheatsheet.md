@@ -32,9 +32,7 @@ cd ~/git/europeana-qa-spark
 
 ```
 cd ~/git/europeana-qa-spark
-nano run-all
-	# edit output file resultXX.csv
-nohup ./run-all > run-all.log &
+nohup ./run-all resultXX.csv > run-all.log &
 ```
 
 ### Run top level frequency and cardinality analyses (~ 0:08)
@@ -90,8 +88,7 @@ crontab -e
 
 ```
 cd ~/git/europeana-qa-spark
-nano run-all-language-detection # edit output file resultXX.csv
-nohup ./run-all-language-detection > nohup-result14-language.log &
+nohup ./run-all-language-detection resultXX-language.csv > nohup-result14-language.log &
 hdfs dfs -put resultXX-language.csv /join
 nohup ./language.sh > language.log
 ```
