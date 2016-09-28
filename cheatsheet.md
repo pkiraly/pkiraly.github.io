@@ -35,6 +35,13 @@ cd ~/git/europeana-qa-spark
 nohup ./run-all resultXX.csv > run-all.log &
 ```
 
+### Upload result file to HDFS (~ 0:12)
+
+```
+cd ~/git/europeana-qa-spark
+hdfs dfs -put resultXX.csv /join
+```
+
 ### Run top level frequency and cardinality analyses (~ 0:08)
 
 ```
@@ -89,8 +96,13 @@ crontab -e
 ```
 cd ~/git/europeana-qa-spark
 nohup ./run-all-language-detection resultXX-language.csv > nohup-result14-language.log &
+```
+
+### Upload result file to HDFS (~ 0:16)
+
+```
+cd ~/git/europeana-qa-spark
 hdfs dfs -put resultXX-language.csv /join
-nohup ./language.sh > language.log
 ```
 
 ### Top level language measurement (~ 0:26)
@@ -122,4 +134,4 @@ cd ~/git/europeana-qa-spark/scripts
 php lang-group-to-json.php 
 ```
 
-Total time: 31:31:00
+Total time: 31 hours 59 minutes.
