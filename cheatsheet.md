@@ -10,6 +10,8 @@ layout: post
 
 ## Preparation
 
+### Get softwares
+
 ```
 cd ~/git
 git clone https://github.com/pkiraly/metadata-qa-api.git
@@ -19,11 +21,19 @@ git clone https://github.com/pkiraly/europeana-qa-r.git
 git clone https://github.com/pkiraly/europeana-qa-web.git /var/www/html/europeana-qa
 ```
 
-## Build the codes
+### Build the codes
 
 ```
 cd ~/git/europeana-qa-spark
 ./build
+```
+
+### Prepare data sources on HDFS
+
+```
+hdfs dfs -mkdir /europeana
+hdfs dfs -mkdir /join
+hdfs dfs -put /path/to/sources/*.json /europeana
 ```
 
 ## Measurement of main features
