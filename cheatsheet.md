@@ -78,14 +78,13 @@ php frequency-csv2json.php
 cp frequency.json ~/git/europeana-qa-r/json2
 ```
 
-### Split files result.csv to to collection level .csv files
+### Split files result.csv to to collection level .csv files (~ 1:31)
 
 ```
 cd ~/git/europeana-qa-r
 rm resultXX
 ln -s ~/git/europeana-qa-spark/resultXX.csv resultXX.csv
-nano split.php
-nohup php split.php &&
+nohup php split.php resultXX.csv &
 ```
 
 ### Run collection level analysis (~ 17:17)
@@ -144,4 +143,4 @@ cd ~/git/europeana-qa-spark/scripts
 php lang-group-to-json.php 
 ```
 
-Total time: 31 hours 59 minutes.
+Total time: 33 hours 30 minutes.
