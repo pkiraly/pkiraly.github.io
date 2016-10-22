@@ -55,11 +55,8 @@ hdfs dfs -put resultXX.csv /join
 ### Run top level frequency and cardinality analyses (~ 0:08)
 
 ```
-cd ~/git/europeana-qa-spark
-hdfs dfs -put resultXX.csv /join
-
 cd ~/git/europeana-qa-spark/scala
-nohup ./cardinality.sh resultXX.csv > cardinality.log
+nohup ./cardinality.sh resultXX.csv > cardinality.log &
 ```
 
 ### Convert top level cardinality csv to json
