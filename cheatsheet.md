@@ -140,4 +140,60 @@ cd ~/git/europeana-qa-spark/scripts
 php lang-group-to-json.php 
 ```
 
+## Measurement of multilingual saturation
+
+### Run record level multilingual saturation (~ )
+
+```
+cd ~/git/europeana-qa-spark
+nohup ./run-all-language-saturation resultXX-language-saturation.csv > nohup-resultXX-language-saturation.log &
+```
+
+### Upload result file to HDFS (~ 0:16)
+
+```
+cd ~/git/europeana-qa-spark
+hdfs dfs -put resultXX-language-saturation.csv /join
+```
+
+### Top level language saturation measurement (~ 0:26)
+
+```
+cd ~/git/europeana-qa-spark/scala
+nohup ./saturation.sh result17-language-saturation.csv > result17-language-saturation.log &
+```
+
+### Split files resultXX-language-saturation.csv to to collection level .csv files (~ 1:31)
+
+```
+cd ~/git/europeana-qa-r
+rm resultXX
+ln -s ~/git/europeana-qa-spark/resultXX-language-saturation.csv resultXX-language-saturation.csv
+nohup php split-saturation.php resultXX-language-saturation.csv &
+```
+
+### Collection level language saturation measurement (~ 0:46)
+
+```
+cd ~/git/europeana-qa-r
+./prepare.sh saturation
+crontab -e
+  */1 * * * * cd /path/to/europeana-qa-r && php saturation-launcher.php >> launch-report.log
+```
+
+### Convert top level language results to JSON file
+
+```
+cd ~/git/europeana-qa-spark/scripts
+php languages-csv2json.php
+cp languages.json ~/git/europeana-qa-r/json2/
+```
+
+### Convert collection level language results to JSON files
+
+```
+cd ~/git/europeana-qa-spark/scripts
+php lang-group-to-json.php 
+```
+
 Total time: 33 hours 30 minutes.
