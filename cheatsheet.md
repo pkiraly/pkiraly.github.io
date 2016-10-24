@@ -142,7 +142,7 @@ php lang-group-to-json.php
 
 ## Measurement of multilingual saturation
 
-### Run record level multilingual saturation (~ )
+### Run record level multilingual saturation (~ 8:41)
 
 ```
 cd ~/git/europeana-qa-spark
@@ -156,7 +156,7 @@ cd ~/git/europeana-qa-spark
 hdfs dfs -put resultXX-language-saturation.csv /join
 ```
 
-### Top level language saturation measurement (~ 0:26)
+### Top level language saturation measurement (~ 0:8)
 
 ```
 cd ~/git/europeana-qa-spark/scala
@@ -172,7 +172,7 @@ ln -s ~/git/europeana-qa-spark/resultXX-language-saturation.csv resultXX-languag
 nohup php split-saturation.php resultXX-language-saturation.csv &
 ```
 
-### Collection level language saturation measurement (~ 0:46)
+### Collection level language saturation measurement (~ 7:29)
 
 ```
 cd ~/git/europeana-qa-r
