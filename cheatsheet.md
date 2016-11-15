@@ -146,33 +146,33 @@ php lang-group-to-json.php
 
 ```
 cd ~/git/europeana-qa-spark
-nohup ./run-all-language-saturation resultXX-language-saturation.csv > nohup-resultXX-language-saturation.log &
+nohup ./run-all-multilingual-saturation resultXX-multilingual-saturation.csv > nohup-resultXX-multilingual-saturation.log &
 ```
 
 ### Upload result file to HDFS (~ 0:16)
 
 ```
 cd ~/git/europeana-qa-spark
-hdfs dfs -put resultXX-language-saturation.csv /join
+hdfs dfs -put resultXX-multilingual-saturation.csv /join
 ```
 
-### Top level language saturation measurement (~ 0:8)
+### Top level multilingual saturation measurement (~ 0:8)
 
 ```
 cd ~/git/europeana-qa-spark/scala
-nohup ./saturation.sh result17-language-saturation.csv > result17-language-saturation.log &
+nohup ./saturation.sh resultXX-multilingual-saturation.csv > resultXX-multilingual-saturation.log &
 ```
 
-### Split files resultXX-language-saturation.csv to to collection level .csv files (~ 1:31)
+### Split files resultXX-multilingual-saturation.csv to to collection level .csv files (~ 1:31)
 
 ```
 cd ~/git/europeana-qa-r
 rm resultXX
-ln -s ~/git/europeana-qa-spark/resultXX-language-saturation.csv resultXX-language-saturation.csv
-nohup php split-saturation.php resultXX-language-saturation.csv &
+ln -s ~/git/europeana-qa-spark/resultXX-multilingual-saturation.csv resultXX-multilingual-saturation.csv
+nohup php split-saturation.php resultXX-multilingual-saturation.csv &
 ```
 
-### Collection level language saturation measurement (~ 7:29)
+### Collection level multilingual saturation measurement (~ 7:29)
 
 ```
 cd ~/git/europeana-qa-r

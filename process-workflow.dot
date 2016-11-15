@@ -1,0 +1,86 @@
+# run:
+#   dot process-workflow.dot -Tpng -o process-workflow.png
+# # # # #
+
+digraph G {
+  graph [fontname = "helvetica"];
+  node [fontname = "helvetica"];
+  edge [fontname = "helvetica"];
+
+  subgraph cluster0 {
+    label="Hadoop File System"
+    fontname="Arial"
+    inputJson
+  }
+
+  subgraph cluster1 {
+    label="measurement of main features"
+    fontname="Arial"
+    inputJson -> MainRecordLevelMeasure -> resultXcsv
+    # resultXcsv -> inputJson
+    resultXcsv -> SplitToCollections -> dXcXcsv -> CollectionLevelMeasure -> dXcXjson
+    resultXcsv -> CardinalityTopLevelMeasure
+    CardinalityTopLevelMeasure -> cardinalityTopCsv -> CardinalityTop2Json -> cardinalityTopJson
+    CardinalityTopLevelMeasure -> frequencyTopCsv -> FrequencyTop2Json -> frequencyTopJson
+  }
+
+  subgraph cluster2 {
+    label="measurement of language features"
+    fontname="Arial"
+    inputJson -> LanguageRecordLevelMeasure -> resultXlanguageCsv
+    # resultXlanguageCsv -> inputJson
+    resultXlanguageCsv -> LanguageTopLevelMeasure -> resultXlanguageTopCsv -> LanguageTop2json -> resultXlanguageTopJson
+    resultXlanguageCsv -> LanguageCollectionLevelMeasure -> resultXlanguageGroupCsv -> LanguageCollection2json -> resultXlanguageGroupJson
+  }
+
+  subgraph cluster3 {
+    label="measurement of multilingual saturation"
+    fontname="Arial"
+    inputJson -> MultilingualSaturationRecordLevelMeasure -> resultXmultilingualSaturationCsv
+    resultXmultilingualSaturationCsv -> SplitMultilingualSaturationToCollections -> dXcXMultilingualSaturationcsv -> CollectionLevelMultilingualSaturationMeasure -> dXcXMultilingualSaturationjson
+  }
+
+  subgraph cluster4 {
+    label="web interface"
+    fontname="Arial"
+    dXcXjson -> web
+    cardinalityTopJson -> web
+    frequencyTopJson -> web
+    resultXlanguageGroupJson -> web
+    resultXlanguageTopJson -> web
+    dXcXMultilingualSaturationjson -> web
+  }
+
+  MainRecordLevelMeasure [label="Record level measurement\n(Spark Java)", shape="box", style="filled", fillcolor="cornflowerblue", fontcolor="white"];
+  LanguageRecordLevelMeasure [label="Record level measurement\n(Spark Java)", shape="box", style="filled", fillcolor="cornflowerblue", fontcolor="white"];
+  MultilingualSaturationRecordLevelMeasure [label="Record level measurement\n(Spark Java)", shape="box", style="filled", fillcolor="cornflowerblue", fontcolor="white"];
+  SplitToCollections [label="Split to collections\n(PHP)", shape="box", style="filled", fillcolor="cornflowerblue", fontcolor="white"];
+  SplitMultilingualSaturationToCollections [label="Split to collections\n(PHP)", shape="box", style="filled", fillcolor="cornflowerblue", fontcolor="white"];
+  CollectionLevelMeasure [label="Collection level\nmeasurement (R)", shape="box", style="filled", fillcolor="cornflowerblue", fontcolor="white"];
+  CollectionLevelMultilingualSaturationMeasure [label="Collection level\nmeasurement (R)", shape="box", style="filled", fillcolor="cornflowerblue", fontcolor="white"];
+  LanguageTopLevelMeasure [label="Top level measurement\n(Spark Scala)", shape="box", style="filled", fillcolor="cornflowerblue", fontcolor="white"];
+  LanguageCollectionLevelMeasure [label="Collection level measurement\n(Spark Scala)", shape="box", style="filled", fillcolor="cornflowerblue", fontcolor="white"];
+  CardinalityTopLevelMeasure [label="Top level cardinality and frequency\n(Spark Scala)", shape="box", style="filled", fillcolor="cornflowerblue", fontcolor="white"];
+  CardinalityTop2Json [label="convert to .json\n(PHP)", shape="box", style="filled", fillcolor="cornflowerblue", fontcolor="white"];
+  FrequencyTop2Json [label="convert to .json\n(PHP)", shape="box", style="filled", fillcolor="cornflowerblue", fontcolor="white"];
+  LanguageTop2json [label="convert to .json\n(PHP)", shape="box", style="filled", fillcolor="cornflowerblue", fontcolor="white"]
+  LanguageCollection2json [label="convert to .json\n(PHP)", shape="box", style="filled", fillcolor="cornflowerblue", fontcolor="white"]
+
+  inputJson [label="input JSON files", shape="tab"]
+  resultXcsv [label="resultX.csv", shape="tab"]
+  dXcXcsv [label="cX.csv\ndX.csv", shape="tab"]
+  dXcXMultilingualSaturationcsv [label="saturation/cX.csv\nsaturation/dX.csv", shape="tab"]
+  dXcXjson [label="cX.json, ...\ndX.json, ...", shape="tab"]
+  dXcXMultilingualSaturationjson [label="cX.saturation.json, ...\ndX.saturation.json, ...", shape="tab"]
+  resultXlanguageCsv [label="resultX-language.csv", shape="tab"]
+  resultXmultilingualSaturationCsv [label="resultX-multilingual-saturation.csv", shape="tab"]
+  resultXlanguageGroupJson [label="dX.languages.json\ncX.languages.json", shape="tab"]
+  resultXlanguageTopJson [label="languages.json", shape="tab"]
+  resultXlanguageTopCsv [label="languages.csv", shape="tab"]
+  resultXlanguageGroupCsv [label="languages-per-collections-groupped.txt", shape="tab"]
+
+  cardinalityTopCsv [label="cardinality.csv", shape="tab"]
+  frequencyTopCsv [label="frequency.csv", shape="tab"]
+  cardinalityTopJson [label="cardinality.json", shape="tab"]
+  frequencyTopJson [label="frequency.json", shape="tab"]
+}
