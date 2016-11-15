@@ -146,7 +146,7 @@ php lang-group-to-json.php
 
 ```
 cd ~/git/europeana-qa-spark
-nohup ./run-all-multilingual-saturation resultXX-multilingual-saturation.csv > nohup-resultXX-multilingual-saturation.log &
+nohup ./run-all-multilingual-saturation resultXX-multilingual-saturation.csv > multilingual-saturation.log &
 ```
 
 ### Upload result file to HDFS (~ 0:16)
