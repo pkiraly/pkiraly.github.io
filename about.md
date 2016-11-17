@@ -16,11 +16,11 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 
 * Harvester client: [https://github.com/pkiraly/europeana-oai-pmh-client](https://github.com/pkiraly/europeana-oai-pmh-client)
 * General Metadata QA API: 
- * Source repository: [https://github.com/pkiraly/metadata-qa-api](https://github.com/pkiraly/metadata-qa-api)
- * Maven artifact: [http://mvnrepository.com/artifact/de.gwdg.metadataqa/metadata-qa-api](http://mvnrepository.com/artifact/de.gwdg.metadataqa/metadata-qa-api)
+** Source repository: [https://github.com/pkiraly/metadata-qa-api](https://github.com/pkiraly/metadata-qa-api)
+** Maven artifact: [http://mvnrepository.com/artifact/de.gwdg.metadataqa/metadata-qa-api](http://mvnrepository.com/artifact/de.gwdg.metadataqa/metadata-qa-api)
 * Europeana QA API: 
- * Source repository: [https://github.com/pkiraly/europeana-qa-api](https://github.com/pkiraly/europeana-qa-api)
- * Maven artifact: [http://mvnrepository.com/artifact/de.gwdg.metadataqa/europeana-qa-api](http://mvnrepository.com/artifact/de.gwdg.metadataqa/europeana-qa-api)
+** Source repository: [https://github.com/pkiraly/europeana-qa-api](https://github.com/pkiraly/europeana-qa-api)
+** Maven artifact: [http://mvnrepository.com/artifact/de.gwdg.metadataqa/europeana-qa-api](http://mvnrepository.com/artifact/de.gwdg.metadataqa/europeana-qa-api)
 * Measurement with Spark: [https://github.com/pkiraly/europeana-qa-spark](https://github.com/pkiraly/europeana-qa-spark)
 * Analysis with R: [https://github.com/pkiraly/europeana-qa-r](https://github.com/pkiraly/europeana-qa-r)
 * Web interface: [https://github.com/pkiraly/europeana-qa-web](https://github.com/pkiraly/europeana-qa-web)
