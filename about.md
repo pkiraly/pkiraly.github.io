@@ -15,12 +15,19 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 ### <a name="source-codes"></a> Source codes 
 
 * Harvester client: [https://github.com/pkiraly/europeana-oai-pmh-client](https://github.com/pkiraly/europeana-oai-pmh-client)
+* General Metadata QA API: 
+ * Source repository: [https://github.com/pkiraly/metadata-qa-api](https://github.com/pkiraly/metadata-qa-api)
+ * Maven artifact: [http://mvnrepository.com/artifact/de.gwdg.metadataqa/metadata-qa-api](http://mvnrepository.com/artifact/de.gwdg.metadataqa/metadata-qa-api)
+* Europeana QA API: 
+ * Source repository: [https://github.com/pkiraly/europeana-qa-api](https://github.com/pkiraly/europeana-qa-api)
+ * Maven artifact: [http://mvnrepository.com/artifact/de.gwdg.metadataqa/europeana-qa-api](http://mvnrepository.com/artifact/de.gwdg.metadataqa/europeana-qa-api)
 * Measurement with Spark: [https://github.com/pkiraly/europeana-qa-spark](https://github.com/pkiraly/europeana-qa-spark)
-* Measurement with Hadoop: [https://github.com/pkiraly/europeana-qa](https://github.com/pkiraly/europeana-qa)
 * Analysis with R: [https://github.com/pkiraly/europeana-qa-r](https://github.com/pkiraly/europeana-qa-r)
 * Web interface: [https://github.com/pkiraly/europeana-qa-web](https://github.com/pkiraly/europeana-qa-web)
+* REST and command line interface: [https://github.com/pkiraly/europeana-qa-client](https://github.com/pkiraly/europeana-qa-client)
 * Solr connector: [https://github.com/pkiraly/europeana-qa-solr](https://github.com/pkiraly/europeana-qa-solr)
 * Cassandra connector: [https://github.com/pkiraly/europeana-qa-cassandra](https://github.com/pkiraly/europeana-qa-cassandra)
+* Measurement with Hadoop: [https://github.com/pkiraly/europeana-qa](https://github.com/pkiraly/europeana-qa)
 
 ## About me
 My name is Péter Király, and I am a software developer, analyst. My main interests are publishing and searching large text corporas in the web, and the new ways of web presence of cultural heritage (mainly library and archival materials with special focus on semantic web technologies). You can reach me via the methods listed in the [contact page](/contact).
