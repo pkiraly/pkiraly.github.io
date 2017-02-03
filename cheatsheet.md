@@ -38,7 +38,7 @@ hdfs dfs -put /path/to/sources/*.json /europeana
 
 ## Measurement of main features
 
-### Run record level measurement (~ 7:40)
+### Run record level measurement (~ 3:13)
 
 ```
 cd ~/git/europeana-qa-spark
@@ -196,4 +196,4 @@ cd ~/git/europeana-qa-spark/scripts
 php lang-group-to-json.php 
 ```
 
-Total time: 33 hours 30 minutes.
+Total time: 29 hours 3 minutes.
