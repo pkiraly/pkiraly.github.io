@@ -14,7 +14,7 @@ In the last months we had opportunity to present our research project in differe
 
 14 March: [15th International Symposium of Information Science](http://isi2017.ib.hu-berlin.de/index.html) (Berlin, DE)<br>
 Juliane Stiller - Péter Király, Multilinguality of Metadata. Measuring the Multilingual Degree of Europeana‘s Metadata.<br>
-[paper](https://www.researchgate.net/publication/314879735_Multilinguality_of_Metadata_Measuring_the_Multilingual_Degree_of_Europeana%27s_Metadata)<br>
+[paper](https://www.researchgate.net/publication/314879735_Multilinguality_of_Metadata_Measuring_the_Multilingual_Degree_of_Europeana%27s_Metadata) was published in <em>Everything Changes, Everything Stays the Same? Understanding Information Spaces. Proceedings of the 15th International Symposium of Information Science (ISI 2017)</em> (Schriften zur Informationswissenschaft), M. Gäde, V. Trkulja, and V. Petras (Eds.). Verlag Werner Hülsbusch, pp. 164–176.<br>
 [slides](https://www.slideshare.net/pkiraly/multilinguality-of-metadata-measuring-the-multilingual-degree-of-europeanas-metadata)
 
 23 March: [#dariahTeach Open Resources Conference](http://dariah.eu/teach/index.php/dariahteach-open-resources-conference/) (Lausanne, CH)<br>
@@ -31,6 +31,7 @@ Péter Király, Measuring Metadata Quality and the Europeana use case. (Keynote 
 
 2 June: [DATeCH - Digital Access to Textual Cultural Heritage](http://ddays.digitisation.eu/datech-2017/) (Göttingen, DE)<br>
 Péter Király, Towards an extensible measurement of metadata quality.<br>
+Paper was published in <em>Second International Conference on Digital Access to Textual Cultural Heritage. Conference Proceedings</em> Göttingen, June 1-2, 2017. Published by ACM. ISBN 978-1-4503-5265-9. pp. 111-115.<br>
 [slides](https://www.researchgate.net/publication/317597699_Towards_an_extensible_measurement_of_metadata_quality)
 
 8 June: [41th ELAG conference, 2017](http://elag2017.org/) (Athens, GR)<br>
