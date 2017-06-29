@@ -26,7 +26,7 @@ Juliane Stiller - Péter Király, Multilinguality of Metadata. Measuring the Mul
 [slides](https://www.researchgate.net/publication/317597832_Multilinguality_of_Metadata_Measuring_the_Multilingual_Degree_of_Europeana%27s_Metadata)
 
 29 May: [4th Linked Data Quality Workshop](http://ldq.semanticmultimedia.org/) (Portorož, SL)<br>
-Péter Király, Measuring Metadata Quality and the Europeana use case.<br>
+Péter Király, Measuring Metadata Quality and the Europeana use case. (Keynote speech)<br>
 [slides](https://www.researchgate.net/publication/317597840_Measuring_Metadata_Quality_and_the_Europeana_use_case)
 
 2 June: [DATeCH - Digital Access to Textual Cultural Heritage](http://ddays.digitisation.eu/datech-2017/) (Göttingen, DE)<br>
