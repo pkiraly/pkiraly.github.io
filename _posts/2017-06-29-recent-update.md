@@ -31,8 +31,9 @@ Péter Király, Measuring Metadata Quality and the Europeana use case. (Keynote 
 
 2 June: [DATeCH - Digital Access to Textual Cultural Heritage](http://ddays.digitisation.eu/datech-2017/) (Göttingen, DE)<br>
 Péter Király, Towards an extensible measurement of metadata quality.<br>
-Paper was published in <em>Second International Conference on Digital Access to Textual Cultural Heritage. Conference Proceedings</em> Göttingen, June 1-2, 2017. Published by ACM. ISBN 978-1-4503-5265-9. pp. 111-115.<br>
-[slides](https://www.researchgate.net/publication/317597699_Towards_an_extensible_measurement_of_metadata_quality)
+Paper was published in <em>Second International Conference on Digital Access to Textual Cultural Heritage. Conference Proceedings</em> Göttingen, June 1-2, 2017. Published by ACM. ISBN 978-1-4503-5265-9. pp. 111-115. DOI [10.1145/3078081.3078109](https://doi.org/10.1145/3078081.3078109)<br/>
+[slides](https://www.researchgate.net/publication/317597699_Towards_an_extensible_measurement_of_metadata_quality)<br/>
+[paper](https://doi.org/10.1145/3078081.3078109)
 
 8 June: [41th ELAG conference, 2017](http://elag2017.org/) (Athens, GR)<br>
 Valentine Charles - Péter Király, “Nothing is created, nothing is lost, everything changes” - measuring and visualizing data quality in Europeana.<br>
