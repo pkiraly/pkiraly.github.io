@@ -31,7 +31,10 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 
 ## Publications
 
-Péter Király: Measuring completeness as metadata quality metric in Europeana. In: Digital Humanities 2017. Conference Abstracts. McGill University & Université de Montréal, Montréal, Canada, August 8–11, 2017. Prepared by Rhian Lewis and the DH2017 Local Organizers: Cecily Raynor, Dominic Forest, Michael Sinatra and Stéfan Sinclair. pp. 291-293. URL (whole book): https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf, URL (the abstract): https://dh2017.adho.org/abstracts/458/458.pdf.
+Péter Király: *Towards an extensible measurement of metadata quality* in *Second International Conference on Digital Access to Textual Cultural Heritage.* Conference Proceedings. Göttingen, June 1-2, 2017. Published by ACM. ISBN 978-1-4503-5265-9. pp. 111-115. DOI 10.1145/3078081.3078109
+URL: http://dl.acm.org/citation.cfm?doid=3078081.3078109
+
+Péter Király: *Measuring completeness as metadata quality metric in Europeana.* in *Digital Humanities 2017. Conference Abstracts.* McGill University & Université de Montréal, Montréal, Canada, August 8–11, 2017. Prepared by Rhian Lewis and the DH2017 Local Organizers: Cecily Raynor, Dominic Forest, Michael Sinatra and Stéfan Sinclair. pp. 291-293. URL (whole book): https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf, URL (the abstract): https://dh2017.adho.org/abstracts/458/458.pdf.
 
 ## About me
 My name is Péter Király, and I am a software developer, analyst. My main interests are publishing and searching large text corporas in the web, and the new ways of web presence of cultural heritage (mainly library and archival materials with special focus on semantic web technologies). You can reach me via the methods listed in the [contact page](/contact).
