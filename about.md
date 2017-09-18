@@ -29,5 +29,9 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 * Cassandra connector: [https://github.com/pkiraly/europeana-qa-cassandra](https://github.com/pkiraly/europeana-qa-cassandra)
 * Measurement with Hadoop: [https://github.com/pkiraly/europeana-qa](https://github.com/pkiraly/europeana-qa)
 
+## Publications
+
+Péter Király: Measuring completeness as metadata quality metric in Europeana. In: Digital Humanities 2017. Conference Abstracts. McGill University & Université de Montréal, Montréal, Canada, August 8–11, 2017. Prepared by Rhian Lewis and the DH2017 Local Organizers: Cecily Raynor, Dominic Forest, Michael Sinatra and Stéfan Sinclair. pp. 291-293. URL (whole book): https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf, URL (the abstract): https://dh2017.adho.org/abstracts/458/458.pdf.
+
 ## About me
 My name is Péter Király, and I am a software developer, analyst. My main interests are publishing and searching large text corporas in the web, and the new ways of web presence of cultural heritage (mainly library and archival materials with special focus on semantic web technologies). You can reach me via the methods listed in the [contact page](/contact).
