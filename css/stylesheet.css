@@ -185,7 +185,9 @@ table#mapping td.marc {
 }
 
 table#mapping td.mq {
-  width: 30%;
+  width: 300px;
+  max-width: 300px;
+  overflow: hidden;
 }
 
 table#mapping td.marc, table#mapping td.mq {
