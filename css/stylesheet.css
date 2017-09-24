@@ -179,3 +179,15 @@ footer {
 table#mapping td {
   font-size: 80%;
 }
+
+table#mapping td.marc {
+  width: 10%;
+}
+
+table#mapping td.mq {
+  width: 30%;
+}
+
+table#mapping td.marc, table#mapping td.mq {
+  font-family: sans-serif;
+}
