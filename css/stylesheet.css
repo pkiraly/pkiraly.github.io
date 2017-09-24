@@ -175,3 +175,7 @@ footer {
     margin: 0 25% 40px;
     width: 50%;
 }
+
+table#mapping td {
+  font-size: 80%;
+}
