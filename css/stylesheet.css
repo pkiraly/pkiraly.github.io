@@ -192,4 +192,5 @@ table#mapping td.mq {
 
 table#mapping td.marc, table#mapping td.mq {
   font-family: sans-serif;
+  font-size: 10pt;
 }
