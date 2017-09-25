@@ -1,10 +1,10 @@
 body {
-	color: #565656;
-	background-color: #FFFFFF;
-	font-size: 2em;
-	/* font-family: 'Lora', 'Times New Roman', serif; */
-	font-family: "CMS","Droid Serif",Georgia,Times,serif;
-	text-align: center;
+  color: #565656;
+  background-color: #FFFFFF;
+  font-size: 2em;
+  /* font-family: 'Lora', 'Times New Roman', serif; */
+  font-family: "CMS","Droid Serif",Georgia,Times,serif;
+  text-align: center;
 }
 
 p {
@@ -13,104 +13,104 @@ p {
 }
 
 header.blog-header {
-	text-align: center;
+  text-align: center;
 }
 
 header.blog-header hr {
-	border-color: #eee;
-	width: 80%;
-	max-width: 700px;
-	margin: 3em auto;
+  border-color: #eee;
+  width: 80%;
+  max-width: 700px;
+  margin: 3em auto;
 }
 
 a.logo {
-	display: block;
-	width: 120px;
-	height: 120px;
-	border-radius: 10px;
-	background: #FFFFFF url("../img/pkiraly_120.jpg");
-	margin: 3em auto 2em auto;
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  background: #FFFFFF url("../img/pkiraly_120.jpg");
+  margin: 3em auto 2em auto;
 }
 
 h1.blog-title {
-	font-weight: bold;
-	font-size: 1.5em;
-	width: 80%;
-	max-width: 320px;
-	margin: 0 auto;
-	line-height: 1.35em;
-	font-family: "Viga", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  width: 80%;
+  max-width: 320px;
+  margin: 0 auto;
+  line-height: 1.35em;
+  font-family: "Viga", Arial, sans-serif;
 }
 
 h1.post-title {
-	font-weight: bold;
-	font-size: 1.5em;
-	width: 80%;
-	max-width: 500px;
-	margin: 0 auto;
-	line-height: 1.35em;
-	font-family: "Viga", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.35em;
+  font-family: "Viga", Arial, sans-serif;
 }
 
 h2.author {
-	font-size: .9em;
-	font-style: italic;
-	color: #676767;
-	line-height: 2em;
-	margin: 0 auto;
+  font-size: .9em;
+  font-style: italic;
+  color: #676767;
+  line-height: 2em;
+  margin: 0 auto;
 }
 
 .front-post-list {
-	text-align: left;
-	width: 80%;
-	max-width: 700px;
-	margin: 0 auto;
+  text-align: left;
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .front-post-list article {
-	border-bottom: 1px solid #eee;
-	padding-bottom: 2em;
-	margin-bottom: 3.5em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 2em;
+  margin-bottom: 3.5em;
 }
 
 .front-post-list article h2,
 .post-content article h2 {
-	font-family: "Viga", Verdana, sans-serif;
-	font-size: 1.15em;
-	font-weight: bold;
-	line-height: 150%;
+  font-family: "Viga", Verdana, sans-serif;
+  font-size: 1.15em;
+  font-weight: bold;
+  line-height: 150%;
 }
 
 .front-post-list article h2 a {
-	color: #454545;
+  color: #454545;
 }
 
 .front-post-list article h2 a:hover {
-	color: #337ab7;
-	text-decoration: none;
+  color: #337ab7;
+  text-decoration: none;
 }
 
 .post-content {
-	text-align: left;
-	width: 80%;
-	max-width: 700px;
-	margin: 0 auto;
+  text-align: left;
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .post-content article {
-	border-bottom: 1px solid #eee;
-	padding-bottom: 2em;
-	margin-bottom: 3.5em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 2em;
+  margin-bottom: 3.5em;
 }
 
 .post-content article a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .post-content article img {
-	width: 100%;
-	max-width: 700px;
-	height: auto;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
 }
 
 .post-content article img.real {
@@ -119,61 +119,61 @@ h2.author {
 
 .post-content article img.big {
 	width: 160%;
-	max-width: 1120px;
-	margin: auto -30%;
-	height: auto;
+  max-width: 1120px;
+  margin: auto -30%;
+  height: auto;
 }
 
 .post-content article blockquote {
-	font-size: 100%;
-	font-style: italic;
-	line-height: 150%;
+  font-size: 100%;
+  font-style: italic;
+  line-height: 150%;
 }
 
 .post-content article blockquote.big {
-	width: 160%;
-	max-width: 1120px;
-	margin: auto -30%;
-	font-size: 170%;
-	text-align: center;
-	font-style: italic;
-	border: none;
-	line-height: 150%;
+  width: 160%;
+  max-width: 1120px;
+  margin: auto -30%;
+  font-size: 170%;
+  text-align: center;
+  font-style: italic;
+  border: none;
+  line-height: 150%;
 }
 
 .post-content article .share {
-	font-family: "Viga", Verdana, sans-serif;
-	font-size: 75%;
+  font-family: "Viga", Verdana, sans-serif;
+  font-size: 75%;
 }
 
 footer {
-	/* background: #dedede; */
-	color: #454545;
-	font-size: .6em;
-	font-family: "Viga", Verdana, sans-serif;
+  /* background: #dedede; */
+  color: #454545;
+  font-size: .6em;
+  font-family: "Viga", Verdana, sans-serif;
 }
 
 @media all and (max-width: 1200px) {
-	.post-content article img.big {
-		width: 120%;
-		margin: auto -10%;
-		height: auto;
-	}
-	
-	.post-content article blockquote.big {
-		width: 100%;
-		margin: auto;
-		font-size: 120%;
-		text-align: center;
-		font-style: italic;
-		border: none;
-		line-height: 150%;
-	}
+  .post-content article img.big {
+    width: 120%;
+    margin: auto -10%;
+    height: auto;
+  }
+
+  .post-content article blockquote.big {
+    width: 100%;
+    margin: auto;
+    font-size: 120%;
+    text-align: center;
+    font-style: italic;
+    border: none;
+    line-height: 150%;
+  }
 }
 
 #disqus_thread {
-    margin: 0 25% 40px;
-    width: 50%;
+  margin: 0 25% 40px;
+  width: 50%;
 }
 
 table#mapping td {
@@ -189,6 +189,7 @@ table#mapping td.mq {
   max-width: 300px;
   /* overflow: hidden; */
   word-wrap: break-word;
+  word-break: break-all;
 }
 
 table#mapping td.marc, table#mapping td.mq {
