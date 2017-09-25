@@ -187,7 +187,8 @@ table#mapping td.marc {
 table#mapping td.mq {
   width: 300px;
   max-width: 300px;
-  overflow: hidden;
+  /* overflow: hidden; */
+  word-wrap: break-word;
 }
 
 table#mapping td.marc, table#mapping td.mq {
