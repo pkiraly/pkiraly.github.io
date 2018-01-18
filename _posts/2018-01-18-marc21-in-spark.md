@@ -40,7 +40,7 @@ done
 I don't describle the process of the second step, it took an hour or two to adapt the code to work in Spark environment.
 From the user's perspect the important thing is to know how to run it.
 
-## Runniing in a local file system
+## Running in a local file system
 
 1) Make sure `HADOOP_CONF_DIR` is not set. If it is set Spark would like to communicate with Hadoop File System, 
 and it is not running, the whole process will stop.
@@ -76,7 +76,7 @@ The output is a directory, you can extract the results into a single file with t
 cat output/part-* > output.csv
 ```
 
-## Running with Hadoop
+## Running it with Hadoop
 
 1) Upload files to Hadoop file system:
 
