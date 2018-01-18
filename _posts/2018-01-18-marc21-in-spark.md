@@ -8,7 +8,7 @@ customjs:
  - http://pkiraly.github.io/js/table.js
 ---
 
-So far I have worked with MARC21 files in a standalone manner. Now it is time to run MARC analysis in Apache Spark.
+So far I have worked with MARC21 files in a standalone manner. Now it is time to run MARC analysis in Apache Spark. Here I describe only the first steps, the tool is not ready to run all the analysis which is possible with the standalone manner.
 
 <!-- more --> 
 
@@ -41,10 +41,59 @@ I don't describle the process of the second step, it took an hour or two to adap
 From the user's perspect the important thing is to know how to run it:
 
 ```bash
+# this line needs if you 
+unset HADOOP_CONF_DIR
 spark-submit \
   --class de.gwdg.metadataqa.marc.cli.spark.ParallelValidator \
   --master local[*] \
   target/metadata-qa-marc-0.2-SNAPSHOT-jar-with-dependencies.jar \
   /path/to/\*-line-separated.mrc \
-  output.txt
+  output
+```
+
+It is important to escape asteriks with the backslash character (`\*`), this guarantees, that the shell will 
+not substitutes that line with the names of all the files matches the pattern.
+
+The output is a directory, you can extract the results into one file with the following command:
+
+```bash
+cat output/part-* > output.csv
+```
+
+## Running with Hadoop
+
+1) Upload files to Hadoop file system:
+
+```bash
+hdfs dfs -put /path/to/\*-line-separated.mrc /marc
+```
+This will upload the files into the /marc directory of Hadoop FS.
+
+2) Make sure that `HADOOP_CONF_DIR` is set (we unset it in the local file system example):
+
+```bash
+echo $HADOOP_CONF_DIR
+```
+if it return empty line, it means it is not set, so set it:
+
+```bash
+export HADOOP_CONF_DIR=$HADOOP_INSTALL/etc/hadoop
+```
+
+3) Run analysis!
+
+```bash
+unset 
+spark-submit \
+  --class de.gwdg.metadataqa.marc.cli.spark.ParallelValidator \
+  --master local[*] \
+  target/metadata-qa-marc-0.2-SNAPSHOT-jar-with-dependencies.jar \
+  hdfs://localhost:54310/marc21/*-line-separated.mrc \
+  hdfs://localhost:54310/output \
+```
+
+4) Retrieve output:
+
+```bash
+hdfs dfs -getmerge /marc21/* output.csv
 ```
