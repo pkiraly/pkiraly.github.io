@@ -38,11 +38,25 @@ done
 ```
 
 I don't describle the process of the second step, it took an hour or two to adapt the code to work in Spark environment.
-From the user's perspect the important thing is to know how to run it:
+From the user's perspect the important thing is to know how to run it.
+
+## Runniing in a local file system
+
+1) Make sure `HADOOP_CONF_DIR` is not set. If it is set Spark would like to communicate with Hadoop File System, 
+and it is not running, the whole process will stop.
 
 ```bash
-# this line needs if you 
+echo $HADOOP_CONF_DIR
+```
+if it returns anything else than an empty line, unset it:
+
+```bash
 unset HADOOP_CONF_DIR
+```
+
+2) Run analysis!
+
+```bash
 spark-submit \
   --class de.gwdg.metadataqa.marc.cli.spark.ParallelValidator \
   --master local[*] \
@@ -54,7 +68,9 @@ spark-submit \
 It is important to escape asteriks with the backslash character (`\*`), this guarantees, that the shell will 
 not substitutes that line with the names of all the files matches the pattern.
 
-The output is a directory, you can extract the results into one file with the following command:
+3) Retrieve output:
+
+The output is a directory, you can extract the results into a single file with the following command:
 
 ```bash
 cat output/part-* > output.csv
