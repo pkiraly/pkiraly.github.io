@@ -61,9 +61,13 @@ spark-submit \
   --class de.gwdg.metadataqa.marc.cli.spark.ParallelValidator \
   --master local[*] \
   target/metadata-qa-marc-0.2-SNAPSHOT-jar-with-dependencies.jar \
+  --format "tab-separated" \
+  --fileName output \
+  --marcVersion MARC21 \
   /path/to/\*-line-separated.mrc \
-  output
 ```
+
+This command has two parts: the first 3 arguments are for Apache Spark, they are the class to run, the number of cores include in the process (* means all), and the jar file which contains the application. The rest are the standard arguments of the MARC analyzer application.
 
 It is important to escape asteriks with the backslash character (`\*`), this guarantees, that the shell will 
 not substitutes that line with the names of all the files matches the pattern.
@@ -104,8 +108,10 @@ spark-submit \
   --class de.gwdg.metadataqa.marc.cli.spark.ParallelValidator \
   --master local[*] \
   target/metadata-qa-marc-0.2-SNAPSHOT-jar-with-dependencies.jar \
+  --format "tab-separated" \
+  --fileName hdfs://localhost:54310/output \
+  --marcVersion MARC21 \
   hdfs://localhost:54310/marc21/*-line-separated.mrc \
-  hdfs://localhost:54310/output \
 ```
 
 4) Retrieve output:
