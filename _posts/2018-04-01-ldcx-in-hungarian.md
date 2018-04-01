@@ -11,4 +11,3 @@ customjs:
 This report is about the LDCX 2018 written in Hungarian [here](http://pkiraly.github.io/ldcx-beszamolo.pdf). English version comes soon.
 
 <!-- more -->
-
