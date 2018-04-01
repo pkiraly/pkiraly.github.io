@@ -8,6 +8,6 @@ customjs:
  - http://pkiraly.github.io/js/table.js
 ---
 
-This report is about the LDCX 2018 written in Hungarian [here](http://pkiraly.github.io/ldcx-beszamolo.pdf). English version comes soon.
+Thanks to Christina Harlow I had a privilege to participate in the Stanford University Library's yearly developer unconference, LDCX 2018. I wrote a [report](http://pkiraly.github.io/ldcx-beszamolo.pdf) about it in Hungarian. English version comes soon.
 
 <!-- more -->
