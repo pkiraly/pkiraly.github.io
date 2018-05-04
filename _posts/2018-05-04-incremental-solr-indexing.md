@@ -12,25 +12,28 @@ In the Metadata Quality Assurance Framework as a first step we create some CSV f
 The structure of the CSV (in case of Europeana) looks like this:
 
 ```
-[record ID],[dataset ID],[data provider ID],metric1,metric2,...metricN
-[record ID],[dataset ID],[data provider ID],metric1,metric2,...metricN
+[record ID],[dataset ID],[data provider ID],score1,score2,...scoreN
+[record ID],[dataset ID],[data provider ID],score1,score2,...scoreN
 ...
 ```
+where each score belong to a field- or record-level quality metric. There are several measurements (such as frequency
+and cardinatity of fields, multilinguality, language distribution, metadata anti-pattern detection, uniqueness), 
+each produce such CSV files. 
+
+Once we have them we run statistical analyses on these files to get a collection level overview 
+and we present the result in a web UI. From the web UI it is 
+not easy to go back to the records, or at least to figure it out which records have a give value (or range of values).
+We get feedbacks from the Data Quality Committee members -- most recently from Tom Miles (British Library) --, that
+in some cases it would be necessary to check the records itself e.g. 'which record contains values in Dutch?',
+'which records have lots of dc:subject values?' etc.
 
 <!-- more -->
 
-(Right now we have 5 such files.)
+What we need is a Solr index which contains all metrics of all records. How to do that? A quick recipie follows.
 
-Then we run statistical analyses on these file and we present the result in a web UI. From the web UI it is 
-not easy to go back to the records, or at least to figure it out which records have a give value (or range of values).
-We get feedbacks from the Data Quality Committee members, that in some cases it would be necessary to check the
-records itself.
-
-So what we need is a Solr index which contains all metrics of all records. How to do that? A quick recipie follows.
-
-I will use R's famous `mtcars` dataset to show the process. Solr supports reading from CSV as original data, but doesn't
-support it as the source or updating existing records (or document in Solr-speak), so we create two files: one CSV and
-a JSON:
+I will use R's famous `mtcars` dataset to show the process instead of real Europeana files.
+Solr supports reading from CSV as original data, but doesn't support it as the source or updating 
+existing records (or document in Solr-speak), so we create two files: one CSV and a JSON:
 
 ```
 library(tidyverse)
@@ -100,7 +103,7 @@ curl http://localhost:8984/solr/qa-2018-03/update?commit=true \
   -H 'Content-type:application/json'
 ```
 
-So the task is (which is missing from this piece) is to transform the CSV files (except the one we are starting with) to Solr compatible JSON update files.
+So the task is (which is missing from this piece) is to transform the CSV files (except the one we are starting with) to Solr compatible JSON update files. Right now we have 5 such files.
 
 ps. I would like to thank to Mark Philips, who showed me the University of North Texas metadata management tool, in which
 the metrics are stored in Solr alogside the original metadata values, so they can easily find examples for given 
