@@ -36,14 +36,13 @@ a JSON:
 library(tidyverse)
 library(jsonlite)
 df <- as.tibble(mtcars)
-df
 
-df %>% 
-  select(1:6) %>% 
+df %>%
+  select(1:6) %>%
   write_csv("cars1.csv", col_names=T)
 
-json <- df %>% 
-  select(1,7:12) %>% 
+json <- df %>%
+  select(1,7:12) %>%
   toJSON()
 
 write(json, file = 'cars2.json')
@@ -101,3 +100,8 @@ curl http://localhost:8984/solr/qa-2018-03/update?commit=true \
   -H 'Content-type:application/json'
 ```
 
+So the task is (which is missing from this piece) is to transform the CSV files (except the one we are starting with) to Solr compatible JSON update files.
+
+ps. I would like to thank to Mark Philips, who showed me the University of North Texas metadata management tool, in which
+the metrics are stored in Solr alogside the original metadata values, so they can easily find examples for given 
+metadata problems.
