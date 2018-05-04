@@ -32,7 +32,7 @@ I will use R's famous `mtcars` dataset to show the process. Solr supports readin
 support it as the source or updating existing records (or document in Solr-speak), so we create two files: one CSV and
 a JSON:
 
-```R
+```
 library(tidyverse)
 library(jsonlite)
 df <- as.tibble(mtcars)
