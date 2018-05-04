@@ -23,13 +23,16 @@ each produce such CSV files.
 Once we have them we run statistical analyses on these files to get a collection level overview 
 and we present the result in a web UI. From the web UI it is 
 not easy to go back to the records, or at least to figure it out which records have a give value (or range of values).
-We get feedbacks from the Data Quality Committee members -- most recently from Tom Miles (British Library) --, that
+We get feedbacks from the Data Quality Committee members -- most recently from 
+(Tom Miles)[https://twitter.com/tommilesz] (British Library) --, that
 in some cases it would be necessary to check the records itself e.g. 'which record contains values in Dutch?',
 'which records have lots of dc:subject values?' etc.
 
 <!-- more -->
 
-What we need is a Solr index which contains all metrics of all records. How to do that? A quick recipie follows.
+What we need is a Solr index which contains all metrics of all records. Since we don't have one CSV file 
+which contain all information, we have to build the index incrementally. The increment in this case is
+not vertical (adding new records), but horizontal (adding new fields). How to do that? A quick recipie follows.
 
 I will use R's famous `mtcars` dataset to show the process instead of real Europeana files.
 Solr supports reading from CSV as original data, but doesn't support it as the source or updating 
@@ -105,6 +108,6 @@ curl http://localhost:8984/solr/qa-2018-03/update?commit=true \
 
 So the task is (which is missing from this piece) is to transform the CSV files (except the one we are starting with) to Solr compatible JSON update files. Right now we have 5 such files.
 
-ps. I would like to thank to Mark Philips, who showed me the University of North Texas metadata management tool, in which
-the metrics are stored in Solr alogside the original metadata values, so they can easily find examples for given 
-metadata problems.
+ps. I would like to thank to (Mark Philips)[https://twitter.com/vphill], who showed me the University of North
+Texas digital library's metadata management tool, in which the metrics are stored in Solr alogside the original
+metadata values, so they can easily find examples for given metadata problems.
