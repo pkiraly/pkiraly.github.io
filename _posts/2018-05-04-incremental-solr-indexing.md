@@ -117,7 +117,8 @@ some preliminary playing with the sizes
 
 (b) in this example we supposed that each value is a float, which in Solr is a `stored` type. In your case there might
 be other data types. Be sure that you chose types which are stored in the Solr index, otherwise this technique will
-not work.
+not work. Check the `schema.xml` (or `managed-schema`) file that your choosed suffix has the following 
+attribute: `stored="true"`.
 
 ps. I would like to thank to [Mark Philips](https://twitter.com/vphill), who showed me the University of North
 Texas digital library's metadata management tool, in which the metrics are stored in Solr alogside the original
