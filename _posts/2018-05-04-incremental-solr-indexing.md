@@ -108,6 +108,17 @@ curl http://localhost:8984/solr/qa-2018-03/update?commit=true \
 
 So the task is (which is missing from this piece) is to transform the CSV files (except the one we are starting with) to Solr compatible JSON update files. Right now we have 5 such files.
 
+Caveats: 
+
+(a) cURL first read the files into memory then sends it to the server. Our CSV files are typicaly around 
+30-60 GB large, so we have to split them before sending. The JSON files are minimum 3 times larger, since it should 
+contain the fields names, the command and the extra characters required by the JSON syntax, so the process involves 
+some preliminary playing with the sizes
+
+(b) in this example we supposed that each value is a float, which in Solr is a `stored` type. In your case there might
+be other data types. Be sure that you chose types which are stored in the Solr index, otherwise this technique will
+not work.
+
 ps. I would like to thank to [Mark Philips](https://twitter.com/vphill), who showed me the University of North
 Texas digital library's metadata management tool, in which the metrics are stored in Solr alogside the original
 metadata values, so they can easily find examples for given metadata problems.
