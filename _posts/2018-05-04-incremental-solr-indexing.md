@@ -113,12 +113,24 @@ Caveats:
 (a) cURL first read the files into memory then sends it to the server. Our CSV files are typicaly around 
 30-60 GB large, so we have to split them before sending. The JSON files are minimum 3 times larger, since it should 
 contain the fields names, the command and the extra characters required by the JSON syntax, so the process involves 
-some preliminary playing with the sizes
+some preliminary playing with the sizes. Undex linux you can split the files to smaller chunks with the `split` 
+command, e.g.:
+
+```
+split -l 1000000 -d --additional-suffix .csv result29-multilingual-saturation.csv multilingual-part
+```
+creates `multilingual-part00.csv`, `multilingual-part01.csv` ... from `result29-multilingual-saturation.csv` each
+containing 100 000 lines.
 
 (b) in this example we supposed that each value is a float, which in Solr is a `stored` type. In your case there might
 be other data types. Be sure that you chose types which are stored in the Solr index, otherwise this technique will
 not work. Check the `schema.xml` (or `managed-schema`) file that your choosed suffix has the following 
 attribute: `stored="true"`.
+
+(c) Solr's `commit` command is time consuming. It works while you are playing with the sizes, but slows down
+the bulk process. You can either sends commits only in every Nth request (say after indexing 10 000 or 100 000
+records), or even better you can set Solr's `autoCommit` feature which does it for you.
+Details [here](https://lucene.apache.org/solr/guide/7_2/updatehandlers-in-solrconfig.html).
 
 ps. I would like to thank to [Mark Philips](https://twitter.com/vphill), who showed me the University of North
 Texas digital library's metadata management tool, in which the metrics are stored in Solr alogside the original
