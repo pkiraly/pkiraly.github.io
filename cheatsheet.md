@@ -196,4 +196,13 @@ cd ~/git/europeana-qa-spark/scripts
 php lang-group-to-json.php 
 ```
 
+# Indexing with Solr
+
+## Split file to smaller chunks
+
+```
+split -l 1000000 -d --verbose --additional-suffix .csv v2018-08-completeness.csv completeness-part
+split -l 1000000 -d --verbose --additional-suffix .csv v2018-08-multilingual-saturation.csv saturation-part
+```
+
 Total time: 29 hours 3 minutes.
