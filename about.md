@@ -38,5 +38,13 @@ URL: http://dl.acm.org/citation.cfm?doid=3078081.3078109
 
 Péter Király. “Measuring completeness as metadata quality metric in Europeana.” In *Digital Humanities 2017. Conference Abstracts.* McGill University & Université de Montréal, Montréal, Canada, August 8–11, 2017. Prepared by Rhian Lewis and the DH2017 Local Organizers: Cecily Raynor, Dominic Forest, Michael Sinatra and Stéfan Sinclair. pp. 291-293. URL (whole book): https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf, URL (the abstract): https://dh2017.adho.org/abstracts/458/458.pdf.
 
+Péter Király and Marco Büchler. “Measuring completeness as metadata quality metric in Europeana.“ in 2018 IEEE International Conference on Big Data (Big Data), IEEE, pp. 2711–2720. https://doi.org/10.1109/BigData.2018.8622487
+
+Péter Király, Juliane Stiller, Valentine Charles, Werner Bailer, and Nuno Freire “Evaluating Data Quality in Europeana: Metrics for Multilinguality.“ Metadata and Semantic Research 2019, Springer International Publishing, pp. 199–211. https://doi.org/10.1007/978-3-030-14401-2_19
+
 ## About me
 My name is Péter Király, and I am a software developer, analyst. My main interests are publishing and searching large text corporas in the web, and the new ways of web presence of cultural heritage (mainly library and archival materials with special focus on semantic web technologies). You can reach me via the methods listed in the [contact page](/contact).
+
+## Sponsors
+
+Thanks to [GWDG](http://gwdg.de) for supporting my research in different ways, to [Europeana](https://europeana.eu) and [eTRAP](https://www.etrap.eu/) research group for using their computers, to JetBrains s.r.o. for [IntelliJ IDEA](https://www.jetbrains.com/idea/) community licence, to developers of Open Source software packages, and infrastructure services I used in the research, and to Open Data publishers for their data.
