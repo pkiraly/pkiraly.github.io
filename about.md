@@ -45,7 +45,7 @@ Péter Király and Marco Büchler. “Measuring completeness as metadata quality
 
 Péter Király, Juliane Stiller, Valentine Charles, Werner Bailer, and Nuno Freire “Evaluating Data Quality in Europeana: Metrics for Multilinguality.“ In *Metadata and Semantic Research 2019* Published by Springer, 2019. pp. 199–211. DOI [10.1007/978-3-030-14401-2_19](https://doi.org/10.1007/978-3-030-14401-2_19)
 
-Péter Király. "Measuring metadata quality". PhD dissertation. DOI [10.13140/RG.2.2.33177.77920](http://doi.org/10.13140/RG.2.2.33177.77920) (ResearchGate), http://hdl.handle.net/21.11130/00-1735-0000-0003-C17C-8 (Göttingen eDiss repository), https://www.academia.edu/40176196/Measuring_Metadata_Quality (Academia.edu).
+Péter Király. "Measuring metadata quality". PhD dissertation. DOI [10.13140/RG.2.2.33177.77920](http://doi.org/10.13140/RG.2.2.33177.77920) (ResearchGate), [Göttingen eDiss repository](http://hdl.handle.net/21.11130/00-1735-0000-0003-C17C-8), [Academia.edu](https://www.academia.edu/40176196/Measuring_Metadata_Quality).
 
 Péter Király. "Validating 126 million MARC records". In *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)
 
