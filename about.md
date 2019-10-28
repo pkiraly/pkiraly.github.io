@@ -28,6 +28,9 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 * Solr connector: [https://github.com/pkiraly/europeana-qa-solr](https://github.com/pkiraly/europeana-qa-solr)
 * Cassandra connector: [https://github.com/pkiraly/europeana-qa-cassandra](https://github.com/pkiraly/europeana-qa-cassandra)
 * Measurement with Hadoop: [https://github.com/pkiraly/europeana-qa](https://github.com/pkiraly/europeana-qa)
+* MARC measurement
+  - Backend [https://github.com/pkiraly/metadata-qa-marc](https://github.com/pkiraly/metadata-qa-marc)
+  - Frontend [https://github.com/pkiraly/metadata-qa-marc-web](https://github.com/pkiraly/metadata-qa-marc-web)
 
 ## Publications
 
@@ -38,9 +41,15 @@ URL: [http://dl.acm.org/citation.cfm?doid=3078081.3078109](http://dl.acm.org/cit
 
 Péter Király. “Measuring completeness as metadata quality metric in Europeana.” In *Digital Humanities 2017. Conference Abstracts.* McGill University & Université de Montréal, Montréal, Canada, August 8–11, 2017. Prepared by Rhian Lewis and the DH2017 Local Organizers: Cecily Raynor, Dominic Forest, Michael Sinatra and Stéfan Sinclair. pp. 291-293. URL (whole book): [https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf](https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf), URL (the abstract): [https://dh2017.adho.org/abstracts/458/458.pdf](https://dh2017.adho.org/abstracts/458/458.pdf).
 
-Péter Király and Marco Büchler. “Measuring completeness as metadata quality metric in Europeana.“ in 2018 IEEE International Conference on Big Data (Big Data), IEEE, pp. 2711–2720. [https://doi.org/10.1109/BigData.2018.8622487](https://doi.org/10.1109/BigData.2018.8622487)
+Péter Király and Marco Büchler. “Measuring completeness as metadata quality metric in Europeana.“ in 2018 IEEE International Conference on Big Data (Big Data), IEEE, pp. 2711–2720. DOI [10.1109/BigData.2018.8622487](https://doi.org/10.1109/BigData.2018.8622487)
 
 Péter Király, Juliane Stiller, Valentine Charles, Werner Bailer, and Nuno Freire “Evaluating Data Quality in Europeana: Metrics for Multilinguality.“ Metadata and Semantic Research 2019, Springer International Publishing, pp. 199–211. [https://doi.org/10.1007/978-3-030-14401-2_19](https://doi.org/10.1007/978-3-030-14401-2_19)
+
+Péter Király. "Measuring metadata quality". PhD dissertation. DOI [10.13140/RG.2.2.33177.77920](http://doi.org/10.13140/RG.2.2.33177.77920) (ResearchGate), http://hdl.handle.net/21.11130/00-1735-0000-0003-C17C-8 (Göttingen eDiss repository), https://www.academia.edu/40176196/Measuring_Metadata_Quality (Academia.edu).
+
+Péter Király. "Measuring metadata quality". PhD dissertation. http://doi.org/10.13140/RG.2.2.33177.77920 (ResearchGate), http://hdl.handle.net/21.11130/00-1735-0000-0003-C17C-8 (Göttingen eDiss repository), https://www.academia.edu/40176196/Measuring_Metadata_Quality (Academia.edu).
+
+Péter Király. "Validating 126 million MARC records". In *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)
 
 ## About me
 My name is Péter Király, and I am a software developer, analyst. My main interests are publishing and searching large text corporas in the web, and the new ways of web presence of cultural heritage (mainly library and archival materials with special focus on semantic web technologies). You can reach me via the methods listed in the [contact page](/contact).
