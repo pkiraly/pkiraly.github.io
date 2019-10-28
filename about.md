@@ -36,18 +36,16 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 
 Juliane Stiller, and Péter Király. “Multilinguality of Metadata Measuring the Multilingual Degree of Europeana’s Metadata.” In M. Gäde, V. Trkulja, V. Petras (Eds.): *Everything Changes, Everything Stays the Same? Understanding Information Spaces.* Proceedings of the 15th International Symposium of Information Science (ISI 2017), Berlin, 13th—15th March 2017. Glückstadt: Verlag Werner Hülsbusch, pp. 164—176. URL (whole book): [http://isi2017.ib.hu-berlin.de/ISI_17_ONLINE_FINAL.pdf](http://isi2017.ib.hu-berlin.de/ISI_17_ONLINE_FINAL.pdf) (this paper): [https://www.researchgate.net/publication/314879735_Multilinguality_of_Metadata_Measuring_the_Multilingual_Degree_of_Europeana%27s_Metadata](https://www.researchgate.net/publication/314879735_Multilinguality_of_Metadata_Measuring_the_Multilingual_Degree_of_Europeana%27s_Metadata)
 
-Péter Király. “Towards an extensible measurement of metadata quality.” In *Second International Conference on Digital Access to Textual Cultural Heritage.* Conference Proceedings. Göttingen, June 1-2, 2017. Published by ACM. ISBN 978-1-4503-5265-9. pp. 111-115. DOI [10.1145/3078081.3078109](https://doi.org/10.1145/3078081.3078109)
+Péter Király. “Towards an extensible measurement of metadata quality.” In *Second International Conference on Digital Access to Textual Cultural Heritage.* Conference Proceedings. Göttingen, June 1-2, 2017. Published by ACM 2017. ISBN 978-1-4503-5265-9. pp. 111-115. DOI [10.1145/3078081.3078109](https://doi.org/10.1145/3078081.3078109)
 URL: [http://dl.acm.org/citation.cfm?doid=3078081.3078109](http://dl.acm.org/citation.cfm?doid=3078081.3078109)
 
 Péter Király. “Measuring completeness as metadata quality metric in Europeana.” In *Digital Humanities 2017. Conference Abstracts.* McGill University & Université de Montréal, Montréal, Canada, August 8–11, 2017. Prepared by Rhian Lewis and the DH2017 Local Organizers: Cecily Raynor, Dominic Forest, Michael Sinatra and Stéfan Sinclair. pp. 291-293. URL (whole book): [https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf](https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf), URL (the abstract): [https://dh2017.adho.org/abstracts/458/458.pdf](https://dh2017.adho.org/abstracts/458/458.pdf).
 
 Péter Király and Marco Büchler. “Measuring completeness as metadata quality metric in Europeana.“ in 2018 IEEE International Conference on Big Data (Big Data), IEEE, pp. 2711–2720. DOI [10.1109/BigData.2018.8622487](https://doi.org/10.1109/BigData.2018.8622487)
 
-Péter Király, Juliane Stiller, Valentine Charles, Werner Bailer, and Nuno Freire “Evaluating Data Quality in Europeana: Metrics for Multilinguality.“ Metadata and Semantic Research 2019, Springer International Publishing, pp. 199–211. [https://doi.org/10.1007/978-3-030-14401-2_19](https://doi.org/10.1007/978-3-030-14401-2_19)
+Péter Király, Juliane Stiller, Valentine Charles, Werner Bailer, and Nuno Freire “Evaluating Data Quality in Europeana: Metrics for Multilinguality.“ In *Metadata and Semantic Research 2019* Published by Springer, 2019. pp. 199–211. DOI [10.1007/978-3-030-14401-2_19](https://doi.org/10.1007/978-3-030-14401-2_19)
 
 Péter Király. "Measuring metadata quality". PhD dissertation. DOI [10.13140/RG.2.2.33177.77920](http://doi.org/10.13140/RG.2.2.33177.77920) (ResearchGate), http://hdl.handle.net/21.11130/00-1735-0000-0003-C17C-8 (Göttingen eDiss repository), https://www.academia.edu/40176196/Measuring_Metadata_Quality (Academia.edu).
-
-Péter Király. "Measuring metadata quality". PhD dissertation. http://doi.org/10.13140/RG.2.2.33177.77920 (ResearchGate), http://hdl.handle.net/21.11130/00-1735-0000-0003-C17C-8 (Göttingen eDiss repository), https://www.academia.edu/40176196/Measuring_Metadata_Quality (Academia.edu).
 
 Péter Király. "Validating 126 million MARC records". In *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)
 
