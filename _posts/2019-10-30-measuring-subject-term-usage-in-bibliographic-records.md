@@ -8,7 +8,7 @@ customjs:
  - http://pkiraly.github.io/js/table.js
 ---
 
-The following text is current research plan. I submitted it to Koninklijke Bibliotheek's (the Dutch National Library) researcher-in-residence programme. Finally the jury selected somebody else for the grant, and now I publish its main text (I removed some administrative staff and contact details). I continue to work on this plan, and will present some preliminary results at <a href="http://swib.org/swib19/programme.html">SWIB 2019</a> (2019-11-27 11:05 - 11:30 if you will attend at the conference).
+The following text is one of my current research plans. I submitted it to Koninklijke Bibliotheek's (the Dutch National Library) researcher-in-residence programme (without success). From this version I removed some administrative staff and contact details. I continue to work on this plan, and will present some preliminary results at <a href="http://swib.org/swib19/programme.html">SWIB 2019</a> (2019-11-27 11:05 - 11:30 if you will attend at the conference).
 
 <!-- more -->
 
@@ -19,9 +19,9 @@ The following text is current research plan. I submitted it to Koninklijke Bibli
 <h2>Key Publications</h2>
 <p><em>Please list your 3 most important publications that are relevant for your proposal. Please feel free to also include publications that are under review or in print.</em></p>
 <ul>
-	<li>Péter Király. “Measuring metadata quality”. Doctoral thesis. <a href="http://doi.org/10.13140/RG.2.2.33177.77920">http://doi.org/10.13140/RG.2.2.33177.77920</a></li>
-	<li>Péter	Király. “Validating 126 million MARC records”. Accepted for DATeCH 2019 proceedings. A modified version is available in the thesis as Chapter 4. (Slides: <a href="http://bit.ly/qa-datech2019">http://bit.ly/qa-datech2019</a>)</li>
-	<li>Péter Király and Marco Büchler. “Measuring completeness as metadata quality metric in Europeana.” in 2018 IEEE International Conference on Big Data, IEEE, pp. 2711–2720. <a href="https://doi.org/10.1109/BigData.2018.8622487">https://doi.org/10.1109/BigData.2018.8622487</a>. A modified version is available in the thesis as Chapter 2.</li>
+  <li>Péter Király. “Measuring metadata quality”. Doctoral thesis. <a href="http://doi.org/10.13140/RG.2.2.33177.77920">http://doi.org/10.13140/RG.2.2.33177.77920</a></li>
+  <li>Péter Király. “Validating 126 million MARC records”. Accepted for DATeCH 2019 proceedings. A modified version is available in the thesis as Chapter 4. (Slides: <a href="http://bit.ly/qa-datech2019">http://bit.ly/qa-datech2019</a>)</li>
+  <li>Péter Király and Marco Büchler. “Measuring completeness as metadata quality metric in Europeana.” in 2018 IEEE International Conference on Big Data, IEEE, pp. 2711–2720. <a href="https://doi.org/10.1109/BigData.2018.8622487">https://doi.org/10.1109/BigData.2018.8622487</a>. A modified version is available in the thesis as Chapter 2.</li>
 </ul>
 
 <p>List of my publications relevant to metadata quality measurement are available in Appendix C. of my thesis.</p>
@@ -39,40 +39,40 @@ The following text is current research plan. I submitted it to Koninklijke Bibli
 <p>The output of the research will be a scientific paper for a library and information science journal or conference, and two software packages: a standalone tool which measures the quality of bibliographical records and KOS-es, and a plugin which integrates this tool into my MARC quality assessment software. I will investigate the possibility of integration of the tool into KB’s existing IT infrastructure.</p>
 <p>The project will follow the principles of repeatable research and of the maintainable research software development (data will be stored in citable research data repository, code will be properly tested, documented, and citable, communication will be transparent).</p>
 
-<h2>Project	description (max 1.500 words for sections 3a-c)</h2>
+<h2>Project description (max 1.500 words for sections 3a-c)</h2>
 
 <h3>3a. Background and research question</h3>
 <p><em>Please give a short introduction on your project, building up to your research question.</em></p>
 <p>The question has evolved from a finding in Europeana: there are 7+ million metadata records having “Document” subject term, which is very general concept and since it is applied to too many records it is not distinctive. How can we measure the specificity and distinctive power when a metadata record contains generic terms like that? Together they describe the document more specifically I suppose, but can we set up a measurable scale? Studying literature and discussing with experts <a class="sdfootnoteanc" name="sdfootnote1anc" href="#sdfootnote1sym">[1]</a>, I get to the conclusion that so far there were no studies neither open source tools available focusing both of the following two main facets:</p>
 <p>1. the quality of the terms in the metadata records</p>
 <ul>
-	<li>Are the terms in the metadata record properly formatted?</li>
-	<li>Do they represent a clear reference to a KOS?</li>
-	<li>Are they specific or rather generic?</li>
-	<li>How multiple generic terms do improve the specificity?</li>
+  <li>Are the terms in the metadata record properly formatted?</li>
+  <li>Do they represent a clear reference to a KOS?</li>
+  <li>Are they specific or rather generic?</li>
+  <li>How multiple generic terms do improve the specificity?</li>
 </ul>
 <p>2. the quality of the connected KOS</p>
 <ul>
-	<li>What are the expressive power and the functionalities of a KOS?</li>
-	<li>What are the intrinsic qualities of KOS?</li>
+  <li>What are the expressive power and the functionalities of a KOS?</li>
+  <li>What are the intrinsic qualities of KOS?</li>
 </ul>
 <p>What I would like to achieve is a computational model and its implementation within an existing software package which calculates one or more quality scores of the used KOS-es, of the individual KOS term instances in a bibliographical record, overall score(s) for the whole record, and overall score(s) for the whole catalogue (and for any reasonable subsets of it). Moreover, for all referenced KOS I would like to visualize the usage of them in the catalogue.</p>
 <p>Some specific questions this research would like to answer:</p>
 <ul>
-	<li>Are	KOS terms/expressions valid in bibliographic records?</li>
-	<li>Which	parts of the catalogues do use which KOS vocabularies?</li>
-	<li>What is the average depth of the used terms in a hierarchical vocabulary?</li>
-	<li>Are the term specific or rather generic to describe a resource?</li>
-	<li>How many expressions are used per records?</li>
-	<li>Are	there any “blank areas” where the records don't have any classification terms?</li>
-	<li>What is the distribution of subject facets (thematic, geographic, temporal etc.)?</li>
+  <li>Are KOS terms/expressions valid in bibliographic records?</li>
+  <li>Which parts of the catalogues do use which KOS vocabularies?</li>
+  <li>What is the average depth of the used terms in a hierarchical vocabulary?</li>
+  <li>Are the term specific or rather generic to describe a resource?</li>
+  <li>How many expressions are used per records?</li>
+  <li>Are there any “blank areas” where the records don't have any classification terms?</li>
+  <li>What is the distribution of subject facets (thematic, geographic, temporal etc.)?</li>
 </ul>
 <p>In order to properly address these research questions we should be able to parse complex classification terms (think about Universal Decimal Classification's composition syntax); resolve the machine names such as “QA 10000” in the Regensburger Verbundklassifikation to human understandable labels; and (optionally) open up closed systems (UDC, Dewey etc. are behind the paywall).</p>
 <p>In a previous research I’ve created a MARC quality analysis tool [Király, 2019, Király, 2017]. The current research proposal could benefit from this tool. The basics are already available: it extracts what kind of KOS-es are used in MARC records, what are the individual terms, and their frequencies.</p>
 <p>We should link the individual terms to the KOS, resolve its label if the term is a symbolic value, and retrieve all the information about KOS vocabularies and their individual entries that need to calculate the above mentioned metrics (and those, which will be defined during the research). To answer these questions external services and different experts should be consulted. Two services are specifically relevant:</p>
 <ul>
-	<li>The Basel Register of Thesauri, Ontologies &amp; Classifications (BARTOC) <a class="sdfootnoteanc" name="sdfootnote2anc" href="#sdfootnote2sym">[2]</a></li>
-	<li>coli-conc. Infrastructure to facilitate management and exchange of concordances between library knowledge organization systems <a class="sdfootnoteanc" name="sdfootnote3anc" href="#sdfootnote3sym">[3]</a></li>
+  <li>The Basel Register of Thesauri, Ontologies &amp; Classifications (BARTOC) <a class="sdfootnoteanc" name="sdfootnote2anc" href="#sdfootnote2sym">[2]</a></li>
+  <li>coli-conc. Infrastructure to facilitate management and exchange of concordances between library knowledge organization systems <a class="sdfootnoteanc" name="sdfootnote3anc" href="#sdfootnote3sym">[3]</a></li>
 </ul>
 <p>Dutch National Bibliography and Brinkman thesaurus (alongside with German National Library’s database (DNB) and Dewey Decimal Classification (DDC)) could be good first use cases to start with. Other candidates are the Common Union Catalogue of two German library networks <a class="sdfootnoteanc" name="sdfootnote4anc" href="#sdfootnote4sym">[4]</a> and the catalogues which have been analysed in [Király, 2019]. The three most frequently used subject vocabularies in DNB are Dewey Decimal Classification, Systematik der Deutschen Nationalbibliographie, Subject Classes of the Schlagwortnormdatei. From these DDC is the one for which coli-conc recently provides APIs which let us to iterate over the full graph, and calculate the semantic specificity score as suggested in [Inácio et al., 2017].</p>
 <p>Brinkman thesaurus has a Linked Data interface, which returns semantic formats. coli-conc works on a KOS assessment <a class="sdfootnoteanc" name="sdfootnote5anc" href="#sdfootnote5sym">[5]</a> tool based on [Stock, 2015], [Gangemi et al., 2005] and [Owens–Cochrane, 2004], so we could exchange our complementary results.</p>
@@ -98,10 +98,10 @@ of [Inácio et al., 2017].</p>
 <p><em>Please describe what the outcomes of the project will be &amp; how you will use the KB data.</em></p>
 <p>Outcomes:</p>
 <ul>
-	<li>a scientific paper about measuring subject term usage in bibliographical databases</li>
-	<li>an open source software package which measures KOS quality metrics (on the level of the whole vocabulary and on the level of individual terms) which are not measured by other available packages (such as Skosify). This tool should be integrable to the above mentioned KOS services (BARTOC, coli-conc)</li>
-	<li>an enhancement of the MARC quality assessment tool [Király, 2017], which integrates the measurements into a web based user interface alongside other, already implemented quality metrics</li>
-	<li>testing the integration options into KB’s IT infrastructure and data workflow</li>
+  <li>a scientific paper about measuring subject term usage in bibliographical databases</li>
+  <li>an open source software package which measures KOS quality metrics (on the level of the whole vocabulary and on the level of individual terms) which are not measured by other available packages (such as Skosify). This tool should be integrable to the above mentioned KOS services (BARTOC, coli-conc)</li>
+  <li>an enhancement of the MARC quality assessment tool [Király, 2017], which integrates the measurements into a web based user interface alongside other, already implemented quality metrics</li>
+  <li>testing the integration options into KB’s IT infrastructure and data workflow</li>
 </ul>
 <p>Based on preliminary research I plan to start with the Dutch National Bibliography <a class="sdfootnoteanc" name="sdfootnote8anc" href="#sdfootnote8sym">[8]</a> and Brinkman thesaurus <a class="sdfootnoteanc" name="sdfootnote9anc" href="#sdfootnote9sym">[9]</a>, however during the research if resources are available I might extend the set of analyzed data sources.</p>
 
@@ -119,21 +119,21 @@ of [Inácio et al., 2017].</p>
 <p>Planned time table:</p>
 
 <table cellpadding="4" cellspacing="0">
-	<col width="110">
-	<tbody>
-		<tr valign="top">
-			<td>Months 1-2.</td>
-			<td>Preliminary investigation regarding KB’s data (formats, access possibilities, rights and conditions). Setting up a virtual research environment (server, data access, tools). Discussions with KB’s (and external) metadata experts on their needs, opinions on quality and about the available data. Additional literature and implementation survey. Selecting relevant metrics.</td>
-		</tr>
-		<tr valign="top">
-			<td>Months 3-4.</td>
-			<td>Implementation phase. Set up the end user interface (quality dashboard) for metadata experts. Collecting feedback, improving the model and implementation iteratively. Rethink the metrics based on the results (some metrics probably will not be useful, other might be too complex to implement than previously expected).</td>
-		</tr>
-		<tr valign="top">
-			<td>Months 5-6.</td>
-			<td>Finalizing implementation. Publish a ‘stable enough’ release of the tool. Creating a pilot for integration into KB’s IT infrastructure and data workflow. Writing scientific paper. Display results and discuss the topic in the KB for an audience from KB and other organisations (Europeana, IFLA, CERL, DANS, Nationaal Archief, Archives Portal Europe etc.)</td>
-		</tr>
-	</tbody>
+  <col width="110">
+  <tbody>
+    <tr valign="top">
+      <td>Months 1-2.</td>
+      <td>Preliminary investigation regarding KB’s data (formats, access possibilities, rights and conditions). Setting up a virtual research environment (server, data access, tools). Discussions with KB’s (and external) metadata experts on their needs, opinions on quality and about the available data. Additional literature and implementation survey. Selecting relevant metrics.</td>
+    </tr>
+    <tr valign="top">
+      <td>Months 3-4.</td>
+      <td>Implementation phase. Set up the end user interface (quality dashboard) for metadata experts. Collecting feedback, improving the model and implementation iteratively. Rethink the metrics based on the results (some metrics probably will not be useful, other might be too complex to implement than previously expected).</td>
+    </tr>
+    <tr valign="top">
+      <td>Months 5-6.</td>
+      <td>Finalizing implementation. Publish a ‘stable enough’ release of the tool. Creating a pilot for integration into KB’s IT infrastructure and data workflow. Writing scientific paper. Display results and discuss the topic in the KB for an audience from KB and other organisations (Europeana, IFLA, CERL, DANS, Nationaal Archief, Archives Portal Europe etc.)</td>
+    </tr>
+  </tbody>
 </table>
 
 <h2>References</h2>
