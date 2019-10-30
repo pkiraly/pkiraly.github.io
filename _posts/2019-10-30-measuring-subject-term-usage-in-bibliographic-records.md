@@ -8,7 +8,7 @@ customjs:
  - http://pkiraly.github.io/js/table.js
 ---
 
-The following text is one of my current research plans. I submitted it to Koninklijke Bibliotheek's (the Dutch National Library) researcher-in-residence programme (without success). From this version I removed some administrative staff and contact details. I continue to work on this plan, and will present some preliminary results at <a href="http://swib.org/swib19/programme.html">SWIB 2019</a> (2019-11-27 11:05 - 11:30 if you will attend at the conference).
+The following text is one of my current research plans. I submitted it to Koninklijke Bibliotheek's (the Dutch National Library) <a href="https://www.kb.nl/en/organisation/research-expertise/researcher-in-residence">Researcher-in-residence</a> programme (without success). From this version I removed some administrative staff and contact details. I continue to work on this plan, and will present some preliminary results at <a href="http://swib.org/swib19/programme.html">SWIB 2019</a> (2019-11-27 11:05 - 11:30 if you will attend at the conference).
 
 <!-- more -->
 
