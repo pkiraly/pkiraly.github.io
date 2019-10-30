@@ -8,7 +8,9 @@ customjs:
  - http://pkiraly.github.io/js/table.js
 ---
 
-<h1>Measuring subject term usage in bibliographic records</h1>
+The following text is current research plan. I submitted it to Koninklijke Bibliotheek's (the Dutch National Library) researcher-in-residence programme. Finally the jury selected somebody else for the grant, and now I publish its main text (I removed some administrative staff and contact details). I continue to work on this plan, and will present some preliminary results at <a href="http://swib.org/swib19/programme.html">SWIB 2019</a> (2019-11-27 11:05 - 11:30 if you will attend at the conference).
+
+<!-- more -->
 
 <h2>Bio (max 100 words)</h2>
 <p><em>Please provide a short biography of each team member with a maximum of 100 words that provides evidence of your expertise in the field of your proposal.</em></p>
