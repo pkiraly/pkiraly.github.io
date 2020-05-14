@@ -5,7 +5,7 @@ layout: post
 
 You can contact me in a number of channels. Here are some of them:
 
-* E-mail: kirunews@gmail.com
+* E-mail: kirunews at gmail.com, pkiraly at gwdg.de
 * [LinkedIn](http://www.linkedin.com/in/peterkiraly)
 * [Drupal.org](http://drupal.org/user/352587)
 * [GitHub](https://github.com/pkiraly/)
