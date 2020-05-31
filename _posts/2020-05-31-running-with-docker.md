@@ -30,7 +30,7 @@ docker container exec -ti metadata-qa-marc \
 ```
 <!-- more -->
 
-## Very short intro to Docker
+## Very short introduction to Docker
 This description is not ment to provide a detailed description of what Docker is. If you are new to this technology: docker
 is a virtualization technology, which enables to build and run a virtual machine inside within your operating system 
 independent of your existing environment. This special environment contains an operating system, and all the software
@@ -45,7 +45,12 @@ however when we stop the container all data generated during the session will be
 * volume: a directory which is shared with the container. Volumes could guarantee that the data generated during the session
 can persist.
 
-## Explanation of the commands 
+To install Docker on your host, follow the manual at https://docs.docker.com/engine/install/.
+
+## Explanation of the commands
+
+### Preparation of the container
+
 ```
 docker run -d -v ~/data/gent:/opt/metadata-qa-marc/marc -p 8983:8983 -p 80:80 \
              --name metadata-qa-marc pkiraly/metadata-qa-marc
@@ -72,6 +77,8 @@ Parameters
  * `--name metadata-qa-marc`: give a name to the container. It will be helpful for other container commands.
  * `pkiraly/metadata-qa-marc`: this is the name of the image. If you do not have it, docker will download it
  automatically.
+
+### Running commands in the container
 
 ```
 docker container exec -ti metadata-qa-marc \
@@ -105,3 +112,17 @@ does not tell you about what's going on behind, it does, the same way as you ope
   * `all-analyses`: run all above, except the index related ones
   * `all-solr`: run the indexing related ones (`prepare-solr` and `index`)
 
+Depending on the size of your data and the performance of your machine the running time will be of different length. Since the metadata-qa.sh script is just a wrapper which calls other scripts, the process informs you which scripts and which parameters are called. Each scripts produce lengthy log files into the `/opt/metadata-qa-marc/_reports/metadata-qa` directory (which is available as the host's `~/data/gent/_reports/metadata-qa`, when I set the volume as ~/data/gent). The output of these processes are CSV files available at the container's `/opt/metadata-qa-marc/_output/metadata-qa/` (host's `~/data/gent/_output/metadata-qa`) directory, and two Solr indexes: `metadata-qa` and `metadata-qa_dev`. The production always use the first index, and the indexing process uses the later one. When it is finished, the two indexes are swapped. This way the service should not be stopped during the metadata analysis.
+
+The top level output of the process will be available at http://YOUR-SERVER/metadata-qa.
+
+## Towards continous metadata quality assessment
+
+Once you set up the process you can move towards continous metadata quality assessment. You have to implement two steps with a cron job (or another scheduler of your choice):
+
+* extract catalogue records and/or download it to the machine
+* run the metadata analyses
+
+## Notes
+
+I am not a Docker expert. If you are, and spot points to improve, do not hesitate to tell me. I am very curious how to make the image size smaller. The underlying software are under constant development, so you might expect new parameters, or even drastical changes in the structure of the image. I can promisse however that the command line interface changes will be always reflected in the project page: https://github.com/pkiraly/metadata-qa-marc.
