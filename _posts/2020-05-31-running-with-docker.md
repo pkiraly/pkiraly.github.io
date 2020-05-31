@@ -22,7 +22,11 @@ docker run -d \
 # run all analysis on a file called rug01.export which is an alephseq file, in which there are fields
 # defined in the Gent university library
 docker container exec -ti metadata-qa-marc \
-      ./metadata-qa.sh --params "--marcVersion GENT --alephseq" --mask "rug01.export" --catalogue gent all
+           ./metadata-qa.sh \
+           --params "--marcVersion GENT --alephseq" \
+           --mask "rug01.export" \
+           --catalogue gent 
+           all
 ```
 <!-- more -->
 
