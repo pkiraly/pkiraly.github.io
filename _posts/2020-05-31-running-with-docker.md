@@ -85,4 +85,10 @@ docker container exec -ti metadata-qa-marc \
 * `docker container exec`: executes a command on the container
 * ` -ti`: interactive mode, it maps stdin and stdout channels between host and container. While the first command
 does not tell you about what's going on behind, it does, the same way as you open a terminal window
-* `metadata-qa-marc`: the name of the container you execute the command
+* `metadata-qa-marc`: the name of the container
+* `./metadata-qa.sh`: the script to execute. The working directory in the container is `/opt/metadata-qa-marc`, this script is available in this directory. You can specify different scripts or commends. For example if you want to log in into the container's shell issue `/bin/bash`. The rest of the parameters are the parameters of the `metadata-qa.sh` script.
+* `--params "--marcVersion GENT --alephseq"`: general parameters passed to the underlying scripts which call the quality assessment tool. You can pass any parameters defined in https://github.com/pkiraly/metadata-qa-marc. This time we passed the foollowing parameters
+ * `--marcVersion GENT` means that we use the MARC21 fields defined in Gent catalogue,
+ * `--alephseq` means that the source file's format is Alephseq 
+* `--mask "rug01.export"`: the analysis should run on the files the mask selects. You can use the usual unix wildcards, such as `*.marcxml`
+* `--catalogue gent`: this parameter is passed to the web interface and sets
