@@ -12,10 +12,17 @@ Now the QA catalogue (metadata-qa-marc) can be run with Docker. Once you have Do
 you can run the quality assessment, build Solr, and build the web based user interface with the following commands
 
 ```
-# downloads the docker image, create and launch a docker container. Your MARC files are in directory ~/data/gent
-docker run -d -v ~/data/gent:/opt/metadata-qa-marc/marc -p 8983:8983 -p 80:80 --name metadata-qa-marc pkiraly/metadata-qa-marc
-# run all analysis on a file called rug01.export which is an alephseq file, in which there are fields defined in the Gent university library
-docker container exec -ti metadata-qa-marc ./metadata-qa.sh --params "--marcVersion GENT --alephseq" --mask "rug01.export" --catalogue gent all
+# downloads the docker image, create and launch a docker container.
+# Your MARC files are in directory ~/data/gent
+docker run -d \
+           -v ~/data/gent:/opt/metadata-qa-marc/marc \
+           -p 8983:8983 -p 80:80 \
+           --name metadata-qa-marc \
+           pkiraly/metadata-qa-marc
+# run all analysis on a file called rug01.export which is an alephseq file, in which there are fields
+# defined in the Gent university library
+docker container exec -ti metadata-qa-marc \
+      ./metadata-qa.sh --params "--marcVersion GENT --alephseq" --mask "rug01.export" --catalogue gent all
 ```
 <!-- more -->
 
