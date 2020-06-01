@@ -72,7 +72,7 @@ container runs on the background. Within the container an Apacher HTTP server an
 are launched.
 
 Parameters
- * `d`: runs the docker in the background (kind of as a service)
+ * `-d`: runs the docker in the background (kind of as a service)
  * `-v ~/data/gent:/opt/metadata-qa-marc/marc`: it mounts your existing `~/data/gent` directory 
  to `/opt/metadata-qa-marc/marc` in the container (within the Docker environment). This directory
  is used as an input/output communication between the host and the container. You should store the
