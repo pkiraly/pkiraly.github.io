@@ -49,7 +49,7 @@ however when we stop the container all data generated during the session will be
 * volume: a directory which is shared with the container. Volumes could guarantee that the data generated during the session
 can persist.
 
-To install Docker on your host, follow the manual at https://docs.docker.com/engine/install/.
+To install Docker on your host, follow the manual at [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/).
 
 ## Explanation of the commands
 
