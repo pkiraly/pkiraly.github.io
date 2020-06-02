@@ -1,5 +1,5 @@
 ---
-title:      Running with Docker
+title:      Running QA catalogue with Docker
 layout:     post
 date:       2020-05-31 00:00:00
 author:     "pkiraly"
