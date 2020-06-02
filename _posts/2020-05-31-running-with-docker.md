@@ -9,7 +9,7 @@ customjs:
 ---
 
 Now the QA catalogue (metadata-qa-marc) can be run with Docker. Once you have Docker on the machine, 
-you can run the quality assessment, build Solr, and build the web based user interface with the following commands
+you can run the full end-to-end quality assessment process (including building the web user interface) with the following two commands:
 
 1. download the docker image, create and launch a docker container (supposing your MARC files are in directory ~/data/marc)
 ```
