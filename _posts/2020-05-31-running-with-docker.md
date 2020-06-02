@@ -21,7 +21,7 @@ docker run \
   pkiraly/metadata-qa-marc
 ```
 
-2. run all analyses on a file called rug01.export which is an alephseq file, in which there are fields defined in the Gent university library
+2. run all analyses on a file called rug01.export which is an alephseq file, in which there are fields defined at the Gent university library
 ```
 docker container exec \
   -ti \
@@ -41,18 +41,18 @@ The workflow looks something like this:
 <!-- more -->
 
 ## Very short introduction to Docker
-This description is not ment to provide a detailed description of what Docker is. If you are new to this technology: docker
-is a virtualization technology, which enables to build and run a virtual machine inside within your operating system 
+This description is not meant to provide a detailed description of what Docker is. If you are new to this technology: it
+is a virtualization technology, which enables to build and run a virtual machine inside your operating system but
 independent of your existing environment. This special environment contains an operating system, and all the software
-packages which needs to accomplish the task this tool is aiming for. A number of tools are available in "dockerized"
+packages which are needed to accomplish the tasks this tool is aiming to fulfil. A number of tools are available in "dockerized"
 version. The benefit is that you don't have to install all the dependencies which may or may not available for your
 OS, everything is packaged to be ready to use. There are some concepts you have to know before starting.
 
-* host: the machine within wich Docker wuns (your desktop machine, or a server)
-* image: is the environment in a "frozen" state. You can download it, and deleted it after usage.
-* container: the environment which is created from the image, and this is what actually runs the tasks. It can store data,
+* _host_: the machine within which Docker runs (your desktop machine, or a server)
+* _image_: is the environment in a "frozen" state. You can download it, and deleted it after usage.
+* _container_: the environment which is created from the image, and this is what actually runs the tasks. It can store data,
 however when we stop the container all data generated during the session will be lost. You can create multiple containers from the same image, but every time you do it, it will start from a blank state.
-* volume: a directory which is shared with the container. Volumes could guarantee that the data generated during the session
+* _volume_: a directory which is shared with the container. Volumes could guarantee that the data generated during the session
 can persist.
 
 To install Docker on your host, follow the manual at [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/).
