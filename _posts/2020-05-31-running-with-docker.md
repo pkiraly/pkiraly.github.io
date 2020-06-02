@@ -32,6 +32,12 @@ docker container exec \
   --catalogue gent 
   all
 ```
+
+The workflow looks something like this:
+
+<img src="{{ site.url }}/img/qa-catalogue-on-docker.png" class="big" title="Docker workflow" alt="Docker workflow" />
+
+
 <!-- more -->
 
 ## Very short introduction to Docker
