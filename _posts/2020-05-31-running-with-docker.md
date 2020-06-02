@@ -11,18 +11,18 @@ customjs:
 Now the QA catalogue (metadata-qa-marc) can be run with Docker. Once you have Docker on the machine, 
 you can run the quality assessment, build Solr, and build the web based user interface with the following commands
 
+1. download the docker image, create and launch a docker container (supposing your MARC files are in directory ~/data/marc)
 ```
-# downloads the docker image, create and launch a docker container.
-# Your MARC files are in directory ~/data/gent
 docker run \
   -d \
-  -v ~/data/gent:/opt/metadata-qa-marc/marc \
+  -v ~/data/marc:/opt/metadata-qa-marc/marc \
   -p 8983:8983 -p 80:80 \
   --name metadata-qa-marc \
   pkiraly/metadata-qa-marc
+```
 
-# run all analysis on a file called rug01.export which is an alephseq file, in which
-# there are fields defined in the Gent university library
+2. run all analyses on a file called rug01.export which is an alephseq file, in which there are fields defined in the Gent university library
+```
 docker container exec \
   -ti \
   metadata-qa-marc \
@@ -60,7 +60,7 @@ The installation is a single command, and does not require other prerequisite th
 ```
 docker run \
   -d \
-  -v ~/data/gent:/opt/metadata-qa-marc/marc \
+  -v ~/data/marc:/opt/metadata-qa-marc/marc \
   -p 8983:8983 -p 80:80 \
   --name metadata-qa-marc \
   pkiraly/metadata-qa-marc
@@ -73,7 +73,7 @@ are launched.
 
 Parameters
  * `-d`: runs the docker in the background (kind of as a service)
- * `-v ~/data/gent:/opt/metadata-qa-marc/marc`: it mounts your existing `~/data/gent` directory 
+ * `-v ~/data/marc:/opt/metadata-qa-marc/marc`: it mounts your existing `~/data/marc` directory 
  to `/opt/metadata-qa-marc/marc` in the container (within the Docker environment). This directory
  is used as an input/output communication between the host and the container. You should store the
  MARC files (in binary, MARCXML or Alephseq format). You can add any directory from the host, but
@@ -124,7 +124,7 @@ does not tell you about what's going on behind, it does, the same way as you ope
   * `all-analyses`: run all above, except the index related ones
   * `all-solr`: run the indexing related ones (`prepare-solr` and `index`)
 
-Depending on the size of your data and the performance of your machine the running time will be of different length. Since the metadata-qa.sh script is just a wrapper which calls other scripts, the process informs you which scripts and which parameters are called. Each scripts produce lengthy log files into the `/opt/metadata-qa-marc/_reports/metadata-qa` directory (which is available as the host's `~/data/gent/_reports/metadata-qa`, when I set the volume as ~/data/gent). The output of these processes are CSV files available at the container's `/opt/metadata-qa-marc/_output/metadata-qa/` (host's `~/data/gent/_output/metadata-qa`) directory, and two Solr indexes: `metadata-qa` and `metadata-qa_dev`. The production always use the first index, and the indexing process uses the later one. When it is finished, the two indexes are swapped. This way the service should not be stopped during the metadata analysis.
+Depending on the size of your data and the performance of your machine the running time will be of different length. Since the metadata-qa.sh script is just a wrapper which calls other scripts, the process informs you which scripts and which parameters are called. Each scripts produce lengthy log files into the `/opt/metadata-qa-marc/_reports/metadata-qa` directory (which is available as the host's `~/data/marc/_reports/metadata-qa`, when I set the volume as ~/data/marc). The output of these processes are CSV files available at the container's `/opt/metadata-qa-marc/_output/metadata-qa/` (host's `~/data/marc/_output/metadata-qa`) directory, and two Solr indexes: `metadata-qa` and `metadata-qa_dev`. The production always use the first index, and the indexing process uses the later one. When it is finished, the two indexes are swapped. This way the service should not be stopped during the metadata analysis.
 
 The top level output of the process will be available at http://YOUR-SERVER/metadata-qa.
 
