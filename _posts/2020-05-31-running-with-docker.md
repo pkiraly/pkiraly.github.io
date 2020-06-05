@@ -203,11 +203,12 @@ This one launches the following process every day at 01:01 am: change to the sys
 
 ## More about QA catalogue
 
-* Péter Király. “Validating 126 million MARC records”. In *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)
+* “Validating 126 million MARC records”. Presented at Digital Access to Textual Cultural Heritage (DATeCH) 2019.
   * Presentation slides: [http://bitly.com/qa-datech2019](http://bitly.com/qa-datech2019)
-* Péter Király. "Empirical evaluation of library catalogues". 
-  * Presentation at SWIB 2019 conference: [http://bitly.com/qa-swib2019](http://bitly.com/qa-swib2019)
-  * Short written version In *EuropeanaTech Newsletter* 15, 2020. [https://pro.europeana.eu/page/issue-15-swib-2019#empirical-evaluation-of-library-catalogues](https://pro.europeana.eu/page/issue-15-swib-2019#empirical-evaluation-of-library-catalogues)
+  * Full paper in *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)
+* "Empirical evaluation of library catalogues". Presented at Semantic Web in Libraries (SWIB) 2019.
+  * Presentation slides: [http://bitly.com/qa-swib2019](http://bitly.com/qa-swib2019)
+  * Short written version in *EuropeanaTech Newsletter* 15, 2020. [https://pro.europeana.eu/page/issue-15-swib-2019#empirical-evaluation-of-library-catalogues](https://pro.europeana.eu/page/issue-15-swib-2019#empirical-evaluation-of-library-catalogues)
 
 ## Notes
 
