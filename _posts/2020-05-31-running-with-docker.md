@@ -167,6 +167,45 @@ Once you set up the process you can move towards continuous metadata quality ass
 * extract catalogue records and/or download it to the machine
 * run the metadata analyses
 
+One thing should should take care: we used the `-i` flag in the `docker exec` function, but it is not working in a cron job, so you have to remove it from the command (use `-t` instead of `-ti`). Here is an example:
+
+`qa-catalogue-update.sh`:
+
+```
+#!/usr/bin/env bash
+#
+# Download and analyse a catalogue
+#
+
+# download and extract MARC21 records into ~/data/marc
+...
+
+# run the analyses. Be aware of NOT using the -i flag
+docker container exec
+  -t \
+  metadata-qa-marc \
+  ./metadata-qa.sh \
+  --params "--marcVersion GENT --alephseq" \
+  --mask "rug01.export" \
+  --catalogue gent 
+  all
+```
+
+Setting the cron job
+
+```
+> crontab -e
+# m h  dom mon dow   command
+1 1 * * * cd /home/systemlibrarian/scripts && ./qa-catalogue-update.sh > qa-catalogue-update.log
+```
+
+This one launch the following process every day at 01:01 am: change to the systemlibrarian's scripts directory, and runs the script, logging our steps into qa-catalogue-update.log file.
+
+## More about QA catalogue
+
+* Péter Király. “Validating 126 million MARC records”. In *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)
+* Péter Király. "Empirical evaluation of library catalogues". In *EuropeanaTech Newsletter* 15, 2020. [https://pro.europeana.eu/page/issue-15-swib-2019#empirical-evaluation-of-library-catalogues](https://pro.europeana.eu/page/issue-15-swib-2019#empirical-evaluation-of-library-catalogues)
+
 ## Notes
 
 I am not a Docker expert. If you are, and spot points to improve, do not hesitate to tell me. I am very curious how to make the image size smaller. The underlying software are under constant development, so you might expect new parameters, or even drastic changes in the structure of the image. I can promise however that the command line interface changes will be always reflected in the _QA catalogue_ project page: [https://github.com/pkiraly/metadata-qa-marc](https://github.com/pkiraly/metadata-qa-marc).
