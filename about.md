@@ -63,7 +63,11 @@ Péter Király and Marco Büchler. “A teljesség minőségjelzőként való m�
 
 2020
 
-Péter Király. "Empirical evaluation of library catalogues". In *EuropeanaTech Newsletter* 15, 2020. [https://pro.europeana.eu/page/issue-15-swib-2019#empirical-evaluation-of-library-catalogues](https://pro.europeana.eu/page/issue-15-swib-2019#empirical-evaluation-of-library-catalogues)
+Péter Király. "Empirical evaluation of library catalogues". In *EuropeanaTech Newsletter* 15, 2020. [https://pro.europeana.eu/page/issue-15-swib-2019#empirical-evaluation-of-library-catalogues](https://pro.europeana.eu/page/issue-15-swib-2019#empirical-evaluation-of-library-catalogues). In Spanish: “Evaluación empírica de los catálogos de las bibliotecas” (translator unkown - send me a message if you know the translator). Blog de la biblioteca de Traducción y Documentación de la Universidad de Salamanca, 2020. https://universoabierto.org/2020/06/01/evaluacion-empirica-de-los-catalogos-de-las-bibliotecas/
+
+2021
+
+Péter Király, and Jan Brase. "Qualitätsmanagement". In Praxishandbuch Forschungsdatenmanagement. Berlin, Boston: De Gruyter Saur. doi: https://doi.org/10.1515/9783110657807-020, pp. 357–380.
 
 ## About me
 My name is Péter Király, and I am a software developer, analyst. My main interests are publishing and searching large text corporas in the web, and the new ways of web presence of cultural heritage (mainly library and archival materials with special focus on semantic web technologies). You can reach me via the methods listed in the [contact page](/contact).
