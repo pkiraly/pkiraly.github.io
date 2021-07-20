@@ -32,6 +32,7 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
   - Backend [https://github.com/pkiraly/metadata-qa-marc](https://github.com/pkiraly/metadata-qa-marc)
   - Frontend [https://github.com/pkiraly/metadata-qa-marc-web](https://github.com/pkiraly/metadata-qa-marc-web)
 
+<a id="publications"/>
 ## Publications
 
 2017
