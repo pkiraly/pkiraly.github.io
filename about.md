@@ -59,7 +59,7 @@ cited by:<br/>
  * Freire, Nuno, and Antoine Isaac. "Wikidata's linked data for cultural heritage digital resources: an evaluation based on the Europeana data model." In International Conference on Dublin Core and Metadata Applications, pp. 59-68. 2020.
  * Kapidakis, Sarantos. "Consistency and Interoperability on Dublin Core Element Values in Collections Harvested using the Open Archive Initiative Protocol for Metadata Harvesting." In KEOD, pp. 181-188. 2020.
  * Abgaz, Yalemisew, Amelie Dorn, José Luis Preza Díaz, and Gerda Koch. "Towards a Comprehensive Assessment of the Quality and Richness of the Europeana Metadata of food-related Images." In Proceedings of the 1st International Workshop on Artificial Intelligence for Historical Image Enrichment and Access, pp. 29-33. 2020.
- * Редькина, Н. С. "ЕВРОПЕАНА: ЦИФРОВОЕ КУЛЬТУРНОЕ НАСЛЕДИЕ ЕВРОПЫ." Ученые записки (Алтайская государственная академия культуры и искусств) 2 (24) (2020).
+ * Редькина, Н. С. "ЕВРОПЕАНА: ЦИФРОВОЕ КУЛЬТУРНОЕ НАСЛЕДИЕ ЕВРОПЫ." Ученые записки (Алтайская государственная академия культуры и искусств) 2 (24) (2020). https://cyberleninka.ru/article/n/evropeana-tsifrovoe-kulturnoe-nasledie-evropy/pdf
 
 Péter Király. “Adat a könyvtárban” (Data in the library -- paper in Hungarian about the changing status of data in LAM). In *Hagyomány és újítás a 21. századi könyvtárban (Erdélyi Évszázadok. A Kolozsvári Magyar Történeti Intézet Évkönyve. III.)* eds. Rüsz-Fogarasi Enikő, Monok István. Kolozsvár (Romania), 2018. ISBN 978-606-8886-1. pp. 49-74. [http://real.mtak.hu/92256/1/ErdEvsz_tordelt_nyomdaba.pdf](http://real.mtak.hu/92256/1/ErdEvsz_tordelt_nyomdaba.pdf)
 
