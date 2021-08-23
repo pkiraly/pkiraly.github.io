@@ -54,6 +54,9 @@ Péter Király and Marco Büchler. “Measuring completeness as metadata quality
 
 Péter Király, Juliane Stiller, Valentine Charles, Werner Bailer, and Nuno Freire. “Evaluating Data Quality in Europeana: Metrics for Multilinguality.” In *Metadata and Semantic Research 2019. 12th International Conference, MTSR 2018, Limassol, Cyprus, October 23-26, 2018, Revised Selected Papers* (Communications in Computer and Information Science, volume 846) Published by Springer, 2019. pp. 199–211. DOI [10.1007/978-3-030-14401-2_19](https://doi.org/10.1007/978-3-030-14401-2_19)
 
+cited by:
+ * Freire, Nuno, and Antoine Isaac. "Technical usability of Wikidata’s linked data." In International Conference on Business Information Systems, pp. 556-567. Springer, Cham, 2019.
+
 Péter Király. “Adat a könyvtárban” (Data in the library -- paper in Hungarian about the changing status of data in LAM). In *Hagyomány és újítás a 21. századi könyvtárban (Erdélyi Évszázadok. A Kolozsvári Magyar Történeti Intézet Évkönyve. III.)* eds. Rüsz-Fogarasi Enikő, Monok István. Kolozsvár (Romania), 2018. ISBN 978-606-8886-1. pp. 49-74. [http://real.mtak.hu/92256/1/ErdEvsz_tordelt_nyomdaba.pdf](http://real.mtak.hu/92256/1/ErdEvsz_tordelt_nyomdaba.pdf)
 
 Péter Király. “Measuring metadata quality”. PhD dissertation. DOI [10.13140/RG.2.2.33177.77920](http://doi.org/10.13140/RG.2.2.33177.77920) (ResearchGate), [Göttingen eDiss repository](http://hdl.handle.net/21.11130/00-1735-0000-0003-C17C-8), [Academia.edu](https://www.academia.edu/40176196/Measuring_Metadata_Quality).
