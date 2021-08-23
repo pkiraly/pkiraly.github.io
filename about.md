@@ -50,7 +50,20 @@ Valentine Charles, Juliane Stiller, Péter Király, Werner Bailer, and Nuno Frei
 
 2019
 
-Péter Király and Marco Büchler. “Measuring completeness as metadata quality metric in Europeana.” In *2018 IEEE International Conference on Big Data (Big Data).* Published by IEEE, 2019. pp. 2711–2720. DOI [10.1109/BigData.2018.8622487](https://doi.org/10.1109/BigData.2018.8622487)
+Péter Király and Marco Büchler. “Measuring completeness as metadata quality metric in Europeana.” In *2018 IEEE International Conference on Big Data (Big Data).* Published by IEEE, 2019. pp. 2711–2720. DOI [10.1109/BigData.2018.8622487](https://doi.org/10.1109/BigData.2018.8622487)<br/>
+cited by:<br/>
+ * Tavakoli, Mohammadreza, Mirette Elias, Gábor Kismihók, and Sören Auer. "Quality prediction of open educational resources a metadata-based approach." In 2020 IEEE 20th International Conference on Advanced Learning Technologies (ICALT), pp. 29-31. IEEE, 2020. [link](https://ieeexplore.ieee.org/abstract/document/9155928/)
+ * Khan, Nadim Akhtar, S. M. Shafi, and Humma Ahangar. "Digitization of cultural heritage: Global initiatives, opportunities and challenges." Journal of Cases on Information Technology (JCIT) 20, no. 4 (2018): 1-16. [link](https://www.igi-global.com/article/digitization-of-cultural-heritage/212621)
+ * Schuster, Kristen, and Stuart Dunn, eds. Routledge International Handbook of Research Methods in Digital Humanities. Routledge, 2020. [link](https://books.google.com/books?hl=en&lr=&id=VmLyDwAAQBAJ&oi=fnd&pg=PT7&ots=3VJbMtiXVc&sig=KwdribufDLXFuw33mYcCOXbkK-Y)
+ * Tavakoli, Mohammadreza, Ali Faraji, Stefan T. Mol, and Gábor Kismihók. "OER Recommendations to Support Career Development." In 2020 IEEE Frontiers in Education Conference (FIE), pp. 1-5. IEEE, 2020. [link](https://ieeexplore.ieee.org/abstract/document/9274175/)
+ * Million, A. J. "Information Communication Technologies, Infrastructure, and Research Methods in the Digital Humanities." In Routledge International Handbook of Research Methods in Digital Humanities, pp. 190-202. Routledge, 2020. [link](https://www.taylorfrancis.com/chapters/edit/10.4324/9780429777028-15/information-communication-technologies-infrastructure-research-methods-digital-humanities-million)
+ * Phillips, Mark Edward, Oksana L. Zavalina, and Hannah Tarver. "Exploring the utility of metadata record graphs and network analysis for metadata quality evaluation and augmentation." _International Journal of Metadata, Semantics and Ontologies_ 14, no. 2 (2020): 112-123. [link](https://www.inderscienceonline.com/doi/abs/10.1504/IJMSO.2020.108326)
+ * [link]()
+ * [link]()
+ * [link]()
+ * Eder, Johann, and Vladimir A. Shekhovtsov. "Data quality for federated medical data lakes." _International Journal of Web Information Systems_ (2021). [link](https://www.emerald.com/insight/content/doi/10.1108/IJWIS-03-2021-0026/full/html)
+ * Phillips, Mark Edward, and Hannah Tarver. "Investigating the use of metadata record graphs to analyze subject headings in the digital public library of America." _The Electronic Library_ (2021). [link](https://www.emerald.com/insight/content/doi/10.1108/EL-11-2020-0317/full/html)
+ * Barrett, Susan A. "Participatory Description and Metadata Quality in Rapid Response Archives." _Collections_ (2021): 1550190620981038. [link](https://journals.sagepub.com/doi/abs/10.1177/1550190620981038)
 
 Péter Király, Juliane Stiller, Valentine Charles, Werner Bailer, and Nuno Freire. “Evaluating Data Quality in Europeana: Metrics for Multilinguality.” In *Metadata and Semantic Research 2019. 12th International Conference, MTSR 2018, Limassol, Cyprus, October 23-26, 2018, Revised Selected Papers* (Communications in Computer and Information Science, volume 846) Published by Springer, 2019. pp. 199–211. DOI [10.1007/978-3-030-14401-2_19](https://doi.org/10.1007/978-3-030-14401-2_19)<br/>
 cited by:<br/>
@@ -69,7 +82,7 @@ Péter Király. “Validating 126 million MARC records”. In *DATeCH2019 Procee
 cited by:<br/>
  * Bryer, Evan, Theppatorn Rhujittawiwat, John R. Rose, and Colin F. Wilder. "SPELLING BASED RANKED CLUSTERING ALGORITHM TO CLEAN AND NORMALIZE EARLY MODERN EUROPEAN BOOK TITLES." [link](https://www.ihci-conf.org/wp-content/uploads/2021/07/01_202107L013_Bryer.pdf)
  * Bryer, Evan, Theppatorn Rhujittawiwat, Samyu Comandur, Vasco Madrid, Stephanie Riley, John Rose, and Colin Wilder. "Analysis of Clustering Algorithms to Clean and Normalize Early Modern European Book Titles." In 2021 The 4th International Conference on Software Engineering and Information Management, pp. 106-112. 2021. DOI [10.1145/3451471.3451489](https://doi.org/10.1145/3451471.3451489)
- * Ungváry, Rudolf. "MARC21 tartalmi adatmezők használata jelentősebb nagykönyvtárakban. Egy elemzés néhány tanulsága." MTMT (2020): 33-53. [link](http://real.mtak.hu/119192/1/ungvary.pdf)
+ * Ungváry, Rudolf. "MARC21 tartalmi adatmezők használata jelentősebb nagykönyvtárakban. Egy elemzés néhány tanulsága." Networkshop (2020): 33-53. [link](http://real.mtak.hu/119192/1/ungvary.pdf)
 
 Péter Király and Marco Büchler. “A teljesség minőségjelzőként való mérése az Europeanában”. (Hungarian translation of “Measuring completeness as metadata quality metric in Europeana”) In *Digitális Bölcsészet* 2, 2019. pp. 57-76. DOI [10.31400/dh-hun.2019.2.388](https://doi.org/10.31400/dh-hun.2019.2.388)
 
