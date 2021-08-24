@@ -105,6 +105,8 @@ Péter Király. "Empirical evaluation of library catalogues". In *EuropeanaTech 
 
 Péter Király, and Jan Brase. "Qualitätsmanagement". In Praxishandbuch Forschungsdatenmanagement. Berlin, Boston: De Gruyter Saur. doi: https://doi.org/10.1515/9783110657807-020, pp. 357–380.
 
+<span id="badgeCont105"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont105&rid=AAW-9289-2021"></script></span>
+
 ## About me
 My name is Péter Király, and I am a software developer, analyst. My main interests are publishing and searching large text corporas in the web, and the new ways of web presence of cultural heritage (mainly library and archival materials with special focus on semantic web technologies). You can reach me via the methods listed in the [contact page](/contact).
 
