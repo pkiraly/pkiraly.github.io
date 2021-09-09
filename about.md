@@ -42,7 +42,9 @@ cited by:<br/>
  * Fallert, Sarah. "Multilinguale Herausforderungen in der Sacherschließung." Master's thesis, Humboldt-Universität zu Berlin, 2020. [link](https://edoc.hu-berlin.de/handle/18452/22048)
 
 Péter Király. “Towards an extensible measurement of metadata quality.” In *Second International Conference on Digital Access to Textual Cultural Heritage.* Conference Proceedings. Göttingen, June 1-2, 2017. Published by ACM 2017. ISBN 978-1-4503-5265-9. pp. 111-115. DOI [10.1145/3078081.3078109](https://doi.org/10.1145/3078081.3078109)
-URL: [http://dl.acm.org/citation.cfm?doid=3078081.3078109](http://dl.acm.org/citation.cfm?doid=3078081.3078109)
+URL: [http://dl.acm.org/citation.cfm?doid=3078081.3078109](http://dl.acm.org/citation.cfm?doid=3078081.3078109)<br/>
+cited by:<br/>
+ * Candela, Gustavo, María Pilar Escobar Esteban, María Dolores Sáez Fernández, and Manuel Marco Such. "A Shape Expression approach for assessing the quality of Linked Open Data in Libraries." _Semantic Web_ (2021) [link](http://rua.ua.es/dspace/handle/10045/117374)
 
 Péter Király. “Measuring completeness as metadata quality metric in Europeana.” In *Digital Humanities 2017. Conference Abstracts.* McGill University & Université de Montréal, Montréal, Canada, August 8–11, 2017. Prepared by Rhian Lewis and the DH2017 Local Organizers: Cecily Raynor, Dominic Forest, Michael Sinatra and Stéfan Sinclair. pp. 291-293. URL (whole book): [https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf](https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf), URL (the abstract): [https://dh2017.adho.org/abstracts/458/458.pdf](https://dh2017.adho.org/abstracts/458/458.pdf).
 
