@@ -107,7 +107,7 @@ Péter Király. "A magyar népzenei adatok története és a (digitális) archiv
 
 2021
 
-Péter Király, and Jan Brase. "Qualitätsmanagement". In Praxishandbuch Forschungsdatenmanagement. Berlin, Boston: De Gruyter Saur. pp. 357–380. DOI: [10.1515/9783110657807-020](https://doi.org/10.1515/9783110657807-020)
+Péter Király, and Jan Brase. "Qualitätsmanagement". In _Praxishandbuch Forschungsdatenmanagement_. Edited by: Markus Putnings, Heike Neuroth and Janna Neumann. Berlin, Boston: De Gruyter Saur. ISBN: 9783110653656, DOI 10.1515/9783110657807 (De Gruyter Praxishandbuch) pp. 357–380. DOI: [10.1515/9783110657807-020](https://doi.org/10.1515/9783110657807-020)
 
 Rudolf Ungváry, and Péter Király. "Bemerkungen zu der Qualitätsbewertung von MARC-21-Datensätzen". In _Qualität in der Inhaltserschließung._ Edited by: Michael Franke-Maier, Anna Kasprzik, Andreas Ledl and Hans Schürmann. Berlin, Boston: De Gruyter Saur. ISBN: 9783110691597, DOI 10.1515/9783110691597 (Bibliotheks- und Informationspraxis, Volume 70) pp. 177-227. DOI [10.1515/9783110691597-011](https://doi.org/10.1515/9783110691597-011)
 
