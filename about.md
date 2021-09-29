@@ -103,7 +103,7 @@ Péter Király and Marco Büchler. “A teljesség minőségjelzőként való m�
 
 Péter Király. "Empirical evaluation of library catalogues". In *EuropeanaTech Newsletter* 15, 2020. [https://pro.europeana.eu/page/issue-15-swib-2019#empirical-evaluation-of-library-catalogues](https://pro.europeana.eu/page/issue-15-swib-2019#empirical-evaluation-of-library-catalogues). In Spanish: “Evaluación empírica de los catálogos de las bibliotecas” (translator unkown - send me a message if you know the translator). Blog de la biblioteca de Traducción y Documentación de la Universidad de Salamanca, 2020. https://universoabierto.org/2020/06/01/evaluacion-empirica-de-los-catalogos-de-las-bibliotecas/
 
-Péter Király. "A magyar népzenei adatok története és a (digitális) archiválás lehetőségei | Bolya Mátyás. Információelmélet és népzenekutatás: Rendszeralkotás, nyilvántartás, digitális archívum. Budapest: MTA BTK Zenetudományi Intézet–L’Harmattan Kiadó, 2019." Book review. In *Digitális Bölcsészet* 3, 2020. pp. 7-15. DOI [10.31400/dh-hun.2020.3.1405](https://doi.org/10.31400/dh-hun.2020.3.1405)
+Péter Király. "A magyar népzenei adatok története és a (digitális) archiválás lehetőségei. Bolya Mátyás. Információelmélet és népzenekutatás: Rendszeralkotás, nyilvántartás, digitális archívum. Budapest: MTA BTK Zenetudományi Intézet–L’Harmattan Kiadó, 2019." Book review. In *Digitális Bölcsészet* 3, 2020. pp. 7-15. DOI [10.31400/dh-hun.2020.3.1405](https://doi.org/10.31400/dh-hun.2020.3.1405)
 
 2021
 
