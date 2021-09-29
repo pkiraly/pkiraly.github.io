@@ -93,9 +93,11 @@ cited by:<br/>
 
 Péter Király. “Validating 126 million MARC records”. In *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)<br/>
 cited by:<br/>
+ * Ungváry, Rudolf. "MARC21 tartalmi adatmezők használata jelentősebb nagykönyvtárakban. Egy elemzés néhány tanulsága." Networkshop (2020): 33-53. [link](http://real.mtak.hu/119192/1/ungvary.pdf)
+ * Ungváry, Rudolf. "Ismeretszervező-könyvtári rendszerek tartalmi feltárásának összehasonlító vizsgálata MARC21 környezetben." Tudományos és Műszaki Tájékoztatás, 2020. (67. évf.) 11. sz. pp. 655-680. [https://tmt.omikk.bme.hu/tmt/article/view/12776/14514](https://tmt.omikk.bme.hu/tmt/article/view/12776/14514)
  * Bryer, Evan, Theppatorn Rhujittawiwat, John R. Rose, and Colin F. Wilder. "SPELLING BASED RANKED CLUSTERING ALGORITHM TO CLEAN AND NORMALIZE EARLY MODERN EUROPEAN BOOK TITLES." [link](https://www.ihci-conf.org/wp-content/uploads/2021/07/01_202107L013_Bryer.pdf)
  * Bryer, Evan, Theppatorn Rhujittawiwat, Samyu Comandur, Vasco Madrid, Stephanie Riley, John Rose, and Colin Wilder. "Analysis of Clustering Algorithms to Clean and Normalize Early Modern European Book Titles." In 2021 The 4th International Conference on Software Engineering and Information Management, pp. 106-112. 2021. DOI [10.1145/3451471.3451489](https://doi.org/10.1145/3451471.3451489)
- * Ungváry, Rudolf. "MARC21 tartalmi adatmezők használata jelentősebb nagykönyvtárakban. Egy elemzés néhány tanulsága." Networkshop (2020): 33-53. [link](http://real.mtak.hu/119192/1/ungvary.pdf)
+ * Candela, Gustavo, Escobar, Pilar, Sáez, Maria Dolores and Marco-Such, Manuel. "A Shape Expression approach for assessing the quality of Linked Open Data in Libraries." _Semantic Web_ pp. 1--21. DOI [10.3233/SW-210441](https://doi.org/10.3233/SW-210441)
 
 Péter Király and Marco Büchler. “A teljesség minőségjelzőként való mérése az Europeanában”. (Hungarian translation of “Measuring completeness as metadata quality metric in Europeana”) In *Digitális Bölcsészet* 2, 2019. pp. 57-76. DOI [10.31400/dh-hun.2019.2.388](https://doi.org/10.31400/dh-hun.2019.2.388)
 
