@@ -14,13 +14,16 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 
 ### <a name="source-code"></a><a name="source-codes"></a> Source code
 
-* Harvester client: [https://github.com/pkiraly/europeana-oai-pmh-client](https://github.com/pkiraly/europeana-oai-pmh-client)
-* General Metadata QA API: 
+* Metadata Quality Assessment Framework API: 
   - Source repository: [https://github.com/pkiraly/metadata-qa-api](https://github.com/pkiraly/metadata-qa-api)
   - Maven artifact: [http://mvnrepository.com/artifact/de.gwdg.metadataqa/metadata-qa-api](http://mvnrepository.com/artifact/de.gwdg.metadataqa/metadata-qa-api)
+* MARC measurement
+  - Backend [https://github.com/pkiraly/metadata-qa-marc](https://github.com/pkiraly/metadata-qa-marc)
+  - Frontend [https://github.com/pkiraly/metadata-qa-marc-web](https://github.com/pkiraly/metadata-qa-marc-web)
 * The Europeana-specific Europeana QA API: 
   - Source repository: [https://github.com/pkiraly/europeana-qa-api](https://github.com/pkiraly/europeana-qa-api)
   - Maven artifact: [http://mvnrepository.com/artifact/de.gwdg.metadataqa/europeana-qa-api](http://mvnrepository.com/artifact/de.gwdg.metadataqa/europeana-qa-api)
+* Harvester client: [https://github.com/pkiraly/europeana-oai-pmh-client](https://github.com/pkiraly/europeana-oai-pmh-client)
 * Measurement with Spark: [https://github.com/pkiraly/europeana-qa-spark](https://github.com/pkiraly/europeana-qa-spark)
 * Analysis with R: [https://github.com/pkiraly/europeana-qa-r](https://github.com/pkiraly/europeana-qa-r)
 * Web interface: [https://github.com/pkiraly/europeana-qa-web](https://github.com/pkiraly/europeana-qa-web)
@@ -28,9 +31,6 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 * Solr connector: [https://github.com/pkiraly/europeana-qa-solr](https://github.com/pkiraly/europeana-qa-solr)
 * Cassandra connector: [https://github.com/pkiraly/europeana-qa-cassandra](https://github.com/pkiraly/europeana-qa-cassandra)
 * Measurement with Hadoop: [https://github.com/pkiraly/europeana-qa](https://github.com/pkiraly/europeana-qa)
-* MARC measurement
-  - Backend [https://github.com/pkiraly/metadata-qa-marc](https://github.com/pkiraly/metadata-qa-marc)
-  - Frontend [https://github.com/pkiraly/metadata-qa-marc-web](https://github.com/pkiraly/metadata-qa-marc-web)
 
 <a id="publications"/>
 ## Publications
