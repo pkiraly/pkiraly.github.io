@@ -6,15 +6,17 @@ layout: post
 <style>
 ul {
   margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 li {
   font-size: 90%;
-  font-family: sans-serif;
+  text-indent: 25px;
 }
 p {
   margin-top: 10px;
   margin-bottom: 0px;
+  text-indent: 25px;
 }
 </style>
 
