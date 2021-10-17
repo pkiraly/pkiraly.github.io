@@ -4,10 +4,12 @@ layout: post
 ---
 
 <style>
-li {
-  font-size: 90%;
-  font-style: oblique;
+div#publications ul {
+  margin-top: 10px;
+}
 
+div#publications li {
+  font-size: 90%;
 }
 </style>
 
@@ -40,7 +42,7 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 * Cassandra connector: [https://github.com/pkiraly/europeana-qa-cassandra](https://github.com/pkiraly/europeana-qa-cassandra)
 * Measurement with Hadoop: [https://github.com/pkiraly/europeana-qa](https://github.com/pkiraly/europeana-qa)
 
-<a id="publications"/>
+<div id="publications">
 ## Publications
 
 2017
@@ -128,6 +130,7 @@ Péter Király, and Jan Brase. "Qualitätsmanagement". In _Praxishandbuch Forsch
 
 Rudolf Ungváry, and Péter Király. "Bemerkungen zu der Qualitätsbewertung von MARC-21-Datensätzen". In _Qualität in der Inhaltserschließung._ Edited by: Michael Franke-Maier, Anna Kasprzik, Andreas Ledl and Hans Schürmann. Berlin, Boston: De Gruyter Saur. ISBN: 9783110691597, DOI 10.1515/9783110691597 (Bibliotheks- und Informationspraxis, Volume 70) pp. 177-227. DOI [10.1515/9783110691597-011](https://doi.org/10.1515/9783110691597-011)
 
+</div>
 
 <!-- span id="badgeCont105"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont105&rid=AAW-9289-2021"></script></span -->
 
