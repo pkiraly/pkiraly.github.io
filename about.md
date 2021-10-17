@@ -4,7 +4,11 @@ layout: post
 ---
 
 <style>
-  li {color: green}
+li {
+  font-size: 90%;
+  font-style: oblique;
+
+}
 </style>
 
 ## The project
