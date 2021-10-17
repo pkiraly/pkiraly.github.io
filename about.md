@@ -5,11 +5,16 @@ layout: post
 
 <style>
 ul {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 li {
   font-size: 90%;
+  font-family: sans-serif;
+}
+p {
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 </style>
 
