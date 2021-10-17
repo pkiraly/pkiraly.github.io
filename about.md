@@ -43,7 +43,8 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 * Cassandra connector: [https://github.com/pkiraly/europeana-qa-cassandra](https://github.com/pkiraly/europeana-qa-cassandra)
 * Measurement with Hadoop: [https://github.com/pkiraly/europeana-qa](https://github.com/pkiraly/europeana-qa)
 
-## Publications
+
+## <a name="publications"/>Publications
 
 2017
 
