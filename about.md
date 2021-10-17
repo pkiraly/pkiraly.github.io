@@ -3,6 +3,10 @@ title: About
 layout: post
 ---
 
+<style>
+  li {color: green}
+</style>
+
 ## The project
 The Metadata Quality Assurance Framework is a research project on figuring out how can we decide in an algorithmical way whether a metadata record in a cultural heritage database is "good" or "bad". During the project I will create a general framework, which lets metadata repositories and digital libraries (such as [Europeana](http://europeana.eu), [TextGrid](http://textgrid.de) or [Digital Public Library of America](http://dp.la)) to run a range of measurements on the collection, and get suggestion where they should improve the quality of their metadata.
 
