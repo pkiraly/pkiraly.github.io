@@ -5,9 +5,9 @@ layout: post
 
 <style>
 ul {
-  margin-top: 0px;
-  margin-bottom: 20px;
+  margin-top: 0 0 0 20px;
   list-style: none;
+  padding-left: 25px;
 }
 
 li {
