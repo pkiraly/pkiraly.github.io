@@ -43,6 +43,7 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 * Measurement with Hadoop: [https://github.com/pkiraly/europeana-qa](https://github.com/pkiraly/europeana-qa)
 
 <div id="publications">
+
 ## Publications
 
 2017
