@@ -4,11 +4,11 @@ layout: post
 ---
 
 <style>
-div#citations ul {
+ul.citations {
   margin-top: 10px;
 }
 
-div#citations li {
+ul.citations li {
   font-size: 90%;
 }
 </style>
@@ -50,11 +50,9 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 Juliane Stiller, and Péter Király. “Multilinguality of Metadata Measuring the Multilingual Degree of Europeana’s Metadata.” In M. Gäde, V. Trkulja, V. Petras (Eds.): *Everything Changes, Everything Stays the Same? Understanding Information Spaces.* Proceedings of the 15th International Symposium of Information Science (ISI 2017), Berlin, 13th—15th March 2017. Glückstadt: Verlag Werner Hülsbusch, pp. 164—176. URL (whole book): [http://isi2017.ib.hu-berlin.de/ISI_17_ONLINE_FINAL.pdf](http://isi2017.ib.hu-berlin.de/ISI_17_ONLINE_FINAL.pdf) (this paper): [https://www.researchgate.net/publication/314879735_Multilinguality_of_Metadata_Measuring_the_Multilingual_Degree_of_Europeana%27s_Metadata](https://www.researchgate.net/publication/314879735_Multilinguality_of_Metadata_Measuring_the_Multilingual_Degree_of_Europeana%27s_Metadata)<br/>
 cited by:<br/>
 
-<div id="citations">
-
- * Fallert, Sarah. "Multilinguale Herausforderungen in der Sacherschließung." Master's thesis, Humboldt-Universität zu Berlin, 2020. [link](https://edoc.hu-berlin.de/handle/18452/22048)
- * August Wierling, Valeria Jana Schwanitz, Sebnem Altinci, Maria Bałazinska, Michael J. Barber, Mehmet Efe Biresselioglu, Christopher Burger-Scheidlin, Massimo Celino, Muhittin Hakan Demir, Richard Dennis, Nicolas Dintzner, Adel el Gammal, Carlos M. Fernández-Peruchena, Winston Gilcrease, Paweł Gładysz, Carsten Hoyer-Klick, Kevin Joshi, Mariusz Kruczek, David Lacroix, Małgorzata Markowska, Rafael Mayo-García, Robbie Morrison, Manfred Paier, Giuseppe Peronato, Mahendranath Ramakrishnan, Janeita Reid, Alessandro Sciullo, Berfu Solak, Demet Suna, Wolfgang Süß, Astrid Unger, Maria Luisa Fernandez Vanoni  and Nikola Vasiljevic. "FAIR Metadata Standards for Low Carbon Energy Research—A Review of Practices and How to Advance." _Energies_ 2021, 14, 6692. DOI [10.3390/en14206692](https://doi.org/10.3390/en14206692)
-
+<ul class="citations">
+ <li>Fallert, Sarah. "Multilinguale Herausforderungen in der Sacherschließung." Master's thesis, Humboldt-Universität zu Berlin, 2020. [link](https://edoc.hu-berlin.de/handle/18452/22048)</li>
+ <li>August Wierling, Valeria Jana Schwanitz, Sebnem Altinci, Maria Bałazinska, Michael J. Barber, Mehmet Efe Biresselioglu, Christopher Burger-Scheidlin, Massimo Celino, Muhittin Hakan Demir, Richard Dennis, Nicolas Dintzner, Adel el Gammal, Carlos M. Fernández-Peruchena, Winston Gilcrease, Paweł Gładysz, Carsten Hoyer-Klick, Kevin Joshi, Mariusz Kruczek, David Lacroix, Małgorzata Markowska, Rafael Mayo-García, Robbie Morrison, Manfred Paier, Giuseppe Peronato, Mahendranath Ramakrishnan, Janeita Reid, Alessandro Sciullo, Berfu Solak, Demet Suna, Wolfgang Süß, Astrid Unger, Maria Luisa Fernandez Vanoni  and Nikola Vasiljevic. "FAIR Metadata Standards for Low Carbon Energy Research—A Review of Practices and How to Advance." _Energies_ 2021, 14, 6692. DOI [10.3390/en14206692](https://doi.org/10.3390/en14206692)</li>
 </div>
 
 Péter Király. “Towards an extensible measurement of metadata quality.” In *Second International Conference on Digital Access to Textual Cultural Heritage.* Conference Proceedings. Göttingen, June 1-2, 2017. Published by ACM 2017. ISBN 978-1-4503-5265-9. pp. 111-115. DOI [10.1145/3078081.3078109](https://doi.org/10.1145/3078081.3078109)
