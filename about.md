@@ -7,6 +7,7 @@ layout: post
 ul {
   margin-top: 0px;
   margin-bottom: 20px;
+  list-style: none;
 }
 
 li {
