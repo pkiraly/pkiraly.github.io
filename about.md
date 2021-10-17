@@ -9,13 +9,12 @@ ul {
   list-style: none;
   padding-left: 25px;
 }
-
 li {
   font-size: 90%;
   text-indent: 25px;
 }
 p {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 0px;
   text-indent: 25px;
 }
@@ -54,7 +53,7 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 
 ## <a name="publications"/>Publications
 
-2017
+### 2017
 
 Juliane Stiller, and Péter Király. “Multilinguality of Metadata Measuring the Multilingual Degree of Europeana’s Metadata.” In M. Gäde, V. Trkulja, V. Petras (Eds.): *Everything Changes, Everything Stays the Same? Understanding Information Spaces.* Proceedings of the 15th International Symposium of Information Science (ISI 2017), Berlin, 13th—15th March 2017. Glückstadt: Verlag Werner Hülsbusch, pp. 164—176. URL (whole book): [http://isi2017.ib.hu-berlin.de/ISI_17_ONLINE_FINAL.pdf](http://isi2017.ib.hu-berlin.de/ISI_17_ONLINE_FINAL.pdf) (this paper): [https://www.researchgate.net/publication/314879735_Multilinguality_of_Metadata_Measuring_the_Multilingual_Degree_of_Europeana%27s_Metadata](https://www.researchgate.net/publication/314879735_Multilinguality_of_Metadata_Measuring_the_Multilingual_Degree_of_Europeana%27s_Metadata)<br/>
 cited by:<br/>
@@ -70,13 +69,13 @@ cited by:<br/>
 
 Péter Király. “Measuring completeness as metadata quality metric in Europeana.” In *Digital Humanities 2017. Conference Abstracts.* McGill University & Université de Montréal, Montréal, Canada, August 8–11, 2017. Prepared by Rhian Lewis and the DH2017 Local Organizers: Cecily Raynor, Dominic Forest, Michael Sinatra and Stéfan Sinclair. pp. 291-293. URL (whole book): [https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf](https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf), URL (the abstract): [https://dh2017.adho.org/abstracts/458/458.pdf](https://dh2017.adho.org/abstracts/458/458.pdf).
 
-2018
+### 2018
 
 Valentine Charles, Juliane Stiller, Péter Király, Werner Bailer, and Nuno Freire. "Data Quality Assessment in Europeana: Metrics for Multilinguality." In *Joint Proceedings of the 1st Workshop on Temporal Dynamics in Digital Libraries (TDDL 2017), the (Meta)-Data Quality Workshop (MDQual 2017) and the Workshop on Modeling Societal Future (Futurity 2017) (TDDL MDQual Futurity 2017) co-located with 21st International Conference on Theory and Practice of Digital Libraries (TPLD 2017)* (Grand Hotel Palace, Thessaloniki, Greece, 21 September 2017), edited by A. Caputo, N. Kanhabua, P. Basile, S. Lawless, D. Gavrilis, Ch. Papatheodorou, D. Trandabat. (CEUR Workshop Proceedings Volume 2038. ISSN 1613-0073.), Published by CEUR, 2018. [http://ceur-ws.org/Vol-2038/paper6.pdf](http://ceur-ws.org/Vol-2038/paper6.pdf).<br/>
 cited by:<br/>
  * Matteo Lorenzini, Rospocher Marco, and Sara Tonelli. "Proposta per una valutazione automatica della completeness dei metadati nel contesto delle biblioteche digitali." _DigItalia_ 2. (2020). pp. 159-167. DOI [10.36181/digitalia-00023](https://doi.org/10.36181/digitalia-00023)
 
-2019
+### 2019
 
 Péter Király and Marco Büchler. “Measuring completeness as metadata quality metric in Europeana.” In *2018 IEEE International Conference on Big Data (Big Data).* Published by IEEE, 2019. pp. 2711–2720. DOI [10.1109/BigData.2018.8622487](https://doi.org/10.1109/BigData.2018.8622487)<br/>
 cited by:<br/>
@@ -128,13 +127,13 @@ cited by:<br/>
 
 Péter Király and Marco Büchler. “A teljesség minőségjelzőként való mérése az Europeanában”. (Hungarian translation of “Measuring completeness as metadata quality metric in Europeana”) In *Digitális Bölcsészet* 2, 2019. pp. 57-76. DOI [10.31400/dh-hun.2019.2.388](https://doi.org/10.31400/dh-hun.2019.2.388)
 
-2020
+### 2020
 
 Péter Király. "Empirical evaluation of library catalogues". In *EuropeanaTech Newsletter* 15, 2020. [https://pro.europeana.eu/page/issue-15-swib-2019#empirical-evaluation-of-library-catalogues](https://pro.europeana.eu/page/issue-15-swib-2019#empirical-evaluation-of-library-catalogues). In Spanish: “Evaluación empírica de los catálogos de las bibliotecas” (translator unkown - send me a message if you know the translator). Blog de la biblioteca de Traducción y Documentación de la Universidad de Salamanca, 2020. [https://universoabierto.org/2020/06/01/evaluacion-empirica-de-los-catalogos-de-las-bibliotecas/](https://universoabierto.org/2020/06/01/evaluacion-empirica-de-los-catalogos-de-las-bibliotecas/)
 
 Péter Király. "A magyar népzenei adatok története és a (digitális) archiválás lehetőségei. Bolya Mátyás. Információelmélet és népzenekutatás: Rendszeralkotás, nyilvántartás, digitális archívum. Budapest: MTA BTK Zenetudományi Intézet–L’Harmattan Kiadó, 2019." Book review. In *Digitális Bölcsészet* 3, 2020. pp. 7-15. DOI [10.31400/dh-hun.2020.3.1405](https://doi.org/10.31400/dh-hun.2020.3.1405)
 
-2021
+### 2021
 
 Péter Király, and Jan Brase. "Qualitätsmanagement". In _Praxishandbuch Forschungsdatenmanagement_. Edited by: Markus Putnings, Heike Neuroth and Janna Neumann. Berlin, Boston: De Gruyter Saur. ISBN: 9783110653656, DOI 10.1515/9783110657807 (De Gruyter Praxishandbuch) pp. 357–380. DOI: [10.1515/9783110657807-020](https://doi.org/10.1515/9783110657807-020)
 
