@@ -10,7 +10,7 @@ ul {
   padding-left: 25px;
 }
 li {
-  font-size: 90%;
+  font-size: 85%;
   text-indent: 25px;
 }
 p {
@@ -124,6 +124,7 @@ cited by:<br/>
  * Evan Bryer, Theppatorn Rhujittawiwat, Samyu Comandur, Vasco Madrid, Stephanie Riley, John Rose, and Colin Wilder. "Analysis of Clustering Algorithms to Clean and Normalize Early Modern European Book Titles." In 2021 The 4th International Conference on Software Engineering and Information Management, pp. 106-112. 2021. DOI [10.1145/3451471.3451489](https://doi.org/10.1145/3451471.3451489)
  * Gustavo Candela, Escobar, Pilar, Sáez, María Dolores and Marco-Such, Manuel. "A Shape Expression approach for assessing the quality of Linked Open Data in Libraries." _Semantic Web_ pp. 1--21. DOI [10.3233/SW-210441](https://doi.org/10.3233/SW-210441)
  * Jakob Voß. "Datenqualität als Grundlage qualitativer Inhaltserschließung." In _Qualität in der Inhaltserschließung._ Edited by: Michael Franke-Maier, Anna Kasprzik, Andreas Ledl and Hans Schürmann. Berlin, Boston: De Gruyter Saur. ISBN: 9783110691597, DOI 10.1515/9783110691597 (Bibliotheks- und Informationspraxis, Volume 70) pp. 167-176. DOI [10.1515/9783110691597-011](https://doi.org/10.1515/9783110691597-010)
+ * Vyacheslav Zavalin, Oksana L. Zavalina and Rachel Safa. "Patterns of Subject Metadata Change in MARC 21 Bibliographic Records for Video Recordings." _Proceedings of the Association for Information Science and Technology_ 58, no. 1 (2021): 543-547. DOI [10.1002/pra2.494](https://doi.org/10.1002/pra2.494)
 
 Péter Király and Marco Büchler. “A teljesség minőségjelzőként való mérése az Europeanában”. (Hungarian translation of “Measuring completeness as metadata quality metric in Europeana”) In *Digitális Bölcsészet* 2, 2019. pp. 57-76. DOI [10.31400/dh-hun.2019.2.388](https://doi.org/10.31400/dh-hun.2019.2.388)
 
