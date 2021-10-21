@@ -4,15 +4,8 @@ layout: post
 ---
 
 <style>
-ol, ul {
+ol {
   margin-top: 0 0 0 20px;
-}
-ul {
-  list-style: none;
-}
-ul li {
-  font-size: 85%;
-  text-indent: 25px;
 }
 ol li {
   font-size: 85%;
