@@ -4,7 +4,7 @@ layout: post
 ---
 
 <style>
-ul {
+ol, ul {
   margin-top: 0 0 0 20px;
   list-style: none;
   padding-left: 25px;
@@ -58,14 +58,14 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 Juliane Stiller, and Péter Király. “Multilinguality of Metadata Measuring the Multilingual Degree of Europeana’s Metadata.” In M. Gäde, V. Trkulja, V. Petras (Eds.): *Everything Changes, Everything Stays the Same? Understanding Information Spaces.* Proceedings of the 15th International Symposium of Information Science (ISI 2017), Berlin, 13th—15th March 2017. Glückstadt: Verlag Werner Hülsbusch, pp. 164—176. URL (whole book): [http://isi2017.ib.hu-berlin.de/ISI_17_ONLINE_FINAL.pdf](http://isi2017.ib.hu-berlin.de/ISI_17_ONLINE_FINAL.pdf) (this paper): [https://www.researchgate.net/publication/314879735_Multilinguality_of_Metadata_Measuring_the_Multilingual_Degree_of_Europeana%27s_Metadata](https://www.researchgate.net/publication/314879735_Multilinguality_of_Metadata_Measuring_the_Multilingual_Degree_of_Europeana%27s_Metadata)<br/>
 cited by:<br/>
 
- * Fallert, Sarah. "Multilinguale Herausforderungen in der Sacherschließung." Master's thesis, Humboldt-Universität zu Berlin, 2020. [link](https://edoc.hu-berlin.de/handle/18452/22048)
- * August Wierling, Valeria Jana Schwanitz, Sebnem Altinci, Maria Bałazinska, Michael J. Barber, Mehmet Efe Biresselioglu, Christopher Burger-Scheidlin, Massimo Celino, Muhittin Hakan Demir, Richard Dennis, Nicolas Dintzner, Adel el Gammal, Carlos M. Fernández-Peruchena, Winston Gilcrease, Paweł Gładysz, Carsten Hoyer-Klick, Kevin Joshi, Mariusz Kruczek, David Lacroix, Małgorzata Markowska, Rafael Mayo-García, Robbie Morrison, Manfred Paier, Giuseppe Peronato, Mahendranath Ramakrishnan, Janeita Reid, Alessandro Sciullo, Berfu Solak, Demet Suna, Wolfgang Süß, Astrid Unger, Maria Luisa Fernandez Vanoni  and Nikola Vasiljevic. "FAIR Metadata Standards for Low Carbon Energy Research—A Review of Practices and How to Advance." _Energies_ 2021, 14, 6692. DOI [10.3390/en14206692](https://doi.org/10.3390/en14206692)
+1. Fallert, Sarah. "Multilinguale Herausforderungen in der Sacherschließung." Master's thesis, Humboldt-Universität zu Berlin, 2020. [link](https://edoc.hu-berlin.de/handle/18452/22048)
+2. August Wierling, Valeria Jana Schwanitz, Sebnem Altinci, Maria Bałazinska, Michael J. Barber, Mehmet Efe Biresselioglu, Christopher Burger-Scheidlin, Massimo Celino, Muhittin Hakan Demir, Richard Dennis, Nicolas Dintzner, Adel el Gammal, Carlos M. Fernández-Peruchena, Winston Gilcrease, Paweł Gładysz, Carsten Hoyer-Klick, Kevin Joshi, Mariusz Kruczek, David Lacroix, Małgorzata Markowska, Rafael Mayo-García, Robbie Morrison, Manfred Paier, Giuseppe Peronato, Mahendranath Ramakrishnan, Janeita Reid, Alessandro Sciullo, Berfu Solak, Demet Suna, Wolfgang Süß, Astrid Unger, Maria Luisa Fernandez Vanoni  and Nikola Vasiljevic. "FAIR Metadata Standards for Low Carbon Energy Research—A Review of Practices and How to Advance." _Energies_ 2021, 14, 6692. DOI [10.3390/en14206692](https://doi.org/10.3390/en14206692)
 
 
 Péter Király. “Towards an extensible measurement of metadata quality.” In *Second International Conference on Digital Access to Textual Cultural Heritage.* Conference Proceedings. Göttingen, June 1-2, 2017. Published by ACM 2017. ISBN 978-1-4503-5265-9. pp. 111-115. DOI [10.1145/3078081.3078109](https://doi.org/10.1145/3078081.3078109)
 URL: [http://dl.acm.org/citation.cfm?doid=3078081.3078109](http://dl.acm.org/citation.cfm?doid=3078081.3078109)<br/>
 cited by:<br/>
- * Gustavo Candela, Pilar Escobar, María Dolores Sáez and Manuel Marco-Such. "A Shape Expression approach for assessing the quality of Linked Open Data in Libraries." _Semantic Web_ pp. 1--21. DOI [10.3233/SW-210441](https://doi.org/10.3233/SW-210441)
+1. Gustavo Candela, Pilar Escobar, María Dolores Sáez and Manuel Marco-Such. "A Shape Expression approach for assessing the quality of Linked Open Data in Libraries." _Semantic Web_ pp. 1--21. DOI [10.3233/SW-210441](https://doi.org/10.3233/SW-210441)
 
 Péter Király. “Measuring completeness as metadata quality metric in Europeana.” In *Digital Humanities 2017. Conference Abstracts.* McGill University & Université de Montréal, Montréal, Canada, August 8–11, 2017. Prepared by Rhian Lewis and the DH2017 Local Organizers: Cecily Raynor, Dominic Forest, Michael Sinatra and Stéfan Sinclair. pp. 291-293. URL (whole book): [https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf](https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf), URL (the abstract): [https://dh2017.adho.org/abstracts/458/458.pdf](https://dh2017.adho.org/abstracts/458/458.pdf).
 
@@ -73,8 +73,8 @@ Péter Király. “Measuring completeness as metadata quality metric in European
 
 Valentine Charles, Juliane Stiller, Péter Király, Werner Bailer, and Nuno Freire. "Data Quality Assessment in Europeana: Metrics for Multilinguality." In *Joint Proceedings of the 1st Workshop on Temporal Dynamics in Digital Libraries (TDDL 2017), the (Meta)-Data Quality Workshop (MDQual 2017) and the Workshop on Modeling Societal Future (Futurity 2017) (TDDL MDQual Futurity 2017) co-located with 21st International Conference on Theory and Practice of Digital Libraries (TPLD 2017)* (Grand Hotel Palace, Thessaloniki, Greece, 21 September 2017), edited by A. Caputo, N. Kanhabua, P. Basile, S. Lawless, D. Gavrilis, Ch. Papatheodorou, D. Trandabat. (CEUR Workshop Proceedings Volume 2038. ISSN 1613-0073.), Published by CEUR, 2018. [http://ceur-ws.org/Vol-2038/paper6.pdf](http://ceur-ws.org/Vol-2038/paper6.pdf).<br/>
 cited by:<br/>
- # Matteo Lorenzini, Rospocher Marco, and Sara Tonelli. "Proposta per una valutazione automatica della completeness dei metadati nel contesto delle biblioteche digitali." _DigItalia_ 2. (2020). pp. 159-167. DOI [10.36181/digitalia-00023](https://doi.org/10.36181/digitalia-00023)
- # Subhi Issa, Onaopepo Adekunle, Fayçal Hamdi, Samira Si-Said Cherfi, Michel Dumontier, and Amrapali Zaveri. "Knowledge Graph Completeness: A Systematic Literature Review." _IEEE Access_ 9. (2021). pp. 31322-31339. DOI [10.1109/ACCESS.2021.3056622](https://doi.org/10.1109/ACCESS.2021.3056622)
+1. Matteo Lorenzini, Rospocher Marco, and Sara Tonelli. "Proposta per una valutazione automatica della completeness dei metadati nel contesto delle biblioteche digitali." _DigItalia_ 2. (2020). pp. 159-167. DOI [10.36181/digitalia-00023](https://doi.org/10.36181/digitalia-00023)
+2. Subhi Issa, Onaopepo Adekunle, Fayçal Hamdi, Samira Si-Said Cherfi, Michel Dumontier, and Amrapali Zaveri. "Knowledge Graph Completeness: A Systematic Literature Review." _IEEE Access_ 9. (2021). pp. 31322-31339. DOI [10.1109/ACCESS.2021.3056622](https://doi.org/10.1109/ACCESS.2021.3056622)
 
 ### 2019
 
