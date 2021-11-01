@@ -50,7 +50,9 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 
 ## <a name="publications"/>Publications
 
-Péter Király. "Metadata quality assurrance framework". Doctoral research plan. [pkiraly.github.io](http://pkiraly.github.io/metadata-quality-project-plan.pdf)<br/>
+### 2015
+
+Péter Király. "Metadata quality assurrance framework". Unpublished doctoral research plan (2015) [pkiraly.github.io](http://pkiraly.github.io/metadata-quality-project-plan.pdf)<br/>
 cited by:<br/>
 
 1. Vivien Petras, and Juliane Stiller. "A decade of evaluating europeana-constructs, contexts, methods & criteria." In _International Conference on Theory and Practice of Digital Libraries_, pp. 233-245. Springer, Cham, 2017. DOI: [10.1007/978-3-319-67008-9_19](https://doi.org/10.1007/978-3-319-67008-9_19)
@@ -65,7 +67,6 @@ cited by:<br/>
 The following paper was rejected, and is not available
 8. Jhon Francined Herrera-Cubides, Paulo A. Gaona-García and Salvador Sánchez-Alonso. “The Web of Data radiography: Is current Open Data good enough for Linked Data?” (2020). [semantic-web-journal.net](http://www.semantic-web-journal.net/system/files/swj2530.pdf)
 -->
-
 
 ### 2017
 
