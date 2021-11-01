@@ -50,6 +50,23 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 
 ## <a name="publications"/>Publications
 
+Péter Király. "Metadata quality assurrance framework". Doctoral research plan. [pkiraly.github.io](http://pkiraly.github.io/metadata-quality-project-plan.pdf)<br/>
+cited by:<br/>
+
+1. Vivien Petras, and Juliane Stiller. "A decade of evaluating europeana-constructs, contexts, methods & criteria." In _International Conference on Theory and Practice of Digital Libraries_, pp. 233-245. Springer, Cham, 2017. DOI: [10.1007/978-3-319-67008-9_19](https://doi.org/10.1007/978-3-319-67008-9_19)
+2. Marcin Roszkowski. "Diagnostyka metadanych w kolekcjach cyfrowych." _Diagnostyka w zarządzaniu informacją: perspektywa informatologiczna_ (2017): pp. 365-390. [researchgate.net](https://www.researchgate.net/profile/Marcin-Roszkowski/publication/322505864_Diagnostyka_metadanych_w_kolekcjach_cyfrowych/links/5a5cbf810f7e9b4f78395fd9/Diagnostyka-metadanych-w-kolekcjach-cyfrowych.pdf)
+3. Oksana L. Zavalina, Shadi Shakeri, Priya Kizhakkethil, and Mark E. Phillips. "Uncovering Hidden Insights for Information Management: Examination and Modeling of Change in Digital Collection Metadata." In _International Conference on Information_, pp. 645-651. Springer, Cham, 2018. DOI: [10.1007/978-3-319-78105-1_74](https://doi.org/10.1007/978-3-319-78105-1_74)
+4. Branka Badovinac. "Merjenje kakovosti podatkov v bibliografskih in normativnih zapisih: študija primera izbranih podatkovnih elementov za fasetno omejevanje in izpis seznama zadetkov v COBISS+." _Organizacija Znanja_ 24, no. 1/2 (2019): pp. 1-20. [cobiss.si](https://www.cobiss.si/OZ/PDF/OZ_2019_1_2_final/1924005_Badovinac.pdf)
+5. C. Scheidlin, M. Celino, M. H. Demir, and R. Dennis. "FAIR Metadata Standards for Low Carbon Energy Research—A Review of Practices and How to Advance." (2020). [tudelft.nl](https://research.tudelft.nl/files/101022205/energies_14_06692_v2.pdf)
+6. Mark Edward Phillips, Oksana L. Zavalina, and Hannah Tarver. "Exploring the utility of metadata record graphs and network analysis for metadata quality evaluation and augmentation." _International Journal of Metadata, Semantics and Ontologies_ 14, no. 2 (2020): 112-123. DOI: [10.1504/IJMSO.2020.108326](https://doi.org/10.1504/IJMSO.2020.108326)
+7. Rachel Jaffe. "Rethinking Metadata’s Value and How It Is Evaluated." _Technical Services Quarterly_ 37, no. 4 (2020): 432-443. DOI: [10.1080/07317131.2020.1810443](https://doi.org/10.1080/07317131.2020.1810443)
+8. August Wierling, Valeria Jana Schwanitz, Sebnem Altinci, Maria Bałazińska, Michael J. Barber, Mehmet Efe Biresselioglu, Christopher Burger-Scheidlin et al. "FAIR Metadata Standards for Low Carbon Energy Research—A Review of Practices and How to Advance." Energies 14, no. 20 (2021): 6692. DOI: [10.3390/en14206692](https://doi.org/10.3390/en14206692)
+<!--
+The following paper was rejected, and is not available
+8. Jhon Francined Herrera-Cubides, Paulo A. Gaona-García and Salvador Sánchez-Alonso. “The Web of Data radiography: Is current Open Data good enough for Linked Data?” (2020). [semantic-web-journal.net](http://www.semantic-web-journal.net/system/files/swj2530.pdf)
+-->
+
+
 ### 2017
 
 Juliane Stiller, and Péter Király. “Multilinguality of Metadata Measuring the Multilingual Degree of Europeana’s Metadata.” In M. Gäde, V. Trkulja, V. Petras (Eds.): *Everything Changes, Everything Stays the Same? Understanding Information Spaces.* Proceedings of the 15th International Symposium of Information Science (ISI 2017), Berlin, 13th—15th March 2017. Glückstadt: Verlag Werner Hülsbusch, pp. 164—176. URL (whole book): [http://isi2017.ib.hu-berlin.de/ISI_17_ONLINE_FINAL.pdf](http://isi2017.ib.hu-berlin.de/ISI_17_ONLINE_FINAL.pdf) (this paper): [https://www.researchgate.net/publication/314879735_Multilinguality_of_Metadata_Measuring_the_Multilingual_Degree_of_Europeana%27s_Metadata](https://www.researchgate.net/publication/314879735_Multilinguality_of_Metadata_Measuring_the_Multilingual_Degree_of_Europeana%27s_Metadata)<br/>
