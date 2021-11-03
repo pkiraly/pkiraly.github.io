@@ -63,6 +63,7 @@ cited by:<br/>
 6. Rachel Jaffe. "Rethinking Metadata’s Value and How It Is Evaluated." _Technical Services Quarterly_ 37, no. 4 (2020): 432-443. DOI: [10.1080/07317131.2020.1810443](https://doi.org/10.1080/07317131.2020.1810443)
 7. August Wierling, Valeria Jana Schwanitz, Sebnem Altinci, Maria Bałazinska, Michael J. Barber, Mehmet Efe Biresselioglu, Christopher Burger-Scheidlin, Massimo Celino, Muhittin Hakan Demir, Richard Dennis, Nicolas Dintzner, Adel el Gammal, Carlos M. Fernández-Peruchena, Winston Gilcrease, Paweł Gładysz, Carsten Hoyer-Klick, Kevin Joshi, Mariusz Kruczek, David Lacroix, Małgorzata Markowska, Rafael Mayo-García, Robbie Morrison, Manfred Paier, Giuseppe Peronato, Mahendranath Ramakrishnan, Janeita Reid, Alessandro Sciullo, Berfu Solak, Demet Suna, Wolfgang Süß, Astrid Unger, Maria Luisa Fernandez Vanoni and Nikola Vasiljevic. "FAIR Metadata Standards for Low Carbon Energy Research—A Review of Practices and How to Advance." _Energies_ 2021 14, no. 20, 6692. DOI: [10.3390/en14206692](https://doi.org/10.3390/en14206692)
 
+
 <!--
 The following paper was rejected, and is not available
 8. Jhon Francined Herrera-Cubides, Paulo A. Gaona-García and Salvador Sánchez-Alonso. “The Web of Data radiography: Is current Open Data good enough for Linked Data?” (2020). [semantic-web-journal.net](http://www.semantic-web-journal.net/system/files/swj2530.pdf)
@@ -120,10 +121,6 @@ cited by:<br/>
 1. Nuno Freire and Antoine Isaac. "Technical usability of Wikidata’s linked data." In International Conference on Business Information Systems, pp. 556-567. Springer, Cham, 2019. DOI: [10.1007/978-3-030-36691-9_47](https://doi.org/10.1007/978-3-030-36691-9_47)
 2. Mark E. Phillips, Oksana L. Zavalina, and Hannah Tarver. "Using metadata record graphs to understand digital library metadata." In International Conference on Dublin Core and Metadata Applications, pp. 49-58. 2020. [dcpapers.dublincore.org](https://dcpapers.dublincore.org/pubs/article/view/4237)
 3. Nuno Freire, and Antoine Isaac. "Wikidata's linked data for cultural heritage digital resources: an evaluation based on the Europeana data model." In International Conference on Dublin Core and Metadata Applications, pp. 59-68. 2020. [dcpapers.dublincore.org](https://dcpapers.dublincore.org/pubs/article/view/4239)
-
-ISBN: 978-989-758-474-9
-Copyright c©2020 by SCITEPRESS – Science and Technology Publications,
-
 4. Sarantos Kapidakis. "Consistency and Interoperability on Dublin Core Element Values in Collections Harvested using the Open Archive Initiative Protocol for Metadata Harvesting." In _Proceedings of the 12th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management (IC3K 2020)_ Volume 2: KEOD, pp. 181-188. 2020. DOI: [10.5220/0010112001810188](https://doi.org/10.5220/0010112001810188)
 5. Yalemisew Abgaz, Amelie Dorn, José Luis Preza Díaz, and Gerda Koch. "Towards a Comprehensive Assessment of the Quality and Richness of the Europeana Metadata of food-related Images." In Proceedings of the 1st International Workshop on Artificial Intelligence for Historical Image Enrichment and Access, pp. 29-33. 2020. [aclanthology.org](https://aclanthology.org/2020.ai4hi-1.5/)
 6. Н. С. Редькина "ЕВРОПЕАНА: ЦИФРОВОЕ КУЛЬТУРНОЕ НАСЛЕДИЕ ЕВРОПЫ." Ученые записки (Алтайская государственная академия культуры и искусств) 2 (24) (2020). [cyberleninka.ru](https://cyberleninka.ru/article/n/evropeana-tsifrovoe-kulturnoe-nasledie-evropy/pdf)
@@ -145,6 +142,8 @@ cited by:<br/>
 5. Gustavo Candela, Pilar Escobar, María Dolores Sáez and Manuel Marco-Such. "A Shape Expression approach for assessing the quality of Linked Open Data in Libraries." _Semantic Web_ pp. 1--21. DOI: [10.3233/SW-210441](https://doi.org/10.3233/SW-210441)
 6. Jakob Voß. "Datenqualität als Grundlage qualitativer Inhaltserschließung." In _Qualität in der Inhaltserschließung._ Edited by: Michael Franke-Maier, Anna Kasprzik, Andreas Ledl and Hans Schürmann. Berlin, Boston: De Gruyter Saur. ISBN: 9783110691597, DOI: 10.1515/9783110691597 (Bibliotheks- und Informationspraxis, Volume 70) pp. 167-176. DOI: [10.1515/9783110691597-011](https://doi.org/10.1515/9783110691597-010)
 7. Vyacheslav Zavalin, Oksana L. Zavalina and Rachel Safa. "Patterns of Subject Metadata Change in MARC 21 Bibliographic Records for Video Recordings." _Proceedings of the Association for Information Science and Technology_ 58, no. 1 (2021): 543-547. DOI: [10.1002/pra2.494](https://doi.org/10.1002/pra2.494)
+8. Evan Bryer, Theppatorn Rhujittawiwat, John R. Rose, and Colin F. Wilder. "Improvement of Clustering Algorithms by Implementation of Spelling Based Ranking." _IADIS International Journal on Computer Science and Information Systems_ 2021. Vol. 16, No. 2, pp. 45-60 
+ISSN: 1646-3692. [iadisportal.org](http://www.iadisportal.org/ijcsis/papers/2021160204.pdf)
 
 Péter Király and Marco Büchler. “A teljesség minőségjelzőként való mérése az Europeanában”. (Hungarian translation of “Measuring completeness as metadata quality metric in Europeana”) In *Digitális Bölcsészet* 2, 2019. pp. 57-76. DOI: [10.31400/dh-hun.2019.2.388](https://doi.org/10.31400/dh-hun.2019.2.388)
 
