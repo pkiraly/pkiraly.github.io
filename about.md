@@ -62,6 +62,8 @@ cited by:<br/>
 5. Mark Edward Phillips, Oksana L. Zavalina, and Hannah Tarver. "Exploring the utility of metadata record graphs and network analysis for metadata quality evaluation and augmentation." _International Journal of Metadata, Semantics and Ontologies_ 14, no. 2 (2020): 112-123. DOI: [10.1504/IJMSO.2020.108326](https://doi.org/10.1504/IJMSO.2020.108326)
 6. Rachel Jaffe. "Rethinking Metadata’s Value and How It Is Evaluated." _Technical Services Quarterly_ 37, no. 4 (2020): 432-443. DOI: [10.1080/07317131.2020.1810443](https://doi.org/10.1080/07317131.2020.1810443)
 7. August Wierling, Valeria Jana Schwanitz, Sebnem Altinci, Maria Bałazinska, Michael J. Barber, Mehmet Efe Biresselioglu, Christopher Burger-Scheidlin, Massimo Celino, Muhittin Hakan Demir, Richard Dennis, Nicolas Dintzner, Adel el Gammal, Carlos M. Fernández-Peruchena, Winston Gilcrease, Paweł Gładysz, Carsten Hoyer-Klick, Kevin Joshi, Mariusz Kruczek, David Lacroix, Małgorzata Markowska, Rafael Mayo-García, Robbie Morrison, Manfred Paier, Giuseppe Peronato, Mahendranath Ramakrishnan, Janeita Reid, Alessandro Sciullo, Berfu Solak, Demet Suna, Wolfgang Süß, Astrid Unger, Maria Luisa Fernandez Vanoni and Nikola Vasiljevic. "FAIR Metadata Standards for Low Carbon Energy Research—A Review of Practices and How to Advance." _Energies_ 2021 14, no. 20, 6692. DOI: [10.3390/en14206692](https://doi.org/10.3390/en14206692)
+8. Matteo Lorenzini, Marco Rospocher, Sara Tonelli. "On assessing metadata completeness in digital cultural heritage repositories" _Digital Scholarship in the Humanities_ 2021 36, Supplement_2, pp. ii182–ii188. DOI: [10.1093/llc/fqab036](https://doi.org/10.1093/llc/fqab036)
+
 
 
 <!--
