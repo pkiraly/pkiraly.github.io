@@ -165,7 +165,9 @@ Rudolf Ungváry, and Péter Király. "Bemerkungen zu der Qualitätsbewertung von
 
 <!-- span id="badgeCont105"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont105&rid=AAW-9289-2021"></script></span -->
 
-<script src="https://data.goettingen-research-online.de/resources/js/widgets.js?persistentId=doi:10.25625/AMF8JC&amp;dvUrl=https://data.goettingen-research-online.de&amp;widget=iframe&amp;heightPx=500"></script>
+<!-- script src="https://data.goettingen-research-online.de/resources/js/widgets.js?persistentId=doi:10.25625/AMF8JC&amp;dvUrl=https://data.goettingen-research-online.de&amp;widget=iframe&amp;heightPx=500"></script -->
+
+<script src="https://data.goettingen-research-online.de/resources/js/widgets.js?alias=pkiraly&amp;dvUrl=https://data.goettingen-research-online.de&amp;widgetScope=pkiraly&amp;widget=iframe&amp;heightPx=500"></script>
 
 ## About me
 My name is Péter Király, and I am a software developer, analyst. My main interests are publishing and searching large text corporas in the web, and the new ways of web presence of cultural heritage (mainly library and archival materials with special focus on semantic web technologies). You can reach me via the methods listed in the [contact page](/contact).
