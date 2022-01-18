@@ -84,6 +84,8 @@ Péter Király. “Towards an extensible measurement of metadata quality.” In 
 URL: [http://dl.acm.org/citation.cfm?doid=3078081.3078109](http://dl.acm.org/citation.cfm?doid=3078081.3078109)<br/>
 cited by:<br/>
 1. Gustavo Candela, Pilar Escobar, María Dolores Sáez and Manuel Marco-Such. "A Shape Expression approach for assessing the quality of Linked Open Data in Libraries." _Semantic Web_ pp. 1--21. DOI: [10.3233/SW-210441](https://doi.org/10.3233/SW-210441)
+2. Widad Elouataoui, Imane El Alaoui, and Youssef Gahi. "Metadata Quality in the Era of Big Data and Unstructured Content." In The International Conference on Information, Communication & Cybersecurity, pp. 110-121. Springer, Cham, 2021. DOI: [10.1007/978-3-030-91738-8_11](https://doi.org/10.1007/978-3-030-91738-8_11)
+
 
 Péter Király. “Measuring completeness as metadata quality metric in Europeana.” In *Digital Humanities 2017. Conference Abstracts.* McGill University & Université de Montréal, Montréal, Canada, August 8–11, 2017. Prepared by Rhian Lewis and the DH2017 Local Organizers: Cecily Raynor, Dominic Forest, Michael Sinatra and Stéfan Sinclair. pp. 291-293. URL (whole book): [https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf](https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf), URL (the abstract): [https://dh2017.adho.org/abstracts/458/458.pdf](https://dh2017.adho.org/abstracts/458/458.pdf).
 
@@ -119,6 +121,7 @@ cited by:<br/>
 19. Lisandra Díaz de la Paz, Francisco N. Riestra Collado, Juan L. García Mendoza, Luisa M. González González, Amed A. Leiva Mederos, and Alberto Taboada Crispi. "Weights Estimation in the Completeness Measurement of Bibliographic Metadata." Computación y Sistemas 25, no. 1. 2021. pp. 47–65. DOI: [10.13053/CyS-25-1-3355](https://doi.org/10.13053/CyS-25-1-3355)
 20. Петр Сергеевич Ершов, and Юрий Евгеньевич Хохлов. "Цифровая инфраструктура для работы с большими данными." _Информационное общество_ 4-5 (2021): 110-131. [infosoc.iis.ru](http://infosoc.iis.ru/article/view/657)
 21. Vladimir A. Shekhovtsov and Johann Eder. "Data Item Quality for Biobanks." In _Transactions on Large-Scale Data-and Knowledge-Centered Systems_ L, Springer, Berlin, Heidelberg, 2021. pp. 77-115. [DOI](https://doi.org/10.1007/978-3-662-64553-6_5)
+22. Widad Elouataoui, Imane El Alaoui, and Youssef Gahi. "Metadata Quality in the Era of Big Data and Unstructured Content." In The International Conference on Information, Communication & Cybersecurity, pp. 110-121. Springer, Cham, 2021. DOI: [10.1007/978-3-030-91738-8_11](https://doi.org/10.1007/978-3-030-91738-8_11)
 
 Péter Király, Juliane Stiller, Valentine Charles, Werner Bailer, and Nuno Freire. “Evaluating Data Quality in Europeana: Metrics for Multilinguality.” In *Metadata and Semantic Research 2019. 12th International Conference, MTSR 2018, Limassol, Cyprus, October 23-26, 2018, Revised Selected Papers* (Communications in Computer and Information Science, volume 846) Published by Springer, 2019. pp. 199–211. DOI: [10.1007/978-3-030-14401-2_19](https://doi.org/10.1007/978-3-030-14401-2_19)<br/>
 cited by:<br/>
@@ -136,6 +139,7 @@ cited by:<br/>
 Péter Király. “Measuring metadata quality”. PhD dissertation. DOI: [10.13140/RG.2.2.33177.77920](http://doi.org/10.13140/RG.2.2.33177.77920) (ResearchGate), [Göttingen eDiss repository](http://hdl.handle.net/21.11130/00-1735-0000-0003-C17C-8), [Academia.edu](https://www.academia.edu/40176196/Measuring_Metadata_Quality).<br/>
 cited by:<br/>
 1. Tyler J. Skluzacek, Ryan Wong, Zhuozhao Li, Ryan Chard, Kyle Chard, and Ian Foster. "A Serverless Framework for Distributed Bulk Metadata Extraction." In _Proceedings of the 30th International Symposium on High-Performance Parallel and Distributed Computing_, pp. 7-18. 2020. DOI: [10.1145/3431379.3460636](https://doi.org/10.1145/3431379.3460636)
+2. Widad Elouataoui, Imane El Alaoui, and Youssef Gahi. "Metadata Quality in the Era of Big Data and Unstructured Content." In The International Conference on Information, Communication & Cybersecurity, pp. 110-121. Springer, Cham, 2021. DOI: [10.1007/978-3-030-91738-8_11](https://doi.org/10.1007/978-3-030-91738-8_11)
 
 Péter Király. “Validating 126 million MARC records”. In *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI: [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)<br/>
 cited by:<br/>
