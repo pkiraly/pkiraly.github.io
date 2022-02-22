@@ -63,8 +63,7 @@ cited by:<br/>
 6. Rachel Jaffe. "Rethinking Metadata’s Value and How It Is Evaluated." _Technical Services Quarterly_ 37, no. 4 (2020): 432-443. DOI: [10.1080/07317131.2020.1810443](https://doi.org/10.1080/07317131.2020.1810443)
 7. August Wierling, Valeria Jana Schwanitz, Sebnem Altinci, Maria Bałazinska, Michael J. Barber, Mehmet Efe Biresselioglu, Christopher Burger-Scheidlin, Massimo Celino, Muhittin Hakan Demir, Richard Dennis, Nicolas Dintzner, Adel el Gammal, Carlos M. Fernández-Peruchena, Winston Gilcrease, Paweł Gładysz, Carsten Hoyer-Klick, Kevin Joshi, Mariusz Kruczek, David Lacroix, Małgorzata Markowska, Rafael Mayo-García, Robbie Morrison, Manfred Paier, Giuseppe Peronato, Mahendranath Ramakrishnan, Janeita Reid, Alessandro Sciullo, Berfu Solak, Demet Suna, Wolfgang Süß, Astrid Unger, Maria Luisa Fernandez Vanoni and Nikola Vasiljevic. "FAIR Metadata Standards for Low Carbon Energy Research—A Review of Practices and How to Advance." _Energies_ (2021) 14, no. 20, 6692. DOI: [10.3390/en14206692](https://doi.org/10.3390/en14206692)
 8. Matteo Lorenzini, Marco Rospocher, Sara Tonelli. "On assessing metadata completeness in digital cultural heritage repositories." _Digital Scholarship in the Humanities_ 36, Supplement_2, (2021) pp. ii182–ii188. DOI: [10.1093/llc/fqab036](https://doi.org/10.1093/llc/fqab036)
-
-
+9. Jhon Francined Herrera Cubides. "Metamodelo para vinculación de recursos educativos abiertos mediante especificaciones LOD y basado en principios de confianza." Thesis doctoral. Universidad Distrital “Francisco José de Caldas" Facultad de Ingeniería. Bogotá - Colombia, 2021 [link](https://repository.udistrital.edu.co/handle/11349/28263)
 
 <!--
 The following paper was rejected, and is not available
@@ -140,6 +139,8 @@ Péter Király. “Measuring metadata quality”. PhD dissertation. DOI: [10.131
 cited by:<br/>
 1. Tyler J. Skluzacek, Ryan Wong, Zhuozhao Li, Ryan Chard, Kyle Chard, and Ian Foster. "A Serverless Framework for Distributed Bulk Metadata Extraction." In _Proceedings of the 30th International Symposium on High-Performance Parallel and Distributed Computing_, pp. 7-18. 2020. DOI: [10.1145/3431379.3460636](https://doi.org/10.1145/3431379.3460636)
 2. Widad Elouataoui, Imane El Alaoui, and Youssef Gahi. "Metadata Quality in the Era of Big Data and Unstructured Content." In The International Conference on Information, Communication & Cybersecurity, pp. 110-121. Springer, Cham, 2021. DOI: [10.1007/978-3-030-91738-8_11](https://doi.org/10.1007/978-3-030-91738-8_11)
+3. Salman Haider. "Library Cataloging, Classification, and Metadata Research: A Bibliography of Doctoral Dissertations—A Supplement, 2021". _Cataloging & Classification Quarterly_, 2022. no. 1. pp. 1-6. DOI: [10.1080/01639374.2021.2025183](https://doi.org/10.1080/01639374.2021.2025183)
+
 
 Péter Király. “Validating 126 million MARC records”. In *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI: [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)<br/>
 cited by:<br/>
