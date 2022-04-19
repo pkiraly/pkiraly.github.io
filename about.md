@@ -141,7 +141,7 @@ cited by:<br/>
 1. Tyler J. Skluzacek, Ryan Wong, Zhuozhao Li, Ryan Chard, Kyle Chard, and Ian Foster. "A Serverless Framework for Distributed Bulk Metadata Extraction." In _Proceedings of the 30th International Symposium on High-Performance Parallel and Distributed Computing_, pp. 7-18. 2020. DOI: [10.1145/3431379.3460636](https://doi.org/10.1145/3431379.3460636)
 2. Widad Elouataoui, Imane El Alaoui, and Youssef Gahi. "Metadata Quality in the Era of Big Data and Unstructured Content." In The International Conference on Information, Communication & Cybersecurity, pp. 110-121. Springer, Cham, 2021. DOI: [10.1007/978-3-030-91738-8_11](https://doi.org/10.1007/978-3-030-91738-8_11)
 3. Salman Haider. "Library Cataloging, Classification, and Metadata Research: A Bibliography of Doctoral Dissertations—A Supplement, 2021". _Cataloging & Classification Quarterly_, 2022. no. 1. pp. 1-6. DOI: [10.1080/01639374.2021.2025183](https://doi.org/10.1080/01639374.2021.2025183)
-
+4. Tyler J. Skluzacek, Matthew Chen, Erica Hsu, Kyle Chard, and Ian Foster. "Models and Metrics for Mining Meaningful Metadata." _International Conference on Computational Science_ (ICCS), 2022. [ResearchGate.net](https://www.researchgate.net/publication/359971955_Models_and_Metrics_for_Mining_Meaningful_Metadata).
 
 Péter Király. “Validating 126 million MARC records”. In *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI: [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)<br/>
 cited by:<br/>
