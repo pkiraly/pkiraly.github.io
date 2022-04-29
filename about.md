@@ -161,13 +161,15 @@ Péter Király and Marco Büchler. “A teljesség minőségjelzőként való m�
 
 Péter Király. "Empirical evaluation of library catalogues". In *EuropeanaTech Newsletter* 15, 2020. [https://pro.europeana.eu/page/issue-15-swib-2019#empirical-evaluation-of-library-catalogues](https://pro.europeana.eu/page/issue-15-swib-2019#empirical-evaluation-of-library-catalogues). In Spanish: “Evaluación empírica de los catálogos de las bibliotecas” (translator unkown - send me a message if you know the translator). Blog de la biblioteca de Traducción y Documentación de la Universidad de Salamanca, 2020. [https://universoabierto.org/2020/06/01/evaluacion-empirica-de-los-catalogos-de-las-bibliotecas/](https://universoabierto.org/2020/06/01/evaluacion-empirica-de-los-catalogos-de-las-bibliotecas/)
 
-Péter Király. "A magyar népzenei adatok története és a (digitális) archiválás lehetőségei. Bolya Mátyás. Információelmélet és népzenekutatás: Rendszeralkotás, nyilvántartás, digitális archívum. Budapest: MTA BTK Zenetudományi Intézet–L’Harmattan Kiadó, 2019." Book review. In *Digitális Bölcsészet* 3, 2020. pp. 7-15. DOI: [10.31400/dh-hun.2020.3.1405](https://doi.org/10.31400/dh-hun.2020.3.1405)
+Péter Király. "A magyar népzenei adatok története és a (digitális) archiválás lehetőségei. Bolya Mátyás. Információelmélet és népzenekutatás: Rendszeralkotás, nyilvántartás, digitális archívum. Budapest: MTA BTK Zenetudományi Intézet–L’Harmattan Kiadó, 2019." Book review. In _Digitális Bölcsészet_ 3, 2020. pp. 7-15. DOI: [10.31400/dh-hun.2020.3.1405](https://doi.org/10.31400/dh-hun.2020.3.1405)
 
 ### 2021
 
 Péter Király, and Jan Brase. "Qualitätsmanagement". In _Praxishandbuch Forschungsdatenmanagement_. Edited by: Markus Putnings, Heike Neuroth and Janna Neumann. Berlin, Boston: De Gruyter Saur. ISBN: 9783110653656, DOI: 10.1515/9783110657807 (De Gruyter Praxishandbuch) pp. 357–380. DOI: [10.1515/9783110657807-020](https://doi.org/10.1515/9783110657807-020)
 
 Rudolf Ungváry, and Péter Király. "Bemerkungen zu der Qualitätsbewertung von MARC-21-Datensätzen". In _Qualität in der Inhaltserschließung._ Edited by: Michael Franke-Maier, Anna Kasprzik, Andreas Ledl and Hans Schürmann. Berlin, Boston: De Gruyter Saur. ISBN: 9783110691597, DOI: 10.1515/9783110691597 (Bibliotheks- und Informationspraxis, Volume 70) pp. 177-227. DOI: [10.1515/9783110691597-011](https://doi.org/10.1515/9783110691597-011)
+
+Király Péter. "Kulturális adatelemzés – bevezetés és önéletrajz. Lev Manovich. Cultural analytics. Cambridge, Massachussetts–London, England: The MIT Press, 2020." Book Review. In _Digitális Bölcsészet_ 4, 2021. pp. 11-22. DOI: [10.31400/dh-hun.2021.4.3510](https://doi.org/10.31400/dh-hun.2021.4.3510)
 
 <!-- span id="badgeCont105"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont105&rid=AAW-9289-2021"></script></span -->
 
