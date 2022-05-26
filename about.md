@@ -171,6 +171,11 @@ Rudolf Ungváry, and Péter Király. "Bemerkungen zu der Qualitätsbewertung von
 
 Király Péter. "Kulturális adatelemzés – bevezetés és önéletrajz. Lev Manovich. Cultural analytics. Cambridge, Massachussetts–London, England: The MIT Press, 2020." Book Review. In _Digitális Bölcsészet_ 4, 2021. pp. 11-22. DOI: [10.31400/dh-hun.2021.4.3510](https://doi.org/10.31400/dh-hun.2021.4.3510)
 
+### 2022
+
+Tomasz Umerle, Giovanni Colavizza, Elżbieta Herden, Rindert Jagersma, Péter Király, Beata Koper, Leo Lahti, David Lindemann, Jakub Maciej Łubocki, Vojtěch Malínek, Alexandra Milanova, Róbert Péter, Nanette Rißler-Pipka, Matteo Romanello, Marcin Roszkowski, Dorota Siwecka, Mikko Tolonen, Ondřej Vimr. "An Analysis of The Current Bibliographical Data Landscape in the Humanities.
+A Case for the Joint Bibliodata Agendas of Public Stakeholders". 46 p. DARIAH. DOI: [10.5281/zenodo.6559857](https://doi.org/10.5281/zenodo.6559857)
+
 <!-- span id="badgeCont105"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont105&rid=AAW-9289-2021"></script></span -->
 
 ## About me
