@@ -176,6 +176,8 @@ Király Péter. "Kulturális adatelemzés – bevezetés és önéletrajz. Lev M
 Tomasz Umerle, Giovanni Colavizza, Elżbieta Herden, Rindert Jagersma, Péter Király, Beata Koper, Leo Lahti, David Lindemann, Jakub Maciej Łubocki, Vojtěch Malínek, Alexandra Milanova, Róbert Péter, Nanette Rißler-Pipka, Matteo Romanello, Marcin Roszkowski, Dorota Siwecka, Mikko Tolonen, Ondřej Vimr. "An Analysis of The Current Bibliographical Data Landscape in the Humanities.
 A Case for the Joint Bibliodata Agendas of Public Stakeholders". 46 p. DARIAH. DOI: [10.5281/zenodo.6559857](https://doi.org/10.5281/zenodo.6559857)
 
+Péter Király, and Hannes Lowagie. "Implementation of a daily MARC assessment with open source tools at KBR, the royal library of Belgium.". In *IFLA Metadata Newsletter* Volume 8, Number 1, June 2022. pp. 12-15 [ifla.org](https://repository.ifla.org/bitstream/123456789/1976/1/IFLA_Metadata_Newsletter_June_2022.pdf)
+
 <!-- span id="badgeCont105"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont105&rid=AAW-9289-2021"></script></span -->
 
 ## About me
