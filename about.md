@@ -86,7 +86,10 @@ cited by:<br/>
 2. Widad Elouataoui, Imane El Alaoui, and Youssef Gahi. "Metadata Quality in the Era of Big Data and Unstructured Content." In The International Conference on Information, Communication & Cybersecurity, pp. 110-121. Springer, Cham, 2021. DOI: [10.1007/978-3-030-91738-8_11](https://doi.org/10.1007/978-3-030-91738-8_11)
 
 
-Péter Király. “Measuring completeness as metadata quality metric in Europeana.” In *Digital Humanities 2017. Conference Abstracts.* McGill University & Université de Montréal, Montréal, Canada, August 8–11, 2017. Prepared by Rhian Lewis and the DH2017 Local Organizers: Cecily Raynor, Dominic Forest, Michael Sinatra and Stéfan Sinclair. pp. 291-293. URL (whole book): [https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf](https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf), URL (the abstract): [https://dh2017.adho.org/abstracts/458/458.pdf](https://dh2017.adho.org/abstracts/458/458.pdf).
+Péter Király. “Measuring completeness as metadata quality metric in Europeana.” In *Digital Humanities 2017. Conference Abstracts.* McGill University & Université de Montréal, Montréal, Canada, August 8–11, 2017. Prepared by Rhian Lewis and the DH2017 Local Organizers: Cecily Raynor, Dominic Forest, Michael Sinatra and Stéfan Sinclair. pp. 291-293. URL (whole book): [https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf](https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf), URL (the abstract): [https://dh2017.adho.org/abstracts/458/458.pdf](https://dh2017.adho.org/abstracts/458/458.pdf).<br/>
+cited by:<br/>
+1. Barbara Šlibar, and Enrique Mu. "OGD metadata country portal publishing guidelines compliance: A multi-case study search for completeness and consistency". *Government Information Quarterly* 2022, August. 101756. DOI: [10.1016/j.giq.2022.101756](https://doi.org/10.1016/j.giq.2022.101756)
+
 
 ### 2018
 
@@ -121,7 +124,7 @@ cited by:<br/>
 20. Петр Сергеевич Ершов, and Юрий Евгеньевич Хохлов. "Цифровая инфраструктура для работы с большими данными." _Информационное общество_ 4-5 (2021): 110-131. [infosoc.iis.ru](http://infosoc.iis.ru/article/view/657)
 21. Vladimir A. Shekhovtsov and Johann Eder. "Data Item Quality for Biobanks." In _Transactions on Large-Scale Data-and Knowledge-Centered Systems_ L, Springer, Berlin, Heidelberg, 2021. pp. 77-115. DOI: [10.1007/978-3-662-64553-6_5](https://doi.org/10.1007/978-3-662-64553-6_5)
 22. Widad Elouataoui, Imane El Alaoui, and Youssef Gahi. "Metadata Quality in the Era of Big Data and Unstructured Content." In The International Conference on Information, Communication & Cybersecurity, pp. 110-121. Springer, Cham, 2021. DOI: [10.1007/978-3-030-91738-8_11](https://doi.org/10.1007/978-3-030-91738-8_11)
-23. Mohammadreza Tavakoli, Abdolali Faraji, Jarno Vrolijk, Mohammadreza Molavi, Stefan T. Mol, Gábor Kismihók. "An AI-based open recommender system for personalized labor market driven education." Advanced Engineering Informatics, Volume 52, 2022, 101508. DOI: [10.1016/j.aei.2021.101508](https://doi.org/10.1016/j.aei.2021.101508)
+23. Mohammadreza Tavakoli, Abdolali Faraji, Jarno Vrolijk, Mohammadreza Molavi, Stefan T. Mol, Gábor Kismihók. "An AI-based open recommender system for personalized labor market driven education." Advanced Engineering Informatics, Volume 52, 2022, 101508. DOI: [10.1016/j.aei.2021.101508](https://doi.org/10.1016/j.aei.2021.101508)    
 
 Péter Király, Juliane Stiller, Valentine Charles, Werner Bailer, and Nuno Freire. “Evaluating Data Quality in Europeana: Metrics for Multilinguality.” In *Metadata and Semantic Research 2019. 12th International Conference, MTSR 2018, Limassol, Cyprus, October 23-26, 2018, Revised Selected Papers* (Communications in Computer and Information Science, volume 846) Published by Springer, 2019. pp. 199–211. DOI: [10.1007/978-3-030-14401-2_19](https://doi.org/10.1007/978-3-030-14401-2_19)<br/>
 cited by:<br/>
@@ -174,10 +177,12 @@ Király Péter. "Kulturális adatelemzés – bevezetés és önéletrajz. Lev M
 
 ### 2022
 
-Tomasz Umerle, Giovanni Colavizza, Elżbieta Herden, Rindert Jagersma, Péter Király, Beata Koper, Leo Lahti, David Lindemann, Jakub Maciej Łubocki, Vojtěch Malínek, Alexandra Milanova, Róbert Péter, Nanette Rißler-Pipka, Matteo Romanello, Marcin Roszkowski, Dorota Siwecka, Mikko Tolonen, Ondřej Vimr. "An Analysis of The Current Bibliographical Data Landscape in the Humanities.
-A Case for the Joint Bibliodata Agendas of Public Stakeholders". 46 p. DARIAH. DOI: [10.5281/zenodo.6559857](https://doi.org/10.5281/zenodo.6559857)
+Tomasz Umerle, Giovanni Colavizza, Elżbieta Herden, Rindert Jagersma, Péter Király, Beata Koper, Leo Lahti, David Lindemann, Jakub Maciej Łubocki, Vojtěch Malínek, Alexandra Milanova, Róbert Péter, Nanette Rißler-Pipka, Matteo Romanello, Marcin Roszkowski, Dorota Siwecka, Mikko Tolonen, Ondřej Vimr. "An Analysis of The Current Bibliographical Data Landscape in the Humanities. A Case for the Joint Bibliodata Agendas of Public Stakeholders". 46 p. DARIAH. DOI: [10.5281/zenodo.6559857](https://doi.org/10.5281/zenodo.6559857)
 
-Péter Király, and Hannes Lowagie. "Implementation of a daily MARC assessment with open source tools at KBR, the royal library of Belgium.". In *IFLA Metadata Newsletter* Volume 8, Number 1, June 2022. pp. 12-15 [ifla.org](https://repository.ifla.org/bitstream/123456789/1976/1/IFLA_Metadata_Newsletter_June_2022.pdf)
+Péter Király, and Hannes Lowagie. "Implementation of a daily MARC assessment with open source tools at KBR, the royal library of Belgium.". *IFLA Metadata Newsletter* Volume 8, Number 1, June 2022. pp. 12-15 [ifla.org](https://repository.ifla.org/bitstream/123456789/1976/1/IFLA_Metadata_Newsletter_June_2022.pdf)
+
+Rudolf Ungváry, and Péter Király. "A MARC21 tételfejének és kódolt tartalmi jellemzőinek feldolgozási minősége néhány nemzeti könyvtárban". *Tudományos és Műszaki Tájékoztatás* 2022. pp. 155-175. DOI: [10.3311/tmt.13174](http://doi.org/10.3311/tmt.13174)
+
 
 <!-- span id="badgeCont105"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont105&rid=AAW-9289-2021"></script></span -->
 
