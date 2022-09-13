@@ -148,6 +148,7 @@ cited by:<br/>
 3. Salman Haider. "Library Cataloging, Classification, and Metadata Research: A Bibliography of Doctoral Dissertations—A Supplement, 2021". _Cataloging & Classification Quarterly_, 2022. no. 1. pp. 1-6. DOI: [10.1080/01639374.2021.2025183](https://doi.org/10.1080/01639374.2021.2025183)
 4. Tyler J. Skluzacek, Matthew Chen, Erica Hsu, Kyle Chard, and Ian Foster. "Models and Metrics for Mining Meaningful Metadata." _International Conference on Computational Science_ (ICCS), 2022. [ResearchGate.net](https://www.researchgate.net/publication/359971955_Models_and_Metrics_for_Mining_Meaningful_Metadata).
 5. Nhu, Nam Dan. "Nachschlagedienst für qualitative hochwertige Metadaten von Veröffentlichungen." Bachelor's thesis, Hannover: Gottfried Wilhelm Leibniz Universität Hannover, Institut für Verteilte Systeme, 2022. [handle:123456789/12472](https://www.repo.uni-hannover.de/handle/123456789/12472)
+6. Tyler J. Skluzacek. "Automated Metadata Extraction Can Make Data Swamps More Navigable." Ph.D. dissertation. The University of Chicago, Computer Science (2022). DOI: [10.6082/uchicago.4760](https://doi.org/10.6082/uchicago.4760)
 
 Péter Király. “Validating 126 million MARC records”. In *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI: [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)<br/>
 cited by:<br/>
