@@ -185,6 +185,9 @@ Péter Király, and Hannes Lowagie. "Implementation of a daily MARC assessment w
 
 Rudolf Ungváry, and Péter Király. "A MARC21 tételfejének és kódolt tartalmi jellemzőinek feldolgozási minősége néhány nemzeti könyvtárban". *Tudományos és Műszaki Tájékoztatás* 2022. pp. 155-175. DOI: [10.3311/tmt.13174](http://doi.org/10.3311/tmt.13174)
 
+Triet Ho Anh Doan, Péter Király, Sven Bingert. "MINE – Workspace as a Service for Text Analysis." In: Gianmaria Silvello, Oscar Corcho, Paolo Manghi, Giorgio Maria Di Nunzio, Koraljka Golub, Nicola Ferro, Antonella Poggi (Eds.) Linking Theory and Practice of Digital Libraries. 26th International Conference on Theory and Practice
+of Digital Libraries, TPDL 2022 Padua, Italy, September 20–23, 2022, Proceedings. Lecture Notes in Computer Science, vol 13541. Springer, Cham. pp 328–334. DOI: [10.1007/978-3-031-16802-4_29](https://doi.org/10.1007/978-3-031-16802-4_29)
+
 
 <!-- span id="badgeCont105"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont105&rid=AAW-9289-2021"></script></span -->
 
