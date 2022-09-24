@@ -84,6 +84,7 @@ URL: [http://dl.acm.org/citation.cfm?doid=3078081.3078109](http://dl.acm.org/cit
 cited by:<br/>
 1. Gustavo Candela, Pilar Escobar, María Dolores Sáez and Manuel Marco-Such. "A Shape Expression approach for assessing the quality of Linked Open Data in Libraries." _Semantic Web_ pp. 1--21. DOI: [10.3233/SW-210441](https://doi.org/10.3233/SW-210441)
 2. Widad Elouataoui, Imane El Alaoui, and Youssef Gahi. "Metadata Quality in the Era of Big Data and Unstructured Content." In The International Conference on Information, Communication & Cybersecurity, pp. 110-121. Springer, Cham, 2021. DOI: [10.1007/978-3-030-91738-8_11](https://doi.org/10.1007/978-3-030-91738-8_11)
+3. Volodymyr A. Shekhovtsov, Johann Eder, "Metadata Quality for Biobanks". _Applied Sciences_ 2022, 12, 9578. pp. 1--37. DOI: [10.3390/app12199578](https://doi.org/10.3390/app12199578)
 
 
 Péter Király. “Measuring completeness as metadata quality metric in Europeana.” In *Digital Humanities 2017. Conference Abstracts.* McGill University & Université de Montréal, Montréal, Canada, August 8–11, 2017. Prepared by Rhian Lewis and the DH2017 Local Organizers: Cecily Raynor, Dominic Forest, Michael Sinatra and Stéfan Sinclair. pp. 291-293. URL (whole book): [https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf](https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf), URL (the abstract): [https://dh2017.adho.org/abstracts/458/458.pdf](https://dh2017.adho.org/abstracts/458/458.pdf).
@@ -125,6 +126,7 @@ cited by:<br/>
 23. Mohammadreza Tavakoli, Abdolali Faraji, Jarno Vrolijk, Mohammadreza Molavi, Stefan T. Mol, Gábor Kismihók. "An AI-based open recommender system for personalized labor market driven education." Advanced Engineering Informatics, Volume 52, 2022, 101508. DOI: [10.1016/j.aei.2021.101508](https://doi.org/10.1016/j.aei.2021.101508)    
 24. Kaylin Blount. "Knowing What We Have: Proposing a Sustainable Workflow for the Assessment of Digitized Archival Collections at Wilson Library." Master thesis in Information Science. University of North Caroline, School of Information and Library Science, 2022.
 25. Barbara Šlibar, and Enrique Mu. "OGD metadata country portal publishing guidelines compliance: A multi-case study search for completeness and consistency". *Government Information Quarterly* 2022, August. 101756. DOI: [10.1016/j.giq.2022.101756](https://doi.org/10.1016/j.giq.2022.101756)
+26. Volodymyr A. Shekhovtsov, Johann Eder, "Metadata Quality for Biobanks". _Applied Sciences_ 2022, 12, 9578. pp. 1--37. DOI: [10.3390/app12199578](https://doi.org/10.3390/app12199578)
 
 
 Péter Király, Juliane Stiller, Valentine Charles, Werner Bailer, and Nuno Freire. “Evaluating Data Quality in Europeana: Metrics for Multilinguality.” In *Metadata and Semantic Research 2019. 12th International Conference, MTSR 2018, Limassol, Cyprus, October 23-26, 2018, Revised Selected Papers* (Communications in Computer and Information Science, volume 846) Published by Springer, 2019. pp. 199–211. DOI: [10.1007/978-3-030-14401-2_19](https://doi.org/10.1007/978-3-030-14401-2_19)<br/>
@@ -149,6 +151,7 @@ cited by:<br/>
 4. Tyler J. Skluzacek, Matthew Chen, Erica Hsu, Kyle Chard, and Ian Foster. "Models and Metrics for Mining Meaningful Metadata." _International Conference on Computational Science_ (ICCS), 2022. [ResearchGate.net](https://www.researchgate.net/publication/359971955_Models_and_Metrics_for_Mining_Meaningful_Metadata).
 5. Nhu, Nam Dan. "Nachschlagedienst für qualitative hochwertige Metadaten von Veröffentlichungen." Bachelor's thesis, Hannover: Gottfried Wilhelm Leibniz Universität Hannover, Institut für Verteilte Systeme, 2022. [handle:123456789/12472](https://www.repo.uni-hannover.de/handle/123456789/12472)
 6. Tyler J. Skluzacek. "Automated Metadata Extraction Can Make Data Swamps More Navigable." Ph.D. dissertation. The University of Chicago, Computer Science (2022). DOI: [10.6082/uchicago.4760](https://doi.org/10.6082/uchicago.4760)
+7. Volodymyr A. Shekhovtsov, Johann Eder, "Metadata Quality for Biobanks". _Applied Sciences_ 2022, 12, 9578. pp. 1--37. DOI: [10.3390/app12199578](https://doi.org/10.3390/app12199578)
 
 Péter Király. “Validating 126 million MARC records”. In *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI: [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)<br/>
 cited by:<br/>
