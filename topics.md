@@ -84,7 +84,7 @@ Abbreviations:
 * BL &ndash; British Library
 * KBR &ndash; Royal Library of Belgium
 
-### <a id="I.1"><span class="blue">I.1</span> SHACL4MARC&ndash;Validating MARC records against locally defined ruleset
+### <a id="I.1"/><span class="blue">I.1</span> SHACL4MARC&ndash;Validating MARC records against locally defined ruleset
 
 <em>Introduction</em>. Shapes Constraint Language ([SHACL](https://www.w3.org/TR/shacl/)) is a formal language for validating Resource Description Framework ([RDF](https://www.w3.org/RDF/)) graphs against a set of conditions (expressed also in RDF). Following this idea, and implementing a subset of the language, <em>MQAF API</em> provides a mechanism to define SHACL-like rules for data sources in non-RDF based formats, such as XML, CSV and JSON (SHACL validates only RDF graphs). The rules can be defined either with YAML or JSON configuration files or with Java code.<sup>a</sup> <em>MQAF API</em> has already been validated in different organisations (Flemish Audio-Visual Archives, Victoria and Albert Museum, Deutsche Digitale Bibliothek). In this research we extend this ruleset to be applicable to MARC records. For making it available for MARC records there are two criteria:
 
@@ -181,7 +181,7 @@ Data sources:
 
 * K10Plus union catalogue, 60+ million records (maintained by GBV)
 
-### <a id="I.4"><span class="blue">I.4</span> Encoded Archival Description (EAD) and Encoded Archival Context (EAC)
+### <a id="I.4"/><span class="blue">I.4</span> Encoded Archival Description (EAD) and Encoded Archival Context (EAC)
 
 Encoded Archival Description is an XML schema to describe archival records, Encoded Archival Context is for describing the authorised form of named entities (persons, families, corporate bodies) that appeared in the archival records (similar to the authority records of a library catalogue). The challenging part of EAD is the hierarchical nature. Archival records form a large, multi-level hierarchy, where each level describes smaller parts of the collection up to single documents. However these levels do not always have the same nature. There are standard names for some distinct levels, but not all collections have the same number of levels and the same structure. It depends on lots of factors, such as the practice of the institution the collection comes from, the importance of the documents etc. On the other hand the number of data elements describing the properties of the levels is much less than that of the MARC schemas. The largest open access collection of these records are the [Archives Portal Europe](https://www.archivesportaleurope.net) and [National Archives and Records](https://www.archives.gov/). Both provide APIs we can use in this research.
 
