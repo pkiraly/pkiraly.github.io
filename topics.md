@@ -77,215 +77,225 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <h2 class="c18" id="I.1"><span class="blue">I.1</span> SHACL4MARC&ndash;Validating MARC records against locally defined ruleset</h2>
 
-<p><em>Introduction</em>. Shapes Constraint Language (SHACL) <a href="#ftnt7" id="ftnt_ref7">[7]</a> is a formal language for validating RDF <a href="#ftnt8" id="ftnt_ref8">[8]</a> graphs against a set of conditions (expressed also in RDF). Following this idea, and implementing a subset of the language, <em>MQAF API</em> provides a mechanism to define SHACL-like rules for data sources in non-RDF based formats, such as XML, CSV and JSON (SHACL validates only RDF graphs). The rules can be defined either with YAML or JSON configuration files or with Java code. <a href="#ftnt9" id="ftnt_ref9">[9]</a> <em>MQAF API</em> has already been validated in different organisations (Flemish Audio-Visual Archives, Victoria and Albert Museum, Deutsche Digitale Bibliothek). In this research we extend this ruleset to be applicable to MARC records. For making it available for MARC records there are two criteria:</p>
+<p><em>Introduction</em>. Shapes Constraint Language (SHACL) <a href="#ftnt7" id="ftnt_ref7">[7]</a> is a formal language for validating RDF <a href="#ftnt8" id="ftnt_ref8">[8]</a> graphs against a set of conditions (expressed also in RDF). Following this idea, and implementing a subset of the language, <em>MQAF API</em> provides a mechanism to define SHACL-like rules for data sources in non-RDF based formats, such as XML, CSV and JSON (SHACL validates only RDF graphs). The rules can be defined either with YAML or JSON configuration files or with Java code.<sup>a</sup> <em>MQAF API</em> has already been validated in different organisations (Flemish Audio-Visual Archives, Victoria and Albert Museum, Deutsche Digitale Bibliothek). In this research we extend this ruleset to be applicable to MARC records. For making it available for MARC records there are two criteria:</p>
 
-* supporting a particular &quot;addressing scheme&quot; which fits MARC records. This scheme is similar to XPATH or JSONPath which are mechanisms to precisely select a part of an XML and JSON document. For MARC there is a proposal, Carsten Klee&#39;s MARCspec - a common MARC record path language,</span> <a href="#ftnt10" id="ftnt_ref10">[10]</a> which is already supported by the QA catalogue.
+* supporting a particular &quot;addressing scheme&quot; which fits MARC records. This scheme is similar to XPATH or JSONPath which are mechanisms to precisely select a part of an XML and JSON document. For MARC there is a proposal, Carsten Klee&#39;s [MARCspec](http://marcspec.github.io/MARCspec/marc-spec.html) - a common MARC record path language, which is already supported by the QA catalogue.
 * implementing a particular interface of MQAF API, which could return a unified value object when we specify it with an address of a data element.
 
-<p>In this research we have two control data sets. BL provided a sample with examples where particular problems have been catched by an alternative tool, but not by QA catalogue. KBR developed an XSLT based solution to check local rulesets. We can use both to compare those results with ours.</p>
-<p>During the research students will learn about the following technologies: MARC, SHACL, XPath, JSONPath, MARCspec.</p>
+In this research we have two control data sets. BL provided a sample with examples where particular problems have been catched by an alternative tool, but not by QA catalogue. KBR developed an XSLT based solution to check local rulesets. We can use both to compare those results with ours.
 
-<p>Research questions and tasks (Computer Science):</p>
+During the research students will learn about the following technologies: MARC, SHACL, XPath, JSONPath, MARCspec.
+
+Research questions and tasks (Computer Science):
 
 * Finish the implementation of MARCspec in QA catalogue
 * Create a selector class which could find and retrieve the part of the record which is addressed by the MARCspec expression (other implementation of the interface are already available for Xpath, JSONPath and SQL column name expressions)
 * Adapt MQAF API that it should accept this selector implementation as input parameter (right now the implementations are hard coded)
 * Create a command line interface in QA catalogue which accepts a configuration file describing SHACL-like ruleset
 
-<p>Research questions (Humanities):</p>
+Research questions (Humanities):
 
 * Can the content specific cataloguing rules provided by BL and KBR be transformed to SHACL-like machine readable rules? Are there limitations, and if yes: describe their nature? What suggestions this research might have to the SHACL community and to the further development of QA catalogue?
 * Comparing the results of KBR and QA catalogue approaches, what suggestions this research might have to both parties?
 
-<p>Partners: </p>
+Partners:
 
 * British Library
 * KBR
 
-<p>Data sources:</p>
+Data sources:
 
 * Catalogue of British Library
 * Catalogue of KBR
 
-<h2 class="c18" id="I.2"><span class="blue">I.2</span> UNIMARC</h2>
-<p>The UNIMARC bibliographic format <a href="#ftnt11" id="ftnt_ref11">[11]</a> was first created and proposed by IFLA in 1977, with the title <em>UNIMARC: Universal MARC format</em>. The intention of the standard was to unify different MARC versions into a single schema (note: MARC21 had the same intention). It was updated several times, the current version is the 3rd edition. As for MARC21 there are bibliographic, authorities, classification and holdings sub-schemas. UNIMARC records are serialised in ISO 2709 (which is the basis of all MARC versions), and XML. It is in use in France, Italy, Portugal, Slovenia, Slovakia, Ukraina, Belarus, Russia. There is no machine readable version of the schema.</p>
+<sup>a</sup> &bdquo;Validating JSON, XML and CSV data with SHACL-like constraint” slides of presentation held at DINI-KIM 2022, <a href="https://bit.ly/qa-dini-kim-2022">https://bit.ly/qa-dini-kim-2022</a>
 
-<p>Research questions and tasks (Computer Science): </p>
+<h2 class="c18" id="I.2"><span class="blue">I.2</span> UNIMARC</h2>
+
+The [UNIMARC](https://www.ifla.org/publications/unimarc-formats-and-related-documentation/) bibliographic format was first created and proposed by IFLA in 1977, with the title <em>UNIMARC: Universal MARC format</em>. The intention of the standard was to unify different MARC versions into a single schema (note: MARC21 had the same intention). It was updated several times, the current version is the 3rd edition. As for MARC21 there are bibliographic, authorities, classification and holdings sub-schemas. UNIMARC records are serialised in ISO 2709 (which is the basis of all MARC versions), and XML. It is in use in France, Italy, Portugal, Slovenia, Slovakia, Ukraina, Belarus, Russia. There is no machine readable version of the schema.
+
+Research questions and tasks (Computer Science):
 
 * Write scripts which downloads UNIMARC records from the data sources via OAI-PMH and Z39.50 protocols. The scripts should handle the shortcomings of these protocols and the actual implementations.
-* Create a machine readable UNIMARC schema, either as a set of Java classes according to the QA catalogue&#39;s MARC definition structure or to the JSON based Avram schema. <a href="#ftnt12" id="ftnt_ref12">[12]</a> It is also possible to implement it with other technology which can be exported into Avram schema.
+* Create a machine readable UNIMARC schema, either as a set of Java classes according to the QA catalogue&#39;s MARC definition structure or to the JSON based [Avram schema](https://format.gbv.de/schema/avram/specification). It is also possible to implement it with other technology which can be exported into Avram schema.
 * Modify QA catalogue backend to be able to use the above mentioned definition as an input configuration for the quality assessment processes.
 * Adopt the user interface of QA catalogue to work with the output of the analysis
 
-<p>Research questions and tasks (Humanities): </p>
+Research questions and tasks (Humanities):
 
 * How has the UNIMARC schema changed historically, and how to match the proper schema with the records?
 * Are there locally defined data elements in particular libraries? Are these documented? How could they be transformed as an input to QA catalogue, so it should understand them and apply the rules during the analyses?
 * Literature scan: are there specific papers regarding UNIMARC quality assessment? Are the specific aspects of the structure or the content of the schema which are not available in MARC21 schema?
 * Communicate with the data source and collect feedback. How could they use the report in daily work? Are there relevant needs which the result doesn’t fulfil? What are their data life cycles and relevant workflow, and how QA catalogue could be inserted into it?
 
-<p>Possible partners:</p>
+Potential partners:
 
-* Agence bibliographique de l&#39;emseignement supérieur (ABES), Montpellier, France, the maintainer of SUDOC, <a href="#ftnt13" id="ftnt_ref13">[13]</a> the French union catalogue of academic libraries
+* Agence bibliographique de l&#39;emseignement supérieur ([ABES](http://abes.fr)), Montpellier, France, the maintainer of [SUDOC](http://www.sudoc.abes.fr/cbs/), the French union catalogue of academic libraries
 * Institut informacijskih znanosti (IZUM), Maribor, Slovenia, the maintainer of COBISS+, the Slovenian union catalogue
 * Portugal National Library
 * Italian National Library, Firenze
 
-<p>Data sources:</p>
+Data sources:
 
 * SUDOC (from ABES)
 * Portugal National Library
 * COBISS+, the virtual library of Slovenia, one-stop access to information from 919 Slovenian libraries
 * Italian National Library, Firenze <a href="#ftnt14" id="ftnt_ref14">[14]</a>
-* The catalogue of the Biblioth&egrave;que nationale de France (the French national library) <a href="#ftnt15" id="ftnt_ref15">[15]</a>
+* The catalogue of the Biblioth&egrave;que nationale de France (The datasets are downloadable from the pef.bnf.fr FTP server in UNIMARC and INTERMARC format, which is the internal metadata schema of Biblioth&egrave;que nationale de France.)
 
 <h2 class="c18" id="I.3"><span class="blue">I.3</span> PICA and PICA+</h2>
-<p>PICA and PICA+ are metadata schemas for describing bibliographic resources, mainly used in Dutch and German libraries (instead of MARC). These schemas contain a fixed set of data elements, but libraries can define their own extra elements. Jakob Voß maintains an Avram schema for PICA+. There is some initial code in the QA catalogue which reads Avram schema and uses it as an input for model building against which the analyses can be run.</p>
 
-<p>Research questions and tasks (Computer Science): </p>
+PICA and PICA+ are metadata schemas for describing bibliographic resources, mainly used in Dutch and German libraries (instead of MARC). These schemas contain a fixed set of data elements, but libraries can define their own extra elements. Jakob Voß maintains an Avram schema for PICA+. There is some initial code in the QA catalogue which reads Avram schema and uses it as an input for model building against which the analyses can be run.
+
+Research questions and tasks (Computer Science):
 
 * Finalise Avram schema reader 
 * Finalise a record reader which takes an Avram schema, parse records which are in the schema describe by the Avram schema (in this case PICA), and creates Java objects for each record
 * Modify QA catalogue that it could validate the objects created the above mentioned mechanism, and produce the same output as it creates for MARC records
 
-<p>Research questions and tasks (Humanities): </p>
+Research questions and tasks (Humanities):
 
 * How has the PICA/PICA+ schema changed historically, and how to match the proper schema with the records?
 * Are there locally defined data elements in particular libraries? Are these documented? How could they be transformed as an input to QA catalogue, so it should understand them and apply the rules during the analyses?
 * Literature scan: are there specific papers regarding PICA/PICA+ quality assessment? Are there specific aspects of the structure or the content of the schema which are not available in MARC21 schema?
 * Communicate with the data source and collect feedback. How could they use the report in daily work? Are there relevant needs which the result doesn’t fulfil? What are their data life cycles and relevant workflow, and how QA catalogue could be inserted into it?
 
-<p>Partner: GVD</p>
+Partner:
 
 * Gemeinsamer Bibliotheksverbund (GBV), Göttingen
 
-<p>Data sources:</p>
+Data sources:
 
 * K10Plus union catalogue, 60+ million records (maintained by GBV)
 
 <h2 class="c18" id="I.4"><span class="blue">I.4</span> Encoded Archival Description (EAD) and Encoded Archival Context (EAC)</h2>
-<p>Encoded Archival Description is an XML schema to describe archival records, Encoded Archival Context is for describing the authorised form of named entities (persons, families, corporate bodies) that appeared in the archival records (similar to the authority records of a library catalogue). The challenging part of EAD is the hierarchical nature. Archival records form a large, multi-level hierarchy, where each level describes smaller parts of the collection up to single documents. However these levels do not always have the same nature. There are standard names for some distinct levels, but not all collections have the same number of levels and the same structure. It depends on lots of factors, such as the practice of the institution the collection comes from, the importance of the documents etc. On the other hand the number of data elements describing the properties of the levels is much less than that of the MARC schemas. The largest open access collection of these records are the Archives Portal Europe <a href="#ftnt16" id="ftnt_ref16">[16]</a> and National Archives and Records. <a href="#ftnt17" id="ftnt_ref17">[17]</a> Both provide APIs we can use in this research.</p>
 
-<p>Research questions and tasks (Computer Science): </p>
+Encoded Archival Description is an XML schema to describe archival records, Encoded Archival Context is for describing the authorised form of named entities (persons, families, corporate bodies) that appeared in the archival records (similar to the authority records of a library catalogue). The challenging part of EAD is the hierarchical nature. Archival records form a large, multi-level hierarchy, where each level describes smaller parts of the collection up to single documents. However these levels do not always have the same nature. There are standard names for some distinct levels, but not all collections have the same number of levels and the same structure. It depends on lots of factors, such as the practice of the institution the collection comes from, the importance of the documents etc. On the other hand the number of data elements describing the properties of the levels is much less than that of the MARC schemas. The largest open access collection of these records are the [Archives Portal Europe](https://www.archivesportaleurope.net) and [National Archives and Records](https://www.archives.gov/). Both provide APIs we can use in this research.
+
+Research questions and tasks (Computer Science):
 
 * Create MQAF API compliant schemas from EAD/EAC XML schema. Take care of the hierarchical nature of the structure.
 * Create a user interface which fits to the specific features of EAD/EAC records. Take care of the hierarchical nature of the structure.
 
-<p>Research questions and tasks (Humanities): </p>
+Research questions and tasks (Humanities):
 
 * Literature review on the analyses of EAD/EAC records, focusing on the data quality aspects
 * Survey archivist and researchers who work with archival metadata about the metadata quality aspects. Based on the findings define a set of requirements against EAD/EAC records.
 * Test the implementation, and create an evidence-based report on the quality related issues found in a concrete archival collection.
 * Communicate the findings with the institution and get feedback about them. Did they know about the issues? How do they solve quality issues? Does the report “overlook” some issues they know?
 
-<p>Partners: </p>
+Partners:
 
 * Archives Portal Europe (The Hague)
 * National Archives and Records (Washington DC)
 
-<p>Data sources:</p>
+Data sources:
 
 * Archival Portal Europe
 * National Archives and Records (Washington DC)
 
 <h2 class="c18" id="I.5"><span class="blue">I.5</span> International Standard Bibliographic Description (ISBD)</h2>
-<p>International Standard Bibliographic Description (ISBD) <a href="#ftnt18" id="ftnt_ref18">[18]</a> contains a set of rules about the content of data elements in library catalogue records to offer consistency when sharing bibliographic information. It is mostly used in European libraries (Anglo-Saxon libraries are using a similar set of rules, Anglo-American Cataloguing Rules). It mainly focuses on descriptive metadata. National cataloguing rules are usually derived from the ISBDs, but with a number of significant differences in distinct libraries. ISBD also provides a human readable, language independent representation of the records (by setting the (in)famous “punctuation rules” where dots, colons, slashes have context-dependent semantic meaning). </p>
 
-<p>ISBD could be used within MARC records. The record should contain information about if ISBD has been applied or not. The MARC21 standard itself does not document ISBD rules, so in order to validate MARC, an extra ISBD validation layer is necessary. IFLA&#39;s ISBD web page says that &quot;The ISBD review group also maintains an ISBD RDF/XML schema, to enable libraries to publish their metadata as linked data&quot; - however at time of writing this document I haven’t found it. This schema may or may not provide a starting point to this research.</p>
+International Standard Bibliographic Description ([ISBD](https://www.ifla.org/references/best-practice-for-national-bibliographic-agencies-in-a-digital-age/resource-description-and-standards/bibliographic-control/international-standard-bibliographic-description-isbd/)) contains a set of rules about the content of data elements in library catalogue records to offer consistency when sharing bibliographic information. It is mostly used in European libraries (Anglo-Saxon libraries are using a similar set of rules, Anglo-American Cataloguing Rules). It mainly focuses on descriptive metadata. National cataloguing rules are usually derived from the ISBDs, but with a number of significant differences in distinct libraries. ISBD also provides a human readable, language independent representation of the records (by setting the (in)famous “punctuation rules” where dots, colons, slashes have context-dependent semantic meaning).
 
-<p>Research questions and tasks (Computer Science): </p>
+ISBD could be used within MARC records. The record should contain information about if ISBD has been applied or not. The MARC21 standard itself does not document ISBD rules, so in order to validate MARC, an extra ISBD validation layer is necessary. IFLA&#39;s ISBD web page says that &quot;The ISBD review group also maintains an ISBD RDF/XML schema, to enable libraries to publish their metadata as linked data&quot; - however at time of writing this document I haven’t found it. This schema may or may not provide a starting point to this research.
+
+Research questions and tasks (Computer Science):
 
 * Find and investigate the above mentioned RDF/XML schema
 * Investigate the ISBD documentation
 * Create a machine readable, MQAD API compliant ruleset from the ISBD rules (either as Java code or a YAML/JSON configuration file)
 * Run analyses in QA catalogue
 
-<p>Research questions and tasks (Humanities): </p>
+Research questions and tasks (Humanities):
 
 * Literature review on ISBD, focusing on the data quality aspects
 * Survey library metadata experts and researchers who work with ISBD based records about the metadata quality aspects. Based on the findings, define a set of requirements against ISBD data elements as a textual document or with SHACL expressions. 
 * Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues.
 
-<p>Partners:</p>
+Partners:
 
 * British Library
 * any other library who applies ISBD in their catalogue
 
-<p>Data sources:</p>
+Data sources:
 
 * British Library catalogue
 
 <h2 class="c18" id="I.6"><span class="blue">I.6</span> Anglo-American Cataloguing Rules (AACR2)</h2>
-<p>AACR2 contains a set of rules about the content of data elements in the catalogue records used in English and US libraries. </p>
 
-<p>AACR2 could be used within MARC records. The record should contain information about if AACR2 has been applied or not. The MARC21 standard itself does not document AACR2 rules, so in order to validate MARC, an extra AACR2 validation layer is necessary. It is not clear if there is a machine readable representation of the AACR2 ruleset.</p>
+AACR2 contains a set of rules about the content of data elements in the catalogue records used in English and US libraries.
 
-<p>Research questions and tasks (Computer Science): </p>
+AACR2 could be used within MARC records. The record should contain information about if AACR2 has been applied or not. The MARC21 standard itself does not document AACR2 rules, so in order to validate MARC, an extra AACR2 validation layer is necessary. It is not clear if there is a machine readable representation of the AACR2 ruleset.
+
+Research questions and tasks (Computer Science):
 
 * Investigate if there is a machine readable (RDF/XML schema) representation of the AACR2
 * Investigate the AACR2 documentation
 * Create a machine readable, MQAD API compliant ruleset from the AACR2 rules (either as Java code or a YAML/JSON configuration file)
 * Run analyses in QA catalogue
 
-<p>Research questions and tasks (Humanities): </p>
+Research questions and tasks (Humanities):
 
 * Literature review on AACR2, focusing on the data quality aspects
 * Survey library metadata experts and researchers who work with AACR2 based records about the metadata quality aspects. Based on the findings, define a set of requirements against AACR2 data elements as a textual document or with SHACL expressions.
 * Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues.
 
-<p>Data sources:</p>
+Data sources:
 
 * Library of Congress catalogue
 
 <h2 class="c18" id="I.7"><span class="blue">I.7</span> MAQUIS&ndash;The quality of the terms in the metadata records and of the Knowledge Organising Systems</h2>
-<p>Previous research almost exclusively focused on the quality of Knowledge Organising Systems, and most of them did not release open source tools to help institutions to measure their own data. This research aims to evaluate existing metrics, to propose new metrics and methods and to develop implementation for both aspects. The research will intensively use large library catalogues (such as EconBiz, SUDOC and Gemeinsamer Verbundkatalog, B3Kat and others) and the KOSes linked to them, however both the proposed theoretical model and the software package should be applicable to other bibliographical catalogues.</p>
 
-<p>Additionally, the metadata records and the KOS together form three networks:</p>
+Previous research almost exclusively focused on the quality of Knowledge Organising Systems, and most of them did not release open source tools to help institutions to measure their own data. This research aims to evaluate existing metrics, to propose new metrics and methods and to develop implementation for both aspects. The research will intensively use large library catalogues (such as EconBiz, SUDOC and Gemeinsamer Verbundkatalog, B3Kat and others) and the KOSes linked to them, however both the proposed theoretical model and the software package should be applicable to other bibliographical catalogues.
+
+Additionally, the metadata records and the KOS together form three networks:
 
 * a record-subject network (records have subjects)
 * a subject co-occurrence network,
 * and the network of records which are connected by subjects and other kinds of authority entries (e.g. persons, organisations, events etc.).
 
-<p>We will measure the standard properties of these networks (density, components, clusters, connectedness, degree distribution, PageRank, Small-World).</p>
+We will measure the standard properties of these networks (density, components, clusters, connectedness, degree distribution, PageRank, Small-World).
 
-<p>Two types of output are expected:</p>
+Two types of output are expected:
 
 * scientific publication(s): thesis, scientific paper, conference presentation
 * two open source software packages: a standalone tool which measures the quality of bibliographical records and KOS, and a plugin which integrates this tool into the QA catalogue quality assessment software. 
 
-<p>If the results of the research will be promising, and evaluated as usable by the partner institutions, and if there will be an interest in implementation or deployment of the same, we will also investigate the possibility of integration into the existing IT infrastructure of the organisation.</p>
+If the results of the research will be promising, and evaluated as usable by the partner institutions, and if there will be an interest in implementation or deployment of the same, we will also investigate the possibility of integration into the existing IT infrastructure of the organisation.
 
-<p>The project follows the principles of repeatable research and of maintainable research software development (part of the research data is open data, code will be properly tested, documented, and citable, communication will be transparent).</p>
+The project follows the principles of repeatable research and of maintainable research software development (part of the research data is open data, code will be properly tested, documented, and citable, communication will be transparent).
 
-<p>Research questions and tasks (Computer Science): </p>
+Research questions and tasks (Computer Science):
 
 * Analyse the bipartite (record-subject) network. Does the basic properties of the network reveal anything about the quality of subject indexing?
 * How subject indexing supports retrieval?
 * How the intrinsic quality features of the KOS affects the usage of the records?
 * Is there a correlation between the quality of subject indexing and other known quality dimensions?
 
-<p>Research questions and tasks (Humanities): </p>
+Research questions and tasks (Humanities):
 
 * Literature review on data quality aspects of subject indexing
 * Survey library metadata experts and researchers who work in the subject indexing field about the metadata quality aspects. Based on the findings, define a set of requirements against AACR2 data elements as a textual document or with SHACL expressions.
 * Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues. 
 
-<p>Partners:</p>
+Partners:
 
 * Agence bibliographique de l&#39;emseignement supérieur (ABES), Montpellier
 * Gemeinsamer Bibliotheksverbund (GBV), Göttingen
 * ZWB &ndash; Leibniz-Informationszentrum Wirtschaft
 
-<p>Data sources:</p>
+Data sources:
 
 * EconBiz catalogue of ZWB
 * Syst&egrave;me Universitaire de Documentation (SUDOC) of ABES
 * Gemeinsamer Verbundkatalog (GVK) of GBV and SWB
 
 <h2 class="c18" id="I.8"><span class="blue">I.8</span> Citation data</h2>
-<p>Citation data, or bibliographic data of scholarly articles is a neuralgic point for the libraries. In the “Western World” and for large languages, the publishers are those players which traditionally built databases for the scholarly articles (such as Web of Knowledge, Scopus) instead of libraries. By and large there have been exceptions even in Western European countries. In case of smaller languages and for poorer countries the large publishers do not see the market value to publish scientific journals in vernacular languages therefore those journals are not covered in their databases. In the last two decades several different projects have been launched to make these metadata out of “paywalls”. The largest of these projects is the DOI database, but the larger part of DOI metadata is also not freely available, however the Initiative for Open Citations 16 works on making the citation data open. Recently WikiCite <a href="#ftnt19" id="ftnt_ref19">[19]</a> is the largest freely available citation database based on the bibliographic data imported into Wikidata. <a href="#ftnt20" id="ftnt_ref20">[20]</a> It provides a query interface and [database dumps](http://wikicite.org/access.html). Together with Jakob Voß, a volunteer of WikiCite and Wikidata we started a research project 20 to analyse the data. This research is in a preliminary stage. Now I highlight only one feature of the citation data namely page numbers, which seems to be simple, but reveals some complex problems. One can expect that page numbers are arabic or roman numbers separated by dashes and commas (sometimes with some text before or after the numbers). I found several hundred patterns, which do not fit this expectation. Here I show three issues with “strange” page numbers. Wikidata uses a language neutral notation for describing its semantic structure, the entities are denoted by &lsquo;Q’ and a number, while properties are denoted by &lsquo;P’ and a number. For example: P304 <a href="#ftnt21" id="ftnt_ref21">[21]</a> is the property of the page numbers. Its human readable label in English is “page(s)”.</p>
 
-<p>Some known problems with the page number properties:</p>
+Citation data, or bibliographic data of scholarly articles is a neuralgic point for the libraries. In the “Western World” and for large languages, the publishers are those players which traditionally built databases for the scholarly articles (such as Web of Knowledge, Scopus) instead of libraries. By and large there have been exceptions even in Western European countries. In case of smaller languages and for poorer countries the large publishers do not see the market value to publish scientific journals in vernacular languages therefore those journals are not covered in their databases. In the last two decades several different projects have been launched to make these metadata out of “paywalls”. The largest of these projects is the DOI database, but the larger part of DOI metadata is also not freely available, however the Initiative for Open Citations 16 works on making the citation data open. Recently [WikiCite](http://wikicite.org/) is the largest freely available citation database based on the bibliographic data imported into [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page). It provides a query interface and [database dumps](http://wikicite.org/access.html). Together with Jakob Voß, a volunteer of WikiCite and Wikidata we started a research project 20 to analyse the data. This research is in a preliminary stage. Now I highlight only one feature of the citation data namely page numbers, which seems to be simple, but reveals some complex problems. One can expect that page numbers are arabic or roman numbers separated by dashes and commas (sometimes with some text before or after the numbers). I found several hundred patterns, which do not fit this expectation. Here I show three issues with “strange” page numbers. Wikidata uses a language neutral notation for describing its semantic structure, the entities are denoted by &lsquo;Q’ and a number, while properties are denoted by &lsquo;P’ and a number. For example: [P304](https://www.wikidata.org/wiki/Property:P304) is the property of the page numbers. Its human readable label in English is “page(s)”.
+
+Some known problems with the page number properties:
 
 ### 1. Using article identifier as page number
 
