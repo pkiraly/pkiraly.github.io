@@ -29,22 +29,28 @@ div#toc p.c22 {margin-left:18pt; padding-top:3pt; padding-bottom:4pt;}
 Péter Király
 last updated: 2022-11-04
 
-<div id="toc">
-<p class="c14"><a href="#h.dbhfcpj8muh">I. Metadata Quality Assessment</a></p>
-<p class="c8"><a href="#h.f7u6fsdxft67">I.1 SHACL4MARC&ndash;Validating MARC records against locally defined ruleset</a></p>
-<p class="c8"><a href="#h.t5dz9y5v47ws">I.2 UNIMARC</a></p>
-<p class="c8"><a href="#h.d18pz1c4a259">I.3 PICA and PICA+</a></p>
-<p class="c8"><a href="#h.fbhlo0fq8hyu">I.4 Encoded Archival Description (EAD) and Encoded Archival Context (EAC)</a></p>
-<p class="c8"><a href="#h.kbbv9oz8aewp">I.5 International Standard Bibliographic Description (ISBD)</a></p>
-<p class="c8"><a href="#h.4nxautqtaory">I.6 Anglo-American Cataloguing Rules (AACR2)</a></p>
-<p class="c8"><a href="#h.qokm407em93v">I.7 MAQUIS&ndash;The quality of the terms in the metadata records and of the Knowledge Organising Systems</a></p>
-<p class="c8"><a href="#h.p8xbhn17yv0m">I.8 Citation data</a></p>
-<p class="c8"><a href="#h.jqbwpwbff8w0">I.9 MARC authority records</a></p>
-<p class="c8"><a href="#h.1u2r1ewy6o6s">I.10 Agile Qualit&auml;tssicherung von Metadaten zu kulturellen Objekten im Kontext von Datenintegrationsprozessen</a></p>
-<p class="c15"><a href="#h.onhgw5ps1do1">II. Cultural analytics / Bibliographic data science</a></p>
-<p class="c8"><a href="#h.fjpp9yjyg95z">II.1 Kinder- und Jugendbücher international. Eine Metadatenanalyse</a></p>
-<p class="c8"><a href="#h.55thhjh5aks2">II.2 Patterns of translations of national literatures</a></p>
-<p class="c22"><a href="#h.qkgqr5bgpxh2">II.3 Patterns of publications</a></p>
+<ul>
+  <li><a href="#h.dbhfcpj8muh">I. Metadata Quality Assessment</a>
+    <ul>
+      <li><a href="#h.f7u6fsdxft67">I.1 SHACL4MARC&ndash;Validating MARC records against locally defined ruleset</a></li>
+      <li><a href="#h.t5dz9y5v47ws">I.2 UNIMARC</a></li>
+      <li><a href="#h.d18pz1c4a259">I.3 PICA and PICA+</a></li>
+      <li><a href="#h.fbhlo0fq8hyu">I.4 Encoded Archival Description (EAD) and Encoded Archival Context (EAC)</a></li>
+      <li><a href="#h.kbbv9oz8aewp">I.5 International Standard Bibliographic Description (ISBD)</a></li>
+      <li><a href="#h.4nxautqtaory">I.6 Anglo-American Cataloguing Rules (AACR2)</a></li>
+      <li><a href="#h.qokm407em93v">I.7 MAQUIS&ndash;The quality of the terms in the metadata records and of the Knowledge Organising Systems</a></li>
+      <li><a href="#h.p8xbhn17yv0m">I.8 Citation data</a></li>
+      <li><a href="#h.jqbwpwbff8w0">I.9 MARC authority records</a></li>
+      <li><a href="#h.1u2r1ewy6o6s">I.10 Agile Qualit&auml;tssicherung von Metadaten zu kulturellen Objekten im Kontext von Datenintegrationsprozessen</a></li>
+    </ul>
+  </li>
+  <li><a href="#h.onhgw5ps1do1">II. Cultural analytics / Bibliographic data science</a>
+    <ul>
+      <li><a href="#h.fjpp9yjyg95z">II.1 Kinder- und Jugendbücher international. Eine Metadatenanalyse</a></li>
+      <li><a href="#h.55thhjh5aks2">II.2 Patterns of translations of national literatures</a></li>
+      <li><a href="#h.qkgqr5bgpxh2">II.3 Patterns of publications</a></li>
+    </ul>
+  </li>
 </div>
 
 <p>Cultural Analytics Team is a research team inside the eScience Working Group (AG E) of Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen (GWDG), <a href="#ftnt1" id="ftnt_ref1">[1]</a> the computation centre and IT research institute of the University of Göttingen <a href="#ftnt2" id="ftnt_ref2">[2]</a> and Max Planck Society. <a href="#ftnt3" id="ftnt_ref3">[3]</a> The purpose of the team is to find ways to apply data analytics solutions in cultural heritage domains in collaboration with other players in Göttingen, Germany and abroad. The team is in a formation state.</p>
