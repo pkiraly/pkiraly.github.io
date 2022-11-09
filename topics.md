@@ -150,8 +150,12 @@ Data sources:
 * SUDOC (from ABES)
 * Portugal National Library
 * COBISS+, the virtual library of Slovenia, one-stop access to information from 919 Slovenian libraries
-* Italian National Library, Firenze <a href="#ftnt14" id="ftnt_ref14">[14]</a>
-* The catalogue of the Biblioth&egrave;que nationale de France (The datasets are downloadable from the pef.bnf.fr FTP server in UNIMARC and INTERMARC format, which is the internal metadata schema of Biblioth&egrave;que nationale de France.)
+* Italian National Library, Firenze<sup>a</sup>
+* The catalogue of the Biblioth&egrave;que nationale de France<sup>b</sup>
+
+<sup>a</sup> The data is available via Z39.50, but with limited download options
+
+<sup>b</sup> The datasets are downloadable from the pef.bnf.fr FTP server in UNIMARC and INTERMARC format, which is the internal metadata schema of Biblioth&egrave;que nationale de France.
 
 <h2 class="c18" id="I.3"><span class="blue">I.3</span> PICA and PICA+</h2>
 
