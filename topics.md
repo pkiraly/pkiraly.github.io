@@ -151,11 +151,11 @@ Data sources:
 * Portugal National Library
 * COBISS+, the virtual library of Slovenia, one-stop access to information from 919 Slovenian libraries
 * Italian National Library, Firenze<sup>a</sup>
-* The catalogue of the Biblioth&egrave;que nationale de France<sup>b</sup>
+* The catalogue of the Bibliothèque nationale de France<sup>b</sup>
 
 <sup>a</sup> The data is available via Z39.50, but with limited download options
 
-<sup>b</sup> The datasets are downloadable from the pef.bnf.fr FTP server in UNIMARC and INTERMARC format, which is the internal metadata schema of Biblioth&egrave;que nationale de France.
+<sup>b</sup> The datasets are downloadable from the pef.bnf.fr FTP server in UNIMARC and INTERMARC format, which is the internal metadata schema of Bibliothèque nationale de France.
 
 <h2 class="c18" id="I.3"><span class="blue">I.3</span> PICA and PICA+</h2>
 
@@ -302,7 +302,7 @@ Partners:
 Data sources:
 
 * EconBiz catalogue of ZWB
-* Syst&egrave;me Universitaire de Documentation (SUDOC) of ABES
+* Système Universitaire de Documentation (SUDOC) of ABES
 * Gemeinsamer Verbundkatalog (GVK) of GBV and SWB
 
 <h2 class="c18" id="I.8"><span class="blue">I.8</span> Citation data</h2>
@@ -503,46 +503,3 @@ Partners:
 Data source:
 
 * library catalogues
-
-<hr class="c20">
-
-<div id="notes">
-<p><a href="#ftnt_ref1" id="ftnt1">[1]</a> <a href="https://www.gwdg.de/">https://www.gwdg.de/</a></p>
-<p><a href="#ftnt_ref2" id="ftnt2">[2]</a> <a href="https://uni-goettingen.de/">https://uni-goettingen.de/</a></p>
-<p><a href="#ftnt_ref3" id="ftnt3">[3]</a> <a href="https://www.mpg.de/en">https://www.mpg.de/</a></p>
-<p><a href="#ftnt_ref4" id="ftnt4">[4]</a> <a href="https://github.com/pkiraly/metadata-qa-api">https://github.com/pkiraly/metadata-qa-api</a></p>
-<p><a href="#ftnt_ref5" id="ftnt5">[5]</a> <a href="https://github.com/pkiraly/metadata-qa-marc">https://github.com/pkiraly/metadata-qa-marc</a></p>
-<p><a href="#ftnt_ref6" id="ftnt6">[6]</a> <a href="https://www.loc.gov/marc/">https://www.loc.gov/marc/</a></p>
-<p><a href="#ftnt_ref7" id="ftnt7">[7]</a> <a href="https://www.w3.org/TR/shacl/">https://www.w3.org/TR/shacl/</a></p>
-<p><a href="#ftnt_ref8" id="ftnt8">[8]</a> Resource Description Framework, <a href="https://www.w3.org/RDF/">https://www.w3.org/RDF/</a></p>
-<p><a href="#ftnt_ref9" id="ftnt9">[9]</a> &bdquo;Validating JSON, XML and CSV data with SHACL-like constraint” slides of presentation held at DINI-KIM 2022, <a href="https://bit.ly/qa-dini-kim-2022">https://bit.ly/qa-dini-kim-2022</a></p>
-<p><a href="#ftnt_ref10" id="ftnt10">[10]</a> <a href="http://marcspec.github.io/MARCspec/marc-spec.html">http://marcspec.github.io/MARCspec/marc-spec.html</a></p>
-<p><a href="#ftnt_ref11" id="ftnt11">[11]</a> <a href="https://www.ifla.org/publications/unimarc-formats-and-related-documentation/">https://www.ifla.org/publications/unimarc-formats-and-related-documentation/</a></p>
-<p><a href="#ftnt_ref12" id="ftnt12">[12]</a> <a href="https://format.gbv.de/schema/avram/specification">https://format.gbv.de/schema/avram/specification</a></p>
-<p><a href="#ftnt_ref13" id="ftnt13">[13]</a> <a href="http://www.sudoc.abes.fr/cbs/">http://www.sudoc.abes.fr/cbs/</a></p>
-<p><a href="#ftnt_ref14" id="ftnt14">[14]</a> Z39.50 provides a limited download options. We should contact them directly.</p>
-<p><a href="#ftnt_ref15" id="ftnt15">[15]</a> The datasets are downloadable from the pef.bnf.fr FTP server in UNIMARC and INTERMARC format (which is the internal metadata schema of Biblioth&egrave;que nationale de France.</p>
-<p><a href="#ftnt_ref16" id="ftnt16">[16]</a> <a href="https://www.archivesportaleurope.net/">https://www.archivesportaleurope.net/</a></p>
-<p><a href="#ftnt_ref17" id="ftnt17">[17]</a> <a href="https://www.archives.gov/">https://www.archives.gov/</a></p>
-<p><a href="#ftnt_ref18" id="ftnt18">[18]</a> <a href="https://www.ifla.org/references/best-practice-for-national-bibliographic-agencies-in-a-digital-age/resource-description-and-standards/bibliographic-control/international-standard-bibliographic-description-isbd/">https://www.ifla.org/references/best-practice-for-national-bibliographic-agencies-in-a-digital-age/resource-description-and-standards/bibliographic-control/international-standard-bibliographic-description-isbd/</a></p>
-<p><a href="#ftnt_ref19" id="ftnt19">[19]</a> <a href="http://wikicite.org/">http://wikicite.org/</a></p>
-<p><a href="#ftnt_ref20" id="ftnt20">[20]</a> <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">https://www.wikidata.org/wiki/Wikidata:Main_Page</a></p>
-<p><a href="#ftnt_ref21" id="ftnt21">[21]</a> <a href="https://www.wikidata.org/wiki/Property:P304">https://www.wikidata.org/wiki/Property:P304</a></p>
-<p><a href="#ftnt_ref22" id="ftnt22">[22]</a> <a href="https://www.wikidata.org/wiki/Q40154916">https://www.wikidata.org/wiki/Q40154916</a></p>
-<p><a href="#ftnt_ref23" id="ftnt23">[23]</a> <a href="https://www.wikidata.org/wiki/Q21820630">https://www.wikidata.org/wiki/Q21820630</a></p>
-<p><a href="#ftnt_ref24" id="ftnt24">[24]</a> <a href="https://www.wikidata.org/wiki/Q39877401">https://www.wikidata.org/wiki/Q39877401</a></p>
-<p><a href="#ftnt_ref25" id="ftnt25">[25]</a> <a href="https://www.wikidata.org/wiki/Q28710224">https://www.wikidata.org/wiki/Q28710224</a></p>
-<p><a href="#ftnt_ref26" id="ftnt26">[26]</a> <a href="https://www.wikidata.org/wiki/Q28710226">https://www.wikidata.org/wiki/Q28710226</a></p>
-<p><a href="#ftnt_ref27" id="ftnt27">[27]</a> <a href="http://wikicite.org/">http://wikicite.org/</a></p>
-<p><a href="#ftnt_ref28" id="ftnt28">[28]</a> <a href="https://academictorrents.com/browse.php?search%3DCrossref">https://academictorrents.com/browse.php?search=Crossref</a></p>
-<p><a href="#ftnt_ref29" id="ftnt29">[29]</a> <a href="https://opencitations.net/corpus">https://opencitations.net/corpus</a></p>
-<p><a href="#ftnt_ref30" id="ftnt30">[30]</a> <a href="http://www.lido-schema.org/">http://www.lido-schema.org/</a></p>
-<p><a href="#ftnt_ref31" id="ftnt31">[31]</a> <a href="https://tei-c.org/">https://tei-c.org/</a></p>
-<p><a href="#ftnt_ref32" id="ftnt32">[32]</a> <a href="http://portal.unesco.org/culture/en/ev.php-URL_ID%3D7810%26URL_DO%3DDO_TOPIC%26URL_SECTION%3D201.html">http://portal.unesco.org/culture/en/ev.php-URL_ID=7810&amp;URL_DO=DO_TOPIC&amp;URL_SECTION=201.html</a></p>
-<p><a href="#ftnt_ref33" id="ftnt33">[33]</a> <a href="http://demeter.oszk.hu">http://demeter.oszk.hu</a></p>
-<p><a href="#ftnt_ref34" id="ftnt34">[34]</a> <a href="https://www.geonames.org/">https://www.geonames.org/</a></p>
-<p><a href="#ftnt_ref35" id="ftnt35">[35]</a> <a href="https://viaf.org/">https://viaf.org/</a></p>
-<p><a href="#ftnt_ref36" id="ftnt36">[36]</a> <a href="https://thesaurus.cerl.org/">https://thesaurus.cerl.org/</a></p>
-<p><a href="#ftnt_ref37" id="ftnt37">[37]</a> <a href="https://www.share-vde.org/">https://www.share-vde.org/</a></p>
-<p><a href="#ftnt_ref38" id="ftnt38">[38]</a> <a href="https://www.dariah.eu/activities/working-groups/bibliographical-data-bibliodata/">https://www.dariah.eu/activities/working-groups/bibliographical-data-bibliodata/</a></p>
-</div>
