@@ -326,26 +326,27 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <h2 class="c18" id="I.9"><span class="blue">I.9</span> MARC authority records</h2>
 
-<p>The QA catalogue analyses MARC21 <em>bibliographic</em> records. MARC21 and UNIMARC also have a distinct schema for authority records. They describe contextual information: subject or name vocabularies which contain standardised form of names for people, corporate bodies, meetings, titles, and subjects referred in the bibliographical records. On the authority record the standardised form is the key element for which the record was made, so it is also called the heading. These records provide authority control, i.e. establishing a recognized form for an entity name and using that form whenever the name is needed as an access point in a bibliographic record. The record has three main components: headings, cross references, and notes. The authority schema is similar in structure to that of the bibliographic schema, but it contains much less data elements.</p>
-<p>Short introduction: <a href="https://www.loc.gov/marc/uma/pt1-7.html">https://www.loc.gov/marc/uma/pt1-7.html</a>.</p>
+The QA catalogue analyses MARC21 <em>bibliographic</em> records. MARC21 and UNIMARC also have a distinct schema for authority records. They describe contextual information: subject or name vocabularies which contain standardised form of names for people, corporate bodies, meetings, titles, and subjects referred in the bibliographical records. On the authority record the standardised form is the key element for which the record was made, so it is also called the heading. These records provide authority control, i.e. establishing a recognized form for an entity name and using that form whenever the name is needed as an access point in a bibliographic record. The record has three main components: headings, cross references, and notes. The authority schema is similar in structure to that of the bibliographic schema, but it contains much less data elements.
 
-<p>Research questions and tasks (Computer Science): </p>
+A short introduction: [loc.gov](https://www.loc.gov/marc/uma/pt1-7.html).
+
+Research questions and tasks (Computer Science):
 
 * How to transform MARC21 authority schema into Java classes the same way as bibliographic record schema elements are implemented in QA catalogue?
 * How to create a mechanism where the user can tell QA catalogue to analyse authority records instead of bibliographic records?
 * How to report the results? What would be the ideal user interface? 
 
-<p>Research questions and tasks (Humanities): </p>
+Research questions and tasks (Humanities):
 
 * Literature review on data quality aspects of authority data
 * Survey library metadata experts and researchers who work with authority records about the metadata quality aspects. Based on the findings, define a set of requirements against authority data elements as a textual document or with SHACL expressions.
 * Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues.
 
-<p>Partners:</p>
+Partners:
 
 * KBR
 
-<p>Data sources:</p>
+Data sources:
 
 * authority records of KBR catalogue
 * authority records Library of Congress catalogue
@@ -354,21 +355,21 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <p>The aim of this project is to invent semi-automatic mechanisms which translate quality criteria against metadata expressed in natural language into a machine actionable form which could be used as an input in a quality assessment process.</p>
 
-<p>Administrative status: submitted proposal</p>
+Administrative status: submitted proposal.
 
-<p>Research questions and tasks (Computer Science): </p>
+Research questions and tasks (Computer Science):
 
 * Given a complex, hierarchical metadata schema in XML format. How to implement the following user scenario: the user - with limited technical knowledge (typically a metadata creator or integrator) - enters a human readable input, such as “title” or “genre” in a graphical interface, and the application returns XPath expression(s) which can be generated based on the metadata schema’s structure and the input? The user should be able to test the expression instantly on test records. The user should be able to modify the input, or the XPath expression.
 * How to extend this application to work with other serialization formats and query languages?
 * How to embed the resulted expression into conditional statements, such as “find records where title is missing” or “find records where birth date is larger than death date”?
 * How to transform these statements into SHACL-like expressions?
 
-<p>Research questions and tasks (Humanities): </p>
+Research questions and tasks (Humanities):
 
-* What are the common metadata quality problems in Lightweight Information Describing Objects (LIDO) <a href="#ftnt30" id="ftnt_ref30">[30]</a> records?
-* What are the common metadata quality problems in TEI <a href="#ftnt31" id="ftnt_ref31">[31]</a> records?
+* What are the common metadata quality problems in Lightweight Information Describing Objects ([LIDO](http://www.lido-schema.org/)) records?
+* What are the common metadata quality problems in [TEI](https://tei-c.org/) records?
 
-<p>Partners:</p>
+Partners:
 
 * SUB
 * Fachbereich Mathematik und Informatik, Philipps-Universität Marburg
@@ -376,20 +377,19 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <h1 id="II"><span class="blue">II.</span> Cultural analytics / Bibliographic data science</h1>
 
-<p>These topics utilise catalogue as source data or evidence which could be used to answer Humanities research questions. The bibliographic data contains some generally available factual dimensions, such as personal names of authors and contributors (occasionally with additional properties), the place and date of publication, the name of publisher/printer/scriptor, genre, the subject description of the content (keywords, classification terms), the physical properties of the document, occasionally provenance (current and previous holding institutions, owners). After (more or less) data cleaning all these draw some historical patterns, such as how the roles of different languages changed, how the literary canon evolved, who were the important authors and books in a particular periods, which were enduring and ephemeral successes, how the media changed, and how all these correlated with each other?</p>
+<p>These topics utilise catalogue as source data or evidence which could be used to answer Humanities research questions. The bibliographic data contains some generally available factual dimensions, such as personal names of authors and contributors (occasionally with additional properties), the place and date of publication, the name of publisher/printer/scriptor, genre, the subject description of the content (keywords, classification terms), the physical properties of the document, occasionally provenance (current and previous holding institutions, owners). After (more or less) data cleaning all these draw some historical patterns, such as how the roles of different languages changed, how the literary canon evolved, who were the important authors and books in a particular periods, which were enduring and ephemeral successes, how the media changed, and how all these correlated with each other?
 
-<p>Some important publications, which could be used as examples of such researches:</p>
+Some important publications, which could be used as examples of such researches:
 
 
-* Andrew Prescott. (2013). “Bibliographic Records as Humanities Big Data.” In 2013 IEEE International Conference on Big Data, 55&ndash;58, 2013. <a href="https://doi.org/10.1109/BigData.2013.6691670">https://doi.org/10.1109/BigData.2013.6691670</a>.
-
-* Michael F. Suarez. (2009). “Towards a bibliometric analysis of the surviving record, 1701&ndash;1800.” in The Cambridge History of the Book in Britain, Volume 5: 1695&ndash;1830, Cambridge University Press, 2009. pp. 37-65. <a href="https://doi.org/10.1017/CHOL9780521810173.003">https://doi.org/10.1017/CHOL9780521810173.003</a>
-* Sandra Tuppen, Stephen Rose, and Loukia Drosopoulou (2016). “Library Catalogue Records as a Research Resource: Introducing &lsquo;A Big Data History of Music.’” Fontes Artis Musicae 63, no. 2:67&ndash;88. <a href="https://doi.org/10.1353/fam.2016.0011">https://doi.org/10.1353/fam.2016.0011</a>
-* Tolonen, M., Mäkelä, E., Marjanen, J., Kanner, A., Lahti, L., Ginter, F., Salmi, H., Vesanto, A., Nivala, A., Rantala, H., &amp; Sippola, R. (2018). Metadata analysis and text reuse detection: Reassessing public discourse in Finland through newspapers and journals 1771&ndash;1917. Paper presented at digital humanities in the Nordic countries DHN2018, Helsinki, Finland. <a href="https://researchportal.helsinki.fi/en/publications/metadata-analysis-and-text-reuse-detection-reassessing-public-dis">https://researchportal.helsinki.fi/en/publications/metadata-analysis-and-text-reuse-detection-reassessing-public-dis</a>
-* Lahti, L., Marjanen, J., Roivainen, H., &amp; Tolonen, M. (2019). Bibliographic data science and the history of the book (c. 1500&ndash;1800). Cataloging &amp; Classification Quarterly, 57(1), 5&ndash;23. <a href="https://doi.org/10.1080/01639374.2018.1543747">https://doi.org/10.1080/01639374.2018.1543747</a>
-* Marjanen, J., Kurunmäki, J. A., Pivovarova, L., &amp; Zosa, E. (2020). The expansion of isms, 1820&ndash;1917: Data-driven analysis of political language in digitized newspaper collections. Journal of Data Mining and Digital Humanities, HistoInformatics, 1&ndash;28. <a href="https://jdmdh.episciences.org/6728">https://jdmdh.episciences.org/6728</a>
-* Mikko Tolonen, Mark J. Hill, Ali Ijaz, Ville Vaara, Leo Lahti. (2021). Examining the Early Modern Canon : The English Short Title Catalogue and Large-Scale Patterns of Cultural Production. In Ileana Baird (eds.) Data Visualization in Enlightenment Literature and Culture. Cham : Palgrave Macmillan, 2021. pp. 63-119 <a href="https://doi.org/10.1007/978-3-030-54913-8_3">https://doi.org/10.1007/978-3-030-54913-8_3</a>
-* Simon Burrows. (2021). In Search of Enlightenment: From Mapping Books to Cultural History. In: Baird, I. (eds) Data Visualization in Enlightenment Literature and Culture . Palgrave Macmillan, Cham. https://doi.org/10.1007/978-3-030-54913-8_2
+* Andrew Prescott. (2013). “Bibliographic Records as Humanities Big Data.” In 2013 IEEE International Conference on Big Data, 55&ndash;58, 2013. [10.1109/BigData.2013.6691670](https://doi.org/10.1109/BigData.2013.6691670)
+* Michael F. Suarez. (2009). “Towards a bibliometric analysis of the surviving record, 1701&ndash;1800.” in The Cambridge History of the Book in Britain, Volume 5: 1695&ndash;1830, Cambridge University Press, 2009. pp. 37-65. [10.1017/CHOL9780521810173.003](https://doi.org/10.1017/CHOL9780521810173.003)
+* Sandra Tuppen, Stephen Rose, and Loukia Drosopoulou (2016). “Library Catalogue Records as a Research Resource: Introducing &lsquo;A Big Data History of Music.’” Fontes Artis Musicae 63, no. 2:67&ndash;88. [10.1353/fam.2016.0011](https://doi.org/10.1353/fam.2016.0011)
+* Tolonen, M., Mäkelä, E., Marjanen, J., Kanner, A., Lahti, L., Ginter, F., Salmi, H., Vesanto, A., Nivala, A., Rantala, H., &amp; Sippola, R. (2018). Metadata analysis and text reuse detection: Reassessing public discourse in Finland through newspapers and journals 1771&ndash;1917. Paper presented at digital humanities in the Nordic countries DHN2018, Helsinki, Finland. [researchportal.helsinki.fi](https://researchportal.helsinki.fi/en/publications/metadata-analysis-and-text-reuse-detection-reassessing-public-dis)
+* Lahti, L., Marjanen, J., Roivainen, H., &amp; Tolonen, M. (2019). Bibliographic data science and the history of the book (c. 1500&ndash;1800). Cataloging &amp; Classification Quarterly, 57(1), 5&ndash;23. [10.1080/01639374.2018.1543747](https://doi.org/10.1080/01639374.2018.1543747)
+* Marjanen, J., Kurunmäki, J. A., Pivovarova, L., &amp; Zosa, E. (2020). The expansion of isms, 1820&ndash;1917: Data-driven analysis of political language in digitized newspaper collections. Journal of Data Mining and Digital Humanities, HistoInformatics, 1&ndash;28. [https://jdmdh.episciences.org/6728](https://jdmdh.episciences.org/6728)
+* Mikko Tolonen, Mark J. Hill, Ali Ijaz, Ville Vaara, Leo Lahti. (2021). Examining the Early Modern Canon : The English Short Title Catalogue and Large-Scale Patterns of Cultural Production. In Ileana Baird (eds.) Data Visualization in Enlightenment Literature and Culture. Cham : Palgrave Macmillan, 2021. pp. 63-119 [10.1007/978-3-030-54913-8_3](https://doi.org/10.1007/978-3-030-54913-8_3)
+* Simon Burrows. (2021). In Search of Enlightenment: From Mapping Books to Cultural History. In: Baird, I. (eds) Data Visualization in Enlightenment Literature and Culture . Palgrave Macmillan, Cham. [10.1007/978-3-030-54913-8_2](https://doi.org/10.1007/978-3-030-54913-8_2)
 
 <h2 class="c18" id="II.1"><span class="blue">II.1</span> Kinder- und Jugendbücher international. Eine Metadatenanalyse</h2>
 
