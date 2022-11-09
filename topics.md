@@ -15,6 +15,13 @@ p {
   margin-bottom: 0px;
   text-indent: 25px;
 }
+
+div#toc p {margin: 0; line-height:1.0;}
+div#toc p.c14 {padding-top:4pt;  padding-bottom:0pt; }
+div#toc p.c15 {padding-top:10pt; padding-bottom:0pt; }
+div#toc p.c8  {margin-left:18pt; padding-top:3pt; padding-bottom:0pt;}
+div#toc p.c22 {margin-left:18pt; padding-top:3pt; padding-bottom:4pt;}
+
 </style>
 
 <span class="blue">GWDG Cultural Analytics Team</span> research topics
