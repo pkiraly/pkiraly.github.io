@@ -26,7 +26,7 @@ div#toc p.c22 {margin-left:18pt; padding-top:3pt; padding-bottom:4pt;}
 
 ul { list-style-type:none }
 ul > li:before {content:"\002605  "; color: #4a86e8}
-li:before {margin-left:-25pt; white-space:nowrap; display:inline-block; min-width:18pt}
+li:before {margin-left:-25pt; white-space:nowrap; display:inline-block; min-width:25pt}
 
 </style>
 
