@@ -22,6 +22,12 @@ div#toc p.c15 {padding-top:10pt; padding-bottom:0pt; }
 div#toc p.c8  {margin-left:18pt; padding-top:3pt; padding-bottom:0pt;}
 div#toc p.c22 {margin-left:18pt; padding-top:3pt; padding-bottom:4pt;}
 
+.blue{color:#4a86e8}
+
+ul { list-style-type:none }
+ul > li:before {content:"\002605  "; color: #4a86e8}
+li:before {margin-left:-18pt; white-space:nowrap; display:inline-block; min-width:18pt}
+
 </style>
 
 <span class="blue">GWDG Cultural Analytics Team</span> research topics
@@ -61,13 +67,17 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <h1 id="I"><span class="blue">I.</span> Metadata Quality Assessment</h1>
 
-<p>All of these topics are connected to <em>Metadata Quality Assessment Framework API</em> (MQAF API) <a href="#ftnt4" id="ftnt_ref4">[4]</a> and <em>QA catalogue</em> <a href="#ftnt5" id="ftnt_ref5">[5]</a> open source research software. The topics are extensions of previous research and these software packages. Our final purpose is to provide quality assessment solutions to the metadata records created with all the standard schemas used in cultural heritage institutions (libraries, archives and museums).</p>
-<p>Metadata is a type of record, which describes the important features of an object stored in such organisation (such as a book, a letter of an 18th century scholar or a sculpture. Here the “data” is the original object, and since metadata literally means “data about data” includes the creator, title, identifier, location, material, size and other important features of the object. Metadata schema is a special document which describes the structure and rules of the records in a metadata collection, so it tells how to encode this information. Sometimes the schema has a machine readable version (serialised as an XML or JSON schema), sometimes it doesn’t have. Usually the schema does not contain all the information quality assessment requires, so we have to extend it with other information, for example which data elements or rules are more important than others in a particular context, what extra requirements are applicable in a particular organisation (e.g. an identifier might be a simple string or number, and in some context it is claimed to better if it forms a URL, and even better if the URL is persistent).</p>
-<p>The MQAF API is a general metadata assessment tool, which requires a derivative of the metadata schema with specific properties for the quality assessment task. Based on this one can build a tool to analyse records in a particular schema simply by configuration. We already have some implementation for this kind of development for Deutsche Digitale Bibliothek, for Victoria and Albert Museum, and meemoo, the Flemish Institute for Archives.</p>
-<p>QA catalogue (an extension of MQAF API) is specified for library catalogues and works with records in a metadata schema called MARC (MAchine Readable Cataloging), <a href="#ftnt6" id="ftnt_ref6">[6]</a> and already used by the British Library, KBR, the Royal Library of Belgium, and Gent University Library. Its future extensions should cover MARC variants and non-MARC bibliographic metadata schema such as PICA (and variants), and UNIMARC.</p>
-<p>It is equally important for all metadata assessment tools, that they provide input for metadata experts, who decide which reported problems are really relevant for their institute and in which priority.</p>
+All of these topics are connected to <em>Metadata Quality Assessment Framework API</em> ([MQAF API](https://github.com/pkiraly/metadata-qa-api)) and [QA catalogue](https://github.com/pkiraly/metadata-qa-marc) open source research software. The topics are extensions of previous research and these software packages. Our final purpose is to provide quality assessment solutions to the metadata records created with all the standard schemas used in cultural heritage institutions (libraries, archives and museums).
 
-<p>Abbreviations: </p>
+Metadata is a type of record, which describes the important features of an object stored in such organisation (such as a book, a letter of an 18th century scholar or a sculpture. Here the “data” is the original object, and since metadata literally means “data about data” includes the creator, title, identifier, location, material, size and other important features of the object. Metadata schema is a special document which describes the structure and rules of the records in a metadata collection, so it tells how to encode this information. Sometimes the schema has a machine readable version (serialised as an XML or JSON schema), sometimes it doesn’t have. Usually the schema does not contain all the information quality assessment requires, so we have to extend it with other information, for example which data elements or rules are more important than others in a particular context, what extra requirements are applicable in a particular organisation (e.g. an identifier might be a simple string or number, and in some context it is claimed to better if it forms a URL, and even better if the URL is persistent).
+
+The MQAF API is a general metadata assessment tool, which requires a derivative of the metadata schema with specific properties for the quality assessment task. Based on this one can build a tool to analyse records in a particular schema simply by configuration. We already have some implementation for this kind of development for Deutsche Digitale Bibliothek, for Victoria and Albert Museum, and meemoo, the Flemish Institute for Archives.
+
+QA catalogue (an extension of MQAF API) is specified for library catalogues and works with records in a metadata schema called [MARC](https://www.loc.gov/marc/) (MAchine Readable Cataloging), and already used by the British Library, KBR, the Royal Library of Belgium, and Gent University Library. Its future extensions should cover MARC variants and non-MARC bibliographic metadata schema such as PICA (and variants), and UNIMARC.
+
+It is equally important for all metadata assessment tools, that they provide input for metadata experts, who decide which reported problems are really relevant for their institute and in which priority.
+
+Abbreviations:
 
 * CS &ndash; Computer Science
 * LIS &ndash; Library and Information Science
@@ -77,7 +87,7 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <h2 class="c18" id="I.1"><span class="blue">I.1</span> SHACL4MARC&ndash;Validating MARC records against locally defined ruleset</h2>
 
-<p><em>Introduction</em>. Shapes Constraint Language (SHACL) <a href="#ftnt7" id="ftnt_ref7">[7]</a> is a formal language for validating RDF <a href="#ftnt8" id="ftnt_ref8">[8]</a> graphs against a set of conditions (expressed also in RDF). Following this idea, and implementing a subset of the language, <em>MQAF API</em> provides a mechanism to define SHACL-like rules for data sources in non-RDF based formats, such as XML, CSV and JSON (SHACL validates only RDF graphs). The rules can be defined either with YAML or JSON configuration files or with Java code.<sup>a</sup> <em>MQAF API</em> has already been validated in different organisations (Flemish Audio-Visual Archives, Victoria and Albert Museum, Deutsche Digitale Bibliothek). In this research we extend this ruleset to be applicable to MARC records. For making it available for MARC records there are two criteria:</p>
+<em>Introduction</em>. Shapes Constraint Language ([SHACL](https://www.w3.org/TR/shacl/)) is a formal language for validating Resource Description Framework ([RDF](https://www.w3.org/RDF/)) graphs against a set of conditions (expressed also in RDF). Following this idea, and implementing a subset of the language, <em>MQAF API</em> provides a mechanism to define SHACL-like rules for data sources in non-RDF based formats, such as XML, CSV and JSON (SHACL validates only RDF graphs). The rules can be defined either with YAML or JSON configuration files or with Java code.<sup>a</sup> <em>MQAF API</em> has already been validated in different organisations (Flemish Audio-Visual Archives, Victoria and Albert Museum, Deutsche Digitale Bibliothek). In this research we extend this ruleset to be applicable to MARC records. For making it available for MARC records there are two criteria:
 
 * supporting a particular &quot;addressing scheme&quot; which fits MARC records. This scheme is similar to XPATH or JSONPath which are mechanisms to precisely select a part of an XML and JSON document. For MARC there is a proposal, Carsten Klee&#39;s [MARCspec](http://marcspec.github.io/MARCspec/marc-spec.html) - a common MARC record path language, which is already supported by the QA catalogue.
 * implementing a particular interface of MQAF API, which could return a unified value object when we specify it with an address of a data element.
@@ -108,7 +118,7 @@ Data sources:
 * Catalogue of British Library
 * Catalogue of KBR
 
-<sup>a</sup> &bdquo;Validating JSON, XML and CSV data with SHACL-like constraint” slides of presentation held at DINI-KIM 2022, <a href="https://bit.ly/qa-dini-kim-2022">https://bit.ly/qa-dini-kim-2022</a>
+<sup>a</sup> &bdquo;Validating JSON, XML and CSV data with SHACL-like constraint” slides of presentation held at DINI-KIM 2022, [qa-dini-kim-2022](https://bit.ly/qa-dini-kim-2022)
 
 <h2 class="c18" id="I.2"><span class="blue">I.2</span> UNIMARC</h2>
 
