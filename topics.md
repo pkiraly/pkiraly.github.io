@@ -30,7 +30,7 @@ div#toc p.c22 {margin-left:18pt; padding-top:3pt; padding-bottom:4pt;}
 
 </style>
 
-# <span class="blue">GWDG Cultural Analytics Team</span> research topics
+# <span class="blue">GWDG Cultural Analytics Team</span><br/>research topics
 
 last updated: 2022-11-04
 
@@ -58,7 +58,7 @@ last updated: 2022-11-04
   </li>
 </ul>
 
-Cultural Analytics Team is a research team inside the eScience Working Group (AG E) of Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen ([GWDG](https://www.gwdg.de/)), the computation centre and IT research institute of the [University of Göttingen](https://uni-goettingen.de/) and [Max Planck Society](https://www.mpg.de/en). The purpose of the team is to find ways to apply data analytics solutions in cultural heritage domains in collaboration with other players in Göttingen, Germany and abroad. The team is in a formation state.
+Cultural Analytics Team is a research team inside the eScience Working Group (AG E) of the Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen ([GWDG](https://www.gwdg.de/)), the computation centre and IT research institute of the [University of Göttingen](https://uni-goettingen.de/) and [Max Planck Society](https://www.mpg.de/en). The purpose of the team is to find ways to apply data analytics solutions in cultural heritage domains in collaboration with other players in Göttingen, Germany and abroad. The team is in a formation state.
 
 This list declares the active and intended research topics of the team. There are two main branches: cultural heritage metadata quality assessment and cultural analytics with special focus on bibliographic data science. Each branch contains a number of individual, independent research, however altogether they form an interrelated network. Each research topic has two sides: an applied computer science one and a humanities one. The first are usually about software development questions and tasks, such as creating algorithms for interpreting data written in a metadata schema, or optimising the running of the software by time or memory consumption. The second side has content related questions, and requires humanistic research methods. Metadata quality assessment might be more appealing for students of Library and Information Science, of book studies (Buchwissenschaft, bibliology), of archival studies, while the cultural analytics topics might be interesting for a wider branch of Digital Humanities students. The research in both topics should be resulted in some written output (paper or thesis), the quality assessment topics optionally outputs software code as well.
 
