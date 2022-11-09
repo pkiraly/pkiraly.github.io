@@ -287,42 +287,42 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <p>Some known problems with the page number properties:</p>
 
-<p>1. Using article identifier as page number</p>
+### 1. Using article identifier as page number
 
-<p>Q40154916 <a href="#ftnt22" id="ftnt_ref22">[22]</a>: “e0179574” -- This article was published in PLoS ONE. The publisher provides citation text, and metadata in RIS and BibTeX format. The citation contains &lsquo;e0179574’, however it does not explain what exactly it means (as it neither explains any other elements). e0179574 is an article identifier.</p>
+[Q40154916](https://www.wikidata.org/wiki/Q40154916): “e0179574” -- This article was published in PLoS ONE. The publisher provides citation text, and metadata in RIS and BibTeX format. The citation contains &lsquo;e0179574’, however it does not explain what exactly it means (as it neither explains any other elements). e0179574 is an article identifier.
 
-<p>Q21820630 <a href="#ftnt23" id="ftnt_ref23">[23]</a>: “c181” -- This paper was published in the British Medical Journal. It does not have a PDF version, the only available online version is HTML which does not have page numbers at all. c181 is an article identifier.</p>
+[Q21820630](https://www.wikidata.org/wiki/Q21820630): “c181” -- This paper was published in the British Medical Journal. It does not have a PDF version, the only available online version is HTML which does not have page numbers at all. c181 is an article identifier.
 
-<p>In both examples even the publisher exports bad data claiming article numbers as page number metadata.</p>
+In both examples even the publisher exports bad data claiming article numbers as page number metadata.
 
-<p>2. Wikidata contains extra info, which is not available elsewhere</p>
+### 2. Wikidata contains extra info, which is not available elsewhere
 
-<p>Q39877401 <a href="#ftnt24" id="ftnt_ref24">[24]</a>: ”108-17; quiz 118-9” -- &quot;quiz 118-9&quot; does not appear anywhere in the publisher or DOI metadata. Wikidata does not have a note about the source of this piece.</p>
+[Q39877401](https://www.wikidata.org/wiki/Q39877401): ”108-17; quiz 118-9” -- &quot;quiz 118-9&quot; does not appear anywhere in the publisher or DOI metadata. Wikidata does not have a note about the source of this piece.
 
-<p>3. Wikidata uses page number field to add comment</p>
+### 3. Wikidata uses page number field to add comment
 
-<p>Q28710224 <a href="#ftnt25" id="ftnt_ref25">[25]</a>: ”E3523; author reply E3524&ndash;5” -- E3524&ndash;5 is not part of the article. It is a related article, which is also available in Wikidata (as Q28710226 <a href="#ftnt26" id="ftnt_ref26">[26]</a>). These two articles are not interlinked with distinct properties. One could suppose that the occurrence &lsquo;author reply’ in other Wikidata records’ page number could reveal similar hidden links.</p>
+[Q28710224](https://www.wikidata.org/wiki/Q28710224): ”E3523; author reply E3524&ndash;5” -- E3524&ndash;5 is not part of the article. It is a related article, which is also available in Wikidata (as [Q28710226](https://www.wikidata.org/wiki/Q28710226)). These two articles are not interlinked with distinct properties. One could suppose that the occurrence &lsquo;author reply’ in other Wikidata records’ page number could reveal similar hidden links.
 
-<p>Some analyses are available in this repository: <a href="https://github.com/pkiraly/metadata-qa-wikidata/">https://github.com/pkiraly/metadata-qa-wikidata/</a>.</p>
+Some analyses are available in this repository: [metadata-qa-wikidata](https://github.com/pkiraly/metadata-qa-wikidata/).
 
-<p>Research questions and tasks (Computer Science): </p>
+Research questions and tasks (Computer Science):
 
 * What are the basic quality dimensions applicable to citation data?
 * How does quality of citation data affect scientometrics?
 * If there is a correlation, is there a known method from scientometrics’ side to minimize it?
 
-<p>Research questions and tasks (Humanities): </p>
+Research questions and tasks (Humanities):
 
 * Literature review on data quality aspects of citation data
 * Survey library metadata experts and researchers who work with citation records about the metadata quality aspects. Based on the findings, define a set of requirements against citation data elements as a textual document or with SHACL expressions.
 * Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues.
 * How can we fix derivative data (e.g. a citation found in Wikidata or other open access repository) in a way that the fix would be applicable to the source data (the publisher!s side)? Would it be a different approach for commercial and not-for-profit publishers?
 
-<p>Data sources:</p>
+Data sources:
 
-* WikiCite <a href="#ftnt27" id="ftnt_ref27">[27]</a>
-* Crossref data dumps <a href="#ftnt28" id="ftnt_ref28">[28]</a>
-* Open Citations corpus <a href="#ftnt29" id="ftnt_ref29">[29]</a>
+* [WikiCite](http://wikicite.org/)
+* Crossref [data dumps](https://academictorrents.com/browse.php?search%3DCrossref)
+* Open Citations [corpus](https://opencitations.net/corpus)
 
 <h2 class="c18" id="I.9"><span class="blue">I.9</span> MARC authority records</h2>
 
