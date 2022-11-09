@@ -102,7 +102,7 @@ Research questions (Humanities):
 * Can the content specific cataloguing rules provided by BL and KBR be transformed to SHACL-like machine readable rules? Are there limitations, and if yes: describe their nature? What suggestions this research might have to the SHACL community and to the further development of QA catalogue?
 * Comparing the results of KBR and QA catalogue approaches, what suggestions this research might have to both parties?
 
-Partners:
+Potential partners:
 
 * British Library
 * KBR
@@ -192,7 +192,7 @@ Research questions and tasks (Humanities):
 * Test the implementation, and create an evidence-based report on the quality related issues found in a concrete archival collection.
 * Communicate the findings with the institution and get feedback about them. Did they know about the issues? How do they solve quality issues? Does the report “overlook” some issues they know?
 
-Partners:
+Potential partners:
 
 * Archives Portal Europe (The Hague)
 * National Archives and Records (Washington DC)
@@ -221,7 +221,7 @@ Research questions and tasks (Humanities):
 * Survey library metadata experts and researchers who work with ISBD based records about the metadata quality aspects. Based on the findings, define a set of requirements against ISBD data elements as a textual document or with SHACL expressions. 
 * Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues.
 
-Partners:
+Potential partners:
 
 * British Library
 * any other library who applies ISBD in their catalogue
@@ -287,7 +287,7 @@ Research questions and tasks (Humanities):
 * Survey library metadata experts and researchers who work in the subject indexing field about the metadata quality aspects. Based on the findings, define a set of requirements against AACR2 data elements as a textual document or with SHACL expressions.
 * Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues. 
 
-Partners:
+Potential partners:
 
 * Agence bibliographique de l&#39;emseignement supérieur (ABES), Montpellier
 * Gemeinsamer Bibliotheksverbund (GBV), Göttingen
@@ -360,7 +360,7 @@ Research questions and tasks (Humanities):
 * Survey library metadata experts and researchers who work with authority records about the metadata quality aspects. Based on the findings, define a set of requirements against authority data elements as a textual document or with SHACL expressions.
 * Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues.
 
-Partners:
+Potential partners:
 
 * KBR
 
@@ -387,7 +387,7 @@ Research questions and tasks (Humanities):
 * What are the common metadata quality problems in Lightweight Information Describing Objects ([LIDO](http://www.lido-schema.org/)) records?
 * What are the common metadata quality problems in [TEI](https://tei-c.org/) records?
 
-Partners:
+Potential partners:
 
 * SUB
 * Fachbereich Mathematik und Informatik, Philipps-Universität Marburg
@@ -429,7 +429,7 @@ Research questions and tasks (Humanities):
 * How has this category changed over the times?
 * Are there regional differences in the application of the category?
 
-Partners:
+Potential partners:
 
 * Prof. Dr. Gerhard Lauer, Dr. Wei Ding &ndash; Buchwissenschaft, Johannes Gutenberg-Universität Mainz
 * Deutsche Nationalbibliothek
@@ -466,7 +466,7 @@ Data sources:
 * national bibliographies
 * [Bibliographica Hungarica](http://demeter.oszk.hu)
 
-Partners:
+Potential partners:
 
 * Prof. András Kiséry, City College of New York
 
@@ -487,7 +487,7 @@ Research questions and tasks (Humanities):
 * How did the connection between the format and the genre change over time?
 * What other countries had the most impact (measured by the number of their publications held in the library under scrutiny) in different times?
 
-Partners:
+Potential partners:
 
 * [DARIAH Bibliographical Data Working Group](https://www.dariah.eu/activities/working-groups/bibliographical-data-bibliodata/)
 * libraries
