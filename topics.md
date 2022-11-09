@@ -41,10 +41,10 @@ last updated: 2022-11-04
       <li><a href="#I.7">I.7 MAQUIS&ndash;The quality of the terms in the metadata records and of the Knowledge Organising Systems</a></li>
       <li><a href="#I.8">I.8 Citation data</a></li>
       <li><a href="#I.9">I.9 MARC authority records</a></li>
-      <li><a href="#I.10">I.10 Agile Qualit&auml;tssicherung von Metadaten zu kulturellen Objekten im Kontext von Datenintegrationsprozessen</a></li>
+      <li><a href="#I.10">I.10 Agile Qualitätssicherung von Metadaten zu kulturellen Objekten im Kontext von Datenintegrationsprozessen</a></li>
     </ul>
-  </li>
-  <li><a href="#II">II. Cultural analytics / Bibliographic data science</a>
+  
+* <a href="#II">II. Cultural analytics / Bibliographic data science</a>
     <ul>
       <li><a href="#II.1">II.1 Kinder- und Jugendbücher international. Eine Metadatenanalyse</a></li>
       <li><a href="#II.2">II.2 Patterns of translations of national literatures</a></li>
@@ -69,11 +69,11 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <p>Abbreviations: </p>
 <ul>
-  <li>CS &ndash; Computer Science</li>
-  <li>LIS &ndash; Library and Information Science</li>
-  <li>DH &ndash; Digital Humanities</li>
-  <li>BL &ndash; British Library</li>
-  <li>KBR &ndash; Royal Library of Belgium</li>
+  <li>CS &ndash; Computer Science
+* LIS &ndash; Library and Information Science
+* DH &ndash; Digital Humanities
+* BL &ndash; British Library
+* KBR &ndash; Royal Library of Belgium</li>
 </ul>
 
 
@@ -81,8 +81,8 @@ We are constantly looking for student helpers, research assistants and collabora
 <p><em>Introduction</em>. Shapes Constraint Language (SHACL) <a href="#ftnt7" id="ftnt_ref7">[7]</a> is a formal language for validating RDF <a href="#ftnt8" id="ftnt_ref8">[8]</a> graphs against a set of conditions (expressed also in RDF). Following this idea, and implementing a subset of the language, <em>MQAF API</em> provides a mechanism to define SHACL-like rules for data sources in non-RDF based formats, such as XML, CSV and JSON (SHACL validates only RDF graphs). The rules can be defined either with YAML or JSON configuration files or with Java code. <a href="#ftnt9" id="ftnt_ref9">[9]</a> <em>MQAF API</em> has already been validated in different organisations (Flemish Audio-Visual Archives, Victoria and Albert Museum, Deutsche Digitale Bibliothek). In this research we extend this ruleset to be applicable to MARC records. For making it available for MARC records there are two criteria:</p>
 
 <ul>
-  <li>supporting a particular &quot;addressing scheme&quot; which fits MARC records. This scheme is similar to XPATH or JSONPath which are mechanisms to precisely select a part of an XML and JSON document. For MARC there is a proposal, Carsten Klee&#39;s MARCspec - a common MARC record path language,</span> <a href="#ftnt10" id="ftnt_ref10">[10]</a> which is already supported by the QA catalogue.</li>
-  <li>implementing a particular interface of MQAF API, which could return a unified value object when we specify it with an address of a data element.</li>
+  <li>supporting a particular &quot;addressing scheme&quot; which fits MARC records. This scheme is similar to XPATH or JSONPath which are mechanisms to precisely select a part of an XML and JSON document. For MARC there is a proposal, Carsten Klee&#39;s MARCspec - a common MARC record path language,</span> <a href="#ftnt10" id="ftnt_ref10">[10]</a> which is already supported by the QA catalogue.
+* implementing a particular interface of MQAF API, which could return a unified value object when we specify it with an address of a data element.</li>
 </ul>
 
 <p>In this research we have two control data sets. BL provided a sample with examples where particular problems have been catched by an alternative tool, but not by QA catalogue. KBR developed an XSLT based solution to check local rulesets. We can use both to compare those results with ours.</p>
@@ -90,28 +90,28 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <p>Research questions and tasks (Computer Science):</p>
 <ul>
-  <li>Finish the implementation of MARCspec in QA catalogue</li>
-  <li>Create a selector class which could find and retrieve the part of the record which is addressed by the MARCspec expression (other implementation of the interface are already available for Xpath, JSONPath and SQL column name expressions)</li>
-  <li>Adapt MQAF API that it should accept this selector implementation as input parameter (right now the implementations are hard coded)</li>
-  <li>Create a command line interface in QA catalogue which accepts a configuration file describing SHACL-like ruleset</li>
+  <li>Finish the implementation of MARCspec in QA catalogue
+* Create a selector class which could find and retrieve the part of the record which is addressed by the MARCspec expression (other implementation of the interface are already available for Xpath, JSONPath and SQL column name expressions)
+* Adapt MQAF API that it should accept this selector implementation as input parameter (right now the implementations are hard coded)
+* Create a command line interface in QA catalogue which accepts a configuration file describing SHACL-like ruleset</li>
 </ul>
 
 <p>Research questions (Humanities):</p>
 <ul>
-  <li>Can the content specific cataloguing rules provided by BL and KBR be transformed to SHACL-like machine readable rules? Are there limitations, and if yes: describe their nature? What suggestions this research might have to the SHACL community and to the further development of QA catalogue?</li>
-  <li>Comparing the results of KBR and QA catalogue approaches, what suggestions this research might have to both parties?</li>
+  <li>Can the content specific cataloguing rules provided by BL and KBR be transformed to SHACL-like machine readable rules? Are there limitations, and if yes: describe their nature? What suggestions this research might have to the SHACL community and to the further development of QA catalogue?
+* Comparing the results of KBR and QA catalogue approaches, what suggestions this research might have to both parties?</li>
 </ul>
 
 <p>Partners: </p>
 <ul>
-  <li>British Library</li>
-  <li>KBR</li>
+  <li>British Library
+* KBR</li>
 </ul>
 
 <p>Data sources:</p>
 <ul>
-  <li>Catalogue of British Library</li>
-  <li>Catalogue of KBR</li>
+  <li>Catalogue of British Library
+* Catalogue of KBR</li>
 </ul>
 
 <h2 class="c18" id="I.2"><span class="blue">I.2</span> UNIMARC</h2>
@@ -119,53 +119,53 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <p>Research questions and tasks (Computer Science): </p>
 <ul>
-  <li>Write scripts which downloads UNIMARC records from the data sources via OAI-PMH and Z39.50 protocols. The scripts should handle the shortcomings of these protocols and the actual implementations.</li>
-  <li>Create a machine readable UNIMARC schema, either as a set of Java classes according to the QA catalogue&#39;s MARC definition structure or to the JSON based Avram schema. <a href="#ftnt12" id="ftnt_ref12">[12]</a> It is also possible to implement it with other technology which can be exported into Avram schema.</li>
-  <li>Modify QA catalogue backend to be able to use the above mentioned definition as an input configuration for the quality assessment processes.</li>
-  <li>Adopt the user interface of QA catalogue to work with the output of the analysis</li>
+  <li>Write scripts which downloads UNIMARC records from the data sources via OAI-PMH and Z39.50 protocols. The scripts should handle the shortcomings of these protocols and the actual implementations.
+* Create a machine readable UNIMARC schema, either as a set of Java classes according to the QA catalogue&#39;s MARC definition structure or to the JSON based Avram schema. <a href="#ftnt12" id="ftnt_ref12">[12]</a> It is also possible to implement it with other technology which can be exported into Avram schema.
+* Modify QA catalogue backend to be able to use the above mentioned definition as an input configuration for the quality assessment processes.
+* Adopt the user interface of QA catalogue to work with the output of the analysis</li>
 </ul>
 
 <p>Research questions and tasks (Humanities): </p>
 <ul>
-  <li>How has the UNIMARC schema changed historically, and how to match the proper schema with the records?</li>
-  <li>Are there locally defined data elements in particular libraries? Are these documented? How could they be transformed as an input to QA catalogue, so it should understand them and apply the rules during the analyses?</li>
-  <li>Literature scan: are there specific papers regarding UNIMARC quality assessment? Are the specific aspects of the structure or the content of the schema which are not available in MARC21 schema?</li>
-  <li>Communicate with the data source and collect feedback. How could they use the report in daily work? Are there relevant needs which the result doesn’t fulfil? What are their data life cycles and relevant workflow, and how QA catalogue could be inserted into it?</li>
+  <li>How has the UNIMARC schema changed historically, and how to match the proper schema with the records?
+* Are there locally defined data elements in particular libraries? Are these documented? How could they be transformed as an input to QA catalogue, so it should understand them and apply the rules during the analyses?
+* Literature scan: are there specific papers regarding UNIMARC quality assessment? Are the specific aspects of the structure or the content of the schema which are not available in MARC21 schema?
+* Communicate with the data source and collect feedback. How could they use the report in daily work? Are there relevant needs which the result doesn’t fulfil? What are their data life cycles and relevant workflow, and how QA catalogue could be inserted into it?</li>
 </ul>
 
 <p>Possible partners:</p>
 <ul>
-  <li>Agence bibliographique de l&#39;emseignement supérieur (ABES), Montpellier, France, the maintainer of SUDOC, <a href="#ftnt13" id="ftnt_ref13">[13]</a> the French union catalogue of academic libraries</li>
-  <li>Institut informacijskih znanosti (IZUM), Maribor, Slovenia, the maintainer of COBISS+, the Slovenian union catalogue</li>
-  <li>Portugal National Library</li>
-  <li>Italian National Library, Firenze</li>
+  <li>Agence bibliographique de l&#39;emseignement supérieur (ABES), Montpellier, France, the maintainer of SUDOC, <a href="#ftnt13" id="ftnt_ref13">[13]</a> the French union catalogue of academic libraries
+* Institut informacijskih znanosti (IZUM), Maribor, Slovenia, the maintainer of COBISS+, the Slovenian union catalogue
+* Portugal National Library
+* Italian National Library, Firenze</li>
 </ul>
 
 <p>Data sources:</p>
 <ul>
-  <li>SUDOC (from ABES)</li>
-  <li>Portugal National Library</li>
-  <li>COBISS+, the virtual library of Slovenia, one-stop access to information from 919 Slovenian libraries</li>
-  <li>Italian National Library, Firenze <a href="#ftnt14" id="ftnt_ref14">[14]</a></li>
-  <li>The catalogue of the Biblioth&egrave;que nationale de France (the French national library) <a href="#ftnt15" id="ftnt_ref15">[15]</a></li>
+  <li>SUDOC (from ABES)
+* Portugal National Library
+* COBISS+, the virtual library of Slovenia, one-stop access to information from 919 Slovenian libraries
+* Italian National Library, Firenze <a href="#ftnt14" id="ftnt_ref14">[14]</a>
+* The catalogue of the Biblioth&egrave;que nationale de France (the French national library) <a href="#ftnt15" id="ftnt_ref15">[15]</a></li>
 </ul>
 
 <h2 class="c18" id="I.3"><span class="blue">I.3</span> PICA and PICA+</h2>
-<p>PICA and PICA+ are metadata schemas for describing bibliographic resources, mainly used in Dutch and German libraries (instead of MARC). These schemas contain a fixed set of data elements, but libraries can define their own extra elements. Jakob Vo&szlig; maintains an Avram schema for PICA+. There is some initial code in the QA catalogue which reads Avram schema and uses it as an input for model building against which the analyses can be run.</p>
+<p>PICA and PICA+ are metadata schemas for describing bibliographic resources, mainly used in Dutch and German libraries (instead of MARC). These schemas contain a fixed set of data elements, but libraries can define their own extra elements. Jakob Voß maintains an Avram schema for PICA+. There is some initial code in the QA catalogue which reads Avram schema and uses it as an input for model building against which the analyses can be run.</p>
 
 <p>Research questions and tasks (Computer Science): </p>
 <ul>
-  <li>Finalise Avram schema reader </li>
-  <li>Finalise a record reader which takes an Avram schema, parse records which are in the schema describe by the Avram schema (in this case PICA), and creates Java objects for each record</li>
-  <li>Modify QA catalogue that it could validate the objects created the above mentioned mechanism, and produce the same output as it creates for MARC records</li>
+  <li>Finalise Avram schema reader 
+* Finalise a record reader which takes an Avram schema, parse records which are in the schema describe by the Avram schema (in this case PICA), and creates Java objects for each record
+* Modify QA catalogue that it could validate the objects created the above mentioned mechanism, and produce the same output as it creates for MARC records</li>
 </ul>
 
 <p>Research questions and tasks (Humanities): </p>
 <ul>
-  <li>How has the PICA/PICA+ schema changed historically, and how to match the proper schema with the records?</li>
-  <li>Are there locally defined data elements in particular libraries? Are these documented? How could they be transformed as an input to QA catalogue, so it should understand them and apply the rules during the analyses?</li>
-  <li>Literature scan: are there specific papers regarding PICA/PICA+ quality assessment? Are there specific aspects of the structure or the content of the schema which are not available in MARC21 schema?</li>
-  <li>Communicate with the data source and collect feedback. How could they use the report in daily work? Are there relevant needs which the result doesn’t fulfil? What are their data life cycles and relevant workflow, and how QA catalogue could be inserted into it?</li>
+  <li>How has the PICA/PICA+ schema changed historically, and how to match the proper schema with the records?
+* Are there locally defined data elements in particular libraries? Are these documented? How could they be transformed as an input to QA catalogue, so it should understand them and apply the rules during the analyses?
+* Literature scan: are there specific papers regarding PICA/PICA+ quality assessment? Are there specific aspects of the structure or the content of the schema which are not available in MARC21 schema?
+* Communicate with the data source and collect feedback. How could they use the report in daily work? Are there relevant needs which the result doesn’t fulfil? What are their data life cycles and relevant workflow, and how QA catalogue could be inserted into it?</li>
 </ul>
 
 <p>Partner: GVD</p>
@@ -183,28 +183,28 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <p>Research questions and tasks (Computer Science): </p>
 <ul>
-  <li>Create MQAF API compliant schemas from EAD/EAC XML schema. Take care of the hierarchical nature of the structure.</li>
-  <li>Create a user interface which fits to the specific features of EAD/EAC records. Take care of the hierarchical nature of the structure.</li>
+  <li>Create MQAF API compliant schemas from EAD/EAC XML schema. Take care of the hierarchical nature of the structure.
+* Create a user interface which fits to the specific features of EAD/EAC records. Take care of the hierarchical nature of the structure.</li>
 </ul>
 
 <p>Research questions and tasks (Humanities): </p>
 <ul>
-  <li>Literature review on the analyses of EAD/EAC records, focusing on the data quality aspects</li>
-  <li>Survey archivist and researchers who work with archival metadata about the metadata quality aspects. Based on the findings define a set of requirements against EAD/EAC records.</li>
-  <li>Test the implementation, and create an evidence-based report on the quality related issues found in a concrete archival collection.</li>
-  <li>Communicate the findings with the institution and get feedback about them. Did they know about the issues? How do they solve quality issues? Does the report “overlook” some issues they know?</li>
+  <li>Literature review on the analyses of EAD/EAC records, focusing on the data quality aspects
+* Survey archivist and researchers who work with archival metadata about the metadata quality aspects. Based on the findings define a set of requirements against EAD/EAC records.
+* Test the implementation, and create an evidence-based report on the quality related issues found in a concrete archival collection.
+* Communicate the findings with the institution and get feedback about them. Did they know about the issues? How do they solve quality issues? Does the report “overlook” some issues they know?</li>
 </ul>
 
 <p>Partners: </p>
 <ul>
-  <li>Archives Portal Europe (The Hague)</li>
-  <li>National Archives and Records (Washington DC)</li>
+  <li>Archives Portal Europe (The Hague)
+* National Archives and Records (Washington DC)</li>
 </ul>
 
 <p>Data sources:</p>
 <ul>
-  <li>Archival Portal Europe</li>
-  <li>National Archives and Records (Washington DC)</li>
+  <li>Archival Portal Europe
+* National Archives and Records (Washington DC)</li>
 </ul>
 
 <h2 class="c18" id="I.5"><span class="blue">I.5</span> International Standard Bibliographic Description (ISBD)</h2>
@@ -214,23 +214,23 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <p>Research questions and tasks (Computer Science): </p>
 <ul>
-  <li>Find and investigate the above mentioned RDF/XML schema</li>
-  <li>Investigate the ISBD documentation</li>
-  <li>Create a machine readable, MQAD API compliant ruleset from the ISBD rules (either as Java code or a YAML/JSON configuration file)</li>
-  <li>Run analyses in QA catalogue</li>
+  <li>Find and investigate the above mentioned RDF/XML schema
+* Investigate the ISBD documentation
+* Create a machine readable, MQAD API compliant ruleset from the ISBD rules (either as Java code or a YAML/JSON configuration file)
+* Run analyses in QA catalogue</li>
 </ul>
 
 <p>Research questions and tasks (Humanities): </p>
 <ul>
-  <li>Literature review on ISBD, focusing on the data quality aspects</li>
-  <li>Survey library metadata experts and researchers who work with ISBD based records about the metadata quality aspects. Based on the findings, define a set of requirements against ISBD data elements as a textual document or with SHACL expressions. </li>
-  <li>Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues.</li>
+  <li>Literature review on ISBD, focusing on the data quality aspects
+* Survey library metadata experts and researchers who work with ISBD based records about the metadata quality aspects. Based on the findings, define a set of requirements against ISBD data elements as a textual document or with SHACL expressions. 
+* Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues.</li>
 </ul>
 
 <p>Partners:</p>
 <ul>
-  <li>British Library</li>
-  <li>any other library who applies ISBD in their catalogue</li>
+  <li>British Library
+* any other library who applies ISBD in their catalogue</li>
 </ul>
 
 <p>Data sources:</p>
@@ -245,17 +245,17 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <p>Research questions and tasks (Computer Science): </p>
 <ul>
-  <li>Investigate if there is a machine readable (RDF/XML schema) representation of the AACR2</li>
-  <li>Investigate the AACR2 documentation</li>
-  <li>Create a machine readable, MQAD API compliant ruleset from the AACR2 rules (either as Java code or a YAML/JSON configuration file)</li>
-  <li>Run analyses in QA catalogue</li>
+  <li>Investigate if there is a machine readable (RDF/XML schema) representation of the AACR2
+* Investigate the AACR2 documentation
+* Create a machine readable, MQAD API compliant ruleset from the AACR2 rules (either as Java code or a YAML/JSON configuration file)
+* Run analyses in QA catalogue</li>
 </ul>
 
 <p>Research questions and tasks (Humanities): </p>
 <ul>
-  <li>Literature review on AACR2, focusing on the data quality aspects</li>
-  <li>Survey library metadata experts and researchers who work with AACR2 based records about the metadata quality aspects. Based on the findings, define a set of requirements against AACR2 data elements as a textual document or with SHACL expressions.</li>
-  <li>Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues.</li>
+  <li>Literature review on AACR2, focusing on the data quality aspects
+* Survey library metadata experts and researchers who work with AACR2 based records about the metadata quality aspects. Based on the findings, define a set of requirements against AACR2 data elements as a textual document or with SHACL expressions.
+* Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues.</li>
 </ul>
 
 <p>Data sources:</p>
@@ -268,17 +268,17 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <p>Additionally, the metadata records and the KOS together form three networks:</p>
 <ul>
-  <li>a record-subject network (records have subjects)</li>
-  <li>a subject co-occurrence network,</li>
-  <li>and the network of records which are connected by subjects and other kinds of authority entries (e.g. persons, organisations, events etc.).</li>
+  <li>a record-subject network (records have subjects)
+* a subject co-occurrence network,
+* and the network of records which are connected by subjects and other kinds of authority entries (e.g. persons, organisations, events etc.).</li>
 </ul>
 
 <p>We will measure the standard properties of these networks (density, components, clusters, connectedness, degree distribution, PageRank, Small-World).</p>
 
 <p>Two types of output are expected:</p>
 <ul>
-  <li>scientific publication(s): thesis, scientific paper, conference presentation</li>
-  <li>two open source software packages: a standalone tool which measures the quality of bibliographical records and KOS, and a plugin which integrates this tool into the QA catalogue quality assessment software. </li>
+  <li>scientific publication(s): thesis, scientific paper, conference presentation
+* two open source software packages: a standalone tool which measures the quality of bibliographical records and KOS, and a plugin which integrates this tool into the QA catalogue quality assessment software. </li>
 </ul>
 
 <p>If the results of the research will be promising, and evaluated as usable by the partner institutions, and if there will be an interest in implementation or deployment of the same, we will also investigate the possibility of integration into the existing IT infrastructure of the organisation.</p>
@@ -287,35 +287,35 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <p>Research questions and tasks (Computer Science): </p>
 <ul>
-  <li>Analyse the bipartite (record-subject) network. Does the basic properties of the network reveal anything about the quality of subject indexing?</li>
-  <li>How subject indexing supports retrieval?</li>
-  <li>How the intrinsic quality features of the KOS affects the usage of the records?</li>
-  <li>Is there a correlation between the quality of subject indexing and other known quality dimensions?</li>
+  <li>Analyse the bipartite (record-subject) network. Does the basic properties of the network reveal anything about the quality of subject indexing?
+* How subject indexing supports retrieval?
+* How the intrinsic quality features of the KOS affects the usage of the records?
+* Is there a correlation between the quality of subject indexing and other known quality dimensions?</li>
 </ul>
 
 <p>Research questions and tasks (Humanities): </p>
 <ul>
-  <li>Literature review on data quality aspects of subject indexing</li>
-  <li>Survey library metadata experts and researchers who work in the subject indexing field about the metadata quality aspects. Based on the findings, define a set of requirements against AACR2 data elements as a textual document or with SHACL expressions.</li>
-  <li>Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues. </li>
+  <li>Literature review on data quality aspects of subject indexing
+* Survey library metadata experts and researchers who work in the subject indexing field about the metadata quality aspects. Based on the findings, define a set of requirements against AACR2 data elements as a textual document or with SHACL expressions.
+* Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues. </li>
 </ul>
 
 <p>Partners:</p>
 <ul>
-  <li>Agence bibliographique de l&#39;emseignement supérieur (ABES), Montpellier</li>
-  <li>Gemeinsamer Bibliotheksverbund (GBV), Göttingen</li>
-  <li>ZWB &ndash; Leibniz-Informationszentrum Wirtschaft</li>
+  <li>Agence bibliographique de l&#39;emseignement supérieur (ABES), Montpellier
+* Gemeinsamer Bibliotheksverbund (GBV), Göttingen
+* ZWB &ndash; Leibniz-Informationszentrum Wirtschaft</li>
 </ul>
 
 <p>Data sources:</p>
 <ul>
-  <li>EconBiz catalogue of ZWB</li>
-  <li>Syst&egrave;me Universitaire de Documentation (SUDOC) of ABES</li>
-  <li>Gemeinsamer Verbundkatalog (GVK) of GBV and SWB</li>
+  <li>EconBiz catalogue of ZWB
+* Syst&egrave;me Universitaire de Documentation (SUDOC) of ABES
+* Gemeinsamer Verbundkatalog (GVK) of GBV and SWB</li>
 </ul>
 
 <h2 class="c18" id="I.8"><span class="blue">I.8</span> Citation data</h2>
-<p>Citation data, or bibliographic data of scholarly articles is a neuralgic point for the libraries. In the “Western World” and for large languages, the publishers are those players which traditionally built databases for the scholarly articles (such as Web of Knowledge, Scopus) instead of libraries. By and large there have been exceptions even in Western European countries. In case of smaller languages and for poorer countries the large publishers do not see the market value to publish scientific journals in vernacular languages therefore those journals are not covered in their databases. In the last two decades several different projects have been launched to make these metadata out of “paywalls”. The largest of these projects is the DOI database, but the larger part of DOI metadata is also not freely available, however the Initiative for Open Citations 16 works on making the citation data open. Recently WikiCite <a href="#ftnt19" id="ftnt_ref19">[19]</a> is the largest freely available citation database based on the bibliographic data imported into Wikidata. <a href="#ftnt20" id="ftnt_ref20">[20]</a> It provides a query interface and [database dumps](http://wikicite.org/access.html). Together with Jakob Vo&szlig;, a volunteer of WikiCite and Wikidata we started a research project 20 to analyse the data. This research is in a preliminary stage. Now I highlight only one feature of the citation data namely page numbers, which seems to be simple, but reveals some complex problems. One can expect that page numbers are arabic or roman numbers separated by dashes and commas (sometimes with some text before or after the numbers). I found several hundred patterns, which do not fit this expectation. Here I show three issues with “strange” page numbers. Wikidata uses a language neutral notation for describing its semantic structure, the entities are denoted by &lsquo;Q’ and a number, while properties are denoted by &lsquo;P’ and a number. For example: P304 <a href="#ftnt21" id="ftnt_ref21">[21]</a> is the property of the page numbers. Its human readable label in English is “page(s)”.</p>
+<p>Citation data, or bibliographic data of scholarly articles is a neuralgic point for the libraries. In the “Western World” and for large languages, the publishers are those players which traditionally built databases for the scholarly articles (such as Web of Knowledge, Scopus) instead of libraries. By and large there have been exceptions even in Western European countries. In case of smaller languages and for poorer countries the large publishers do not see the market value to publish scientific journals in vernacular languages therefore those journals are not covered in their databases. In the last two decades several different projects have been launched to make these metadata out of “paywalls”. The largest of these projects is the DOI database, but the larger part of DOI metadata is also not freely available, however the Initiative for Open Citations 16 works on making the citation data open. Recently WikiCite <a href="#ftnt19" id="ftnt_ref19">[19]</a> is the largest freely available citation database based on the bibliographic data imported into Wikidata. <a href="#ftnt20" id="ftnt_ref20">[20]</a> It provides a query interface and [database dumps](http://wikicite.org/access.html). Together with Jakob Voß, a volunteer of WikiCite and Wikidata we started a research project 20 to analyse the data. This research is in a preliminary stage. Now I highlight only one feature of the citation data namely page numbers, which seems to be simple, but reveals some complex problems. One can expect that page numbers are arabic or roman numbers separated by dashes and commas (sometimes with some text before or after the numbers). I found several hundred patterns, which do not fit this expectation. Here I show three issues with “strange” page numbers. Wikidata uses a language neutral notation for describing its semantic structure, the entities are denoted by &lsquo;Q’ and a number, while properties are denoted by &lsquo;P’ and a number. For example: P304 <a href="#ftnt21" id="ftnt_ref21">[21]</a> is the property of the page numbers. Its human readable label in English is “page(s)”.</p>
 
 <p>Some known problems with the page number properties:</p>
 
@@ -339,24 +339,24 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <p>Research questions and tasks (Computer Science): </p>
 <ul>
-  <li>What are the basic quality dimensions applicable to citation data?</li>
-  <li>How does quality of citation data affect scientometrics?</li>
-  <li>If there is a correlation, is there a known method from scientometrics’ side to minimize it?</li>
+  <li>What are the basic quality dimensions applicable to citation data?
+* How does quality of citation data affect scientometrics?
+* If there is a correlation, is there a known method from scientometrics’ side to minimize it?</li>
 </ul>
 
 <p>Research questions and tasks (Humanities): </p>
 <ul>
-  <li>Literature review on data quality aspects of citation data</li>
-  <li>Survey library metadata experts and researchers who work with citation records about the metadata quality aspects. Based on the findings, define a set of requirements against citation data elements as a textual document or with SHACL expressions.</li>
-  <li>Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues.</li>
-  <li>How can we fix derivative data (e.g. a citation found in Wikidata or other open access repository) in a way that the fix would be applicable to the source data (the publisher!s side)? Would it be a different approach for commercial and not-for-profit publishers?</li>
+  <li>Literature review on data quality aspects of citation data
+* Survey library metadata experts and researchers who work with citation records about the metadata quality aspects. Based on the findings, define a set of requirements against citation data elements as a textual document or with SHACL expressions.
+* Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues.
+* How can we fix derivative data (e.g. a citation found in Wikidata or other open access repository) in a way that the fix would be applicable to the source data (the publisher!s side)? Would it be a different approach for commercial and not-for-profit publishers?</li>
 </ul>
 
 <p>Data sources:</p>
 <ul>
-  <li>WikiCite <a href="#ftnt27" id="ftnt_ref27">[27]</a></li>
-  <li>Crossref data dumps <a href="#ftnt28" id="ftnt_ref28">[28]</a></li>
-  <li>Open Citations corpus <a href="#ftnt29" id="ftnt_ref29">[29]</a></li>
+  <li>WikiCite <a href="#ftnt27" id="ftnt_ref27">[27]</a>
+* Crossref data dumps <a href="#ftnt28" id="ftnt_ref28">[28]</a>
+* Open Citations corpus <a href="#ftnt29" id="ftnt_ref29">[29]</a></li>
 </ul>
 
 <h2 class="c18" id="I.9"><span class="blue">I.9</span> MARC authority records</h2>
@@ -366,16 +366,16 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <p>Research questions and tasks (Computer Science): </p>
 <ul>
-  <li>How to transform MARC21 authority schema into Java classes the same way as bibliographic record schema elements are implemented in QA catalogue?</li>
-  <li>How to create a mechanism where the user can tell QA catalogue to analyse authority records instead of bibliographic records?</li>
-  <li>How to report the results? What would be the ideal user interface? </li>
+  <li>How to transform MARC21 authority schema into Java classes the same way as bibliographic record schema elements are implemented in QA catalogue?
+* How to create a mechanism where the user can tell QA catalogue to analyse authority records instead of bibliographic records?
+* How to report the results? What would be the ideal user interface? </li>
 </ul>
 
 <p>Research questions and tasks (Humanities): </p>
 <ul>
-  <li>Literature review on data quality aspects of authority data</li>
-  <li>Survey library metadata experts and researchers who work with authority records about the metadata quality aspects. Based on the findings, define a set of requirements against authority data elements as a textual document or with SHACL expressions.</li>
-  <li>Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues.</li>
+  <li>Literature review on data quality aspects of authority data
+* Survey library metadata experts and researchers who work with authority records about the metadata quality aspects. Based on the findings, define a set of requirements against authority data elements as a textual document or with SHACL expressions.
+* Test the implementation, and create an evidence-based report on the quality related issues found in particular catalogues.</li>
 </ul>
 
 <p>Partners:</p>
@@ -385,11 +385,11 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <p>Data sources:</p>
 <ul>
-  <li>authority records of KBR catalogue</li>
-  <li>authority records Library of Congress catalogue</li>
+  <li>authority records of KBR catalogue
+* authority records Library of Congress catalogue</li>
 </ul>
 
-<h2 class="c18" id="I.10"><span class="blue">I.10</span> Agile Qualit&auml;tssicherung von Metadaten zu kulturellen Objekten im Kontext von Datenintegrationsprozessen</h2>
+<h2 class="c18" id="I.10"><span class="blue">I.10</span> Agile Qualitätssicherung von Metadaten zu kulturellen Objekten im Kontext von Datenintegrationsprozessen</h2>
 
 <p>The aim of this project is to invent semi-automatic mechanisms which translate quality criteria against metadata expressed in natural language into a machine actionable form which could be used as an input in a quality assessment process.</p>
 
@@ -397,23 +397,23 @@ We are constantly looking for student helpers, research assistants and collabora
 
 <p>Research questions and tasks (Computer Science): </p>
 <ul>
-  <li>Given a complex, hierarchical metadata schema in XML format. How to implement the following user scenario: the user - with limited technical knowledge (typically a metadata creator or integrator) - enters a human readable input, such as “title” or “genre” in a graphical interface, and the application returns XPath expression(s) which can be generated based on the metadata schema’s structure and the input? The user should be able to test the expression instantly on test records. The user should be able to modify the input, or the XPath expression.</li>
-  <li>How to extend this application to work with other serialization formats and query languages?</li>
-  <li>How to embed the resulted expression into conditional statements, such as “find records where title is missing” or “find records where birth date is larger than death date”?</li>
-  <li>How to transform these statements into SHACL-like expressions?</li>
+  <li>Given a complex, hierarchical metadata schema in XML format. How to implement the following user scenario: the user - with limited technical knowledge (typically a metadata creator or integrator) - enters a human readable input, such as “title” or “genre” in a graphical interface, and the application returns XPath expression(s) which can be generated based on the metadata schema’s structure and the input? The user should be able to test the expression instantly on test records. The user should be able to modify the input, or the XPath expression.
+* How to extend this application to work with other serialization formats and query languages?
+* How to embed the resulted expression into conditional statements, such as “find records where title is missing” or “find records where birth date is larger than death date”?
+* How to transform these statements into SHACL-like expressions?</li>
 </ul>
 
 <p>Research questions and tasks (Humanities): </p>
 <ul>
-  <li>What are the common metadata quality problems in Lightweight Information Describing Objects (LIDO) <a href="#ftnt30" id="ftnt_ref30">[30]</a> records?</li>
-  <li>What are the common metadata quality problems in TEI <a href="#ftnt31" id="ftnt_ref31">[31]</a> records?</li>
+  <li>What are the common metadata quality problems in Lightweight Information Describing Objects (LIDO) <a href="#ftnt30" id="ftnt_ref30">[30]</a> records?
+* What are the common metadata quality problems in TEI <a href="#ftnt31" id="ftnt_ref31">[31]</a> records?</li>
 </ul>
 
 <p>Partners:</p>
 <ul>
-  <li>SUB</li>
-  <li>Fachbereich Mathematik und Informatik, Philipps-Universit&auml;t Marburg</li>
-  <li>Deutsche Digitale Bibliothek</li>
+  <li>SUB
+* Fachbereich Mathematik und Informatik, Philipps-Universität Marburg
+* Deutsche Digitale Bibliothek</li>
 </ul>
 
 <h1 id="II"><span class="blue">II.</span> Cultural analytics / Bibliographic data science</h1>
@@ -426,84 +426,75 @@ We are constantly looking for student helpers, research assistants and collabora
   <li>Andrew Prescott. (2013). “Bibliographic Records as Humanities Big Data.” In 2013 IEEE International Conference on Big Data, 55&ndash;58, 2013. <a href="https://doi.org/10.1109/BigData.2013.6691670">https://doi.org/10.1109/BigData.2013.6691670</a>.</li>
 </ul>
 <ul>
-  <li>Michael F. Suarez. (2009). “Towards a bibliometric analysis of the surviving record, 1701&ndash;1800.” in The Cambridge History of the Book in Britain, Volume 5: 1695&ndash;1830, Cambridge University Press, 2009. pp. 37-65. <a href="https://doi.org/10.1017/CHOL9780521810173.003">https://doi.org/10.1017/CHOL9780521810173.003</a></li>
-  <li>Sandra Tuppen, Stephen Rose, and Loukia Drosopoulou (2016). “Library Catalogue Records as a Research Resource: Introducing &lsquo;A Big Data History of Music.’” Fontes Artis Musicae 63, no. 2:67&ndash;88. <a href="https://doi.org/10.1353/fam.2016.0011">https://doi.org/10.1353/fam.2016.0011</a></li>
-  <li>Tolonen, M., M&auml;kel&auml;, E., Marjanen, J., Kanner, A., Lahti, L., Ginter, F., Salmi, H., Vesanto, A., Nivala, A., Rantala, H., &amp; Sippola, R. (2018). Metadata analysis and text reuse detection: Reassessing public discourse in Finland through newspapers and journals 1771&ndash;1917. Paper presented at digital humanities in the Nordic countries DHN2018, Helsinki, Finland. <a href="https://researchportal.helsinki.fi/en/publications/metadata-analysis-and-text-reuse-detection-reassessing-public-dis">https://researchportal.helsinki.fi/en/publications/metadata-analysis-and-text-reuse-detection-reassessing-public-dis</a></li>
-  <li>Lahti, L., Marjanen, J., Roivainen, H., &amp; Tolonen, M. (2019). Bibliographic data science and the history of the book (c. 1500&ndash;1800). Cataloging &amp; Classification Quarterly, 57(1), 5&ndash;23. <a href="https://doi.org/10.1080/01639374.2018.1543747">https://doi.org/10.1080/01639374.2018.1543747</a></li>
-  <li>Marjanen, J., Kurunm&auml;ki, J. A., Pivovarova, L., &amp; Zosa, E. (2020). The expansion of isms, 1820&ndash;1917: Data-driven analysis of political language in digitized newspaper collections. Journal of Data Mining and Digital Humanities, HistoInformatics, 1&ndash;28. <a href="https://jdmdh.episciences.org/6728">https://jdmdh.episciences.org/6728</a></li>
-  <li>Mikko Tolonen, Mark J. Hill, Ali Ijaz, Ville Vaara, Leo Lahti. (2021). Examining the Early Modern Canon : The English Short Title Catalogue and Large-Scale Patterns of Cultural Production. In Ileana Baird (eds.) Data Visualization in Enlightenment Literature and Culture. Cham : Palgrave Macmillan, 2021. pp. 63-119 <a href="https://doi.org/10.1007/978-3-030-54913-8_3">https://doi.org/10.1007/978-3-030-54913-8_3</a></li>
-  <li>Simon Burrows. (2021). In Search of Enlightenment: From Mapping Books to Cultural History. In: Baird, I. (eds) Data Visualization in Enlightenment Literature and Culture . Palgrave Macmillan, Cham. <a href="https://doi.org/10.1007/978-3-030-54913-8_2">https://doi.org/10.1007/978-3-030-54913-8_2</a></li>
-</ul>
+  <li>Michael F. Suarez. (2009). “Towards a bibliometric analysis of the surviving record, 1701&ndash;1800.” in The Cambridge History of the Book in Britain, Volume 5: 1695&ndash;1830, Cambridge University Press, 2009. pp. 37-65. <a href="https://doi.org/10.1017/CHOL9780521810173.003">https://doi.org/10.1017/CHOL9780521810173.003</a>
+* Sandra Tuppen, Stephen Rose, and Loukia Drosopoulou (2016). “Library Catalogue Records as a Research Resource: Introducing &lsquo;A Big Data History of Music.’” Fontes Artis Musicae 63, no. 2:67&ndash;88. <a href="https://doi.org/10.1353/fam.2016.0011">https://doi.org/10.1353/fam.2016.0011</a>
+* Tolonen, M., Mäkelä, E., Marjanen, J., Kanner, A., Lahti, L., Ginter, F., Salmi, H., Vesanto, A., Nivala, A., Rantala, H., &amp; Sippola, R. (2018). Metadata analysis and text reuse detection: Reassessing public discourse in Finland through newspapers and journals 1771&ndash;1917. Paper presented at digital humanities in the Nordic countries DHN2018, Helsinki, Finland. <a href="https://researchportal.helsinki.fi/en/publications/metadata-analysis-and-text-reuse-detection-reassessing-public-dis">https://researchportal.helsinki.fi/en/publications/metadata-analysis-and-text-reuse-detection-reassessing-public-dis</a>
+* Lahti, L., Marjanen, J., Roivainen, H., &amp; Tolonen, M. (2019). Bibliographic data science and the history of the book (c. 1500&ndash;1800). Cataloging &amp; Classification Quarterly, 57(1), 5&ndash;23. <a href="https://doi.org/10.1080/01639374.2018.1543747">https://doi.org/10.1080/01639374.2018.1543747</a>
+* Marjanen, J., Kurunmäki, J. A., Pivovarova, L., &amp; Zosa, E. (2020). The expansion of isms, 1820&ndash;1917: Data-driven analysis of political language in digitized newspaper collections. Journal of Data Mining and Digital Humanities, HistoInformatics, 1&ndash;28. <a href="https://jdmdh.episciences.org/6728">https://jdmdh.episciences.org/6728</a>
+* Mikko Tolonen, Mark J. Hill, Ali Ijaz, Ville Vaara, Leo Lahti. (2021). Examining the Early Modern Canon : The English Short Title Catalogue and Large-Scale Patterns of Cultural Production. In Ileana Baird (eds.) Data Visualization in Enlightenment Literature and Culture. Cham : Palgrave Macmillan, 2021. pp. 63-119 <a href="https://doi.org/10.1007/978-3-030-54913-8_3">https://doi.org/10.1007/978-3-030-54913-8_3</a>
+* Simon Burrows. (2021). In Search of Enlightenment: From Mapping Books to Cultural History. In: Baird, I. (eds) Data Visualization in Enlightenment Literature and Culture . Palgrave Macmillan, Cham. https://doi.org/10.1007/978-3-030-54913-8_2
 
 <h2 class="c18" id="II.1"><span class="blue">II.1</span> Kinder- und Jugendbücher international. Eine Metadatenanalyse</h2>
 
-<p>Kinder- und Jugendliteratur (KJL) galt schon Paul Hazard (1952) als die erste Weltliteratur und seine Einsch&auml;tzung trifft heute mehr denn je zu. Denn Kinder- und Jugendliteratur ist wesentlich vom internationalen Lizenzgesch&auml;ft bestimmt, übersetzungen und Adaptionen von Illustrationen spielen eine prominente Rolle. Spitzentitel wie &bdquo;Harry Potter“ bestimmen den Buchmarkt und das Lesen wie keine andere Sachgruppe. Am drittgrö&szlig;ten, dem deutschsprachigen Publikumsbuchmarkt hat die KJL einen Marktanteil von etwa einem Drittel, auf dem chinesischen Publikumsbuchmarkt soll die KJL sogar die grö&szlig;te Sachgruppe bilden. Kaum eine andere Gruppe gew&auml;hrt daher einen so genauen Einblick in die Internationalisierung und Globalisierung der Kultur wie eben die KJL. </p>
+Kinder- und Jugendliteratur (KJL) galt schon Paul Hazard (1952) als die erste Weltliteratur und seine Einschätzung trifft heute mehr denn je zu. Denn Kinder- und Jugendliteratur ist wesentlich vom internationalen Lizenzgeschäft bestimmt, übersetzungen und Adaptionen von Illustrationen spielen eine prominente Rolle. Spitzentitel wie &bdquo;Harry Potter“ bestimmen den Buchmarkt und das Lesen wie keine andere Sachgruppe. Am drittgrößten, dem deutschsprachigen Publikumsbuchmarkt hat die KJL einen Marktanteil von etwa einem Drittel, auf dem chinesischen Publikumsbuchmarkt soll die KJL sogar die größte Sachgruppe bilden. Kaum eine andere Gruppe gewährt daher einen so genauen Einblick in die Internationalisierung und Globalisierung der Kultur wie eben die KJL.
 
-<p>Eine Arbeitsgruppe der Mainzer Buchwissenschaft erarbeitet aus verschiedenen Daten einen Weltatlas der Literatur. Vorbild ist das Projekt der Oxforder Arbeitsgruppe um Max Roser &bdquo;Our World in Data“. W&auml;hrend &bdquo;Our World in Data“ vor allem aktuelle Daten zur globalen sozialen Welt sammelt, soll unser Projekt Daten zur Kultur sammeln (&bdquo;Our Culture in Data“), zun&auml;chst einmal Daten zur Literatur. Doch Daten zur Kultur zu erheben ist schwierig, da mit den Sozialwissenschaften vergleichbare Datenerhebungen nur vereinzelt durchgeführt werden, etwa zu Museumsbesuchen, der Zahl der Klassikfestivals oder dann auch zu der Zahl der verkauften Bücher. Diese Zahlen werden fast ausschlie&szlig;lich national erhoben nach nicht vergleichbaren Parametern. Die Daten über das Leseverhalten in Europa beispielsweise werden so unterschiedlich erhoben, dass eine Aggregation derzeit nicht sinnvoll möglich ist.</p>
+Eine Arbeitsgruppe der Mainzer Buchwissenschaft erarbeitet aus verschiedenen Daten einen Weltatlas der Literatur. Vorbild ist das Projekt der Oxforder Arbeitsgruppe um Max Roser &bdquo;Our World in Data“. Während &bdquo;Our World in Data“ vor allem aktuelle Daten zur globalen sozialen Welt sammelt, soll unser Projekt Daten zur Kultur sammeln (&bdquo;Our Culture in Data“), zunächst einmal Daten zur Literatur. Doch Daten zur Kultur zu erheben ist schwierig, da mit den Sozialwissenschaften vergleichbare Datenerhebungen nur vereinzelt durchgeführt werden, etwa zu Museumsbesuchen, der Zahl der Klassikfestivals oder dann auch zu der Zahl der verkauften Bücher. Diese Zahlen werden fast ausschließlich national erhoben nach nicht vergleichbaren Parametern. Die Daten über das Leseverhalten in Europa beispielsweise werden so unterschiedlich erhoben, dass eine Aggregation derzeit nicht sinnvoll möglich ist.
 
-<p>W&auml;hrend diese potenziellen Daten zur Kultur noch viel Aufbereitung bedürfen, gibt es eine Quelle für eine datenbasierte Analyse der weltweiten Kultur, die bislang wenig genutzt wurde. Das sind Bibliothekskataloge. Sie wurden oft über Jahrhunderte gepflegt, haben Standards der Datenerfassung entwickelt und ein gemeinsames Verst&auml;ndnis des Verzeichniswerten erarbeitetet. Sie werden vor allem zum Auffinden genutzt, aber nur in wenigen buchwissenschaftlichen Studien auch als Quelle zum Verst&auml;ndnis von Kultur (Zedelmaier, 2016; Duncan 2021). In dieser schmalen Linie kulturwissenschaftlicher Forschung verstehen wir Bibliothekskataloge als institutionell verdichtetes und verstetigtes Wissen über Kultur. Unser Startpunkt ist die Kinder- und Jugendliteratur, die seit dem 19. Jahrhundert als eine eigene Rubrik auch in der DNB bzw. ihren Vorl&auml;ufern verzeichnet wurde. Umfangreiche Sammlungen und Sonderbest&auml;nde in verschiedenen Bibliotheken erlauben eine sowohl historische wie systematische Ann&auml;herung an das, was als Kinder- und Jugendbuch (vor-)gelesen wurde und wird.</p>
+Während diese potenziellen Daten zur Kultur noch viel Aufbereitung bedürfen, gibt es eine Quelle für eine datenbasierte Analyse der weltweiten Kultur, die bislang wenig genutzt wurde. Das sind Bibliothekskataloge. Sie wurden oft über Jahrhunderte gepflegt, haben Standards der Datenerfassung entwickelt und ein gemeinsames Verständnis des Verzeichniswerten erarbeitetet. Sie werden vor allem zum Auffinden genutzt, aber nur in wenigen buchwissenschaftlichen Studien auch als Quelle zum Verständnis von Kultur (Zedelmaier, 2016; Duncan 2021). In dieser schmalen Linie kulturwissenschaftlicher Forschung verstehen wir Bibliothekskataloge als institutionell verdichtetes und verstetigtes Wissen über Kultur. Unser Startpunkt ist die Kinder- und Jugendliteratur, die seit dem 19. Jahrhundert als eine eigene Rubrik auch in der DNB bzw. ihren Vorläufern verzeichnet wurde. Umfangreiche Sammlungen und Sonderbestände in verschiedenen Bibliotheken erlauben eine sowohl historische wie systematische Annäherung an das, was als Kinder- und Jugendbuch (vor-)gelesen wurde und wird.
 
-<p>Ziel des Vorhabens ist also am Beispiel der Kinder- und Jugendliteratur zu analysieren, welche Kinder- und Jugendliteratur wo gesammelt wurde und wird, welche Publikationsformen, Gattungen und Genres, für welche Altersgruppen verzeichnet wurden. Unser Interesse gilt also den Metadaten. Wir erhoffen uns eine quantitativ valide Antwort auf die Frage, was für KJL liest die Welt.</p>
+Ziel des Vorhabens ist also am Beispiel der Kinder- und Jugendliteratur zu analysieren, welche Kinder- und Jugendliteratur wo gesammelt wurde und wird, welche Publikationsformen, Gattungen und Genres, für welche Altersgruppen verzeichnet wurden. Unser Interesse gilt also den Metadaten. Wir erhoffen uns eine quantitativ valide Antwort auf die Frage, was für KJL liest die Welt.
 
-<p>Research questions and tasks (Computer Science): </p>
-<ul>
-  <li>Find how to extract information about if a particular record belongs to the category of children and youth literature, along with other information of the book (title, authors, publication date, publisher)</li>
-  <li>Visualise the extracted information with timeline and map</li>
-</ul>
+Research questions and tasks (Computer Science):
 
-<p>Research questions and tasks (Humanities): </p>
-<ul>
-  <li>How information about if a particular record belongs to the category of children and youth literature is encoded in metadata records</li>
-  <li>How has this category changed over the times?</li>
-  <li>Are there regional differences in the application of the category?</li>
-</ul>
+* Find how to extract information about if a particular record belongs to the category of children and youth literature, along with other information of the book (title, authors, publication date, publisher)
+* Visualise the extracted information with timeline and map
 
-<p>Partners:</p>
-<ul>
-  <li>Prof. Dr. Gerhard Lauer, Dr. Wei Ding &ndash; Buchwissenschaft, Johannes Gutenberg-Universit&auml;t Mainz</li>
-  <li>Deutsche Nationalbibliothek</li>
-</ul>
+Research questions and tasks (Humanities):
+
+* How information about if a particular record belongs to the category of children and youth literature is encoded in metadata records
+* How has this category changed over the times?
+* Are there regional differences in the application of the category?
+
+Partners:
+
+* Prof. Dr. Gerhard Lauer, Dr. Wei Ding &ndash; Buchwissenschaft, Johannes Gutenberg-Universität Mainz
+* Deutsche Nationalbibliothek
 
 <h2 class="c18" id="II.2"><span class="blue">II.2</span> Patterns of translations of national literatures</h2>
 
-<p>Some kinds of bibliographical records make it possible to reveal patterns of translations from a particular national literature. Lots of interesting features can be extracted from the data, such as the changing of the target languages (which other literature were interested in the source literature?), of publication places and translators (were the translations been created at home or abroad?), of the volume, of publishers (what was the prestige of the author?). Were there any key languages which helped the literature to enter world literature (for example for a long time German translations of Hungarian works preceded other translations, and sometimes those other translations are created from German, not from Hungarian). </p>
+Some kinds of bibliographical records make it possible to reveal patterns of translations from a particular national literature. Lots of interesting features can be extracted from the data, such as the changing of the target languages (which other literature were interested in the source literature?), of publication places and translators (were the translations been created at home or abroad?), of the volume, of publishers (what was the prestige of the author?). Were there any key languages which helped the literature to enter world literature (for example for a long time German translations of Hungarian works preceded other translations, and sometimes those other translations are created from German, not from Hungarian).
 
-<p>UNESCO maintains a dedicated database (Index Translationum) into which national libraries send records about translated works. This database typically contains information about books, but not in an analytical manner (e.g. without the analyses of the parts of the book, which would be important if it is an anthology with multiple translations) and does not cover publications in periodicals. On the other hand there are some dedicated databases and bibliographies concentrating on particular aspects (like translations from a given language, or of works in a genre, or an author), but with greater details than that of the Index Translationum.</p>
+UNESCO maintains a dedicated database (Index Translationum) into which national libraries send records about translated works. This database typically contains information about books, but not in an analytical manner (e.g. without the analyses of the parts of the book, which would be important if it is an anthology with multiple translations) and does not cover publications in periodicals. On the other hand there are some dedicated databases and bibliographies concentrating on particular aspects (like translations from a given language, or of works in a genre, or an author), but with greater details than that of the Index Translationum.
 
-<p>There is a distinct scientific branch called translation studies, which also includes empirical research, however most of them utilise Index Translationum as a single source. The niche of this current research is to try to overcome the above mentioned limitation of this central data source, and shading light to phenomena which could be revealed only from others sources.</p>
+There is a distinct scientific branch called translation studies, which also includes empirical research, however most of them utilise Index Translationum as a single source. The niche of this current research is to try to overcome the above mentioned limitation of this central data source, and shading light to phenomena which could be revealed only from others sources.
 
-<p>Research questions and tasks (Computer Science): </p>
-<ul>
-  <li>How to extract relevant information from semi structured data sources?</li>
-  <li>How can different types of data be normalised?</li>
-  <li>How can this data be enriched with external data sources (e.g. library catalogues)?</li>
-  <li>Once the data are normalised, what exploratory data analysis methods can be created to help answering the humanities research questions below?</li>
-  <li>Are there any feedback or suggestions for the data providers? Is there an improved dataset which can be given back to the data providers?</li>
-</ul>
+Research questions and tasks (Computer Science):
+* How to extract relevant information from semi structured data sources?
+* How can different types of data be normalised?
+* How can this data be enriched with external data sources (e.g. library catalogues)?
+* Once the data are normalised, what exploratory data analysis methods can be created to help answering the humanities research questions below?
+* Are there any feedback or suggestions for the data providers? Is there an improved dataset which can be given back to the data providers?
 
-<p>Research questions and tasks (Humanities): </p>
-<ul>
-  <li>How translations are changing through time, what are the temporal patterns?</li>
-  <li>How translations are changing through space, what are the spatial patterns?</li>
-  <li>What are the missing information types in a particular data source?</li>
-  <li>What are the relevant external data sources for an enrichment process?</li>
-  <li>How has the medium (the format of publishing) changed over time?</li>
-  <li>What languages have been important over time?</li>
-  <li>Are there correlations between the above mentioned factors (time, space, format, language, authors)?</li>
-  <li>What would be the optimal communication format based on the findings?</li>
-</ul>
+Research questions and tasks (Humanities):
 
-<p>Data sources:</p>
-<ul>
-  <li>UNESCO&#39;s Index Translationum <a href="#ftnt32" id="ftnt_ref32">[32]</a></li>
-  <li>national bibliographies</li>
-  <li>Bibliographica Hungarica <a href="#ftnt33" id="ftnt_ref33">[33]</a></li>
-</ul>
+* How translations are changing through time, what are the temporal patterns?
+* How translations are changing through space, what are the spatial patterns?
+* What are the missing information types in a particular data source?
+* What are the relevant external data sources for an enrichment process?
+* How has the medium (the format of publishing) changed over time?
+* What languages have been important over time?
+* Are there correlations between the above mentioned factors (time, space, format, language, authors)?
+* What would be the optimal communication format based on the findings?
 
-<p>Partners:</p>
-<ul>
-  <li>Prof. András Kiséry, City College of New York</li>
-</ul>
+Data sources:
+
+* UNESCO&#39;s [Index Translationum](http://portal.unesco.org/culture/en/ev.php-URL_ID%3D7810%26URL_DO%3DDO_TOPIC%26URL_SECTION%3D201.html)
+* national bibliographies
+* [Bibliographica Hungarica](http://demeter.oszk.hu)
+
+Partners:
+
+* Prof. András Kiséry, City College of New York
 
 <h2 class="c18" id="II.3"><span class="blue">II.3</span> Patterns of publications</h2>
 
@@ -515,24 +506,22 @@ Research questions and tasks (Computer Science):
 * Could this knowledge (non authorised form - authorised form) be reused for a suggesting application in case of records where the normalised part is missing? How other data elements can be used in such an application which provides larger context (related to information on what? who? where? when?).
 * How external information sources could be reused (e.g. [Geonames](https://www.geonames.org/), [VIAF](https://viaf.org/), [CERL Thesaurus](https://thesaurus.cerl.org/), [Share-VDE](https://www.share-vde.org/) etc.) to normalise entities?
 
-<p>Research questions and tasks (Humanities): </p>
-<ul>
-  <li>How has the importance of cities as publication places changed?</li>
-  <li>What was the ratio of vernacular and foreign languages (Latin, German, Russian, English) in different periods?</li>
-  <li>How did the connection between the format and the genre change over time?</li>
-  <li>What other countries had the most impact (measured by the number of their publications held in the library under scrutiny) in different times?</li>
-</ul>
+Research questions and tasks (Humanities):
 
-<p>Partners: </p>
-<ul>
-  <li>DARIAH Bibliographical Data Working Group <a href="#ftnt38" id="ftnt_ref38">[38]</a></li>
-  <li>libraries</li>
-</ul>
+* How has the importance of cities as publication places changed?
+* What was the ratio of vernacular and foreign languages (Latin, German, Russian, English) in different periods?
+* How did the connection between the format and the genre change over time?
+* What other countries had the most impact (measured by the number of their publications held in the library under scrutiny) in different times?
 
-<p>Data source:</p>
-<ul>
-  <li>library catalogues</li>
-</ul>
+Partners:
+
+* [DARIAH Bibliographical Data Working Group](https://www.dariah.eu/activities/working-groups/bibliographical-data-bibliodata/)
+* libraries
+
+
+Data source:
+
+* library catalogues
 
 <hr class="c20">
 
