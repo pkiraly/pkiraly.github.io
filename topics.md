@@ -32,23 +32,23 @@ last updated: 2022-11-04
 <ul>
   <li><a href="#h.dbhfcpj8muh">I. Metadata Quality Assessment</a>
     <ul>
-      <li><a href="#h.f7u6fsdxft67">I.1 SHACL4MARC&ndash;Validating MARC records against locally defined ruleset</a></li>
-      <li><a href="#h.t5dz9y5v47ws">I.2 UNIMARC</a></li>
-      <li><a href="#h.d18pz1c4a259">I.3 PICA and PICA+</a></li>
-      <li><a href="#h.fbhlo0fq8hyu">I.4 Encoded Archival Description (EAD) and Encoded Archival Context (EAC)</a></li>
-      <li><a href="#h.kbbv9oz8aewp">I.5 International Standard Bibliographic Description (ISBD)</a></li>
-      <li><a href="#h.4nxautqtaory">I.6 Anglo-American Cataloguing Rules (AACR2)</a></li>
-      <li><a href="#h.qokm407em93v">I.7 MAQUIS&ndash;The quality of the terms in the metadata records and of the Knowledge Organising Systems</a></li>
-      <li><a href="#h.p8xbhn17yv0m">I.8 Citation data</a></li>
-      <li><a href="#h.jqbwpwbff8w0">I.9 MARC authority records</a></li>
-      <li><a href="#h.1u2r1ewy6o6s">I.10 Agile Qualit&auml;tssicherung von Metadaten zu kulturellen Objekten im Kontext von Datenintegrationsprozessen</a></li>
+      <li><a href="#I.1">I.1 SHACL4MARC&ndash;Validating MARC records against locally defined ruleset</a></li>
+      <li><a href="#I.2">I.2 UNIMARC</a></li>
+      <li><a href="#I.3">I.3 PICA and PICA+</a></li>
+      <li><a href="#I.4">I.4 Encoded Archival Description (EAD) and Encoded Archival Context (EAC)</a></li>
+      <li><a href="#I.5">I.5 International Standard Bibliographic Description (ISBD)</a></li>
+      <li><a href="#I.6">I.6 Anglo-American Cataloguing Rules (AACR2)</a></li>
+      <li><a href="#I.7">I.7 MAQUIS&ndash;The quality of the terms in the metadata records and of the Knowledge Organising Systems</a></li>
+      <li><a href="#I.8">I.8 Citation data</a></li>
+      <li><a href="#I.9">I.9 MARC authority records</a></li>
+      <li><a href="#I.10">I.10 Agile Qualit&auml;tssicherung von Metadaten zu kulturellen Objekten im Kontext von Datenintegrationsprozessen</a></li>
     </ul>
   </li>
-  <li><a href="#h.onhgw5ps1do1">II. Cultural analytics / Bibliographic data science</a>
+  <li><a href="#II">II. Cultural analytics / Bibliographic data science</a>
     <ul>
-      <li><a href="#h.fjpp9yjyg95z">II.1 Kinder- und Jugendbücher international. Eine Metadatenanalyse</a></li>
-      <li><a href="#h.55thhjh5aks2">II.2 Patterns of translations of national literatures</a></li>
-      <li><a href="#h.qkgqr5bgpxh2">II.3 Patterns of publications</a></li>
+      <li><a href="#II.1">II.1 Kinder- und Jugendbücher international. Eine Metadatenanalyse</a></li>
+      <li><a href="#II.2">II.2 Patterns of translations of national literatures</a></li>
+      <li><a href="#II.3">II.3 Patterns of publications</a></li>
     </ul>
   </li>
 </ul>
@@ -59,7 +59,7 @@ This list declares the active and intended research topics of the team. There ar
 
 We are constantly looking for student helpers, research assistants and collaborating partners in these researches so if the reader feels that a topic is interesting for her/him, do not hesitate to contact us via peter.kiraly@gwdg.de.
 
-<h1 id="h.dbhfcpj8muh"><span class="blue">I.</span> Metadata Quality Assessment</h1>
+<h1 id="I"><span class="blue">I.</span> Metadata Quality Assessment</h1>
 
 <p>All of these topics are connected to <em>Metadata Quality Assessment Framework API</em> (MQAF API) <a href="#ftnt4" id="ftnt_ref4">[4]</a> and <em>QA catalogue</em> <a href="#ftnt5" id="ftnt_ref5">[5]</a> open source research software. The topics are extensions of previous research and these software packages. Our final purpose is to provide quality assessment solutions to the metadata records created with all the standard schemas used in cultural heritage institutions (libraries, archives and museums).</p>
 <p>Metadata is a type of record, which describes the important features of an object stored in such organisation (such as a book, a letter of an 18th century scholar or a sculpture. Here the “data” is the original object, and since metadata literally means “data about data” includes the creator, title, identifier, location, material, size and other important features of the object. Metadata schema is a special document which describes the structure and rules of the records in a metadata collection, so it tells how to encode this information. Sometimes the schema has a machine readable version (serialised as an XML or JSON schema), sometimes it doesn’t have. Usually the schema does not contain all the information quality assessment requires, so we have to extend it with other information, for example which data elements or rules are more important than others in a particular context, what extra requirements are applicable in a particular organisation (e.g. an identifier might be a simple string or number, and in some context it is claimed to better if it forms a URL, and even better if the URL is persistent).</p>
@@ -77,7 +77,7 @@ We are constantly looking for student helpers, research assistants and collabora
 </ul>
 
 
-<h2 class="c18" id="h.f7u6fsdxft67"><span class="blue">I.1</span> SHACL4MARC&ndash;Validating MARC records against locally defined ruleset</h2>
+<h2 class="c18" id="I.1"><span class="blue">I.1</span> SHACL4MARC&ndash;Validating MARC records against locally defined ruleset</h2>
 <p><em>Introduction</em>. Shapes Constraint Language (SHACL) <a href="#ftnt7" id="ftnt_ref7">[7]</a> is a formal language for validating RDF <a href="#ftnt8" id="ftnt_ref8">[8]</a> graphs against a set of conditions (expressed also in RDF). Following this idea, and implementing a subset of the language, <em>MQAF API</em> provides a mechanism to define SHACL-like rules for data sources in non-RDF based formats, such as XML, CSV and JSON (SHACL validates only RDF graphs). The rules can be defined either with YAML or JSON configuration files or with Java code. <a href="#ftnt9" id="ftnt_ref9">[9]</a> <em>MQAF API</em> has already been validated in different organisations (Flemish Audio-Visual Archives, Victoria and Albert Museum, Deutsche Digitale Bibliothek). In this research we extend this ruleset to be applicable to MARC records. For making it available for MARC records there are two criteria:</p>
 
 <ul>
@@ -113,7 +113,8 @@ We are constantly looking for student helpers, research assistants and collabora
   <li>Catalogue of British Library</li>
   <li>Catalogue of KBR</li>
 </ul>
-<h2 class="c18" id="h.t5dz9y5v47ws"><span class="blue">I.2</span> UNIMARC</h2>
+
+<h2 class="c18" id="I.2"><span class="blue">I.2</span> UNIMARC</h2>
 <p>The UNIMARC bibliographic format <a href="#ftnt11" id="ftnt_ref11">[11]</a> was first created and proposed by IFLA in 1977, with the title <em>UNIMARC: Universal MARC format</em>. The intention of the standard was to unify different MARC versions into a single schema (note: MARC21 had the same intention). It was updated several times, the current version is the 3rd edition. As for MARC21 there are bibliographic, authorities, classification and holdings sub-schemas. UNIMARC records are serialised in ISO 2709 (which is the basis of all MARC versions), and XML. It is in use in France, Italy, Portugal, Slovenia, Slovakia, Ukraina, Belarus, Russia. There is no machine readable version of the schema.</p>
 
 <p>Research questions and tasks (Computer Science): </p>
@@ -148,7 +149,8 @@ We are constantly looking for student helpers, research assistants and collabora
   <li>Italian National Library, Firenze <a href="#ftnt14" id="ftnt_ref14">[14]</a></li>
   <li>The catalogue of the Biblioth&egrave;que nationale de France (the French national library) <a href="#ftnt15" id="ftnt_ref15">[15]</a></li>
 </ul>
-<h2 class="c18" id="h.d18pz1c4a259"><span class="blue">I.3</span> PICA and PICA+</h2>
+
+<h2 class="c18" id="I.3"><span class="blue">I.3</span> PICA and PICA+</h2>
 <p>PICA and PICA+ are metadata schemas for describing bibliographic resources, mainly used in Dutch and German libraries (instead of MARC). These schemas contain a fixed set of data elements, but libraries can define their own extra elements. Jakob Vo&szlig; maintains an Avram schema for PICA+. There is some initial code in the QA catalogue which reads Avram schema and uses it as an input for model building against which the analyses can be run.</p>
 
 <p>Research questions and tasks (Computer Science): </p>
@@ -175,7 +177,8 @@ We are constantly looking for student helpers, research assistants and collabora
 <ul>
   <li>K10Plus union catalogue, 60+ million records (maintained by GBV)</li>
 </ul>
-<h2 class="c18" id="h.fbhlo0fq8hyu"><span class="blue">I.4</span> Encoded Archival Description (EAD) and Encoded Archival Context (EAC)</h2>
+
+<h2 class="c18" id="I.4"><span class="blue">I.4</span> Encoded Archival Description (EAD) and Encoded Archival Context (EAC)</h2>
 <p>Encoded Archival Description is an XML schema to describe archival records, Encoded Archival Context is for describing the authorised form of named entities (persons, families, corporate bodies) that appeared in the archival records (similar to the authority records of a library catalogue). The challenging part of EAD is the hierarchical nature. Archival records form a large, multi-level hierarchy, where each level describes smaller parts of the collection up to single documents. However these levels do not always have the same nature. There are standard names for some distinct levels, but not all collections have the same number of levels and the same structure. It depends on lots of factors, such as the practice of the institution the collection comes from, the importance of the documents etc. On the other hand the number of data elements describing the properties of the levels is much less than that of the MARC schemas. The largest open access collection of these records are the Archives Portal Europe <a href="#ftnt16" id="ftnt_ref16">[16]</a> and National Archives and Records. <a href="#ftnt17" id="ftnt_ref17">[17]</a> Both provide APIs we can use in this research.</p>
 
 <p>Research questions and tasks (Computer Science): </p>
@@ -203,7 +206,8 @@ We are constantly looking for student helpers, research assistants and collabora
   <li>Archival Portal Europe</li>
   <li>National Archives and Records (Washington DC)</li>
 </ul>
-<h2 class="c18" id="h.kbbv9oz8aewp"><span class="blue">I.5</span> International Standard Bibliographic Description (ISBD)</h2>
+
+<h2 class="c18" id="I.5"><span class="blue">I.5</span> International Standard Bibliographic Description (ISBD)</h2>
 <p>International Standard Bibliographic Description (ISBD) <a href="#ftnt18" id="ftnt_ref18">[18]</a> contains a set of rules about the content of data elements in library catalogue records to offer consistency when sharing bibliographic information. It is mostly used in European libraries (Anglo-Saxon libraries are using a similar set of rules, Anglo-American Cataloguing Rules). It mainly focuses on descriptive metadata. National cataloguing rules are usually derived from the ISBDs, but with a number of significant differences in distinct libraries. ISBD also provides a human readable, language independent representation of the records (by setting the (in)famous “punctuation rules” where dots, colons, slashes have context-dependent semantic meaning). </p>
 
 <p>ISBD could be used within MARC records. The record should contain information about if ISBD has been applied or not. The MARC21 standard itself does not document ISBD rules, so in order to validate MARC, an extra ISBD validation layer is necessary. IFLA&#39;s ISBD web page says that &quot;The ISBD review group also maintains an ISBD RDF/XML schema, to enable libraries to publish their metadata as linked data&quot; - however at time of writing this document I haven’t found it. This schema may or may not provide a starting point to this research.</p>
@@ -233,7 +237,8 @@ We are constantly looking for student helpers, research assistants and collabora
 <ul>
   <li>British Library catalogue</li>
 </ul>
-<h2 class="c18" id="h.4nxautqtaory"><span class="blue">I.6</span> Anglo-American Cataloguing Rules (AACR2)</h2>
+
+<h2 class="c18" id="I.6"><span class="blue">I.6</span> Anglo-American Cataloguing Rules (AACR2)</h2>
 <p>AACR2 contains a set of rules about the content of data elements in the catalogue records used in English and US libraries. </p>
 
 <p>AACR2 could be used within MARC records. The record should contain information about if AACR2 has been applied or not. The MARC21 standard itself does not document AACR2 rules, so in order to validate MARC, an extra AACR2 validation layer is necessary. It is not clear if there is a machine readable representation of the AACR2 ruleset.</p>
@@ -258,7 +263,7 @@ We are constantly looking for student helpers, research assistants and collabora
   <li>Library of Congress catalogue</li>
 </ul>
 
-<h2 class="c18" id="h.qokm407em93v"><span class="blue">I.7</span> MAQUIS&ndash;The quality of the terms in the metadata records and of the Knowledge Organising Systems</h2>
+<h2 class="c18" id="I.7"><span class="blue">I.7</span> MAQUIS&ndash;The quality of the terms in the metadata records and of the Knowledge Organising Systems</h2>
 <p>Previous research almost exclusively focused on the quality of Knowledge Organising Systems, and most of them did not release open source tools to help institutions to measure their own data. This research aims to evaluate existing metrics, to propose new metrics and methods and to develop implementation for both aspects. The research will intensively use large library catalogues (such as EconBiz, SUDOC and Gemeinsamer Verbundkatalog, B3Kat and others) and the KOSes linked to them, however both the proposed theoretical model and the software package should be applicable to other bibliographical catalogues.</p>
 
 <p>Additionally, the metadata records and the KOS together form three networks:</p>
@@ -308,7 +313,8 @@ We are constantly looking for student helpers, research assistants and collabora
   <li>Syst&egrave;me Universitaire de Documentation (SUDOC) of ABES</li>
   <li>Gemeinsamer Verbundkatalog (GVK) of GBV and SWB</li>
 </ul>
-<h2 class="c18" id="h.p8xbhn17yv0m"><span class="blue">I.8</span> Citation data</h2>
+
+<h2 class="c18" id="I.8"><span class="blue">I.8</span> Citation data</h2>
 <p>Citation data, or bibliographic data of scholarly articles is a neuralgic point for the libraries. In the “Western World” and for large languages, the publishers are those players which traditionally built databases for the scholarly articles (such as Web of Knowledge, Scopus) instead of libraries. By and large there have been exceptions even in Western European countries. In case of smaller languages and for poorer countries the large publishers do not see the market value to publish scientific journals in vernacular languages therefore those journals are not covered in their databases. In the last two decades several different projects have been launched to make these metadata out of “paywalls”. The largest of these projects is the DOI database, but the larger part of DOI metadata is also not freely available, however the Initiative for Open Citations 16 works on making the citation data open. Recently WikiCite <a href="#ftnt19" id="ftnt_ref19">[19]</a> is the largest freely available citation database based on the bibliographic data imported into Wikidata. <a href="#ftnt20" id="ftnt_ref20">[20]</a> It provides a query interface and [database dumps](http://wikicite.org/access.html). Together with Jakob Vo&szlig;, a volunteer of WikiCite and Wikidata we started a research project 20 to analyse the data. This research is in a preliminary stage. Now I highlight only one feature of the citation data namely page numbers, which seems to be simple, but reveals some complex problems. One can expect that page numbers are arabic or roman numbers separated by dashes and commas (sometimes with some text before or after the numbers). I found several hundred patterns, which do not fit this expectation. Here I show three issues with “strange” page numbers. Wikidata uses a language neutral notation for describing its semantic structure, the entities are denoted by &lsquo;Q’ and a number, while properties are denoted by &lsquo;P’ and a number. For example: P304 <a href="#ftnt21" id="ftnt_ref21">[21]</a> is the property of the page numbers. Its human readable label in English is “page(s)”.</p>
 
 <p>Some known problems with the page number properties:</p>
@@ -352,7 +358,9 @@ We are constantly looking for student helpers, research assistants and collabora
   <li>Crossref data dumps <a href="#ftnt28" id="ftnt_ref28">[28]</a></li>
   <li>Open Citations corpus <a href="#ftnt29" id="ftnt_ref29">[29]</a></li>
 </ul>
-<h2 class="c18" id="h.jqbwpwbff8w0"><span class="blue">I.9</span> MARC authority records</h2>
+
+<h2 class="c18" id="I.9"><span class="blue">I.9</span> MARC authority records</h2>
+
 <p>The QA catalogue analyses MARC21 <em>bibliographic</em> records. MARC21 and UNIMARC also have a distinct schema for authority records. They describe contextual information: subject or name vocabularies which contain standardised form of names for people, corporate bodies, meetings, titles, and subjects referred in the bibliographical records. On the authority record the standardised form is the key element for which the record was made, so it is also called the heading. These records provide authority control, i.e. establishing a recognized form for an entity name and using that form whenever the name is needed as an access point in a bibliographic record. The record has three main components: headings, cross references, and notes. The authority schema is similar in structure to that of the bibliographic schema, but it contains much less data elements.</p>
 <p>Short introduction: <a href="https://www.loc.gov/marc/uma/pt1-7.html">https://www.loc.gov/marc/uma/pt1-7.html</a>.</p>
 
@@ -380,7 +388,8 @@ We are constantly looking for student helpers, research assistants and collabora
   <li>authority records of KBR catalogue</li>
   <li>authority records Library of Congress catalogue</li>
 </ul>
-<h2 class="c18" id="h.1u2r1ewy6o6s"><span class="blue">I.10</span> Agile Qualit&auml;tssicherung von Metadaten zu kulturellen Objekten im Kontext von Datenintegrationsprozessen</h2>
+
+<h2 class="c18" id="I.10"><span class="blue">I.10</span> Agile Qualit&auml;tssicherung von Metadaten zu kulturellen Objekten im Kontext von Datenintegrationsprozessen</h2>
 
 <p>The aim of this project is to invent semi-automatic mechanisms which translate quality criteria against metadata expressed in natural language into a machine actionable form which could be used as an input in a quality assessment process.</p>
 
@@ -407,7 +416,7 @@ We are constantly looking for student helpers, research assistants and collabora
   <li>Deutsche Digitale Bibliothek</li>
 </ul>
 
-<h1 id="h.onhgw5ps1do1"><span class="blue">II.</span> Cultural analytics / Bibliographic data science</h1>
+<h1 id="II"><span class="blue">II.</span> Cultural analytics / Bibliographic data science</h1>
 
 <p>These topics utilise catalogue as source data or evidence which could be used to answer Humanities research questions. The bibliographic data contains some generally available factual dimensions, such as personal names of authors and contributors (occasionally with additional properties), the place and date of publication, the name of publisher/printer/scriptor, genre, the subject description of the content (keywords, classification terms), the physical properties of the document, occasionally provenance (current and previous holding institutions, owners). After (more or less) data cleaning all these draw some historical patterns, such as how the roles of different languages changed, how the literary canon evolved, who were the important authors and books in a particular periods, which were enduring and ephemeral successes, how the media changed, and how all these correlated with each other?</p>
 
@@ -425,7 +434,9 @@ We are constantly looking for student helpers, research assistants and collabora
   <li>Mikko Tolonen, Mark J. Hill, Ali Ijaz, Ville Vaara, Leo Lahti. (2021). Examining the Early Modern Canon : The English Short Title Catalogue and Large-Scale Patterns of Cultural Production. In Ileana Baird (eds.) Data Visualization in Enlightenment Literature and Culture. Cham : Palgrave Macmillan, 2021. pp. 63-119 <a href="https://doi.org/10.1007/978-3-030-54913-8_3">https://doi.org/10.1007/978-3-030-54913-8_3</a></li>
   <li>Simon Burrows. (2021). In Search of Enlightenment: From Mapping Books to Cultural History. In: Baird, I. (eds) Data Visualization in Enlightenment Literature and Culture . Palgrave Macmillan, Cham. <a href="https://doi.org/10.1007/978-3-030-54913-8_2">https://doi.org/10.1007/978-3-030-54913-8_2</a></li>
 </ul>
-<h2 class="c18" id="h.fjpp9yjyg95z"><span class="blue">II.1</span> Kinder- und Jugendbücher international. Eine Metadatenanalyse</h2>
+
+<h2 class="c18" id="II.1"><span class="blue">II.1</span> Kinder- und Jugendbücher international. Eine Metadatenanalyse</h2>
+
 <p>Kinder- und Jugendliteratur (KJL) galt schon Paul Hazard (1952) als die erste Weltliteratur und seine Einsch&auml;tzung trifft heute mehr denn je zu. Denn Kinder- und Jugendliteratur ist wesentlich vom internationalen Lizenzgesch&auml;ft bestimmt, übersetzungen und Adaptionen von Illustrationen spielen eine prominente Rolle. Spitzentitel wie &bdquo;Harry Potter“ bestimmen den Buchmarkt und das Lesen wie keine andere Sachgruppe. Am drittgrö&szlig;ten, dem deutschsprachigen Publikumsbuchmarkt hat die KJL einen Marktanteil von etwa einem Drittel, auf dem chinesischen Publikumsbuchmarkt soll die KJL sogar die grö&szlig;te Sachgruppe bilden. Kaum eine andere Gruppe gew&auml;hrt daher einen so genauen Einblick in die Internationalisierung und Globalisierung der Kultur wie eben die KJL. </p>
 
 <p>Eine Arbeitsgruppe der Mainzer Buchwissenschaft erarbeitet aus verschiedenen Daten einen Weltatlas der Literatur. Vorbild ist das Projekt der Oxforder Arbeitsgruppe um Max Roser &bdquo;Our World in Data“. W&auml;hrend &bdquo;Our World in Data“ vor allem aktuelle Daten zur globalen sozialen Welt sammelt, soll unser Projekt Daten zur Kultur sammeln (&bdquo;Our Culture in Data“), zun&auml;chst einmal Daten zur Literatur. Doch Daten zur Kultur zu erheben ist schwierig, da mit den Sozialwissenschaften vergleichbare Datenerhebungen nur vereinzelt durchgeführt werden, etwa zu Museumsbesuchen, der Zahl der Klassikfestivals oder dann auch zu der Zahl der verkauften Bücher. Diese Zahlen werden fast ausschlie&szlig;lich national erhoben nach nicht vergleichbaren Parametern. Die Daten über das Leseverhalten in Europa beispielsweise werden so unterschiedlich erhoben, dass eine Aggregation derzeit nicht sinnvoll möglich ist.</p>
@@ -452,7 +463,9 @@ We are constantly looking for student helpers, research assistants and collabora
   <li>Prof. Dr. Gerhard Lauer, Dr. Wei Ding &ndash; Buchwissenschaft, Johannes Gutenberg-Universit&auml;t Mainz</li>
   <li>Deutsche Nationalbibliothek</li>
 </ul>
-<h2 class="c18" id="h.55thhjh5aks2"><span class="blue">II.2</span> Patterns of translations of national literatures</h2>
+
+<h2 class="c18" id="II.2"><span class="blue">II.2</span> Patterns of translations of national literatures</h2>
+
 <p>Some kinds of bibliographical records make it possible to reveal patterns of translations from a particular national literature. Lots of interesting features can be extracted from the data, such as the changing of the target languages (which other literature were interested in the source literature?), of publication places and translators (were the translations been created at home or abroad?), of the volume, of publishers (what was the prestige of the author?). Were there any key languages which helped the literature to enter world literature (for example for a long time German translations of Hungarian works preceded other translations, and sometimes those other translations are created from German, not from Hungarian). </p>
 
 <p>UNESCO maintains a dedicated database (Index Translationum) into which national libraries send records about translated works. This database typically contains information about books, but not in an analytical manner (e.g. without the analyses of the parts of the book, which would be important if it is an anthology with multiple translations) and does not cover publications in periodicals. On the other hand there are some dedicated databases and bibliographies concentrating on particular aspects (like translations from a given language, or of works in a genre, or an author), but with greater details than that of the Index Translationum.</p>
@@ -492,16 +505,15 @@ We are constantly looking for student helpers, research assistants and collabora
   <li>Prof. András Kiséry, City College of New York</li>
 </ul>
 
-<h2 class="c18" id="h.qkgqr5bgpxh2"><span class="blue">II.3</span> Patterns of publications</h2>
+<h2 class="c18" id="II.3"><span class="blue">II.3</span> Patterns of publications</h2>
 
-<p>National bibliographies aim to describe all the books published in a given country (however none of them are complete). This huge set of information is not well exploited from the perspective of cultural history, because they are usually accessible only via a search interface with limited feature set, which doesn’t enable researchers to extract information, and run statistical analyses on them. The side effect of the QA catalogue project is that the tools created there are generic tools, and can be utilised for data extraction. The library catalogue records may or may not contain information in standardised form (see section on MARC Authority records), which may or may not involve data cleaning in the process. At the end we could extract information from the catalogue such as authors and other collaborators, place names including publication place and places which the book is talking about, subjects (in human readable or in encoded form), dates, language of publication, physical dimensions of the publications and several other data elements. In some MARC records some of these entities found in descriptive data elements have authorised formats attached to the same record. These authorised formats however usually do not inform the reader about which data element they belong to. The two forms are different, and maybe differently segmented as well.</p>
+National bibliographies aim to describe all the books published in a given country (however none of them are complete). This huge set of information is not well exploited from the perspective of cultural history, because they are usually accessible only via a search interface with limited feature set, which doesn’t enable researchers to extract information, and run statistical analyses on them. The side effect of the QA catalogue project is that the tools created there are generic tools, and can be utilised for data extraction. The library catalogue records may or may not contain information in standardised form (see section on MARC Authority records), which may or may not involve data cleaning in the process. At the end we could extract information from the catalogue such as authors and other collaborators, place names including publication place and places which the book is talking about, subjects (in human readable or in encoded form), dates, language of publication, physical dimensions of the publications and several other data elements. In some MARC records some of these entities found in descriptive data elements have authorised formats attached to the same record. These authorised formats however usually do not inform the reader about which data element they belong to. The two forms are different, and maybe differently segmented as well.
 
-<p>Research questions and tasks (Computer Science): </p>
-<ul>
-  <li>How could the entities found in the descriptive data elements be paired with the authorised form? Which relevant data elements do not have authorised forms?</li>
-  <li>Could this knowledge (non authorised form - authorised form) be reused for a suggesting application in case of records where the normalised part is missing? How other data elements can be used in such an application which provides larger context (related to information on what? who? where? when?).</li>
-  <li>How external information sources could be reused (e.g. Geonames, <a href="#ftnt34" id="ftnt_ref34">[34]</a> VIAF, <a href="#ftnt35" id="ftnt_ref35">[35]</a> CERL Thesaurus, <a href="#ftnt36" id="ftnt_ref36">[36]</a> Share-VDE <a href="#ftnt37" id="ftnt_ref37">[37]</a> etc.) to normalise entities?</li>
-</ul>
+Research questions and tasks (Computer Science):
+
+* How could the entities found in the descriptive data elements be paired with the authorised form? Which relevant data elements do not have authorised forms?
+* Could this knowledge (non authorised form - authorised form) be reused for a suggesting application in case of records where the normalised part is missing? How other data elements can be used in such an application which provides larger context (related to information on what? who? where? when?).
+* How external information sources could be reused (e.g. [Geonames](https://www.geonames.org/), [VIAF](https://viaf.org/), [CERL Thesaurus](https://thesaurus.cerl.org/), [Share-VDE](https://www.share-vde.org/) etc.) to normalise entities?
 
 <p>Research questions and tasks (Humanities): </p>
 <ul>
