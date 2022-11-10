@@ -53,21 +53,21 @@ last updated: 2022-11-04
 
 ## <a id="intro"/>Introduction
 
-Cultural Analytics Team is a research team inside the eScience Working Group (AG E) of the Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen ([GWDG](https://www.gwdg.de/)), the computation centre and IT research institute of the [University of Göttingen](https://uni-goettingen.de/) and [Max Planck Society](https://www.mpg.de/en). The purpose of the team is to find ways to apply data analytics solutions in cultural heritage domains in collaboration with other players in Göttingen, Germany and abroad. The team is in a formation state.
+The Cultural Analytics Team is a research team inside the eScience Working Group (AG E) of the Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen ([GWDG](https://www.gwdg.de/)), the computation centre and IT research institute of the [University of Göttingen](https://uni-goettingen.de/) and [Max Planck Society](https://www.mpg.de/en). The purpose of the team is to find ways to apply data analytics solutions in cultural heritage domains in collaboration with other players in Göttingen, Germany and abroad. The team is in a formation state.
 
-This list declares the active and intended research topics of the team. There are two main branches: cultural heritage metadata quality assessment and cultural analytics with special focus on bibliographic data science. Each branch contains a number of individual, independent research, however altogether they form an interrelated network. Each research topic has two sides: an applied computer science one and a humanities one. The first are usually about software development questions and tasks, such as creating algorithms for interpreting data written in a metadata schema, or optimising the running of the software by time or memory consumption. The second side has content related questions, and requires humanistic research methods. Metadata quality assessment might be more appealing for students of Library and Information Science, of book studies (Buchwissenschaft, bibliology), of archival studies, while the cultural analytics topics might be interesting for a wider branch of Digital Humanities students. The research in both topics should be resulted in some written output (paper or thesis), the quality assessment topics optionally outputs software code as well.
+This list declares the active and intended research topics of the team. There are two main branches: cultural heritage metadata quality assessment and cultural analytics with special focus on bibliographic data science. Each branch contains a number of individual, independent research, however altogether they form an interrelated network. Each research topic has two sides: an applied computer science one and a humanities one. The first are usually about software development questions and tasks, such as creating algorithms for interpreting data written in a metadata schema, or optimising the running of the software by time or memory consumption. The second side has content related questions, and requires humanistic / Library and Information Science (LIS) research methods. Metadata quality assessment might be more appealing for students of Library and Information Science, of book studies (Buchwissenschaft, bibliology), of archival studies, while the cultural analytics topics might be interesting for a wider branch of Digital Humanities students. The research in both topics should result some written output (paper or thesis), the quality assessment topics optionally outputs software code as well.
 
 We are constantly looking for student helpers, research assistants and collaborating partners in these researches so if the reader feels that a topic is interesting for her/him, do not hesitate to contact us via peter.kiraly@gwdg.de.
 
 ## <a id="I"/><span class="blue">I.</span> Metadata Quality Assessment
 
-All of these topics are connected to <em>Metadata Quality Assessment Framework API</em> ([MQAF API](https://github.com/pkiraly/metadata-qa-api)) and [QA catalogue](https://github.com/pkiraly/metadata-qa-marc) open source research software. The topics are extensions of previous research and these software packages. Our final purpose is to provide quality assessment solutions to the metadata records created with all the standard schemas used in cultural heritage institutions (libraries, archives and museums).
+All of these topics are connected to the <em>Metadata Quality Assessment Framework API</em> ([MQAF API](https://github.com/pkiraly/metadata-qa-api)) and [QA catalogue](https://github.com/pkiraly/metadata-qa-marc) open source research software. The topics are extensions of previous research and these software packages. Our purpose is to provide quality assessment solutions to the metadata records created with all the standard schemas used in cultural heritage institutions (libraries, archives and museums).
 
-Metadata is a type of record, which describes the important features of an object stored in such organisation (such as a book, a letter of an 18th century scholar or a sculpture. Here the “data” is the original object, and since metadata literally means “data about data” includes the creator, title, identifier, location, material, size and other important features of the object. Metadata schema is a special document which describes the structure and rules of the records in a metadata collection, so it tells how to encode this information. Sometimes the schema has a machine readable version (serialised as an XML or JSON schema), sometimes it doesn’t have. Usually the schema does not contain all the information quality assessment requires, so we have to extend it with other information, for example which data elements or rules are more important than others in a particular context, what extra requirements are applicable in a particular organisation (e.g. an identifier might be a simple string or number, and in some context it is claimed to better if it forms a URL, and even better if the URL is persistent).
+Metadata is a type of record, which describes the important features of an object stored in such organisation (such as a book, a letter of an 18th century scholar or a sculpture). Here the “data” is the original object, and since metadata literally means “data about data” includes the creator, title, identifier, location, material, size and other important features of the object. Metadata schema is a special document which describes the structure and rules of the records in a metadata collection, so it tells how to encode this information. Sometimes the schema has a machine readable version (serialised as an XML or JSON schema), sometimes it doesn’t. Usually the schema does not contain all the information a quality assessment requires, so we have to extend it with other information, for example which data elements or rules are more important than others in a particular context, what extra requirements are applicable in a particular organisation (e.g. an identifier might be a simple string or number, and in some context it is claimed to be better if it forms a URL, and even better if the URL is persistent).
 
-The MQAF API is a general metadata assessment tool, which requires a derivative of the metadata schema with specific properties for the quality assessment task. Based on this one can build a tool to analyse records in a particular schema simply by configuration. We already have some implementation for this kind of development for Deutsche Digitale Bibliothek, for Victoria and Albert Museum, and meemoo, the Flemish Institute for Archives.
+The MQAF API is a general metadata assessment tool, which requires a derivative of the metadata schema with specific properties for the quality assessment task. Based on this, one can build a tool to analyse records in a particular schema simply by configuration. We already have some implementation for this kind of development for the Deutsche Digitale Bibliothek, for the Victoria and Albert Museum, and meemoo, the Flemish Institute for Archives.
 
-QA catalogue (an extension of MQAF API) is specified for library catalogues and works with records in a metadata schema called [MARC](https://www.loc.gov/marc/) (MAchine Readable Cataloging), and already used by the British Library, KBR, the Royal Library of Belgium, and Gent University Library. Its future extensions should cover MARC variants and non-MARC bibliographic metadata schema such as PICA (and variants), and UNIMARC.
+QA catalogue (an extension of MQAF API) is specified for library catalogues and works with records in a metadata schema called [MARC](https://www.loc.gov/marc/) (MAchine Readable Cataloging). It is already used by the British Library, KBR (the Royal Library of Belgium), and Gent University Library. Its future extensions should cover MARC variants and non-MARC bibliographic metadata schema such as PICA (and variants), and UNIMARC.
 
 It is equally important for all metadata assessment tools, that they provide input for metadata experts, who decide which reported problems are really relevant for their institute and in which priority.
 
@@ -79,14 +79,16 @@ Abbreviations:
 * BL &ndash; British Library
 * KBR &ndash; Royal Library of Belgium
 
+Following is a list of suggested research topics in this area.
+
 ### <a id="I.1"/><span class="blue">I.1</span> SHACL4MARC&ndash;Validating MARC records against locally defined ruleset
 
-<em>Introduction</em>. Shapes Constraint Language ([SHACL](https://www.w3.org/TR/shacl/)) is a formal language for validating Resource Description Framework ([RDF](https://www.w3.org/RDF/)) graphs against a set of conditions (expressed also in RDF). Following this idea, and implementing a subset of the language, <em>MQAF API</em> provides a mechanism to define SHACL-like rules for data sources in non-RDF based formats, such as XML, CSV and JSON (SHACL validates only RDF graphs). The rules can be defined either with YAML or JSON configuration files or with Java code.<sup>a</sup> <em>MQAF API</em> has already been validated in different organisations (Flemish Audio-Visual Archives, Victoria and Albert Museum, Deutsche Digitale Bibliothek). In this research we extend this ruleset to be applicable to MARC records. For making it available for MARC records there are two criteria:
+<em>Introduction</em>. The Shapes Constraint Language ([SHACL](https://www.w3.org/TR/shacl/)) is a formal language for validating Resource Description Framework ([RDF](https://www.w3.org/RDF/)) graphs against a set of conditions (expressed also in RDF). Following this idea and implementing a subset of the language, <em>MQAF API</em> provides a mechanism to define SHACL-like rules for data sources in non-RDF based formats, such as XML, CSV and JSON (SHACL validates only RDF graphs). The rules can be defined either with YAML or JSON configuration files or with Java code.<sup>a</sup> <em>MQAF API</em> has already been validated in different organisations (Flemish Audio-Visual Archives, Victoria and Albert Museum, Deutsche Digitale Bibliothek). In this suggested research we extend this ruleset to be applicable to MARC records. For making it available for MARC records there are two requirements:
 
 * supporting a particular &quot;addressing scheme&quot; which fits MARC records. This scheme is similar to XPATH or JSONPath which are mechanisms to precisely select a part of an XML and JSON document. For MARC there is a proposal, Carsten Klee&#39;s [MARCspec](http://marcspec.github.io/MARCspec/marc-spec.html) - a common MARC record path language, which is already supported by the QA catalogue.
 * implementing a particular interface of MQAF API, which could return a unified value object when we specify it with an address of a data element.
 
-In this research we have two control data sets. BL provided a sample with examples where particular problems have been catched by an alternative tool, but not by QA catalogue. KBR developed an XSLT based solution to check local rulesets. We can use both to compare those results with ours.
+In this research we have two control data sets. BL provided a sample with examples where particular problems have been caught by an alternative tool, but not by QA catalogue. KBR developed an XSLT based solution to check local rulesets. We can use both to compare those results with ours.
 
 During the research students will learn about the following technologies: MARC, SHACL, XPath, JSONPath, MARCspec.
 
@@ -97,9 +99,10 @@ Research questions and tasks (Computer Science):
 * Adapt MQAF API that it should accept this selector implementation as input parameter (right now the implementations are hard coded)
 * Create a command line interface in QA catalogue which accepts a configuration file describing SHACL-like ruleset
 
-Research questions (Humanities):
+Research questions (LIS / Humanities):
 
-* Can the content specific cataloguing rules provided by BL and KBR be transformed to SHACL-like machine readable rules? Are there limitations, and if yes: describe their nature? What suggestions this research might have to the SHACL community and to the further development of QA catalogue?
+* How can the content specific cataloguing rules provided by BL and KBR be transformed to SHACL-like machine readable rules? Are there limitations, and if yes: what is their nature?
+* What suggestions might this research have to the SHACL community and to the further development of QA catalogue?
 * Comparing the results of KBR and QA catalogue approaches, what suggestions this research might have to both parties?
 
 Potential partners:
@@ -116,18 +119,18 @@ Data sources:
 
 ### <a id="I.2"/><span class="blue">I.2</span> UNIMARC
 
-The [UNIMARC](https://www.ifla.org/publications/unimarc-formats-and-related-documentation/) bibliographic format was first created and proposed by IFLA in 1977, with the title <em>UNIMARC: Universal MARC format</em>. The intention of the standard was to unify different MARC versions into a single schema (note: MARC21 had the same intention). It was updated several times, the current version is the 3rd edition. As for MARC21 there are bibliographic, authorities, classification and holdings sub-schemas. UNIMARC records are serialised in ISO 2709 (which is the basis of all MARC versions), and XML. It is in use in France, Italy, Portugal, Slovenia, Slovakia, Ukraina, Belarus, Russia. There is no machine readable version of the schema.
+The [UNIMARC](https://www.ifla.org/publications/unimarc-formats-and-related-documentation/) bibliographic format was first created and proposed by IFLA in 1977, with the title <em>UNIMARC: Universal MARC format</em>. The intention of the standard was to unify different MARC versions into a single schema (note: MARC21 had the same intention). It was updated several times, the current version is the 3rd edition. As for MARC21, there are bibliographic, authorities, classification and holdings sub-schemas. UNIMARC records are serialised in ISO 2709 (which is the basis of all MARC versions) and XML. It is in use in France, Italy, Portugal, Slovenia, Slovakia, Ukraina, Belarus, Russia. There is no machine readable version of the schema.
 
 Research questions and tasks (Computer Science):
 
-* Write scripts which downloads UNIMARC records from the data sources via OAI-PMH and Z39.50 protocols. The scripts should handle the shortcomings of these protocols and the actual implementations.
+* Write scripts which download UNIMARC records from the data sources via OAI-PMH and Z39.50 protocols. The scripts should handle the shortcomings of these protocols and the actual implementations.
 * Create a machine readable UNIMARC schema, either as a set of Java classes according to the QA catalogue&#39;s MARC definition structure or to the JSON based [Avram schema](https://format.gbv.de/schema/avram/specification). It is also possible to implement it with other technology which can be exported into Avram schema.
-* Modify QA catalogue backend to be able to use the above mentioned definition as an input configuration for the quality assessment processes.
-* Adopt the user interface of QA catalogue to work with the output of the analysis
+* Modify the QA catalogue backend to be able to use the above mentioned definition as an input configuration for the quality assessment processes.
+* Adopt the user interface of QA catalogue to work with the output of the analysis.
 
-Research questions and tasks (Humanities):
+Research questions and tasks (LIS / Humanities):
 
-* How has the UNIMARC schema changed historically, and how to match the proper schema with the records?
+* How has the UNIMARC schema changed historically? How to match the proper schema with the records?
 * Are there locally defined data elements in particular libraries? Are these documented? How could they be transformed as an input to QA catalogue, so it should understand them and apply the rules during the analyses?
 * Literature scan: are there specific papers regarding UNIMARC quality assessment? Are the specific aspects of the structure or the content of the schema which are not available in MARC21 schema?
 * Communicate with the data source and collect feedback. How could they use the report in daily work? Are there relevant needs which the result doesn’t fulfil? What are their data life cycles and relevant workflow, and how QA catalogue could be inserted into it?
@@ -157,9 +160,9 @@ PICA and PICA+ are metadata schemas for describing bibliographic resources, main
 
 Research questions and tasks (Computer Science):
 
-* Finalise Avram schema reader 
-* Finalise a record reader which takes an Avram schema, parse records which are in the schema describe by the Avram schema (in this case PICA), and creates Java objects for each record
-* Modify QA catalogue that it could validate the objects created the above mentioned mechanism, and produce the same output as it creates for MARC records
+* Finalise Avram schema reader. 
+* Finalise a record reader which takes an Avram schema, parse records which are in the schema describe by the Avram schema (in this case PICA), and creates Java objects for each record.
+* Modify QA catalogue that it could validate the objects created the above mentioned mechanism, and produce the same output as it creates for MARC records.
 
 Research questions and tasks (Humanities):
 
