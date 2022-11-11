@@ -133,7 +133,7 @@ Research questions and tasks (LIS / Humanities):
 * How has the UNIMARC schema changed historically? How to match the proper schema with the records?
 * Are there locally defined data elements in particular libraries? Are these documented? How could they be transformed as an input to QA catalogue, so it should understand them and apply the rules during the analyses?
 * Literature scan: are there specific papers regarding UNIMARC quality assessment? Are the specific aspects of the structure or the content of the schema which are not available in MARC21 schema?
-* Communicate with the data source and collect feedback. How could they use the report in daily work? Are there relevant needs which the result doesn’t fulfil? What are their data life cycles and relevant workflow, and how QA catalogue could be inserted into it?
+* Communicate with the institutions that provide the data sources and collect feedback. How could they use the report in daily work? Are there relevant needs which the report doesn’t fulfil? What are their data life cycles and relevant workflow, and how QA catalogue could be inserted into it?
 
 Potential partners:
 
@@ -156,7 +156,7 @@ Data sources:
 
 ### <a id="I.3"/><span class="blue">I.3</span> PICA and PICA+
 
-PICA and PICA+ are metadata schemas for describing bibliographic resources, mainly used in Dutch and German libraries (instead of MARC). These schemas contain a fixed set of data elements, but libraries can define their own extra elements. Jakob Voß maintains an Avram schema for PICA+. There is some initial code in the QA catalogue which reads Avram schema and uses it as an input for model building against which the analyses can be run.
+PICA and PICA+ are metadata schemas for describing bibliographic resources, mainly used in Dutch and German libraries (instead of MARC). These schemas contain a fixed set of data elements, but libraries can define their own extra elements. The metadata schemas are usually available in documents created for human readers, but these documents, even if they are available in a digital format (e.g. in PDF or HTML) are not processable so that a software could use them as one of the inputs for the analysis. For this purpose I have created a JSON representation of the MARC21 schema.<sup>a</sup> Jakob Voß went further and created [Avram schema](https://format.gbv.de/schema/avram/specification), which is a special JSON document describing a metadata schema in a machine processable way (named after Henriette Avram, the inventor of MARC). Jakob Voß also maintains an [Avram schema for PICA+](https://format.gbv.de/schema/avram/schema.json). There is some initial code in the QA catalogue which reads Avram schema and uses it as an input for model building against which the analyses can be run.
 
 Research questions and tasks (Computer Science):
 
@@ -178,6 +178,8 @@ Partner:
 Data sources:
 
 * K10Plus union catalogue, 60+ million records (maintained by GBV)
+
+<sup>a</sup> The initial blog post: [marc21-in-json/](http://pkiraly.github.io/2018/01/28/marc21-in-json/). Current schema (in different flavours): [github.com/pkiraly/metadata-qa-marc](https://github.com/pkiraly/metadata-qa-marc/tree/main/marc-schema).
 
 ### <a id="I.4"/><span class="blue">I.4</span> Encoded Archival Description (EAD) and Encoded Archival Context (EAC)
 
