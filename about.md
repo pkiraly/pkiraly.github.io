@@ -126,8 +126,8 @@ cited by:<br/>
 23. Mohammadreza Tavakoli, Abdolali Faraji, Jarno Vrolijk, Mohammadreza Molavi, Stefan T. Mol, Gábor Kismihók. "An AI-based open recommender system for personalized labor market driven education." Advanced Engineering Informatics, Volume 52, 2022, 101508. DOI: [10.1016/j.aei.2021.101508](https://doi.org/10.1016/j.aei.2021.101508)    
 24. Kaylin Blount. "Knowing What We Have: Proposing a Sustainable Workflow for the Assessment of Digitized Archival Collections at Wilson Library." Master thesis in Information Science. University of North Caroline, School of Information and Library Science, 2022.
 25. Barbara Šlibar, and Enrique Mu. "OGD metadata country portal publishing guidelines compliance: A multi-case study search for completeness and consistency". *Government Information Quarterly* 2022, August. 101756. DOI: [10.1016/j.giq.2022.101756](https://doi.org/10.1016/j.giq.2022.101756)
-26. Volodymyr A. Shekhovtsov, Johann Eder, "Metadata Quality for Biobanks". _Applied Sciences_ 2022, 12, 9578. pp. 1--37. DOI: [10.3390/app12199578](https://doi.org/10.3390/app12199578)
-
+26. Volodymyr A. Shekhovtsov, Johann Eder. "Metadata Quality for Biobanks". _Applied Sciences_ 2022, 12, 9578. pp. 1--37. DOI: [10.3390/app12199578](https://doi.org/10.3390/app12199578)
+27. Hannah Tarver, Meredith Hale, Rachel White, Steven Gentry, Madison Chartier, Rachel Wittmann. "Metadata Quality in Digital Libraries: An Analysis of Survey Response Data". In Proceedings of the 18th International Conference on Digital Preservation 2022. Glasgow, Scotland. [10.7207/ipres2022-proceedings](https://doi.org/10.7207/ipres2022-proceedings). pp. 162-172.
 
 Péter Király, Juliane Stiller, Valentine Charles, Werner Bailer, and Nuno Freire. “Evaluating Data Quality in Europeana: Metrics for Multilinguality.” In *Metadata and Semantic Research 2019. 12th International Conference, MTSR 2018, Limassol, Cyprus, October 23-26, 2018, Revised Selected Papers* (Communications in Computer and Information Science, volume 846) Published by Springer, 2019. pp. 199–211. DOI: [10.1007/978-3-030-14401-2_19](https://doi.org/10.1007/978-3-030-14401-2_19)<br/>
 cited by:<br/>
