@@ -168,7 +168,7 @@ cited by:<br/>
 6. Jakob Voß. "Datenqualität als Grundlage qualitativer Inhaltserschließung." In _Qualität in der Inhaltserschließung._ Edited by: Michael Franke-Maier, Anna Kasprzik, Andreas Ledl and Hans Schürmann. Berlin, Boston: De Gruyter Saur. ISBN: 9783110691597, DOI: 10.1515/9783110691597 (Bibliotheks- und Informationspraxis, Volume 70) pp. 167-176. DOI: [10.1515/9783110691597-011](https://doi.org/10.1515/9783110691597-010)
 7. Vyacheslav Zavalin, Oksana L. Zavalina and Rachel Safa. "Patterns of Subject Metadata Change in MARC 21 Bibliographic Records for Video Recordings." _Proceedings of the Association for Information Science and Technology_ 58, no. 1 (2021): 543-547. DOI: [10.1002/pra2.494](https://doi.org/10.1002/pra2.494)
 8. Evan Bryer, Theppatorn Rhujittawiwat, John R. Rose, and Colin F. Wilder. "Improvement of Clustering Algorithms by Implementation of Spelling Based Ranking." _IADIS International Journal on Computer Science and Information Systems_ 2021. Vol. 16, No. 2, pp. 45-60. ISSN: 1646-3692. [iadisportal.org](http://www.iadisportal.org/ijcsis/papers/2021160204.pdf)
-9. Tomasz Umerle and Vojtěch Malínek. "Literarybibliography. eu—modelový příklad pro tvorbu mezinárodní oborové bibliografie." _Ceska Literatura_  70(2022):5. pp. 579--595. DOI: [10.51305/cl.2022.05.03](https://doi.org/10.51305/cl.2022.05.03)
+9. Tomasz Umerle and Vojtěch Malínek. "Literarybibliography.eu — modelový příklad pro tvorbu mezinárodní oborové bibliografie." _Ceska Literatura_  70(2022):5. pp. 579--595. DOI: [10.51305/cl.2022.05.03](https://doi.org/10.51305/cl.2022.05.03)
 
 Péter Király and Marco Büchler. “A teljesség minőségjelzőként való mérése az Europeanában”. (Hungarian translation of “Measuring completeness as metadata quality metric in Europeana”) In *Digitális Bölcsészet* 2, 2019. pp. 57-76. DOI: [10.31400/dh-hun.2019.2.388](https://doi.org/10.31400/dh-hun.2019.2.388)
 
@@ -180,7 +180,9 @@ Péter Király. "A magyar népzenei adatok története és a (digitális) archiv
 
 ### 2021
 
-Péter Király, and Jan Brase. "Qualitätsmanagement". In _Praxishandbuch Forschungsdatenmanagement_. Edited by: Markus Putnings, Heike Neuroth and Janna Neumann. Berlin, Boston: De Gruyter Saur. ISBN: 9783110653656, DOI: 10.1515/9783110657807 (De Gruyter Praxishandbuch) pp. 357–380. DOI: [10.1515/9783110657807-020](https://doi.org/10.1515/9783110657807-020)
+Péter Király, and Jan Brase. "Qualitätsmanagement". In _Praxishandbuch Forschungsdatenmanagement_. Edited by: Markus Putnings, Heike Neuroth and Janna Neumann. Berlin, Boston: De Gruyter Saur. ISBN: 9783110653656, DOI: 10.1515/9783110657807 (De Gruyter Praxishandbuch) pp. 357–380. DOI: [10.1515/9783110657807-020](https://doi.org/10.1515/9783110657807-020)<br/>
+cited by:<br/>
+1. Dietmar Kammerer and Kai Matuszkiewicz. "Forschungsdaten in der Medienwissenschaft: Infrastrukturen, Plattformen und Forschungsdatenmanagement und ihre Bedeutung für die digitale Transformation der Medienwissenschaft". In: Stollfuß, S., Niebling, L., Raczkowski, F. (eds) Handbuch Digitale Medien und Methoden. Springer VS, Wiesbaden, 2023. pp. 1-19. DOI: [10.1007/978-3-658-36629-2_6-1](https://doi.org/10.1007/978-3-658-36629-2_6-1)
 
 Rudolf Ungváry, and Péter Király. "Bemerkungen zu der Qualitätsbewertung von MARC-21-Datensätzen". In _Qualität in der Inhaltserschließung._ Edited by: Michael Franke-Maier, Anna Kasprzik, Andreas Ledl and Hans Schürmann. Berlin, Boston: De Gruyter Saur. ISBN: 9783110691597, DOI: 10.1515/9783110691597 (Bibliotheks- und Informationspraxis, Volume 70) pp. 177-227. DOI: [10.1515/9783110691597-011](https://doi.org/10.1515/9783110691597-011)
 
