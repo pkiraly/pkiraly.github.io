@@ -192,7 +192,9 @@ Király Péter. "Kulturális adatelemzés – bevezetés és önéletrajz. Lev M
 
 Tomasz Umerle, Giovanni Colavizza, Elżbieta Herden, Rindert Jagersma, Péter Király, Beata Koper, Leo Lahti, David Lindemann, Jakub Maciej Łubocki, Vojtěch Malínek, Alexandra Milanova, Róbert Péter, Nanette Rißler-Pipka, Matteo Romanello, Marcin Roszkowski, Dorota Siwecka, Mikko Tolonen, Ondřej Vimr. "An Analysis of The Current Bibliographical Data Landscape in the Humanities. A Case for the Joint Bibliodata Agendas of Public Stakeholders". 46 p. DARIAH. DOI: [10.5281/zenodo.6559857](https://doi.org/10.5281/zenodo.6559857)
 
-Péter Király, and Hannes Lowagie. "Implementation of a daily MARC assessment with open source tools at KBR, the royal library of Belgium.". *IFLA Metadata Newsletter* Volume 8, Number 1, June 2022. pp. 12-15 [ifla.org](https://repository.ifla.org/bitstream/123456789/1976/1/IFLA_Metadata_Newsletter_June_2022.pdf)
+Péter Király, and Hannes Lowagie. "Implementation of a daily MARC assessment with open source tools at KBR, the royal library of Belgium.". *IFLA Metadata Newsletter* Volume 8, Number 1, June 2022. pp. 12-15 [ifla.org](https://repository.ifla.org/bitstream/123456789/1976/1/IFLA_Metadata_Newsletter_June_2022.pdf)<br/>
+cited by:<br/>
+1. Ann Van Camp and Sven Lieber. "ISNI, a top tool for quality enhancement, smooth data flows and efficient internal processes". In: 87th IFLA World Library and Information Congress (WLIC) / 2022. pp. 1-10. [ifla.org](http://repository.ifla.org/handle/123456789/2008)
 
 Rudolf Ungváry, and Péter Király. "A MARC21 tételfejének és kódolt tartalmi jellemzőinek feldolgozási minősége néhány nemzeti könyvtárban". *Tudományos és Műszaki Tájékoztatás* 2022. pp. 155-175. DOI: [10.3311/tmt.13174](http://doi.org/10.3311/tmt.13174)
 
