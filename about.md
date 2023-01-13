@@ -19,9 +19,13 @@ p {
 
 ## The project
 
-The Metadata Quality Assurance Framework is a research project on figuring out how can we decide in an algorithmical way whether a metadata record in a cultural heritage database is "good" or "bad". During the project I will create a general framework, which lets metadata repositories and digital libraries (such as [Europeana](http://europeana.eu), [TextGrid](http://textgrid.de) or [Digital Public Library of America](http://dp.la)) to run a range of measurements on the collection, and get suggestion where they should improve the quality of their metadata.
+The Metadata Quality Assessment Framework is a research project on figuring out how one can decide in an algorithmic way whether a metadata record in a cultural heritage database is "good" or "bad". During the project a general framework is developed, which enables metadata repositories and digital libraries (such as [Europeana](http://europeana.eu), [TextGrid](http://textgrid.de) or [Digital Public Library of America](http://dp.la)) to run a range of measurements on the collection, and get suggestion where they should improve the quality of their metadata. Multiple extensions are being developed along with the core framework to work with specific metadata schemas, or data source.
 
-These pages are about the process of the research -- my early findings, results, codes, talks.
+These pages are about the process of the research -- my findings, results, codes, talks.
+
+## The author
+Péter Király, is a software developer and researcher at at GWDG, the data, compute and research centre for Max-Planck-Society and University of Göttingen. He received PhD (summa cum laude) from University of Göttingen, in 2019 as the output of this research. His main research interests are quality assessment of cultural heritage metadata and cultural analytics, the data analysis of these metadata as historical source. He is also interested in publishing and searching large text corpora in the web, and the new ways of web presence of cultural heritage (archival, library and museum materials with special focus on semantic web technologies). He is an editor of Code4Lib Journal, co-chair of LIBER Data Science in Libraries working group, member of different library and digital humanities related groups, maker and supporter of open source and open data projects. He collaborates with British Library, Belgian National Library, Gemeinsamer Bibliotheksverbund, a German library consortium, Europeana, Deutsche Digitale Bibliothek, meemoo (the Flemish Institute for Archives), Gent University Library, Victoria and Albert museum and other cultural heritage organisations.
+
 
 ## Important links
 
@@ -204,9 +208,15 @@ of Digital Libraries, TPDL 2022 Padua, Italy, September 20–23, 2022, Proceedin
 
 <!-- span id="badgeCont105"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont105&rid=AAW-9289-2021"></script></span -->
 
-## About me
-My name is Péter Király, and I am a software developer, analyst. My main interests are publishing and searching large text corporas in the web, and the new ways of web presence of cultural heritage (mainly library and archival materials with special focus on semantic web technologies). You can reach me via the methods listed in the [contact page](/contact).
 
 ## Sponsors
 
-Thanks to [GWDG](http://gwdg.de) for supporting my research in different ways, to [Europeana](https://europeana.eu) and [eTRAP](https://www.etrap.eu/) research group for using their computers, to JetBrains s.r.o. for [IntelliJ IDEA](https://www.jetbrains.com/idea/) community licence, to developers of Open Source software packages, and infrastructure services I used in the research, and to Open Data publishers for their data.
+Thanks to 
+* [GWDG](http://gwdg.de) for supporting my research in different ways, 
+* to [Europeana](https://europeana.eu) and [eTRAP](https://www.etrap.eu/) research group for using their computers, 
+* to JetBrains s.r.o. for [IntelliJ IDEA](https://www.jetbrains.com/idea/) community licence, 
+* to [British Library](https://www.bl.uk/), [KBR, the Belgian National Library](https://kbr.be) and [Gemeinsamer Bibliotheksverbund](https://www.gbv.de/) for supporting the developments of [QA catalogue](https://github.com/pkiraly/metadata-qa-marc) and for [Deutsche Digitale Bibliothek](https://www.deutsche-digitale-bibliothek.de/) for supporting the developments of [Metadata Quality Assessment Framework](https://github.com/pkiraly/metadata-qa-api), 
+* to developers of Open Source software packages, and infrastructure services I used in the research, and
+* to Open Data publishers for their data.
+
+You can reach me via the methods listed in the [contact page](/contact).
