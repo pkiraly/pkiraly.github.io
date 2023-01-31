@@ -88,7 +88,9 @@ URL: [http://dl.acm.org/citation.cfm?doid=3078081.3078109](http://dl.acm.org/cit
 cited by:<br/>
 1. Gustavo Candela, Pilar Escobar, María Dolores Sáez and Manuel Marco-Such. "A Shape Expression approach for assessing the quality of Linked Open Data in Libraries." _Semantic Web_ pp. 1--21. DOI: [10.3233/SW-210441](https://doi.org/10.3233/SW-210441)
 2. Widad Elouataoui, Imane El Alaoui, and Youssef Gahi. "Metadata Quality in the Era of Big Data and Unstructured Content." In The International Conference on Information, Communication & Cybersecurity, pp. 110-121. Springer, Cham, 2021. DOI: [10.1007/978-3-030-91738-8_11](https://doi.org/10.1007/978-3-030-91738-8_11)
-3. Volodymyr A. Shekhovtsov, Johann Eder, "Metadata Quality for Biobanks". _Applied Sciences_ 2022, 12, 9578. pp. 1--37. DOI: [10.3390/app12199578](https://doi.org/10.3390/app12199578)
+3. Hannah Tarver, Mark Edward Phillips, and Ana Krahmer. "EPIC: an iterative model for metadata improvement." International Journal of Metadata, Semantics and Ontologies 15, no. 4 (2021): 244-253. DOI: [10.1504/IJMSO.2021.125885](https://doi.org/10.1504/IJMSO.2021.125885)
+4. Volodymyr A. Shekhovtsov, Johann Eder, "Metadata Quality for Biobanks". _Applied Sciences_ 2022, 12, 9578. pp. 1--37. DOI: [10.3390/app12199578](https://doi.org/10.3390/app12199578)
+5. Gustavo Candela. "Towards a semantic approach in GLAM Labs: the case of the Data Foundry at the National Library of Scotland." arXiv preprint (2023) [arXiv:2301.11182](https://arxiv.org/abs/2301.11182).
 
 
 Péter Király. “Measuring completeness as metadata quality metric in Europeana.” In *Digital Humanities 2017. Conference Abstracts.* McGill University & Université de Montréal, Montréal, Canada, August 8–11, 2017. Prepared by Rhian Lewis and the DH2017 Local Organizers: Cecily Raynor, Dominic Forest, Michael Sinatra and Stéfan Sinclair. pp. 291-293. URL (whole book): [https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf](https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf), URL (the abstract): [https://dh2017.adho.org/abstracts/458/458.pdf](https://dh2017.adho.org/abstracts/458/458.pdf).
