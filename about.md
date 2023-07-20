@@ -91,6 +91,7 @@ cited by:<br/>
 3. Hannah Tarver, Mark Edward Phillips, and Ana Krahmer. "EPIC: an iterative model for metadata improvement." International Journal of Metadata, Semantics and Ontologies 15, no. 4 (2021): 244-253. DOI: [10.1504/IJMSO.2021.125885](https://doi.org/10.1504/IJMSO.2021.125885)
 4. Volodymyr A. Shekhovtsov, Johann Eder, "Metadata Quality for Biobanks". _Applied Sciences_ 2022, 12, 9578. pp. 1--37. DOI: [10.3390/app12199578](https://doi.org/10.3390/app12199578)
 5. Gustavo Candela. "Towards a semantic approach in GLAM Labs: the case of the Data Foundry at the National Library of Scotland." arXiv preprint (2023) [arXiv:2301.11182](https://arxiv.org/abs/2301.11182).
+6. Bruno Zolotareff dos Santos, Sandra Santos Vales, and Jorge Rady Almeira Junior. "A Metrics-Based Approach to Metadata Classification Applied in a Recommendation System." Preprint. (2023). DOI: [10.21203/rs.3.rs-3132032](https://doi.org/10.21203/rs.3.rs-3132032/v1)
 
 
 Péter Király. “Measuring completeness as metadata quality metric in Europeana.” In *Digital Humanities 2017. Conference Abstracts.* McGill University & Université de Montréal, Montréal, Canada, August 8–11, 2017. Prepared by Rhian Lewis and the DH2017 Local Organizers: Cecily Raynor, Dominic Forest, Michael Sinatra and Stéfan Sinclair. pp. 291-293. URL (whole book): [https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf](https://dh2017.adho.org/abstracts/DH2017-abstracts.pdf), URL (the abstract): [https://dh2017.adho.org/abstracts/458/458.pdf](https://dh2017.adho.org/abstracts/458/458.pdf).
@@ -163,6 +164,7 @@ cited by:<br/>
 6. Tyler J. Skluzacek. "Automated Metadata Extraction Can Make Data Swamps More Navigable." Ph.D. dissertation. The University of Chicago, Computer Science (2022). DOI: [10.6082/uchicago.4760](https://doi.org/10.6082/uchicago.4760)
 7. Volodymyr A. Shekhovtsov, and Johann Eder. "Metadata Quality for Biobanks". _Applied Sciences_ 2022, 12, 9578. pp. 1--37. DOI: [10.3390/app12199578](https://doi.org/10.3390/app12199578)
 8. Agnieszka Karlińska, Cezary Rosiński, Jan Wieczorek, Patryk Hubar, Jan Kocoń, Marek Kubis, Stanisław Woźniak, Arkadiusz Margraf, and Wiktor Walentynowicz. "Towards a contextualised spatial-diachronic history of literature: mapping emotional representations of the city and the country in Polish fiction from 1864 to 1939." In Proceedings of the 6th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature, Gyeongju, Republic of Korea. International Conference on Computational Linguistics. 2022. pp. 115–125 [aclanthology.org](https://aclanthology.org/2022.latechclfl-1.14)
+9. Murari Tapaswi. "Some issues in the Shodhganga–A theses repository from India." _Annals of Library and Information Studies_ 70, no. 2 (2023): 74-84. DOI [10.56042/alis.v70i2.1834](https://doi.org/10.56042/alis.v70i2.1834)
 
 Péter Király. “Validating 126 million MARC records”. In *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI: [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)<br/>
 cited by:<br/>
@@ -191,6 +193,8 @@ Péter Király, and Jan Brase. "Qualitätsmanagement". In _Praxishandbuch Forsch
 cited by:<br/>
 1. Dietmar Kammerer and Kai Matuszkiewicz. "Forschungsdaten in der Medienwissenschaft: Infrastrukturen, Plattformen und Forschungsdatenmanagement und ihre Bedeutung für die digitale Transformation der Medienwissenschaft". In: Stollfuß, S., Niebling, L., Raczkowski, F. (eds) Handbuch Digitale Medien und Methoden. Springer VS, Wiesbaden, 2023. pp. 1-19. DOI: [10.1007/978-3-658-36629-2_6-1](https://doi.org/10.1007/978-3-658-36629-2_6-1)
 2. Maxi Kindling. "Qualitätssicherung von Datenpublikationen bei Data Journals und Forschungsdatenrepositorien". Doctoral Thesis. Philosophischen Fakultät der Humboldt-Universität zu Berlin. 2022. DOI: [10.18452/26023](https://doi.org/10.18452/26023)
+3. Dr. Yves Vincent Grossmann (ed.) "Data Quality". In: Max Planck Digital Library. _Research Data Management. Information Platform for Max Planck Researchers_ [mpdl.mpg.de](https://rdm.mpdl.mpg.de/before-research/data-quality/)
+
 
 Rudolf Ungváry, and Péter Király. "Bemerkungen zu der Qualitätsbewertung von MARC-21-Datensätzen". In _Qualität in der Inhaltserschließung._ Edited by: Michael Franke-Maier, Anna Kasprzik, Andreas Ledl and Hans Schürmann. Berlin, Boston: De Gruyter Saur. ISBN: 9783110691597, DOI: 10.1515/9783110691597 (Bibliotheks- und Informationspraxis, Volume 70) pp. 177-227. DOI: [10.1515/9783110691597-011](https://doi.org/10.1515/9783110691597-011)
 
