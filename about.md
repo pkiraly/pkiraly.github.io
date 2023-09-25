@@ -221,6 +221,8 @@ Ungváry Rudolf, Király Péter. "Nemzeti könyvtárak és az OSZK MARC21 állom
 
 Király Péter. "Adatelemzés Pythonnal bölcsészeknek. Recenzió Folgert Karsdorp, Mike Kestemont, and Allen Riddel. Humanities Data Analysis: Case studies with Python című könyvéről" _Digitális Bölcsészet_, 2022. 6. K:3-K:9. DOI: [10.31400/dh-hun.2022.6.5580](https://doi.org/10.31400/dh-hun.2022.6.5580).
 
+Erzsébet Tóth-Czifra, Marta Błaszczyńska, Francesco Gelati, Femmy Admiraal, Mirjam Blümm, Erik Buelinckx, Vera Chiquet, Rita Gautschy, Peter Gietz, Péter Király, Maria Vivas-Romero, Walter Scholger, Bartłomiej Szleszyński, & Ulrike Wuttke. "Research Data Management for Arts and Humanities: Integrating Voices of the Community."" Zenodo, 2023. 97 p. DOI: [10.5281/zenodo.8059626](https://doi.org/10.5281/zenodo.8059626)
+
 <!-- span id="badgeCont105"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont105&rid=AAW-9289-2021"></script></span -->
 
 
