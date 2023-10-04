@@ -10,6 +10,8 @@ customjs:
 
 Libraries provides different application programming interfaces (APIs) that allows users to access library data programmatically, e.g. via a script. The APIs can be implementation of widely used specification, which are available in many libraries, or custom interfaces which are available in particular institutions. APIs have three important layers: 
 
+<!-- more -->
+
 1. the specification of the service. It describes how the data can be accessed (in some cases also how to create, modify or delete), whether the particular _call_ (an individual functionality of the service) requires authentication and authorization.
 2. client libraries for particular language and tools that work on the command line or have a graphical user interface
 3. the access points and terms of use at a particular library. 
