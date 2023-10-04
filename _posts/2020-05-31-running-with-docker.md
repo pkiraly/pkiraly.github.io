@@ -10,6 +10,8 @@ customjs:
 
 Now the QA catalogue (more information about this software at the end of this post) can be run with Docker. Once you have Docker on the machine, you can run the full end-to-end quality assessment process (including building the web user interface) with the following two commands:
 
+<!-- more -->
+
 1. download the docker image, create and launch a docker container (supposing your MARC files are in directory ~/data/marc)
 ```
 docker run \
@@ -37,8 +39,6 @@ The workflow looks something like this:
 <img src="{{ site.url }}/img/qa-catalogue-on-docker.png" class="big" title="Docker workflow" alt="Docker workflow" />
 
 At the end of the process you will have a service like this one: [http://134.76.163.21/gent/](http://134.76.163.21/gent/).
-
-<!-- more -->
 
 ## Very short introduction to Docker
 This description is not meant to provide a detailed description of what Docker is. If you are new to this technology: it
