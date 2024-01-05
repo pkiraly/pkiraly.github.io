@@ -25,3 +25,4 @@ Some of the most important standardised APIs are:
 * [Signposting](https://signposting.org/) provides a mechanism to specify links between scholarly papers, its metadata, landing page, authors, and different formats.
 
 Most of the library cataloguing system vendors include API to their products, but sometimes mainly for helping the work of librarians, not created for end users. The large libraries and library consortia also provide custom APIs, such like [Europeana](https://pro.europeana.eu/page/apis), [Digital Public Library of America](https://dp.la/guides/for-developers), [Library of Congress](https://www.loc.gov/apis/), [OCLC WorldCat](https://developer.api.oclc.org/wcv2)
+
