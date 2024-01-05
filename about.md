@@ -143,6 +143,8 @@ cited by:<br/>
 29. Johann Eder, Volodymyr A. Shekhovtsov. "Managing the Quality of Data and Metadata for Biobanks". In T. K. Dang et al. (Eds.) _Future Data and Security Engineering. Big Data, Security and Privacy, Smart City and Industry 4.0 Applications 2022_ (FDSE 2022), CCIS 1688. pp. 52–69. DOI: [10.1007/978-981-19-8069-5_4](https://doi.org/10.1007/978-981-19-8069-5_4)
 30. Mirette Magdy Michel Elias. "Adapting OpenCourseWare Based on the Needs and Preferences of Disabled Learners". PhD Dissertation, University of Bonn. 2022. [uni-bonn.de](https://bonndoc.ulb.uni-bonn.de/xmlui/handle/20.500.11811/10539)
 31. B. V. Vishnu, Sharath S. Rao, and B. Netravathi. "An Interactive Framework for Querying Data from Large PDF Files." In 2023 International Conference on Recent Advances in Information Technology for Sustainable Development (ICRAIS), pp. 25-30. IEEE, 2023. DOI: [10.1109/ICRAIS59684.2023.10367090](https://doi.org/10.1109/ICRAIS59684.2023.10367090)
+32. Na Pang, Yue Yuan, Guangjian Li. "国外图书馆 开放元数据服务及其特点" (Open Metadata Service and Characteristics in Foreign Libraries) _Documentation, Information and Knowledge_, 2023 40 (1), pp. 112-123, DOI: [10.13366/j.dik.2023.01.112](https://doi.org/10.13366/j.dik.2023.01.112)
+
 
 Péter Király, Juliane Stiller, Valentine Charles, Werner Bailer, and Nuno Freire. “Evaluating Data Quality in Europeana: Metrics for Multilinguality.” In *Metadata and Semantic Research 2019. 12th International Conference, MTSR 2018, Limassol, Cyprus, October 23-26, 2018, Revised Selected Papers* (Communications in Computer and Information Science, volume 846) Published by Springer, 2019. pp. 199–211. DOI: [10.1007/978-3-030-14401-2_19](https://doi.org/10.1007/978-3-030-14401-2_19)<br/>
 cited by:<br/>
