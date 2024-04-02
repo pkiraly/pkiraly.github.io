@@ -241,7 +241,7 @@ cited by:<br/>
 1. Ljiljana Poljak Bilić, Kristina Posavec. "FAIRness of Research Data in the European Humanities Landscape" _Publications_ 2024. 12, no. 1: 6. DOI: [10.3390/publications12010006](https://doi.org/10.3390/publications12010006)
 
 
-### 2023
+### 2024
 
 Vojtěch Malínek, Tomasz Umerle, Edward Gray, Ivan Heibi, Péter Király, Christiane Klaes, Przemysław Korytkowski, David Lindemann, Arianna Moretti, Charlotte Panušková, Róbert Péter, Mikko Tolonen, Aldona Tomczyńska, and Ondřej Vimr. "Open Bibliographical Data Workflows and the Multilinguality Challenge." _Journal of Open Humanities Data_, 2024. 10: 27, pp. 1–14. DOI: [10.5334/johd.190](https://doi.org/10.5334/johd.190)
 
