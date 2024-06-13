@@ -158,7 +158,8 @@ cited by:<br/>
 7. Inkyung Choi, Wan-Chen Lee, Ying-Hsang Liu, Hsinliang Chen, Douglas W. Oard, and Chi Young Oh. "Cross-cultural information access." 85th Annual Meeting of the Association for Information Science & Technology, 2022. Proceedings of the Association for Information Science and Technology, 2022 59:1 pp. 551-554. [10.1002/pra2.624](https://doi.org/10.1002/pra2.624). Preprint: [umd.edu](https://terpconnect.umd.edu/~oard/pdf/asist22panel.pdf).
 8. Julia Neumann. "Semantic interoperability in metrology through controlled vocabulary." In IMEKO TC6 International Conference on Metrology and Digital Transformation. September 19 − September 21, 2022, Berlin, Germany. 2022 [m4dconf2022.ptb.de](https://www.m4dconf2022.ptb.de/fileadmin/documents/m4dconf2022/Material/Paper/IMEKOTC6-M4Dconf-2022-P46-NEUMANN.pdf)
 9. Manuel Alejandro Flores Chávez. "MetaMetrics: prototipo de visualización de la calidad de los metadatos en revistas científicas latinoamericanas publicadas en Open Journal System." _Biblioteca Universitaria_ 26, no. 1 (2023). DOI: [10.22201/dgbsdi.0187750xp.2023.1.1466](https://doi.org/10.22201/dgbsdi.0187750xp.2023.1.1466)
-10. Inkyung Choi, Wan‐Chen Lee, Ying‐Hsang Liu, Hsinliang Chen, Douglas W. Oard, and Chi Young Oh. "Cross‐cultural Information Access." _Proceedings of the Association for Information Science and Technology_ 59, no. 1 (2022): 551-554. DOI: [10.1002/pra2.624](https://doi.org/10.1002/pra2.624)
+10. Inkyung Choi, Wan‐Chen Lee, Ying‐Hsang Liu, Hsinliang Chen, Douglas W. Oard, and Chi Young Oh. "Cross‐cultural Information Access." _Proceedings of the Association for Information Science and Technology_ 59, no. 1 (2022): pp. 551-554. DOI: [10.1002/pra2.624](https://doi.org/10.1002/pra2.624)
+11. Scott McAvoy, Beatrice Tanduo, Alessandra Spreafico, Filiberto Chiabrando, Dominique Rissolo, John Ristevski, and Falko Kuester. “An Archival Framework for Sharing of Cultural Heritage 3D Survey Data: OpenHeritage3D.Org.” _The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences_ 2024. XLVIII-2–2024 pp. 241–248. DOI: [10.5194/isprs-archives-XLVIII-2-2024-241-2024](https://doi.org/10.5194/isprs-archives-XLVIII-2-2024-241-2024)
 
 Péter Király. “Adat a könyvtárban” (Data in the library -- paper in Hungarian about the changing status of data in LAM). In *Hagyomány és újítás a 21. századi könyvtárban (Erdélyi Évszázadok. A Kolozsvári Magyar Történeti Intézet Évkönyve. III.)* eds. Rüsz-Fogarasi Enikő, Monok István. Kolozsvár (Romania), 2018. ISBN 978-606-8886-1. pp. 49-74. [http://real.mtak.hu/92256/1/ErdEvsz_tordelt_nyomdaba.pdf](http://real.mtak.hu/92256/1/ErdEvsz_tordelt_nyomdaba.pdf)<br/>
 cited by:<br/>
@@ -244,7 +245,13 @@ Ungváry Rudolf, Király Péter. "Nemzeti könyvtárak és az OSZK MARC21 állom
 
 ### 2024
 
-Vojtěch Malínek, Tomasz Umerle, Edward Gray, Ivan Heibi, Péter Király, Christiane Klaes, Przemysław Korytkowski, David Lindemann, Arianna Moretti, Charlotte Panušková, Róbert Péter, Mikko Tolonen, Aldona Tomczyńska, and Ondřej Vimr. "Open Bibliographical Data Workflows and the Multilinguality Challenge." _Journal of Open Humanities Data_, 2024. 10: 27, pp. 1–14. DOI: [10.5334/johd.190](https://doi.org/10.5334/johd.190)
+Vojtěch Malínek, Tomasz Umerle, Edward Gray, Ivan Heibi, Péter Király, Christiane Klaes, Przemysław Korytkowski, David Lindemann, Arianna Moretti, Charlotte Panušková, Róbert Péter, Mikko Tolonen, Aldona Tomczyńska, and Ondřej Vimr. "Open Bibliographical Data Workflows and the Multilinguality Challenge." _Journal of Open Humanities Data_, 2024. 10: 27, pp. 1–14. DOI: [10.5334/johd.190](https://doi.org/10.5334/johd.190)<br/>
+cited by:<br/>
+1. Lorella Viola. "Editorial: Data and Workflows for Multilingual Digital Humanities." _Journal of Open Humanities Data_, 2024. 10: 37, pp. 1–6. DOI: [10.5334/johd.220](https://doi.org/10.5334/johd.220)
+
+Péter Király. "QA Catalogue - A Quality Assessment Tool for Library Catalogues". _GWDG Nachrichten_ 2024. 04-05. pp. 19-24. [gwdg.de](https://gwdg.de/about-us/gwdg-news/2024/GN_04-05-2024_www.pdf#page=19)
+
+Péter Király. "Shacl4Bib: custom validation of library data". Preprint. _arxiv_, 2024. arXiv:2405.09177 DOI: [10.48550/arXiv.2405.09177](https://doi.org/10.48550/arXiv.2405.09177)
 
 <!-- span id="badgeCont105"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont105&rid=AAW-9289-2021"></script></span -->
 
