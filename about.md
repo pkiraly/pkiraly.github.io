@@ -209,7 +209,7 @@ cited by:<br/>
 1. Dietmar Kammerer and Kai Matuszkiewicz. "Forschungsdaten in der Medienwissenschaft: Infrastrukturen, Plattformen und Forschungsdatenmanagement und ihre Bedeutung für die digitale Transformation der Medienwissenschaft". In: Stollfuß, S., Niebling, L., Raczkowski, F. (eds) Handbuch Digitale Medien und Methoden. Springer VS, Wiesbaden, 2023. pp. 1-19. DOI: [10.1007/978-3-658-36629-2_6-1](https://doi.org/10.1007/978-3-658-36629-2_6-1)
 2. Maxi Kindling. "Qualitätssicherung von Datenpublikationen bei Data Journals und Forschungsdatenrepositorien". Doctoral Thesis. Philosophischen Fakultät der Humboldt-Universität zu Berlin. 2022. DOI: [10.18452/26023](https://doi.org/10.18452/26023)
 3. Dr. Yves Vincent Grossmann (ed.) "Data Quality". In: Max Planck Digital Library. _Research Data Management. Information Platform for Max Planck Researchers_ [mpdl.mpg.de](https://rdm.mpdl.mpg.de/before-research/data-quality/)
-
+4. Philipp Hegel, Melanie Seltmann and Helmut W. Klug. "Forschungsdatenmanagement". In: KONDE Weißbuch. Hrsg. v. Selina Galka und Helmut W. Klug unter Mitarbeit von Susanne Höfer im Projekt "Enlarging 'Weißbuch Digitale Edition'". 2024. pp. 1-5. Handle: [11471/562.50.293](https://hdl.handle.net/11471/562.50.293)
 
 Rudolf Ungváry, and Péter Király. "Bemerkungen zu der Qualitätsbewertung von MARC-21-Datensätzen". In _Qualität in der Inhaltserschließung._ Edited by: Michael Franke-Maier, Anna Kasprzik, Andreas Ledl and Hans Schürmann. Berlin, Boston: De Gruyter Saur. ISBN: 9783110691597, DOI: 10.1515/9783110691597 (Bibliotheks- und Informationspraxis, Volume 70) pp. 177-227. DOI: [10.1515/9783110691597-011](https://doi.org/10.1515/9783110691597-011)
 
@@ -240,6 +240,7 @@ Király Péter. "Adatelemzés Pythonnal bölcsészeknek. Recenzió Folgert Karsd
 Erzsébet Tóth-Czifra, Marta Błaszczyńska, Francesco Gelati, Femmy Admiraal, Mirjam Blümm, Erik Buelinckx, Vera Chiquet, Rita Gautschy, Peter Gietz, Péter Király, Maria Vivas-Romero, Walter Scholger, Bartłomiej Szleszyński, and Ulrike Wuttke. "Research Data Management for Arts and Humanities: Integrating Voices of the Community." Zenodo, 2023. 97 p. DOI: [10.5281/zenodo.8059626](https://doi.org/10.5281/zenodo.8059626)<br/>
 cited by:<br/>
 1. Ljiljana Poljak Bilić, Kristina Posavec. "FAIRness of Research Data in the European Humanities Landscape" _Publications_ 2024. 12, no. 1: 6. DOI: [10.3390/publications12010006](https://doi.org/10.3390/publications12010006)
+2. Sebastian Barzaghi, Alice Bordignon, Bianca Gualandi, Ivan Heibi, Arcangelo Massari, Arianna Moretti, Silvio Peroni, and Giulia Renda. "A Proposal for a FAIR Management of 3D Data in Cultural Heritage: The Aldrovandi Digital Twin Case." arXiv preprint arXiv:2407.02018 (2024). DOI: [10.48550/arXiv.2407.02018](https://doi.org/10.48550/arXiv.2407.02018)
 
 Ungváry Rudolf, Király Péter. "Nemzeti könyvtárak és az OSZK MARC21 állományainak összehasonlító elemzése néhány adatmező alapján." (Short paper version) In: Networkshop, 2023. pp. 36-49. DOI: [10.31915/NWS.2023.7](https://doi.org/110.31915/NWS.2023.7)
 
