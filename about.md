@@ -241,6 +241,7 @@ Erzsébet Tóth-Czifra, Marta Błaszczyńska, Francesco Gelati, Femmy Admiraal, 
 cited by:<br/>
 1. Ljiljana Poljak Bilić, Kristina Posavec. "FAIRness of Research Data in the European Humanities Landscape" _Publications_ 2024. 12, no. 1: 6. DOI: [10.3390/publications12010006](https://doi.org/10.3390/publications12010006)
 2. Sebastian Barzaghi, Alice Bordignon, Bianca Gualandi, Ivan Heibi, Arcangelo Massari, Arianna Moretti, Silvio Peroni, and Giulia Renda. "A Proposal for a FAIR Management of 3D Data in Cultural Heritage: The Aldrovandi Digital Twin Case." arXiv preprint arXiv:2407.02018 (2024). DOI: [10.48550/arXiv.2407.02018](https://doi.org/10.48550/arXiv.2407.02018)
+3. Ljiljana Poljak Bilić and Kristina Posavec. "FAIRness of Research Data in the European Humanities Landscape." Publications 12, no. 1 (2024): 6. DOI: [10.3390/publications12010006](https://doi.org/10.3390/publications12010006)
 
 Ungváry Rudolf, Király Péter. "Nemzeti könyvtárak és az OSZK MARC21 állományainak összehasonlító elemzése néhány adatmező alapján." (Short paper version) In: Networkshop, 2023. pp. 36-49. DOI: [10.31915/NWS.2023.7](https://doi.org/110.31915/NWS.2023.7)
 
