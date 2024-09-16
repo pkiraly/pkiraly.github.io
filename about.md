@@ -146,7 +146,8 @@ cited by:<br/>
 32. Na Pang, Yue Yuan, Guangjian Li. "国外图书馆 开放元数据服务及其特点" (Open Metadata Service and Characteristics in Foreign Libraries) _Documentation, Information and Knowledge_, 2023 40 (1), pp. 112-123, DOI: [10.13366/j.dik.2023.01.112](https://doi.org/10.13366/j.dik.2023.01.112)
 33. Hamza Elkina, Mohamed Rida Sahib, and Taher Zaki. "Generic model of metadata management system for data lakes." _International Journal of Metadata, Semantics and Ontologies_ 16, no. 4 (2023): 315-328. DOI [10.1504/IJMSO.2023.140696](https://doi.org/10.1504/IJMSO.2023.140696)
 34. Vinit Kumar, Chandrappa, and N. S. Harinarayana. "Exploring dimensions of metadata quality assessment: A scoping review." _Journal of Librarianship and Information Science_ (2024) DOI: [10.1177/09610006241239080](https://doi.org/10.1177/09610006241239080)
-
+35. Sandra Isabel Arango-Vásquez, Bell Manrique-Losada, Beatriz Eugenia Quiceno-Castañeda and Fernando Moreira. "Rethinking the creation of open educational resources: a model for virtual learning platforms in higher education," _IEEE Revista Iberoamericana de Tecnologias del Aprendizaje_, 2024. DOI: [10.1109/RITA.2024.3458860](https://doi.org/10.1109/RITA.2024.3458860).
+ 
 
 Péter Király, Juliane Stiller, Valentine Charles, Werner Bailer, and Nuno Freire. “Evaluating Data Quality in Europeana: Metrics for Multilinguality.” In *Metadata and Semantic Research 2019. 12th International Conference, MTSR 2018, Limassol, Cyprus, October 23-26, 2018, Revised Selected Papers* (Communications in Computer and Information Science, volume 846) Published by Springer, 2019. pp. 199–211. DOI: [10.1007/978-3-030-14401-2_19](https://doi.org/10.1007/978-3-030-14401-2_19)<br/>
 cited by:<br/>
