@@ -259,10 +259,10 @@ Data sources:
 * Library of Congress catalogue
 
 Literature:
-* Anglo-American Cataloguing Rules (AACR, AACR2, AACR2R) [Short introduction] https://www.librarianshipstudies.com/2018/12/anglo-american-cataloguing-rules-aacr.html
-* Wikipedia entry https://en.wikipedia.org/wiki/Anglo-American_Cataloguing_Rules
+* [Anglo-American Cataloguing Rules (AACR, AACR2, AACR2R)](https://www.librarianshipstudies.com/2018/12/anglo-american-cataloguing-rules-aacr.html) [Short introduction]
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Anglo-American_Cataloguing_Rules)
 * Maxwell, Margaret F, and Judith A Carter. Handbook for AACR2: Explaining and Illustrating the Anglo-American Cataloguing Rules. 1988 revision. Chicago: American Library Association, 1989.
-* Brief history of AACR https://web.archive.org/web/20160307132758/http://www.rda-jsc.org/archivedsite/history.html
+* [Brief history of AACR](https://web.archive.org/web/20160307132758/http://www.rda-jsc.org/archivedsite/history.html)
 
 
 ### <a id="I.7"/><span class="blue">I.7</span> MAQUIS&ndash;The quality of the terms in the metadata records and of the Knowledge Organising Systems
