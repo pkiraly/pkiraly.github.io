@@ -258,6 +258,13 @@ Data sources:
 
 * Library of Congress catalogue
 
+Literature:
+* Anglo-American Cataloguing Rules (AACR, AACR2, AACR2R) [Short introduction] https://www.librarianshipstudies.com/2018/12/anglo-american-cataloguing-rules-aacr.html
+* Wikipedia entry https://en.wikipedia.org/wiki/Anglo-American_Cataloguing_Rules
+* Maxwell, Margaret F, and Judith A Carter. Handbook for AACR2: Explaining and Illustrating the Anglo-American Cataloguing Rules. 1988 revision. Chicago: American Library Association, 1989.
+* Brief history of AACR https://web.archive.org/web/20160307132758/http://www.rda-jsc.org/archivedsite/history.html
+
+
 ### <a id="I.7"/><span class="blue">I.7</span> MAQUIS&ndash;The quality of the terms in the metadata records and of the Knowledge Organising Systems
 
 Previous research almost exclusively focused on the quality of Knowledge Organising Systems, and most of them did not release open source tools to help institutions to measure their own data. This research aims to evaluate existing metrics, to propose new metrics and methods and to develop implementation for both aspects. The research will intensively use large library catalogues (such as EconBiz, SUDOC and Gemeinsamer Verbundkatalog, B3Kat and others) and the KOSes linked to them, however both the proposed theoretical model and the software package should be applicable to other bibliographical catalogues.
