@@ -241,6 +241,7 @@ Literature:
 * [ISBD editions](https://www.ifla.org/g/isbd-rg/isbd-editions/)
 * [Bibliography of ISBD-related Publications](https://www.ifla.org/g/isbd-rg/bibliography-of-isbd-related-publications/)
 * Willer, Mirna, Gordon Dunsire, and Boris Bosančić. "[ISBD and the Semantic Web](https://www.torrossa.com/en/resources/an/4382663)." JLIS. it Journal of Library and Information Science. Italy 1, no. 2 (2010): 213-236.
+* Elena Escolano Rodrìguez. "The updating of ISBD and its transformation." JLIS. it 13, no. 2 (2022): 1-12. DOI [10.36253/jlis.it-448](https://doi.org/10.36253/jlis.it-448)
 * [ISBD: The Bibliographic Content Standard.](https://www.tandfonline.com/toc/wccq20/52/8) special issue of Cataloging & Classification Quarterly 52, no. 8 (2014). Table of contents:
   * John Hostage: Introduction. pp. 819-820. DOI: [10.1080/01639374.2014.971631](https://doi.org/10.1080/01639374.2014.971631)
   * Michael Gorman: The origins and making of the ISBD: A personal history, 1966–1978. pp. 821-834. DOI: [10.1080/01639374.2014.929604](https://doi.org/10.1080/01639374.2014.929604)
