@@ -235,6 +235,27 @@ Data sources:
 
 * British Library catalogue
 
+Literature:
+* [Wikipedia entry](https://en.wikipedia.org/wiki/International_Standard_Bibliographic_Description)
+* [IFLA ISBD Review Group](https://www.ifla.org/units/isbd-rg/)
+* [ISBD editions](https://www.ifla.org/g/isbd-rg/isbd-editions/)
+* [Bibliography of ISBD-related Publications](https://www.ifla.org/g/isbd-rg/bibliography-of-isbd-related-publications/)
+* Willer, Mirna, Gordon Dunsire, and Boris Bosančić. "[ISBD and the Semantic Web](https://www.torrossa.com/en/resources/an/4382663)." JLIS. it Journal of Library and Information Science. Italy 1, no. 2 (2010): 213-236.
+* [ISBD: The Bibliographic Content Standard.](https://www.tandfonline.com/toc/wccq20/52/8) special issue of Cataloging & Classification Quarterly 52, no. 8 (2014). Table of contents:
+  * John Hostage: Introduction. pp. 819-820 [10.1080/01639374.2014.971631](https://doi.org/10.1080/01639374.2014.971631)
+  * Michael Gorman: The origins and making of the ISBD: A personal history, 1966–1978. pp. 821-834. [10.1080/01639374.2014.929604](https://doi.org/10.1080/01639374.2014.929604)
+  * Elena Escolano Rodríguez: Consolidated edition of ISBD, International Standard Bibliographic Description: a standard to trust, a quality brand. pp. 835-854. [10.1080/01639374.2014.920943](https://doi.org/10.1080/01639374.2014.920943)
+  * Gordon Dunsire: The Role of ISBD in the Linked Data Environment. pp. 855-868. [10.1080/01639374.2014.933753](https://doi.org/10.1080/01639374.2014.933753)
+  * Carlo Bianchini and Mirna Willer: ISBD resource and its description in the context of the semantic web. pp. 869-887.
+[10.1080/01639374.2014.946167](https://doi.org/10.1080/01639374.2014.946167)
+  * Mirna Willer & Gordon Dunsire: ISBD, the UNIMARC Bibliographic Format, and RDA: Interoperability Issues in Namespaces and the Linked Data Environment. pp. 888-913. [10.1080/01639374.2014.921260](https://doi.org/10.1080/01639374.2014.921260)
+  * Ben Gu: ISBD in China: The Road to Internationalization. pp. 914-924. [10.1080/01639374.2014.920944](https://doi.org/10.1080/01639374.2014.920944)
+  * Simone Forassiepi: ISBD and REICAT: A Relationship between Past, Present, and Future. pp. 925-939. [10.1080/01639374.2014.924612](https://doi.org/10.1080/01639374.2014.924612)
+  * Carlo Bianchini & Pietro Zappalà: ISBD and Mechanical Musical Devices: A Case Study of the Department of Musicology and Cultural Heritage, University of Pavia, Italy. pp. 940-960. [10.1080/01639374.2014.921659](https://doi.org/10.1080/01639374.2014.921659)
+  * Vikica Semenski: The Logical Order of Different Categories of Responsibility for the Description of Moving Images in the ISBD Consolidated Edition. pp. 961-981. [10.1080/01639374.2014.925529](https://doi.org/10.1080/01639374.2014.925529)
+  * Lynne C. Howarth: ISBD as Bibliographic Content Standard: Interweaving Threads, Contemplating a Future. pp. 982-999. [10.1080/01639374.2014.944635](https://doi.org/10.1080/01639374.2014.944635)
+
+
 ### <a id="I.6"/><span class="blue">I.6</span> Anglo-American Cataloguing Rules (AACR2)
 
 AACR2 contains a set of rules about the content of data elements in the catalogue records used in English and US libraries.
