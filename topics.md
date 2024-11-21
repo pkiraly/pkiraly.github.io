@@ -32,7 +32,7 @@ div#toc p.c22 {margin-left:18pt; padding-top:3pt; padding-bottom:4pt;}
 
 # <span class="blue">GWDG Cultural Analytics Team</span><br/>research topics
 
-last updated: 2022-11-04
+last updated: 2024-11-14
 
 * <a href="#intro">Introduction</a>
 * <a href="#I">I. Metadata Quality Assessment</a>

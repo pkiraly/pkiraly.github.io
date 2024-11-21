@@ -244,9 +244,8 @@ Király Péter. "Adatelemzés Pythonnal bölcsészeknek. Recenzió Folgert Karsd
 
 Erzsébet Tóth-Czifra, Marta Błaszczyńska, Francesco Gelati, Femmy Admiraal, Mirjam Blümm, Erik Buelinckx, Vera Chiquet, Rita Gautschy, Peter Gietz, Péter Király, Maria Vivas-Romero, Walter Scholger, Bartłomiej Szleszyński, and Ulrike Wuttke. "Research Data Management for Arts and Humanities: Integrating Voices of the Community." Zenodo, 2023. 97 p. DOI: [10.5281/zenodo.8059626](https://doi.org/10.5281/zenodo.8059626)<br/>
 cited by:<br/>
-1. Ljiljana Poljak Bilić, Kristina Posavec. "FAIRness of Research Data in the European Humanities Landscape" _Publications_ 2024. 12, no. 1: 6. DOI: [10.3390/publications12010006](https://doi.org/10.3390/publications12010006)
+1. Ljiljana Poljak Bilić and Kristina Posavec. "FAIRness of Research Data in the European Humanities Landscape" _Publications_ 2024. 12, no. 1: 6. DOI: [10.3390/publications12010006](https://doi.org/10.3390/publications12010006)
 2. Sebastian Barzaghi, Alice Bordignon, Bianca Gualandi, Ivan Heibi, Arcangelo Massari, Arianna Moretti, Silvio Peroni, and Giulia Renda. "A Proposal for a FAIR Management of 3D Data in Cultural Heritage: The Aldrovandi Digital Twin Case." arXiv preprint arXiv:2407.02018 (2024). DOI: [10.48550/arXiv.2407.02018](https://doi.org/10.48550/arXiv.2407.02018)
-3. Ljiljana Poljak Bilić and Kristina Posavec. "FAIRness of Research Data in the European Humanities Landscape." Publications 12, no. 1 (2024): 6. DOI: [10.3390/publications12010006](https://doi.org/10.3390/publications12010006)
 
 Ungváry Rudolf, Király Péter. "Nemzeti könyvtárak és az OSZK MARC21 állományainak összehasonlító elemzése néhány adatmező alapján." (Short paper version) In: Networkshop, 2023. pp. 36-49. DOI: [10.31915/NWS.2023.7](https://doi.org/110.31915/NWS.2023.7)
 
@@ -255,6 +254,8 @@ Ungváry Rudolf, Király Péter. "Nemzeti könyvtárak és az OSZK MARC21 állom
 Vojtěch Malínek, Tomasz Umerle, Edward Gray, Ivan Heibi, Péter Király, Christiane Klaes, Przemysław Korytkowski, David Lindemann, Arianna Moretti, Charlotte Panušková, Róbert Péter, Mikko Tolonen, Aldona Tomczyńska, and Ondřej Vimr. "Open Bibliographical Data Workflows and the Multilinguality Challenge." _Journal of Open Humanities Data_, 2024. 10: 27, pp. 1–14. DOI: [10.5334/johd.190](https://doi.org/10.5334/johd.190)<br/>
 cited by:<br/>
 1. Lorella Viola. "Editorial: Data and Workflows for Multilingual Digital Humanities." _Journal of Open Humanities Data_, 2024. 10: 37, pp. 1–6. DOI: [10.5334/johd.220](https://doi.org/10.5334/johd.220)
+2. Yann Ryan and Margherita Fantoli. "Early Modern Book Catalogues and Multilingualism: Identifying Multilingual Texts and Translations using Titles." In *CHR 2024: Computational Humanities Research Conference, Aarhus, Denmark, December 4-6, 2024*, 2024. [CEUR](https://ceur-ws.org/Vol-3834/paper135.pdf)
+3. Zehra Taşkın. "Sustaining the ‘Frozen Footprints’ of Scholarly Communication through Open Citations." Preprint. _SocArXiv_ 2024. DOI [10.31235/osf.io/3pej6](https://doi.org/10.31235/osf.io/3pej6)
 
 Péter Király. "QA Catalogue - A Quality Assessment Tool for Library Catalogues". _GWDG Nachrichten_ 2024. 04-05. pp. 19-24. [gwdg.de](https://gwdg.de/about-us/gwdg-news/2024/GN_04-05-2024_www.pdf#page=19)
 
