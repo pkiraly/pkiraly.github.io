@@ -197,6 +197,8 @@ cited by:<br/>
 8. Evan Bryer, Theppatorn Rhujittawiwat, John R. Rose, and Colin F. Wilder. "Improvement of Clustering Algorithms by Implementation of Spelling Based Ranking." _IADIS International Journal on Computer Science and Information Systems_ 2021. Vol. 16, No. 2, pp. 45-60. ISSN: 1646-3692. [iadisportal.org](http://www.iadisportal.org/ijcsis/papers/2021160204.pdf)
 9. Tomasz Umerle and Vojtěch Malínek. "Literarybibliography.eu — modelový příklad pro tvorbu mezinárodní oborové bibliografie." _Ceska Literatura_  70(2022):5. pp. 579--595. DOI: [10.51305/cl.2022.05.03](https://doi.org/10.51305/cl.2022.05.03)
 10. Gustavo Candela, Nele Gabriëls, Sally Chambers, Thuy-An Pham, Sarah Ames, Neil Fitzgerald, Katrine Hofmann, Victor Harbo, Abigail Potter, Meghan Ferriter, Eileen Manchester, Alba Irollo, Ellen Van Keer, Mahendra Mahey, Olga Holownia, Milena Dobreva. "A Checklist to Publish Collections as Data in GLAM Institutions." arXiv preprint (2023) arXiv: [2304.02603](https://arxiv.org/abs/2304.02603)
+11. Silvia Eunice Gutiérrez De la Torre. "Hidden Patterns. An Introduction to Text Mining for Libraries." In The Routledge Companion to Libraries, Archives, and the Digital Humanities, pp. 169-186. Routledge, 2024. DOI: [10.4324/9781003327738-15](https://doi.org/10.4324/9781003327738-15)
+
 
 Péter Király and Marco Büchler. “A teljesség minőségjelzőként való mérése az Europeanában”. (Hungarian translation of “Measuring completeness as metadata quality metric in Europeana”) In *Digitális Bölcsészet* 2, 2019. pp. 57-76. DOI: [10.31400/dh-hun.2019.2.388](https://doi.org/10.31400/dh-hun.2019.2.388)
 
