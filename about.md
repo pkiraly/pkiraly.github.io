@@ -265,6 +265,7 @@ cited by:<br/>
 3a. Zehra Taşkın. "Sustaining the ‘Frozen Footprints’ of Scholarly Communication through Open Citations." Preprint. _SocArXiv_ 2024. DOI [10.31235/osf.io/3pej6](https://doi.org/10.31235/osf.io/3pej6)
 3b. Zehra Taşkın. "Sustaining the “frozen footprints” of scholarly communication through open citations." _Journal of the Association for Information Science and Technology_, 2025. pp. 1–17. DOI: [10.1002/asi.24982](https://doi.org/10.1002/asi.24982)
 4. Alíz Horváth, Cosima Wagner, David Joseph Wrisley, Joanne Bernardi, Aanya Chadha, Danielle Garcia, Till Grallert, Sharanya Ghosh, Yuri Ishida, Aleksandra Kaye, Ahac Meden, Kiyonori Nagasaki, Dylan Palmer, Hugo Scheithauer, Marta Świetlik, Jeffrey Tharsen, Yifan Wang. "Multilinguality in Action: Towards Linguistic Diversity and Inclusion in Digital Humanities". _magazén_, 2024. 5(2), pp. 179‑196. DOI [10.30687/mag/2724‑3923/2024/02/001](https://doi.org/10.30687/mag/2724‑3923/2024/02/001)
+5. Andrea Farina, and Barbara McGillivray. "The Journal of Open Humanities Data. Bridging open data and Wikidata for the Humanities." Poster submission. _Wikidata and Research conference_. 2024 [openreview.net](https://openreview.net/forum?id=YzLzBkneKb)
 
 Péter Király. "QA Catalogue - A Quality Assessment Tool for Library Catalogues". _GWDG Nachrichten_ 2024. 04-05. pp. 19-24. [gwdg.de](https://gwdg.de/about-us/gwdg-news/2024/GN_04-05-2024_www.pdf#page=19)
 
