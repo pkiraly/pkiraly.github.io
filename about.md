@@ -256,6 +256,10 @@ cited by:<br/>
 
 Ungváry Rudolf, Király Péter. "Nemzeti könyvtárak és az OSZK MARC21 állományainak összehasonlító elemzése néhány adatmező alapján." (Short paper version) In: Networkshop, 2023. pp. 36-49. DOI: [10.31915/NWS.2023.7](https://doi.org/110.31915/NWS.2023.7)
 
+Tolonen, Mikko, Ondřej Vimr, Péter Király, and Charlotte Panušková. "Bibliographical Data Science: from Catalogues to Research Data." _Social Sciences & Humanities Open Marketplace_, 2023. [marketplace.sshopencloud.eu](https://marketplace.sshopencloud.eu/workflow/tE2HiC)<br/>
+cited by:<br/>
+1. Vimr, Ondřej. "A computational approach to the history of Czech literature in translation during the Cold War (1948–1989)." _Translation Studies_, 2024. pp. 1-19. DOI: [10.1080/14781700.2024.2421550](https://doi.org/10.1080/14781700.2024.2421550)
+
 ### 2024
 
 Vojtěch Malínek, Tomasz Umerle, Edward Gray, Ivan Heibi, Péter Király, Christiane Klaes, Przemysław Korytkowski, David Lindemann, Arianna Moretti, Charlotte Panušková, Róbert Péter, Mikko Tolonen, Aldona Tomczyńska, and Ondřej Vimr. "Open Bibliographical Data Workflows and the Multilinguality Challenge." _Journal of Open Humanities Data_, 2024. 10: 27, pp. 1–14. DOI: [10.5334/johd.190](https://doi.org/10.5334/johd.190)<br/>
