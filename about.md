@@ -256,9 +256,9 @@ cited by:<br/>
 
 Ungváry Rudolf, Király Péter. "Nemzeti könyvtárak és az OSZK MARC21 állományainak összehasonlító elemzése néhány adatmező alapján." (Short paper version) In: Networkshop, 2023. pp. 36-49. DOI: [10.31915/NWS.2023.7](https://doi.org/110.31915/NWS.2023.7)
 
-Tolonen, Mikko, Ondřej Vimr, Péter Király, and Charlotte Panušková. "Bibliographical Data Science: from Catalogues to Research Data." _Social Sciences & Humanities Open Marketplace_, 2023. [marketplace.sshopencloud.eu](https://marketplace.sshopencloud.eu/workflow/tE2HiC)<br/>
+Mikko Tolonen, Ondřej Vimr, Péter Király, and Charlotte Panušková. "Bibliographical Data Science: from Catalogues to Research Data." _Social Sciences & Humanities Open Marketplace_, 2023. [marketplace.sshopencloud.eu](https://marketplace.sshopencloud.eu/workflow/tE2HiC)<br/>
 cited by:<br/>
-1. Vimr, Ondřej. "A computational approach to the history of Czech literature in translation during the Cold War (1948–1989)." _Translation Studies_, 2024. pp. 1-19. DOI: [10.1080/14781700.2024.2421550](https://doi.org/10.1080/14781700.2024.2421550)
+1. Ondřej Vimr. "A computational approach to the history of Czech literature in translation during the Cold War (1948–1989)." _Translation Studies_, 2024. pp. 1-19. DOI: [10.1080/14781700.2024.2421550](https://doi.org/10.1080/14781700.2024.2421550)
 
 ### 2024
 
@@ -266,10 +266,10 @@ Vojtěch Malínek, Tomasz Umerle, Edward Gray, Ivan Heibi, Péter Király, Chri
 cited by:<br/>
 1. Lorella Viola. "Editorial: Data and Workflows for Multilingual Digital Humanities." _Journal of Open Humanities Data_, 2024. 10: 37, pp. 1–6. DOI: [10.5334/johd.220](https://doi.org/10.5334/johd.220)
 2. Yann Ryan and Margherita Fantoli. "Early Modern Book Catalogues and Multilingualism: Identifying Multilingual Texts and Translations using Titles." In *CHR 2024: Computational Humanities Research Conference, Aarhus, Denmark, December 4-6, 2024*, 2024. [CEUR](https://ceur-ws.org/Vol-3834/paper135.pdf)
-3a. Zehra Taşkın. "Sustaining the ‘Frozen Footprints’ of Scholarly Communication through Open Citations." Preprint. _SocArXiv_ 2024. DOI [10.31235/osf.io/3pej6](https://doi.org/10.31235/osf.io/3pej6)
-3b. Zehra Taşkın. "Sustaining the “frozen footprints” of scholarly communication through open citations." _Journal of the Association for Information Science and Technology_, 2025. pp. 1–17. DOI: [10.1002/asi.24982](https://doi.org/10.1002/asi.24982)
+3. Zehra Taşkın. "Sustaining the ‘Frozen Footprints’ of Scholarly Communication through Open Citations." Preprint. _SocArXiv_ 2024. DOI [10.31235/osf.io/3pej6](https://doi.org/10.31235/osf.io/3pej6)
 4. Alíz Horváth, Cosima Wagner, David Joseph Wrisley, Joanne Bernardi, Aanya Chadha, Danielle Garcia, Till Grallert, Sharanya Ghosh, Yuri Ishida, Aleksandra Kaye, Ahac Meden, Kiyonori Nagasaki, Dylan Palmer, Hugo Scheithauer, Marta Świetlik, Jeffrey Tharsen, Yifan Wang. "Multilinguality in Action: Towards Linguistic Diversity and Inclusion in Digital Humanities". _magazén_, 2024. 5(2), pp. 179‑196. DOI [10.30687/mag/2724‑3923/2024/02/001](https://doi.org/10.30687/mag/2724‑3923/2024/02/001)
 5. Andrea Farina, and Barbara McGillivray. "The Journal of Open Humanities Data. Bridging open data and Wikidata for the Humanities." Poster submission. _Wikidata and Research conference_. 2024 [openreview.net](https://openreview.net/forum?id=YzLzBkneKb)
+6. Zehra Taşkın. "Sustaining the “frozen footprints” of scholarly communication through open citations." _Journal of the Association for Information Science and Technology_, 2025. pp. 1–17. DOI: [10.1002/asi.24982](https://doi.org/10.1002/asi.24982)
 
 Péter Király. "QA Catalogue - A Quality Assessment Tool for Library Catalogues". _GWDG Nachrichten_ 2024. 04-05. pp. 19-24. [gwdg.de](https://gwdg.de/about-us/gwdg-news/2024/GN_04-05-2024_www.pdf#page=19)
 
