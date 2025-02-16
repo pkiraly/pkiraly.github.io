@@ -186,6 +186,8 @@ cited by:<br/>
 11. Bhola Gan Chaudhuri, and Shalli Rani. "Managing Metadata in Data Warehouse for Data Quality and Data Stewardship in Telecom Industry-A Compact Survey." In 2023 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS), pp. 353-361. IEEE, 2023. DOI: [10.1109/ICCCIS60361.2023.10425001](https://doi.org/10.1109/ICCCIS60361.2023.10425001)
 12. Ghosh, Saptarshi, and Aditi Roy. "Metadata Quality Benchmarks of ETDs in International Institutional Repositories: An Automated Appraisal." (2023). INFLIBNET Centre. [ir.inflibnet.ac.in](http://ir.inflibnet.ac.in/handle/1944/2437)
 13. Vinit Kumar, Chandrappa, and N. S. Harinarayana. "Exploring dimensions of metadata quality assessment: A scoping review." _Journal of Librarianship and Information Science_ (2024) DOI: [10.1177/09610006241239080](https://doi.org/10.1177/09610006241239080)
+14. Mahlatji Matlala, and Ngoepe Mpho. "Risk mitigation for curation of oral history content in South Africa" _ Innovation. Journal of appropriate librarianship and information work in Southern Africa_. 2024:69 pp. 25-45. https://hdl.handle.net/10520/ejc-innovation_v2024_n69_a3
+
 
 Péter Király. “Validating 126 million MARC records”. In *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI: [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)<br/>
 cited by:<br/>
@@ -270,6 +272,7 @@ cited by:<br/>
 4. Alíz Horváth, Cosima Wagner, David Joseph Wrisley, Joanne Bernardi, Aanya Chadha, Danielle Garcia, Till Grallert, Sharanya Ghosh, Yuri Ishida, Aleksandra Kaye, Ahac Meden, Kiyonori Nagasaki, Dylan Palmer, Hugo Scheithauer, Marta Świetlik, Jeffrey Tharsen, Yifan Wang. "Multilinguality in Action: Towards Linguistic Diversity and Inclusion in Digital Humanities". _magazén_, 2024. 5(2), pp. 179‑196. DOI [10.30687/mag/2724‑3923/2024/02/001](https://doi.org/10.30687/mag/2724‑3923/2024/02/001)
 5. Andrea Farina, and Barbara McGillivray. "The Journal of Open Humanities Data. Bridging open data and Wikidata for the Humanities." Poster submission. _Wikidata and Research conference_. 2024 [openreview.net](https://openreview.net/forum?id=YzLzBkneKb)
 6. Zehra Taşkın. "Sustaining the “frozen footprints” of scholarly communication through open citations." _Journal of the Association for Information Science and Technology_, 2025. pp. 1–17. DOI: [10.1002/asi.24982](https://doi.org/10.1002/asi.24982)
+7. Oleh Vasylenko. "Розробка принципів суміщення бібліографічних записів для автоматизації зведеного каталогу." _International Science Journal of Engineering & Agriculture_ 4, no. 1 (2025): 111-121. DOI: [10.46299/j.isjea.20250401.10](https://doi.org/10.46299/j.isjea.20250401.10)
 
 Péter Király. "QA Catalogue - A Quality Assessment Tool for Library Catalogues". _GWDG Nachrichten_ 2024. 04-05. pp. 19-24. [gwdg.de](https://gwdg.de/about-us/gwdg-news/2024/GN_04-05-2024_www.pdf#page=19)
 
