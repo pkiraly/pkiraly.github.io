@@ -1,5 +1,5 @@
 ---
-title: About
+title: Presentations
 layout: post
 ---
 
@@ -17,5 +17,10 @@ p {
 }
 </style>
 
+## 2025
+
 * Péter Király – András Kiséry: Patterns of Translation. _Metadata-based Research in Arts, Humanities and Social Sciences workshop_ March 5, 2025, Prague. [https://bit.ly/patterns-of-translation-2025](https://bit.ly/patterns-of-translation-2025)
+
+## 2024
+
 * Farkas Gábor Farkas – János Káldos – Péter Király: “Dark Matter: X%” How many early modern Hungarian books did disappear without any trace? _British Library 21st Century Curatorship Talk_ June 26, 2024. [https://bit.ly/rmnystat-2024-bl](https://bit.ly/rmnystat-2024-bl)
