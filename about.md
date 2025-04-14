@@ -108,6 +108,8 @@ Valentine Charles, Juliane Stiller, Péter Király, Werner Bailer, and Nuno Frei
 cited by:<br/>
 1. Matteo Lorenzini, Rospocher Marco, and Sara Tonelli. "Proposta per una valutazione automatica della completeness dei metadati nel contesto delle biblioteche digitali." _DigItalia_ 2. (2020). pp. 159-167. DOI: [10.36181/digitalia-00023](https://doi.org/10.36181/digitalia-00023)
 2. Subhi Issa, Onaopepo Adekunle, Fayçal Hamdi, Samira Si-Said Cherfi, Michel Dumontier, and Amrapali Zaveri. "Knowledge Graph Completeness: A Systematic Literature Review." _IEEE Access_ 9. (2021). pp. 31322-31339. DOI: [10.1109/ACCESS.2021.3056622](https://doi.org/10.1109/ACCESS.2021.3056622)
+3. Dennis Donathan II, Mike Nason, Marco Tullney, Julie Shi, and Juan Pablo Alperin. "Evaluating Multilingual Metadata Quality in Crossref." preprint. _arxiv_, 2025. arXiv:2503.11853. DOI [10.48550/arXiv.2503.11853](https://doi.org/10.48550/arXiv.2503.11853)
+
 
 ### 2019
 
@@ -184,9 +186,10 @@ cited by:<br/>
 9. Murari Tapaswi. "Some issues in the Shodhganga–A theses repository from India." _Annals of Library and Information Studies_ 70, no. 2 (2023): 74-84. DOI [10.56042/alis.v70i2.1834](https://doi.org/10.56042/alis.v70i2.1834)
 10. Widad Elouataoui, Imane El Alaoui, and Youssef Gahi. "Metadata Quality Dimensions for Big Data Use Cases." In Proceedings of the 2nd International Conference on Big Data, Modelling and Machine Learning-BML, pp. 488-495. 2022. DOI: [10.5220/0010737400003101](https://doi.org/10.5220/0010737400003101)
 11. Bhola Gan Chaudhuri, and Shalli Rani. "Managing Metadata in Data Warehouse for Data Quality and Data Stewardship in Telecom Industry-A Compact Survey." In 2023 International Conference on Computing, Communication, and Intelligent Systems (ICCCIS), pp. 353-361. IEEE, 2023. DOI: [10.1109/ICCCIS60361.2023.10425001](https://doi.org/10.1109/ICCCIS60361.2023.10425001)
-12. Ghosh, Saptarshi, and Aditi Roy. "Metadata Quality Benchmarks of ETDs in International Institutional Repositories: An Automated Appraisal." (2023). INFLIBNET Centre. [ir.inflibnet.ac.in](http://ir.inflibnet.ac.in/handle/1944/2437)
+12. Saptarshi Ghosh, and Roy Aditi. "Metadata Quality Benchmarks of ETDs in International Institutional Repositories: An Automated Appraisal." (2023). INFLIBNET Centre. [ir.inflibnet.ac.in](http://ir.inflibnet.ac.in/handle/1944/2437)
 13. Vinit Kumar, Chandrappa, and N. S. Harinarayana. "Exploring dimensions of metadata quality assessment: A scoping review." _Journal of Librarianship and Information Science_ (2024) DOI: [10.1177/09610006241239080](https://doi.org/10.1177/09610006241239080)
-14. Mahlatji Matlala, and Ngoepe Mpho. "Risk mitigation for curation of oral history content in South Africa" _ Innovation. Journal of appropriate librarianship and information work in Southern Africa_. 2024:69 pp. 25-45. https://hdl.handle.net/10520/ejc-innovation_v2024_n69_a3
+14. Matlala Mahlatji, and Ngoepe Mpho. "Risk mitigation for curation of oral history content in South Africa" _ Innovation. Journal of appropriate librarianship and information work in Southern Africa_. 2024:69 pp. 25-45. https://hdl.handle.net/10520/ejc-innovation_v2024_n69_a3
+15. Matlala Rachel Mahlatji, and Ngoepe Mpho. “Access to Oral History Content in South Africa: Metadata Skills Matter.” _Collections: A Journal for Museum and Archives Professionals_, 2025 April, pp. 1-18. DOI: [10.1177/15501906251332939](https://doi.org/10.1177/15501906251332939)
 
 
 Péter Király. “Validating 126 million MARC records”. In *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI: [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)<br/>
