@@ -191,7 +191,6 @@ cited by:<br/>
 14. Matlala Mahlatji, and Ngoepe Mpho. "Risk mitigation for curation of oral history content in South Africa" _ Innovation. Journal of appropriate librarianship and information work in Southern Africa_. 2024:69 pp. 25-45. https://hdl.handle.net/10520/ejc-innovation_v2024_n69_a3
 15. Matlala Rachel Mahlatji, and Ngoepe Mpho. “Access to Oral History Content in South Africa: Metadata Skills Matter.” _Collections: A Journal for Museum and Archives Professionals_, 2025 April, pp. 1-18. DOI: [10.1177/15501906251332939](https://doi.org/10.1177/15501906251332939)
 
-
 Péter Király. “Validating 126 million MARC records”. In *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI: [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)<br/>
 cited by:<br/>
 1. Ungváry, Rudolf. "MARC21 tartalmi adatmezők használata jelentősebb nagykönyvtárakban. Egy elemzés néhány tanulsága." Networkshop (2020): 33-53. [real.mtak.hu](http://real.mtak.hu/119192/1/ungvary.pdf)
@@ -276,6 +275,7 @@ cited by:<br/>
 5. Andrea Farina, and Barbara McGillivray. "The Journal of Open Humanities Data. Bridging open data and Wikidata for the Humanities." Poster submission. _Wikidata and Research conference_. 2024 [openreview.net](https://openreview.net/forum?id=YzLzBkneKb)
 6. Zehra Taşkın. "Sustaining the “frozen footprints” of scholarly communication through open citations." _Journal of the Association for Information Science and Technology_, 2025. pp. 1–17. DOI: [10.1002/asi.24982](https://doi.org/10.1002/asi.24982)
 7. Oleh Vasylenko. "Розробка принципів суміщення бібліографічних записів для автоматизації зведеного каталогу." _International Science Journal of Engineering & Agriculture_ 4, no. 1 (2025): 111-121. DOI: [10.46299/j.isjea.20250401.10](https://doi.org/10.46299/j.isjea.20250401.10)
+8. Ivan Heibi, Silvio Peroni, and Elia Rizzetto. "Validating and monitoring bibliographic and citation data in OpenCitations collections". Preprint. _arxiv_, 2025. DOI [10.48550/arXiv.2504.12195](https://doi.org/10.48550/arXiv.2504.12195)
 
 Péter Király. "QA Catalogue - A Quality Assessment Tool for Library Catalogues". _GWDG Nachrichten_ 2024. 04-05. pp. 19-24. [gwdg.de](https://gwdg.de/about-us/gwdg-news/2024/GN_04-05-2024_www.pdf#page=19)
 
