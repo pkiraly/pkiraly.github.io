@@ -239,6 +239,7 @@ cited by:<br/>
 4. Lisa Teichmann and Karolina Roman. "Bibliographic Translation Data: Invisibility, Research Challenges, Institutional and Editorial Practices" DHQ: Digital Humanities Quarterly 18, no. 3 (2024). [digitalhumanities.org](https://digitalhumanities.org/dhq/vol/18/3/000749/000749.html)
 5. Marianne Duquenne. "Bioéconomie ouverte: production, communication et valorisation des résultats en recherche et développement du master plan bioéconomie de la région Hauts-de-France." PhD diss., Université de Lille, Sciences de l’information et de la communication. 2024. NNT : 2024ULILH040 . tel-04815060. HAL Id: [tel-04815060](https://theses.hal.science/tel-04815060v1)
 6. Krister Kruusmaa, Peeter Tinits, and Laura Nemvalts. "Curated Bibliographic Data: The Case of the Estonian National Bibliography." _Journal of Open Humanities Data_, (2025). 11: 16, pp. 1–15. DOI: [10.5334/johd.280](https://doi.org/10.5334/johd.280)
+7. Teo Kekäläinen. "Using transformers for page count prediction based on bibliographic metadata." Master of Science Thesis (Data Analytics). _University of Turku_ 2025. [https://urn.fi/URN:NBN:fi-fe2025050235374](https://urn.fi/URN:NBN:fi-fe2025050235374)
 
 Péter Király, and Hannes Lowagie. "Implementation of a daily MARC assessment with open source tools at KBR, the royal library of Belgium.". *IFLA Metadata Newsletter* Volume 8, Number 1, June 2022. pp. 12-15 [ifla.org](https://repository.ifla.org/bitstream/123456789/1976/1/IFLA_Metadata_Newsletter_June_2022.pdf)<br/>
 cited by:<br/>
