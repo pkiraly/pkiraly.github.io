@@ -36,9 +36,9 @@ The first version of the web interface: [http://144.76.218.178/europeana-qa](htt
 * Metadata Quality Assessment Framework API: 
   - Source repository: [https://github.com/pkiraly/metadata-qa-api](https://github.com/pkiraly/metadata-qa-api)
   - Maven artifact: [http://mvnrepository.com/artifact/de.gwdg.metadataqa/metadata-qa-api](http://mvnrepository.com/artifact/de.gwdg.metadataqa/metadata-qa-api)
-* MARC measurement
-  - Backend [https://github.com/pkiraly/metadata-qa-marc](https://github.com/pkiraly/metadata-qa-marc)
-  - Frontend [https://github.com/pkiraly/metadata-qa-marc-web](https://github.com/pkiraly/metadata-qa-marc-web)
+* QA Catalogue (a metadata quality assessment tool for library catalogue records -- MARC, PICA, UNIMARC)
+  - Backend [https://github.com/pkiraly/qa-catalogue](https://github.com/pkiraly/qa-catalogue)
+  - Frontend [https://github.com/pkiraly/qa-catalogue-web](https://github.com/pkiraly/qa-catalogue-web)
 * The Europeana-specific Europeana QA API: 
   - Source repository: [https://github.com/pkiraly/europeana-qa-api](https://github.com/pkiraly/europeana-qa-api)
   - Maven artifact: [http://mvnrepository.com/artifact/de.gwdg.metadataqa/europeana-qa-api](http://mvnrepository.com/artifact/de.gwdg.metadataqa/europeana-qa-api)
