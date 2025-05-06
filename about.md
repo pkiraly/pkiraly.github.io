@@ -109,6 +109,7 @@ cited by:<br/>
 1. Matteo Lorenzini, Rospocher Marco, and Sara Tonelli. "Proposta per una valutazione automatica della completeness dei metadati nel contesto delle biblioteche digitali." _DigItalia_ 2. (2020). pp. 159-167. DOI: [10.36181/digitalia-00023](https://doi.org/10.36181/digitalia-00023)
 2. Subhi Issa, Onaopepo Adekunle, Fayçal Hamdi, Samira Si-Said Cherfi, Michel Dumontier, and Amrapali Zaveri. "Knowledge Graph Completeness: A Systematic Literature Review." _IEEE Access_ 9. (2021). pp. 31322-31339. DOI: [10.1109/ACCESS.2021.3056622](https://doi.org/10.1109/ACCESS.2021.3056622)
 3. Dennis Donathan II, Mike Nason, Marco Tullney, Julie Shi, and Juan Pablo Alperin. "Evaluating Multilingual Metadata Quality in Crossref." preprint. _arxiv_, 2025. arXiv:2503.11853. DOI [10.48550/arXiv.2503.11853](https://doi.org/10.48550/arXiv.2503.11853)
+4. Vyacheslav Zavalin, and Oksana L. Zavalina. "Assessing Comparative Effectiveness of Metadata Creation with Specialized and General Standards for Representing Artworks." _Journal of Library Metadata_, 2025 May, 1–31. DOI: [10.1080/19386389.2025.2499343](https://doi.org/10.1080/19386389.2025.2499343)
 
 
 ### 2019
@@ -190,6 +191,7 @@ cited by:<br/>
 13. Vinit Kumar, Chandrappa, and N. S. Harinarayana. "Exploring dimensions of metadata quality assessment: A scoping review." _Journal of Librarianship and Information Science_ (2024) DOI: [10.1177/09610006241239080](https://doi.org/10.1177/09610006241239080)
 14. Matlala Mahlatji, and Ngoepe Mpho. "Risk mitigation for curation of oral history content in South Africa" _ Innovation. Journal of appropriate librarianship and information work in Southern Africa_. 2024:69 pp. 25-45. https://hdl.handle.net/10520/ejc-innovation_v2024_n69_a3
 15. Matlala Rachel Mahlatji, and Ngoepe Mpho. “Access to Oral History Content in South Africa: Metadata Skills Matter.” _Collections: A Journal for Museum and Archives Professionals_, 2025 April, pp. 1-18. DOI: [10.1177/15501906251332939](https://doi.org/10.1177/15501906251332939)
+16. Vyacheslav Zavalin, and Oksana L. Zavalina. "Assessing Comparative Effectiveness of Metadata Creation with Specialized and General Standards for Representing Artworks." _Journal of Library Metadata_, 2025 May, 1–31. DOI: [10.1080/19386389.2025.2499343](https://doi.org/10.1080/19386389.2025.2499343)
 
 Péter Király. “Validating 126 million MARC records”. In *DATeCH2019 Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage* Brussels, Belgium — May 08-10, 2019. Published by ACM, 2019. ISBN: 978-1-4503-7194-0. pp. 161-168. DOI: [10.1145/3322905.3322929](https://doi.org/10.1145/3322905.3322929)<br/>
 cited by:<br/>
