@@ -282,7 +282,10 @@ cited by:<br/>
 5. Andrea Farina, and Barbara McGillivray. "The Journal of Open Humanities Data. Bridging open data and Wikidata for the Humanities." Poster submission. _Wikidata and Research conference_. 2024 [openreview.net](https://openreview.net/forum?id=YzLzBkneKb)
 6. Zehra Taşkın. "Sustaining the “frozen footprints” of scholarly communication through open citations." _Journal of the Association for Information Science and Technology_, 2025. pp. 1–17. DOI: [10.1002/asi.24982](https://doi.org/10.1002/asi.24982)
 7. Oleh Vasylenko. "Розробка принципів суміщення бібліографічних записів для автоматизації зведеного каталогу." _International Science Journal of Engineering & Agriculture_ 4, no. 1 (2025): 111-121. DOI: [10.46299/j.isjea.20250401.10](https://doi.org/10.46299/j.isjea.20250401.10)
-8. Ivan Heibi, Silvio Peroni, and Elia Rizzetto. "Validating and monitoring bibliographic and citation data in OpenCitations collections". Preprint. _arxiv_, 2025. DOI [10.48550/arXiv.2504.12195](https://doi.org/10.48550/arXiv.2504.12195)
+8. Ivan Heibi, Silvio Peroni, and Elia Rizzetto. "Validating and monitoring bibliographic and citation data in OpenCitations collections".
+  * Preprint. _arxiv_, 2025. DOI [10.48550/arXiv.2504.12195](https://doi.org/10.48550/arXiv.2504.12195)
+  * _International Journal on Digital Libraries_ 2025. 26:16 pp. 1-15. DOI [10.1007/s00799-025-00425-9](https://doi.org/10.1007/s00799-025-00425-9)
+
 
 Péter Király. "QA Catalogue - A Quality Assessment Tool for Library Catalogues". _GWDG Nachrichten_ 2024. 04-05. pp. 19-24. [gwdg.de](https://gwdg.de/about-us/gwdg-news/2024/GN_04-05-2024_www.pdf#page=19)
 
