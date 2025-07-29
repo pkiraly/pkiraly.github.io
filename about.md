@@ -291,6 +291,11 @@ Péter Király. "QA Catalogue - A Quality Assessment Tool for Library Catalogues
 
 Péter Király. "Shacl4Bib: custom validation of library data". Preprint. _arxiv_, 2024. arXiv:2405.09177 DOI: [10.48550/arXiv.2405.09177](https://doi.org/10.48550/arXiv.2405.09177)
 
+### 2025
+
+Péter Király, Tomasz Umerle, Vojtěch Malínek, Elzbieta Herden, Beata Koper, Giovanni Colavizza, Rindert Jagersma, Leo Lahti, David Lindemann, Jakub Maciej Łubocki, Alexandra Milanova, Róbert Péter, Nanette Rißler-Pipka, Dorota Siwecka, Matteo Romanello, Marcin Roszkowski, Mikko Tolonen and Ondřej Vimr. "Effects of Open Science and the Digital Transformation on the Bibliographical Data Landscape" In Paul Gooding, Melissa Terras, and Sarah Ames (eds.) _Library Catalogues as Data: Research, Practice and Usage_. Facet Publishing, 2025. ISBN: 9781783306589. pp. 19-44. 
+
+
 <!-- span id="badgeCont105"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont105&rid=AAW-9289-2021"></script></span -->
 
 
