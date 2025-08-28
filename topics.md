@@ -241,6 +241,7 @@ Literature:
 * [ISBD editions](https://www.ifla.org/g/isbd-rg/isbd-editions/)
 * [Bibliography of ISBD-related Publications](https://www.ifla.org/g/isbd-rg/bibliography-of-isbd-related-publications/)
 * Willer, Mirna, Gordon Dunsire, and Boris Bosančić. "[ISBD and the Semantic Web](https://www.torrossa.com/en/resources/an/4382663)." JLIS. it Journal of Library and Information Science. Italy 1, no. 2 (2010): 213-236.
+* Eustache Mêgnigbêto. "The MARC tags and ISBD display formats for the ABCD UNIMARC bibliographic database." Information Development, 2012, 29(3) pp. 265–273. DOI: [10.1177/0266666912457931](https://doi.org/10.1177/0266666912457931)
 * Elena Escolano Rodrìguez. "The updating of ISBD and its transformation." JLIS. it 13, no. 2 (2022): 1-12. DOI [10.36253/jlis.it-448](https://doi.org/10.36253/jlis.it-448)
 * [ISBD: The Bibliographic Content Standard.](https://www.tandfonline.com/toc/wccq20/52/8) special issue of Cataloging & Classification Quarterly 52, no. 8 (2014). Table of contents:
   * John Hostage: Introduction. pp. 819-820. DOI: [10.1080/01639374.2014.971631](https://doi.org/10.1080/01639374.2014.971631)
