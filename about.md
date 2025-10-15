@@ -286,8 +286,9 @@ cited by:<br/>
   * Preprint. _arxiv_, 2025. DOI [10.48550/arXiv.2504.12195](https://doi.org/10.48550/arXiv.2504.12195)
   * _International Journal on Digital Libraries_ 2025. 26:16 pp. 1-15. DOI [10.1007/s00799-025-00425-9](https://doi.org/10.1007/s00799-025-00425-9)
 
-
 Péter Király. "QA Catalogue - A Quality Assessment Tool for Library Catalogues". _GWDG Nachrichten_ 2024. 04-05. pp. 19-24. [gwdg.de](https://gwdg.de/about-us/gwdg-news/2024/GN_04-05-2024_www.pdf#page=19)
+cited by:<br/>
+1. Gustavo Candela, Cezary Rosiński, Arkadiusz Margraf. "A reproducible framework to publish and reuse Collections as data: the case of the European Literary Bibliography". _Transformations, A DARIAH Journal_. 2025, 1: 1-18. DOI [10.46298/transformations.14729](https://doi.org/10.46298/transformations.14729)
 
 Péter Király. "Shacl4Bib: custom validation of library data". Preprint. _arxiv_, 2024. arXiv:2405.09177 DOI: [10.48550/arXiv.2405.09177](https://doi.org/10.48550/arXiv.2405.09177)
 
