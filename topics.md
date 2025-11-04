@@ -544,7 +544,7 @@ For processing bibliographic records we do not have an abundance of tools. The f
 But most of these tools are not comprehensive, they do not cover all serialization formats. If the tool of your choice does not fit the file format, you can try conversion tools, such as 
 
 * <a href="https://software.indexdata.com/yaz/doc/yaz-marcdump.html">yaz-marcdump</a>,
-* or </span><a href="https://github.com/LibreCat/Catmandu">Catmandu</a>
+* or <a href="https://github.com/LibreCat/Catmandu">Catmandu</a>
 
 (however none of these supports all serialization formats). You can find tools on Github by tags, such as 
 
@@ -556,3 +556,13 @@ But most of these tools are not comprehensive, they do not cover all serializati
 * <a href="https://github.com/topics/code4lib">#code4lib</a>
 
 but be aware that some of these tags have multiple meanings, and they might refer to tools beyond the bibliographic universe (there are repositories belonging to a Manga character whose name is also transliterated as Pica).
+
+### DH training materials
+
+* Programming Historian (https://programminghistorian.org/)
+* INTERSECT – Research Software Engineering Training (https://intersect-training.org/)
+* code refinery – Research Software Engineering Training https://coderefinery.org/
+* The Carpentries – teaches foundational coding and data science skills to researchers worldwide (https://carpentries.org/)
+* Better Scientific Software – a central hub for sharing information on practices, techniques, experiences, and tools to improve CSE software productivity, quality, and sustainability (https://bssw.io/)
+* Education and Training Seminar Series – a series of technical talks and tutorials presented by leading researchers and practitioners in the field of research software engineering (https://us-rse.org/wg/education_training/seminar_series/)
+* DHTech Education & Training Working Group (https://dh-tech.github.io/wg-education-training/)
