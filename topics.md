@@ -50,6 +50,7 @@ last updated: 2024-11-14
   * <a href="#II.1">II.1 Kinder- und Jugendbücher international. Eine Metadatenanalyse</a>
   * <a href="#II.2">II.2 Patterns of translations of national literatures</a>
   * <a href="#II.3">II.3 Patterns of publications</a>
+* <a href="#III">III. References</a>
 
 ## <a id="intro"/>Introduction
 
@@ -529,3 +530,29 @@ Potential partners:
 Data source:
 
 * library catalogues
+
+## <a id="III"></a> <span class="blue">III</span> References
+
+For processing bibliographic records we do not have an abundance of tools. The first factor of choosing a tool probably is your preference of programming language. There are tools for 
+
+* <a href="https://github.com/marc4j/marc4j" rel="">Java</a>,
+* <a href="https://gitlab.com/pymarc/pymarc" rel="">Python</a>,
+* <a href="https://github.com/scriptotek/php-marc" rel="">PHP</a>,
+* <a href="https://github.com/jasonzou/gomarc21" rel="">Go</a>, 
+* even <a href="https://github.com/jiaola/marc4js" rel="">JavaScript</a>
+
+But most of these tools are not comprehensive, they do not cover all serialization formats. If the tool of your choice does not fit the file format, you can try conversion tools, such as 
+
+* <a href="https://software.indexdata.com/yaz/doc/yaz-marcdump.html">yaz-marcdump</a>,
+* or </span><a href="https://github.com/LibreCat/Catmandu">Catmandu</a>
+
+(however none of these supports all serialization formats). You can find tools on Github by tags, such as 
+
+* <a href="https://github.com/topics/marc">#marc</a>,
+* <a href="https://github.com/topics/marc21">#marc21</a>,
+* <a href="https://github.com/topics/marc-records">#marc-records</a>,
+* <a href="https://github.com/topics/pica">#pica</a>,
+* <a href="https://github.com/topics/unimarc">#unimarc</a>,
+* <a href="https://github.com/topics/code4lib">#code4lib</a>
+
+but be aware that some of these tags have multiple meanings, and they might refer to tools beyond the bibliographic universe (there are repositories belonging to a Manga character whose name is also transliterated as Pica).
