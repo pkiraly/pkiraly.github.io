@@ -574,3 +574,4 @@ but be aware that some of these tags have multiple meanings, and they might refe
 * Lincoln A. Mullen: <em>Computational Historical Thinking</em> (2018–)<br/>[https://dh-r.lincolnmullen.com/](https://dh-r.lincolnmullen.com/)
 * Yann Ryan: <em>A Short Guide to Historical Newspaper Data, Using R</em> (2021)<br/>[https://bookdown.org/yann_ryan/r-for-newspaper-data/](https://bookdown.org/yann_ryan/r-for-newspaper-data/)
 *  Folgert Karsdorp, Mike Kestemont and Allen Riddell: <em>Humanities Data Analysis</em> (Princeton University Press, 2021)<br/>[https://www.humanitiesdataanalysis.org/](https://www.humanitiesdataanalysis.org/)
+* Taylor Arnold and Lauren Tilton: <em>Humanities Data in R.</em> Springer, 2015.<br/>[http://link.springer.com/10.1007/978-3-319-20702-5](http://link.springer.com/10.1007/978-3-319-20702-5)
