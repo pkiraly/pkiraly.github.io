@@ -559,14 +559,14 @@ but be aware that some of these tags have multiple meanings, and they might refe
 
 ### Online DH training materials
 
-* Programming Historian [https://programminghistorian.org/](https://programminghistorian.org/)
-* INTERSECT – Research Software Engineering Training [https://intersect-training.org/](https://intersect-training.org/)
-* code refinery – Research Software Engineering Training [https://coderefinery.org/](https://coderefinery.org/)
-* The Carpentries – teaches foundational coding and data science skills to researchers worldwide [https://carpentries.org/](https://carpentries.org/)
-* Better Scientific Software – a central hub for sharing information on practices, techniques, experiences, and tools to improve CSE software productivity, quality, and sustainability [https://bssw.io/](https://bssw.io/)
-* Education and Training Seminar Series – a series of technical talks and tutorials presented by leading researchers and practitioners in the field of research software engineering [https://us-rse.org/wg/education_training/seminar_series/](https://us-rse.org/wg/education_training/seminar_series/)
-* DHTech Education & Training Working Group [https://dh-tech.github.io/wg-education-training/](https://dh-tech.github.io/wg-education-training/)
+* Programming Historian<br/>[https://programminghistorian.org/](https://programminghistorian.org/)
+* INTERSECT – Research Software Engineering Training<br/>[https://intersect-training.org/](https://intersect-training.org/)
+* code refinery – Research Software Engineering Training<br/>[https://coderefinery.org/](https://coderefinery.org/)
+* The Carpentries – teaches foundational coding and data science skills to researchers worldwide<br/>[https://carpentries.org/](https://carpentries.org/)
+* Better Scientific Software – a central hub for sharing information on practices, techniques, experiences, and tools to improve CSE software productivity, quality, and sustainability<br/>[https://bssw.io/](https://bssw.io/)
+* Education and Training Seminar Series – a series of technical talks and tutorials presented by leading researchers and practitioners in the field of research software engineering<br/>[https://us-rse.org/wg/education_training/seminar_series/](https://us-rse.org/wg/education_training/seminar_series/)
+* DHTech Education & Training Working Group<br/>[https://dh-tech.github.io/wg-education-training/](https://dh-tech.github.io/wg-education-training/)
 
 ### Books
 
-* Mullen, Lincoln A. “Computational Historical Thinking”. (2018–) [https://dh-r.lincolnmullen.com/](https://dh-r.lincolnmullen.com/)
+* Mullen, Lincoln A. “Computational Historical Thinking”. (2018–)<br/>[https://dh-r.lincolnmullen.com/](https://dh-r.lincolnmullen.com/)
