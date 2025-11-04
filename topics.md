@@ -541,10 +541,12 @@ For processing bibliographic records we do not have an abundance of tools. The f
 * <a href="https://github.com/jasonzou/gomarc21" rel="">Go</a>, 
 * even <a href="https://github.com/jiaola/marc4js" rel="">JavaScript</a>
 
-But most of these tools are not comprehensive, they do not cover all serialization formats. If the tool of your choice does not fit the file format, you can try conversion tools, such as 
+But most of these tools are not comprehensive, they do not cover all serialization formats. If the tool of your choice does not fit the file format, you can try tools, such as 
 
-* <a href="https://software.indexdata.com/yaz/doc/yaz-marcdump.html">yaz-marcdump</a>,
-* or <a href="https://github.com/LibreCat/Catmandu">Catmandu</a>
+* yaz-marcdump<br/>[https://software.indexdata.com/yaz/doc/yaz-marcdump.html](https://software.indexdata.com/yaz/doc/yaz-marcdump.html)
+* Catmandu<br/>[https://github.com/LibreCat/Catmandu](https://github.com/LibreCat/Catmandu)
+* MarcEdit<br/>[https://marcedit.reeset.net/](https://marcedit.reeset.net/)
+* metafacture<br/>[https://metafacture.org/getting-started.html](https://metafacture.org/getting-started.html)
 
 (however none of these supports all serialization formats). You can find tools on Github by tags, such as 
 
