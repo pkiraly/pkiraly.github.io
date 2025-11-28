@@ -575,3 +575,10 @@ but be aware that some of these tags have multiple meanings, and they might refe
 * Yann Ryan: <em>A Short Guide to Historical Newspaper Data, Using R</em> (2021)<br/>[https://bookdown.org/yann_ryan/r-for-newspaper-data/](https://bookdown.org/yann_ryan/r-for-newspaper-data/)
 *  Folgert Karsdorp, Mike Kestemont and Allen Riddell: <em>Humanities Data Analysis</em> (Princeton University Press, 2021)<br/>[https://www.humanitiesdataanalysis.org/](https://www.humanitiesdataanalysis.org/)
 * Taylor Arnold and Lauren Tilton: <em>Humanities Data in R.</em> Springer, 2015.<br/>[http://link.springer.com/10.1007/978-3-319-20702-5](http://link.springer.com/10.1007/978-3-319-20702-5)
+
+### Jupyter notebooks
+
+* Dataset Extraction Example – This notebook extracts a dataset from a digital collection described using MARCXML files, including descriptive metadata from the Moving Image Archive catalogue, which is Scotland’s national collection of moving images.<br/>[https://nbviewer.org/github/hibernator11/notebook-texts-metadata/blob/master/dataset-extraction-images.ipynb](https://nbviewer.org/github/hibernator11/notebook-texts-metadata/blob/master/dataset-extraction-images.ipynb)
+* Gustavo Candela's notebooks for processing European Literary Bibliography<br/>[https://gitlab.pcss.pl/dl-team/atrium/tna01/-/tree/candela?ref_type=heads](https://gitlab.pcss.pl/dl-team/atrium/tna01/-/tree/candela?ref_type=heads)
+* Computational access to collections<br/>[https://www.glamlabs.io/computational-access-to-digital-collections](https://www.glamlabs.io/computational-access-to-digital-collections)
+* GLAM Workbench<br/>[https://glam-workbench.net/](https://glam-workbench.net/)
