@@ -21,17 +21,21 @@ You can play at the user interface to find the good initial query term, then you
 
 A note on terminology: in translation study the language from which the work has been written is called the _source language_, and the translation is written in the _target language_. Sometime the translator does not work from the source language, but from another tranlation, the language of which is called the _intermediate language_.
 
-The result is a HTML page that you have to parse and extract data. The first thing we extract now is pagination. You receive only 10 result for a single query. The next set can be accessed by clicking on the right arrow icon representing the link to the next page. Fortunately IT applies the `class` attribute of the HTML element to inject some semantics into the page, and we will utilize this feature. Here is how the next link is formatted:
+And a note on code: every HTML code in this post are a bit formatted by adding spaces and line breaks in order to make it easier understandable. For the original format please check IT's HTML source.
+
+The result is a HTML page that you have to parse and extract data. The first thing we extract now is pagination. You receive only 10 result for a single query. The next set can be accessed by clicking on the right arrow icon representing the link to the next page. Fortunately IT applies the `class` attribute of the HTML element to inject some semantics into the page, and we will utilize this feature. Here is the next link's HTML structure:
 
 ```html
 <td class="next">
-<a href="bsresult.aspx?lg=0&amp;a=Shakespeare, William&amp;fr=10"><img border="0" src="Images/cy_r_arr.gif" alt="prev"></a>
+  <a href="bsresult.aspx?lg=0&amp;a=Shakespeare, William&amp;fr=10">
+    <img border="0" src="Images/cy_r_arr.gif" alt="prev">
+  </a>
 </td>
 ```
 
 The `class="next"` part is unique in the page, however on the last page it is empty, since there are no more hits. Thus we should parse it in two step: first get the content of the `<td>` element, then we should find inside the `<a>` element's `href` attribute. Since it contains a relative link, in order to fetch it, we should add _https://www.unesco.org/xtrans/_ to the beginning. We can continue the iteration until the _td_ element becomes empty.
 
-The next thing is to parse the content, the individual bibliographical description. The result are stored in a table structure, where the table has the following structure (for easier understanding I add some line break and spaces):
+The next thing is to parse the content, the individual bibliographical description. The result are stored in a table structure, where the table has the following structure:
 
 ```html
 <table class="restable">
@@ -49,7 +53,7 @@ The next thing is to parse the content, the individual bibliographical descripti
 
 So we should find the table with `class="restable"`, then inside we should process the bibliographical descriptions, which are always take place in a cell (`<td>` element) with `class="res2"`.
 
-Thanks to the unknown software designers and developers behind IT, all elements of the bibliographical description are in a semantically identifiable `<span>` element. Here is an example (again, formatted a bit):
+Thanks to the unknown software designers and developers behind IT, all elements of the bibliographical description are in a semantically identifiable `<span>` element. Here is an example:
 
 ```html
 <td class="res2">
@@ -66,7 +70,7 @@ Thanks to the unknown software designers and developers behind IT, all elements 
 </td>
 ```
 
-IT records comes with the following vocabulary:
+The IT records come with the following vocabulary:
 
 * place: publication place
 * publisher: publisher
@@ -87,5 +91,7 @@ IT records comes with the following vocabulary:
 * sn_isbn: ISBN
 * sn_auth_quality: quality indicator for the author
 * sn_transl_quality: quality indicator for the translator
+
+Of course not all data elements are available in every records. IT collected bibliographical records from national libraries, and the quality of them vary a lot. There are character encoding problems, and sometimes falsly tagged data elements. The date range of IT according to our experience is 1978-2009, after there only some libraries provided records, and IT website is not always available. Before 1978 IT has been published in printed volumes, and I am not aware of digitised version.
 
 There are number of technical possibilities to parse HTML. Since IT's HTML pages are seemingly transformed from a database with strict rules, one can apply regular expressions, which is a risky approach in lots of other cases. There are more advanced HTML parser libraries however. Since Python is the most popular language among Digital Humanists (and I guess in general as well), I can recommend a Python library BeautifulSoap. Here is the [documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), and Programming Historian also has a tutorial: Jeri Wieringa, "Intro to Beautiful Soup," Programming Historian 1 (2012), https://doi.org/10.46430/phen0008 - which unfortunatelly a retired one, because the HTML page on which the author demonstrate the strength of the tool is no longer available, but still a good introduction, and one can apply the methods on IT.
