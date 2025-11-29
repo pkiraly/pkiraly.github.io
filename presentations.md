@@ -20,8 +20,10 @@ p {
 ## 2025
 
 * Péter Király – András Kiséry: Patterns of Translation. _Metadata-based Research in Arts, Humanities and Social Sciences workshop_ 2025, March 5, Prague. [https://bit.ly/patterns-of-translation-2025](https://bit.ly/patterns-of-translation-2025)
-* Péter Király: Kutatási adatok repozitóriuma. _ELTE adatgazdász képzés_ 2025, November 7, online (Budapest). DOI [https://doi.org/10.5281/zenodo.17552525](https://doi.org/10.5281/zenodo.17552525)
-* Péter Király: Shacl4Bib - custom metadata validation of library catalogues. _Semantic Web in Libraries (SWIB)_ 2025, November 19, online. Zenodo. DOI [https://doi.org/10.5281/zenodo.17652009](https://doi.org/10.5281/zenodo.17652009)
+* Farkas Gábor Farkas – Káldos János – Király Péter: A régi magyarországi kiadványok „sötét anyaga”. Helyzetjelentés egy kutatási projektről V. _MTA Irodalomtudományi Intézet, digitális irodalomtudományi mesterkurzus_ 2025, June, 3, online (Budapest). [https://bit.ly/rmnystat-2025-iti](https://bit.ly/rmnystat-2025-iti)
+* Péter Király – András Kiséry: Jókai in translation, 1850–2009: a quantitative analysis. _Mór Jókai in 19th Century World Literature: Translations, Translators, Publishing Relationships and Artistic Friendships. International Conference_ 2025, October 2, Balatonfüred, [https://bit.ly/jokai-in-translations](https://bit.ly/jokai-in-translations)
+* Király Péter: Kutatási adatok repozitóriuma. _ELTE adatgazdász képzés_ 2025, November 7, online (Budapest). DOI [https://doi.org/10.5281/zenodo.17552525](https://doi.org/10.5281/zenodo.17552525)
+* Péter Király: Shacl4Bib–custom metadata validation of library catalogues. _Semantic Web in Libraries (SWIB)_ 2025, November 19, online. Zenodo. DOI [https://doi.org/10.5281/zenodo.17652009](https://doi.org/10.5281/zenodo.17652009)
 
 ## 2024
 
