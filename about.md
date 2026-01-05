@@ -296,7 +296,11 @@ Péter Király. "Shacl4Bib: custom validation of library data". Preprint. _arxiv
 
 ### 2025
 
-Péter Király, Tomasz Umerle, Vojtěch Malínek, Elzbieta Herden, Beata Koper, Giovanni Colavizza, Rindert Jagersma, Leo Lahti, David Lindemann, Jakub Maciej Łubocki, Alexandra Milanova, Róbert Péter, Nanette Rißler-Pipka, Dorota Siwecka, Matteo Romanello, Marcin Roszkowski, Mikko Tolonen and Ondřej Vimr. "Effects of Open Science and the Digital Transformation on the Bibliographical Data Landscape" In Paul Gooding, Melissa Terras, and Sarah Ames (eds.) _Library Catalogues as Data: Research, Practice and Usage_. Facet Publishing, 2025. ISBN: 9781783306589. pp. 19-44. 
+Péter Király, Tomasz Umerle, Vojtěch Malínek, Elzbieta Herden, Beata Koper, Giovanni Colavizza, Rindert Jagersma, Leo Lahti, David Lindemann, Jakub Maciej Łubocki, Alexandra Milanova, Róbert Péter, Nanette Rißler-Pipka, Dorota Siwecka, Matteo Romanello, Marcin Roszkowski, Mikko Tolonen and Ondřej Vimr. "Effects of Open Science and the Digital Transformation on the Bibliographical Data Landscape" In Paul Gooding, Melissa Terras, and Sarah Ames (eds.) _Library Catalogues as Data: Research, Practice and Usage_. Facet Publishing, 2025. ISBN: 9781783306589. pp. 19-44.
+cited by:<br/>
+1. Vivien Petras. "Paul Gooding, Melissa Terras, Sarah Ames (Hrsg.): Library Catalogues as Data–Research, Practice and Usage. London: Facet Publishing, 2025. 228 S." _Bibliothek Forschung und Praxis_ 2025. pp. 1-3. DOI [10.1515/bfp-2025-0037](https://doi.org/10.1515/bfp-2025-0037)
+
+Farkas Gabor Farkas, János Káldos and Péter Király. "A régi magyarországi kiadványok „sötét anyaga”". _Magyar Könyvszemle_ 141(2025):2. pp. 226-266. DOI [10.17167/MKSZ.2025.2.226-266](https://doi.org/10.17167/MKSZ.2025.2.226-266)
 
 
 <!-- span id="badgeCont105"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont105&rid=AAW-9289-2021"></script></span -->
