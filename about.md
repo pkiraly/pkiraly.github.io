@@ -72,6 +72,7 @@ cited by:<br/>
 11. Jhon Francined Herrera Cubides. "Metamodelo para vinculación de recursos educativos abiertos mediante especificaciones LOD y basado en principios de confianza." Thesis doctoral. Universidad Distrital “Francisco José de Caldas" Facultad de Ingeniería. Bogotá - Colombia, 2021 [udistrital.edu.co](https://repository.udistrital.edu.co/handle/11349/28263), [proquest](https://www.proquest.com/docview/3073251623)
 12. Lisandra Díaz de la Paz, Francisco N. Riestra Collado, Juan L. García Mendoza, Luisa M. González González, Amed A. Leiva Mederos, and Alberto Taboada Crispi. "Weights Estimation in the Completeness Measurement of Bibliographic Metadata." Computación y Sistemas 25, no. 1. 2021. pp. 47–65. DOI: [10.13053/CyS-25-1-3355](https://doi.org/10.13053/CyS-25-1-3355)
 13. Jhon Francined Herrera-Cubides, Paulo Alonso Gaona-García, Carlos Enrique Montenegro-Marin, Salvador Sánchez-Alonso. "The Relevance of Open Data Principles for the Web of Data." _Journal of Electrical and Computer Engineering_ 2023. Article ID 4854965, pp. 1-17. DOI: [10.1155/2023/4854965](https://doi.org/10.1155/2023/4854965)
+14. Ritu Eshcol, Ryan F. Willmot, Denis Torres, Wicky Woo, Dustin Coleman, Rachell Chiu, and John West. "A Digital Engineering Quality Assurance Framework for Engineering Models and Simulation Data." _AIAA SCITECH 2026 Forum_, 2026. p. 2121. DOI: [10.2514/6.2026-2121](https://doi.org/10.2514/6.2026-2121)
 
 <!--
 The following paper was rejected, and is not available
