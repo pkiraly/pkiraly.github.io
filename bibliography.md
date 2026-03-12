@@ -47,6 +47,11 @@ Estill, Laura. 2025. “Digital Text Analysis and Early Shakespeare Bibliography
 
 Gasparini, Andrea, and Heli Kautonen. 2022. “Understanding Artificial Intelligence in Research Libraries – Extensive Literature Review.” _LIBER Quarterly: The Journal of the Association of European Research Libraries_ 32 (1). [https://doi.org/10.53377/lq.10934](https://doi.org/10.53377/lq.10934).
 
+Gooding, Paul, Melissa M. Terras, and Sarah Ames (eds). 2025. _Library Catalogues as Data: Research, Practice and Usage._ Facet Publishing. 228 p. [https://doi.org/10.29085/9781783306602](https://doi.org/10.29085/9781783306602)
+* Gooding, Paul, Melissa Terras, and Sarah Ames. _Introduction: The Library Catalogue Data Ecosystem._ pp. xxix-xl. https://doi.org/10.29085/9781783306602.002.
+* Lavoie, Brian. _Making the Conceptual Concrete: Defining, Describing and Visualising Collective Collections._ pp. 1-18. https://doi.org/10.29085/9781783306602.003.
+
+
 Groenland, Tim, and Michaela Králová. 2025. “Data, Discoverability, and Translation in the UK and Irish Book Markets.” _Mémoires du livre_ 16 (2): 1–26. [https://doi.org/10.7202/1122233ar](https://doi.org/10.7202/1122233ar).
 
 Guiliano, Jennifer, and Mia Ridge. 2016. “The Future of Digital Methods for Complex Datasets: An Introduction.” _International Journal of Humanities and Arts Computing_ 10 (1): 1–7. [https://doi.org/10.3366/ijhac.2016.0155](https://doi.org/10.3366/ijhac.2016.0155).
@@ -87,11 +92,15 @@ Pedersen, Jordan. 2022. “Measuring Collection Diversity via Exploratory Analys
 
 Peng, Zong, Miao Chen, Stacy Kowalczyk, and Beth Plale. 2014. “Author Gender Metadata Augmentation of Hathitrust Digital Library.” _Proceedings of the American Society for Information Science and Technology_ 51 (1): 1–4. [https://doi.org/10.1002/meet.2014.14505101098](https://doi.org/10.1002/meet.2014.14505101098).
 
+Petras, Vivien. 2025. “Paul Gooding, Melissa Terras, Sarah Ames (Hrsg.): Library Catalogues as Data – Research, Practice and Usage. London: Facet Publishing, 2025. 228 S.” _Bibliothek Forschung Und Praxis_, ahead of print, December 18. [https://doi.org/10.1515/bfp-2025-0037](https://doi.org/10.1515/bfp-2025-0037).
+
 Prescott, Andrew. 2013. “Bibliographic Records as Humanities Big Data.” _2013 IEEE International Conference on Big Data_, October, 55–58. [https://doi.org/10.1109/BigData.2013.6691670](https://doi.org/10.1109/BigData.2013.6691670).
 
 Rohrbacher, Katrin, and David Schrittesser. 2026. “Bridging the Gaps: Integrating Bibliographic Metadata Into Wikidata for Literary Corpora.” _Journal of Open Humanities Data_ 12 (February): 37. [https://doi.org/10.5334/johd.483](https://doi.org/10.5334/johd.483).
 
 Santini, Cristian, Genet Asefa Gesese, Silvio Peroni, Aldo Gangemi, Harald Sack, and Mehwish Alam. 2022. “A Knowledge Graph Embeddings Based Approach for Author Name Disambiguation Using Literals.” _Scientometrics_ 127 (8): 4887–912. [https://doi.org/10.1007/s11192-022-04426-2](https://doi.org/10.1007/s11192-022-04426-2).
+
+Smith-Yoshimura, Karen and OCLC Research. 2010. _Implications of MARC Tag Usage on Library Metadata Practices._ OCLC Research. [http://www.oclc.org/research/publications/library/2010/2010-06.pdf](http://www.oclc.org/research/publications/library/2010/2010-06.pdf).
 
 Stegaeva, M. V. 2016. “Cooperative Cataloging: History and the Current State.” _Scientific and Technical Information Processing_ 43 (1): 28–35. [https://doi.org/10.3103/S0147688216010056](https://doi.org/10.3103/S0147688216010056).
 
