@@ -48,9 +48,17 @@ Estill, Laura. 2025. “Digital Text Analysis and Early Shakespeare Bibliography
 Gasparini, Andrea, and Heli Kautonen. 2022. “Understanding Artificial Intelligence in Research Libraries – Extensive Literature Review.” _LIBER Quarterly: The Journal of the Association of European Research Libraries_ 32 (1). [https://doi.org/10.53377/lq.10934](https://doi.org/10.53377/lq.10934).
 
 Gooding, Paul, Melissa M. Terras, and Sarah Ames (eds). 2025. _Library Catalogues as Data: Research, Practice and Usage._ Facet Publishing. 228 p. [https://doi.org/10.29085/9781783306602](https://doi.org/10.29085/9781783306602)
-* Gooding, Paul, Melissa Terras, and Sarah Ames. _Introduction: The Library Catalogue Data Ecosystem._ pp. xxix-xl. https://doi.org/10.29085/9781783306602.002.
-* Lavoie, Brian. _Making the Conceptual Concrete: Defining, Describing and Visualising Collective Collections._ pp. 1-18. https://doi.org/10.29085/9781783306602.003.
-
+* Gooding, Paul, Melissa Terras, and Sarah Ames. _Introduction: The Library Catalogue Data Ecosystem._ pp. xxix-xl. [https://doi.org/10.29085/9781783306602.002](https://doi.org/10.29085/9781783306602.002).
+* Lavoie, Brian. _Making the Conceptual Concrete: Defining, Describing and Visualising Collective Collections._ pp. 1-18. [https://doi.org/10.29085/9781783306602.003](https://doi.org/10.29085/9781783306602.003).
+* Király, Péter, Tomasz Umerle, Vojtěch Malínek, et al. _Effects of Open Science and the Digital Transformation on the Bibliographical Data Landscape._ pp. 19-44. [https://doi.org/10.29085/9781783306602.004](https://doi.org/10.29085/9781783306602.004).
+* Candela, Gustavo. _Data Quality in Library Catalogues and Its Impact on Access, Analysis and Reuse._ pp. 45-60. [https://doi.org/10.29085/9781783306602.005](https://doi.org/10.29085/9781783306602.005.
+* Havens, Lucy. _Data Bias and the Natural Language Processing of Metadata._ pp. 61-84. [https://doi.org/10.29085/9781783306602.006](https://doi.org/10.29085/9781783306602.006).
+* Eve, Martin Paul. _‘Contains Scenes of Mild Peril’: Illuminating the Catalogues of Dark Archives._ pp. 85-100. [https://doi.org/10.29085/9781783306602.007](https://doi.org/10.29085/9781783306602.007).
+* Tolonen, Mikko, Jani Marjanen, Mark J. Hill, and Leo Lahti. _Book Formats, Printing Practices and Reading Habits in Early Modern Europe._ pp. 101-120. [https://doi.org/10.29085/9781783306602.008](https://doi.org/10.29085/9781783306602.008).
+* Halsey, Katie, and Matthew Sangster. _‘[S]Hut Not Thy Heart, nor Thy Library’: Realising the Potential of Historical Library Borrowing Data._ pp. 121-144. [https://doi.org/10.29085/9781783306602.009](https://doi.org/10.29085/9781783306602.009).
+* Torres-Salinas, Daniel, Mike Thelwall, and Wenceslao Arroyo-Machado. _ChatGPT for Bibliometrics: Potential Applications and Limitations._ pp. 145-166. [https://doi.org/10.29085/9781783306602.010](https://doi.org/10.29085/9781783306602.010).
+* Bauder, Julia, and Christopher Jones. _Using Generative AI to Turn 19th-Century Library Catalogues into Data: Applications and Limitations._ pp. 167-184. [https://doi.org/10.29085/9781783306602.011](https://doi.org/10.29085/9781783306602.011).
+* Atanassova, Rossitza, and James Baker. _A Corpus Linguistic Analysis of Catalogue Data: Understanding Curatorial Practice Over Time._ pp. 185-212. [https://doi.org/10.29085/9781783306602.012](https://doi.org/10.29085/9781783306602.012).
 
 Groenland, Tim, and Michaela Králová. 2025. “Data, Discoverability, and Translation in the UK and Irish Book Markets.” _Mémoires du livre_ 16 (2): 1–26. [https://doi.org/10.7202/1122233ar](https://doi.org/10.7202/1122233ar).
 
