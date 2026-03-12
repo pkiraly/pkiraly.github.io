@@ -66,6 +66,7 @@ Guiliano, Jennifer, and Mia Ridge. 2016. “The Future of Digital Methods for Co
 
 Hanssen, Jens-Morten, and Sissel Furuseth, eds. 2025. _The Hermeneutics of Bibliographic Data and Cultural Metadata_. National Library of Norway. [https://hdl.handle.net/11250/3178351](https://hdl.handle.net/11250/3178351).
 * Hanssen, Jens Morten, Sissel Furuseth. _Introduction: The Crossroads of Bibliography and Digital Humanities._ pp. 11-26. [https://hdl.handle.net/11250/4907915](https://hdl.handle.net/11250/4907915)
+* Marjanen, Jani, Tuuli Tahko, Leo Lahti and Mikko Tolonen. _Book Printing in Latin and Vernacular Languages in Northern Europe, 1500–1800._ pp. 27-66. [http://hdl.handle.net/10138/593976](http://hdl.handle.net/10138/593976)
 * Hanssen, Jens Morten. _The Rise of the Novel in Norway: Bibliographical Perspectives._ pp. 67-95. [https://hdl.handle.net/11250/3981046](https://hdl.handle.net/11250/3981046). 
 * Birkenes, Magnus Breder, Lars Gunnarsønn Bagøien Johnsen. _Corpus and the Bibliography: NB DH-LAB as an Infrastructure for Text and Metadata Mining_. pp. 96-117. [https://hdl.handle.net/11250/5242225](https://hdl.handle.net/11250/5242225).
 * Ohren, Oddrun Pauline. _Getting Meaning out of Metadata - Analysis of Selected Bibliographies at the National Library of Norway._ pp. 118-148. [https://hdl.handle.net/11250/4275206](https://hdl.handle.net/11250/4275206).
