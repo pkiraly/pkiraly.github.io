@@ -49,7 +49,11 @@ Chowdhury, Sudatta, Monica Landoni, and Forbes Gibb. 2006. “Usability and Impa
 
 Colavizza, Giovanni, Matteo Romanello, and Frédéric Kaplan. 2018. “The References of References: A Method to Enrich Humanities Library Catalogs with Citation Data.” _International Journal on Digital Libraries_ 19 (2–3): 151–61. [https://doi.org/10.1007/s00799-017-0210-1](https://doi.org/10.1007/s00799-017-0210-1).
 
+De Glas, Frank. 1986. “Fiction and Bibliometrics: Analyzing a Publishing House’s Stocklist.” _Libri_ 36 (1). [https://doi.org/10.1515/libr.1986.36.1.40](https://doi.org/10.1515/libr.1986.36.1.40).
+
 Delaunay, Julien, Marc-Alexis Azaïs, Dipendra Sharma Kafle, Nicolas Sidere, Antoine Doucet, and Olivier De Viron. 2026. “Tracing the Evolution of Coastal Scientific Literature in Scopus (1970–2023).” In _New Trends in Theory and Practice of Digital Libraries_, edited by Wolf-Tilo Balke, Koraljka Golub, Yannis Manolopoulos, et al., vol. 2694. Communications in Computer and Information Science. Springer Nature Switzerland. [https://doi.org/10.1007/978-3-032-06136-2_14](https://doi.org/10.1007/978-3-032-06136-2_14).
+
+Dickens, Elizabeth. 2011. “‘Permanent Books’: The Reviewing and Advertising of Books in the Nation and Athenaeum.” _The Journal of Modern Periodical Studies_ 2 (2): 165–84. [https://doi.org/10.5325/jmodeperistud.2.2.0165](https://doi.org/10.5325/jmodeperistud.2.2.0165).
 
 Estill, Laura. 2025. “Digital Text Analysis and Early Shakespeare Bibliography: Using Voyant Tools with Bad OCR.” _Digital Studies / Le Champ Numérique_ 15 (1): 18897. [https://doi.org/10.16995/dscn.18897](https://doi.org/10.16995/dscn.18897).
 
@@ -84,6 +88,8 @@ Groenland, Tim, and Michaela Králová. 2025. “Data, Discoverability, and Tran
 
 Guiliano, Jennifer, and Mia Ridge. 2016. “The Future of Digital Methods for Complex Datasets: An Introduction.” _International Journal of Humanities and Arts Computing_ 10 (1): 1–7. [https://doi.org/10.3366/ijhac.2016.0155](https://doi.org/10.3366/ijhac.2016.0155).
 
+Halford, Jacob. 2016. _’Of Dialogue, That Great and Powerful Art’: A Study of the Dialogue Genre in Seventeenth-Century England._ PhD thesis. University of Warwick, Department of History. [https://wrap.warwick.ac.uk/id/eprint/87927/](https://wrap.warwick.ac.uk/id/eprint/87927/).
+
 Hanssen, Jens-Morten, and Sissel Furuseth, eds. 2025. _The Hermeneutics of Bibliographic Data and Cultural Metadata_. National Library of Norway. [https://hdl.handle.net/11250/3178351](https://hdl.handle.net/11250/3178351).
 * Hanssen, Jens Morten, Sissel Furuseth. _Introduction: The Crossroads of Bibliography and Digital Humanities._ pp. 11-26. [https://hdl.handle.net/11250/4907915](https://hdl.handle.net/11250/4907915)
 * Marjanen, Jani, Tuuli Tahko, Leo Lahti and Mikko Tolonen. _Book Printing in Latin and Vernacular Languages in Northern Europe, 1500–1800._ pp. 27-66. [http://hdl.handle.net/10138/593976](http://hdl.handle.net/10138/593976)
@@ -109,6 +115,10 @@ Heßbrüggen-Walter, Stefan. 2025. “Early Modern Dissertations in French Libra
 
 IFLA Bibliography Standing Committee. 2021. “Common Practices for National Bibliographies in the Electronic Age.” [https://www.ifla.org/wp-content/uploads/2019/05/assets/bibliography/common_practices_for_national_bibliographies_2021-01.pdf](https://www.ifla.org/wp-content/uploads/2019/05/assets/bibliography/common_practices_for_national_bibliographies_2021-01.pdf).
 
+Isaac, Jessica A. 2015. _Compliant Circulation: Children’s Writing, American Periodicals, and Public Culture, 1839-1882._”_ PhD Thesis, University of Pittsburg. In ProQuest Dissertations and Theses [https://www.proquest.com/dissertations-theses/compliant-circulation-childrens-writing-american/docview/1746943132/se-2](https://www.proquest.com/dissertations-theses/compliant-circulation-childrens-writing-american/docview/1746943132/se-2).
+
+Isaac, Jessica. 2016. “Graphing the Archives of Nineteenth-Century Amateur Newspapers.” _Book History_ 19 (1): 317–48. [https://doi.org/10.1353/bh.2016.0009](https://doi.org/10.1353/bh.2016.0009)
+
 Kaiser, Max. 2023. “Digitale Sammlungen Als Offene Daten Für Die Forschung: Strategische Zielsetzungen Der Österreichischen Nationalbibliothek.” _Bibliothek Forschung Und Praxis_ 47 (2): 200–212. [https://doi.org/10.1515/bfp-2023-0021](https://doi.org/10.1515/bfp-2023-0021).
 
 Karlinska, Agnieszka, Cezary Rosiński, Marek Kubis, Patryk Hubar, and Jan Wieczorek. 2024. “Using Bibliodata LODification to Create Metadata-Enriched Literary Corpora in Line with FAIR Principles.” _ACL Anthology_ LREC-COLING 2024 (May). [https://aclanthology.org/2024.lrec-main.1500.pdf](https://aclanthology.org/2024.lrec-main.1500.pdf).
@@ -122,6 +132,8 @@ Koeser, Rebecca Sutton. 2015. “Trusting Others to ‘Do the Math.’” _Inter
 Koeser, Rebecca Sutton, and Zoe LeBlanc. 2024. “Missing Data, Speculative Reading.” _Journal of Cultural Analytics_ 9 (2). [https://doi.org/10.22148/001c.116926](https://doi.org/10.22148/001c.116926).
 
 Kotin, Joshua, and Rebecca Sutton Koeser. 2024. “The World of Shakespeare and Company: An Introduction.” _Journal of Cultural Analytics_ 9 (2). [https://doi.org/10.22148/001c.116905](https://doi.org/10.22148/001c.116905).
+
+Krummel, D. W. 2013. “The Heritage of Boleslas Iwinski.” _Library Trends_ 62 (2): 456–64. [https://doi.org/10.1353/lib.2013.0044](https://doi.org/10.1353/lib.2013.0044).
 
 Kruusmaa, Krister, Peeter Tinits, and Laura Nemvalts. 2025. “Curated Bibliographic Data: The Case of the Estonian National Bibliography.” _Journal of Open Humanities Data_ 11 (February): 16. [https://doi.org/10.5334/johd.280](https://doi.org/10.5334/johd.280).
 
@@ -137,6 +149,10 @@ Matusiak, Krystyna K. 2012. “Perceptions of Usability and Usefulness of Digita
 
 Mazières, Antoine, and Thierry Poibeau. 2025. “MajinBook: An Open Catalogue of Digital World Literature with Likes.” arXiv:2511.11412. Preprint, arXiv, November 20. [https://doi.org/10.48550/arXiv.2511.11412](https://doi.org/10.48550/arXiv.2511.11412).
 
+McKenzie, Donald Francis. 1999. _Bibliography and the Sociology of Texts_. Cambridge University Press. ISBN 978-0-521-64258-3. [https://doi.org/10.1017/CBO9780511483226](https://doi.org/10.1017/CBO9780511483226)
+
+Munch-Petersen, Erland. 1981. “Bibliometrics and Fiction.” _Libri_ 31 (1): 1–21. [https://doi.org/10.1515/libr.1981.31.1.1](https://doi.org/10.1515/libr.1981.31.1.1).
+
 Pedersen, Jordan. 2022. “Measuring Collection Diversity via Exploratory Analysis of Collection Metadata.” _The Serials Librarian_ 82 (1–4): 186–93. [https://doi.org/10.1080/0361526X.2022.2028499](https://doi.org/10.1080/0361526X.2022.2028499).
 
 Peng, Zong, Miao Chen, Stacy Kowalczyk, and Beth Plale. 2014. “Author Gender Metadata Augmentation of Hathitrust Digital Library.” _Proceedings of the American Society for Information Science and Technology_ 51 (1): 1–4. [https://doi.org/10.1002/meet.2014.14505101098](https://doi.org/10.1002/meet.2014.14505101098).
@@ -146,6 +162,8 @@ Péter, Katalin. 1984. “A romlás a szellemi műveltség állapotaiban a 17. s
 Petras, Vivien. 2025. “Paul Gooding, Melissa Terras, Sarah Ames (Hrsg.): Library Catalogues as Data – Research, Practice and Usage. London: Facet Publishing, 2025. 228 S.” _Bibliothek Forschung Und Praxis_, ahead of print, December 18. [https://doi.org/10.1515/bfp-2025-0037](https://doi.org/10.1515/bfp-2025-0037).
 
 Prescott, Andrew. 2013. “Bibliographic Records as Humanities Big Data.” _2013 IEEE International Conference on Big Data_, October, 55–58. [https://doi.org/10.1109/BigData.2013.6691670](https://doi.org/10.1109/BigData.2013.6691670).
+
+Pruett, Jordan. 2022. _Managed Abundance: A Quantitative History of American Fiction, 1931-2009._ PhD Thesis, University of Chicago. In ProQuest Dissertations and Theses. [https://www.proquest.com/dissertations-theses/managed-abundance-quantitative-history-american/docview/2706708655/se-2](https://www.proquest.com/dissertations-theses/managed-abundance-quantitative-history-american/docview/2706708655/se-2).
 
 Riddell, Allen, and Michael Betancourt. 2021. “Reassembling the English Novel, 1789–1919.” _Journal of Cultural Analytics_ 6 (1): 1256. [https://doi.org/10.22148/001c.19102](https://doi.org/10.22148/001c.19102).
 
@@ -159,6 +177,10 @@ Rother, Lynn, Fabio Mariani, and Max Koss. 2023. “Hidden Value: Provenance as 
 
 Rovira-Esteva, Sara, Javier Franco Aixelá, and Christian Olalla-Soler. 2019. “Citation Patterns in Translation Studies: A Format-Dependent Bibliometric Analysis.” _The International Journal of Translation and Interpreting Research_ 11 (1): 147–71. [https://doi.org/10.12807/ti.111201.2019.a09](https://doi.org/10.12807/ti.111201.2019.a09).
 
+Ryan, Yann, and Margherita Fantoli. 2024. “Early Modern Book Catalogues and Multilingualism: Identifying Multilingual Texts and Translations Using Titles.” In _Computational Humanities Research 2024_, edited by Wouter Haverals, Marijn Koolen, and Laure Thompson, Vol-3834. CEUR Workshop Proceedings. pp. 1139-1157. [https://ceur-ws.org/Vol-3834/paper135.pdf](https://ceur-ws.org/Vol-3834/paper135.pdf).
+
+Ryan, Yann Ciarán, and Mikko Tolonen. 2024. “The Evolution of Scottish Enlightenment Publishing.” _The Historical Journal_ 67 (2): 223–55. [https://doi.org/10.1017/S0018246X23000614](https://doi.org/10.1017/S0018246X23000614).
+
 Santini, Cristian, Genet Asefa Gesese, Silvio Peroni, Aldo Gangemi, Harald Sack, and Mehwish Alam. 2022. “A Knowledge Graph Embeddings Based Approach for Author Name Disambiguation Using Literals.” _Scientometrics_ 127 (8): 4887–912. [https://doi.org/10.1007/s11192-022-04426-2](https://doi.org/10.1007/s11192-022-04426-2).
 
 Sapiro, Gisèle. 2008. “Translation and the Field of Publishing: A Commentary on Pierre Bourdieu’s ‘A Conservative Revolution in Publishing.’” _Translation Studies_ 1 (2): 154–66. [https://doi.org/10.1080/14781700802113473](https://doi.org/10.1080/14781700802113473).
@@ -167,7 +189,11 @@ Smith-Yoshimura, Karen and OCLC Research. 2010. _Implications of MARC Tag Usage 
 
 Stegaeva, M. V. 2016. “Cooperative Cataloging: History and the Current State.” _Scientific and Technical Information Processing_ 43 (1): 28–35. [https://doi.org/10.3103/S0147688216010056](https://doi.org/10.3103/S0147688216010056).
 
-Suarez, Michael F. 2009. “Towards a Bibliometric Analysis of the Surviving Record, 1701–1800.” In _The Cambridge History of the Book in Britain_, 1st ed., edited by Michael F. Suarez, Sj and Michael L. Turner. Cambridge University Press. [https://doi.org/10.1017/CHOL9780521810173.003](https://doi.org/10.1017/CHOL9780521810173.003).
+Suarez, Michael Felix. 2003. “Historiographical Problems and Possibilities in Book History and National Histories of the Book.” _Studies in Bibliography_ 56 (1): 140–70. [https://doi.org/10.1353/sib.2007.0002](https://doi.org/10.1353/sib.2007.0002).
+
+Suarez, Michael Felix. 2009. “Towards a Bibliometric Analysis of the Surviving Record, 1701–1800.” In _The Cambridge History of the Book in Britain_, 1st ed., edited by Michael F. Suarez, Sj and Michael L. Turner. Cambridge University Press. [https://doi.org/10.1017/CHOL9780521810173.003](https://doi.org/10.1017/CHOL9780521810173.003).
+
+Suarez, Michael F. 2014. “Book History from Descriptive Bibliographies.” In _The Cambridge Companion to the History of the Book_, 1st ed., edited by Leslie Howsam. Cambridge University Press. [https://doi.org/10.1017/CCO9781139152242.015](https://doi.org/10.1017/CCO9781139152242.015).
 
 Szemes, Botond, and Kata Dobás. 2025. “A visegrádi országok digitális irodalmi emlékezete: Wikipedia, Wikidata – a regionális irodalomtörténet új alakzatai.” _Irodalomtörténeti Közlemények_ 129 (2): 191–212. [https://doi.org/10.56232/itk.2025.2.04](https://doi.org/10.56232/itk.2025.2.04).
 
@@ -200,6 +226,8 @@ Walsh, Melanie, Connor Franklin Rey, Chang Ge, Tina Nowak, and Sabina Tomkins. 2
 Walters, William H. 2023. “Assessing Diversity in Academic Library Book Collections: Diversity Audit Principles and Methods.” _Open Information Science_ 7 (1): 20220148. [https://doi.org/10.1515/opis-2022-0148](https://doi.org/10.1515/opis-2022-0148).
 
 Wang, Kuansan, Zhihong Shen, Chiyuan Huang, et al. 2019. “A Review of Microsoft Academic Services for Science of Science Studies.” _Frontiers in Big Data_ 2 (December): 45. [https://doi.org/10.3389/fdata.2019.00045](https://doi.org/10.3389/fdata.2019.00045).
+
+Weedon, Alexis. 2019. “The Uses of Quantification.” In _A Companion to the History of the Book_, 1st ed., edited by Simon Eliot and Jonathan Rose. Wiley. [https://doi.org/10.1002/9781119018193.ch3](https://doi.org/10.1002/9781119018193.ch3).
 
 Weitz, Jay, Jenny Toves, Diane Vizine-goetz, Nannette Naught, and Robert Bremer. 2016. “Mining MARC’s Hidden Treasures: Initial Investigations Into How Notes of the Past Might Shape Our Future.” _Journal of Library Metadata_ 16 (3–4): 166–80. [https://doi.org/10.1080/19386389.2016.1262653](https://doi.org/10.1080/19386389.2016.1262653).
 
