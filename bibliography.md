@@ -45,7 +45,13 @@ Delaunay, Julien, Marc-Alexis Azaïs, Dipendra Sharma Kafle, Nicolas Sidere, Ant
 
 Estill, Laura. 2025. “Digital Text Analysis and Early Shakespeare Bibliography: Using Voyant Tools with Bad OCR.” _Digital Studies / Le Champ Numérique_ 15 (1): 18897. [https://doi.org/10.16995/dscn.18897](https://doi.org/10.16995/dscn.18897).
 
+Fantoli, Margherita, Jukka Suomela, Toon Van Hal, Mark Depauw, Lari Virkki, and Mikko Tolonen. 2025. “Quantifying the Presence of Ancient Greek and Latin Classics in Early Modern Britain.” _Journal of Cultural Analytics_ 10 (1). [https://doi.org/10.22148/001c.128008](https://doi.org/10.22148/001c.128008).
+
+Farkas, Farkas Gábor, János Káldos, and Péter Király. 2025. “A Régi Magyarországi Kiadványok „sötét Anyaga”.” _Magyar Könyvszemle_ 141 (2): 226–66. [https://doi.org/10.17167/mksz.2025.2.226-266](https://doi.org/10.17167/mksz.2025.2.226-266).
+
 Gasparini, Andrea, and Heli Kautonen. 2022. “Understanding Artificial Intelligence in Research Libraries – Extensive Literature Review.” _LIBER Quarterly: The Journal of the Association of European Research Libraries_ 32 (1). [https://doi.org/10.53377/lq.10934](https://doi.org/10.53377/lq.10934).
+
+Gavin, Michael. 2023. _Literary Mathematics: Quantitative Theory for Textual Studies._ Stanford University Press. ISBN 978-1-5036-3282-0 (Stanford Text Technologies)
 
 Gooding, Paul, Melissa M. Terras, and Sarah Ames (eds). 2025. _Library Catalogues as Data: Research, Practice and Usage._ Facet Publishing. 228 p. [https://doi.org/10.29085/9781783306602](https://doi.org/10.29085/9781783306602)
 * Gooding, Paul, Melissa Terras, and Sarah Ames. _Introduction: The Library Catalogue Data Ecosystem._ pp. xxix-xl. [https://doi.org/10.29085/9781783306602.002](https://doi.org/10.29085/9781783306602.002).
@@ -91,6 +97,8 @@ Kaiser, Max. 2023. “Digitale Sammlungen Als Offene Daten Für Die Forschung: S
 
 Karlinska, Agnieszka, Cezary Rosiński, Marek Kubis, Patryk Hubar, and Jan Wieczorek. 2024. “Using Bibliodata LODification to Create Metadata-Enriched Literary Corpora in Line with FAIR Principles.” _ACL Anthology_ LREC-COLING 2024 (May). [https://aclanthology.org/2024.lrec-main.1500.pdf](https://aclanthology.org/2024.lrec-main.1500.pdf).
 
+Kestemont, Mike, Folgert Karsdorp, Jean-Baptiste Camps, Remco Sleiderink, and Anne Chao. 2026. “Saved in Translation? Diversity Shared in French and Dutch Medieval Literature.” _Evolutionary Human Sciences_ 8: e7. [https://doi.org/10.1017/ehs.2026.10036](https://doi.org/10.1017/ehs.2026.10036).
+
 Kruusmaa, Krister, Peeter Tinits, and Laura Nemvalts. 2025. “Curated Bibliographic Data: The Case of the Estonian National Bibliography.” _Journal of Open Humanities Data_ 11 (February): 16. [https://doi.org/10.5334/johd.280](https://doi.org/10.5334/johd.280).
 
 Grashenko, Leonid, Alexander Modin, and Nikita Kuzmin. 2020. “Statistical Localization of Bibliographic Descriptions in Unstructured Full-Texts Documents.” _Proceedings of the Computational Models in Language and Speech Workshop (CMLS 2020)_ 2780: 1–13. [https://ceur-ws.org/Vol-2780/paper15.pdf](https://ceur-ws.org/Vol-2780/paper15.pdf).
@@ -98,6 +106,8 @@ Grashenko, Leonid, Alexander Modin, and Nikita Kuzmin. 2020. “Statistical Loca
 Lahti, Leo, Jani Marjanen, Hege Roivainen, and Mikko Tolonen. 2019. “Bibliographic Data Science and the History of the Book (c. 1500–1800).” _Cataloging &amp; Classification Quarterly_ 57 (1): 5–23. [https://doi.org/10.1080/01639374.2018.1543747](https://doi.org/10.1080/01639374.2018.1543747).
 
 Mäkelä, Eetu, Krista Lagus, Leo Lahti, Tanja Säily, Mikko Tolonen, Mika Hämäläinen, Samuli Kaislaniemi, and Terttu Nevalainen. 2020. “Wrangling with Non-Standard Data.” _Proceedings of the Digital Humanities in the Nordic Countries 5th Conference_ (Aachen), CEUR Workshop Proceedings, 81–96. [https://ceur-ws.org/Vol-2612/paper6.pdf](https://ceur-ws.org/Vol-2612/paper6.pdf)
+
+Malínek, Vojtěch. 2023. “Poezie na křižovatce: poznámky ke kvantitativním aspektům české poezie v letech 1945–1959.” _Bohemica litteraria_, no. 2: 7–28. [https://doi.org/10.5817/BL2023-2-1](https://doi.org/10.5817/BL2023-2-1).
 
 Matusiak, Krystyna K. 2012. “Perceptions of Usability and Usefulness of Digital Libraries.” _International Journal of Humanities and Arts Computing_ 6 (1–2): 133–47. [https://doi.org/10.3366/ijhac.2012.0044](https://doi.org/10.3366/ijhac.2012.0044).
 
@@ -109,7 +119,11 @@ Petras, Vivien. 2025. “Paul Gooding, Melissa Terras, Sarah Ames (Hrsg.): Libra
 
 Prescott, Andrew. 2013. “Bibliographic Records as Humanities Big Data.” _2013 IEEE International Conference on Big Data_, October, 55–58. [https://doi.org/10.1109/BigData.2013.6691670](https://doi.org/10.1109/BigData.2013.6691670).
 
+Riddell, Allen, and Michael Betancourt. 2021. “Reassembling the English Novel, 1789–1919.” _Journal of Cultural Analytics_ 6 (1): 1256. [https://doi.org/10.22148/001c.19102](https://doi.org/10.22148/001c.19102).
+
 Rohrbacher, Katrin, and David Schrittesser. 2026. “Bridging the Gaps: Integrating Bibliographic Metadata Into Wikidata for Literary Corpora.” _Journal of Open Humanities Data_ 12 (February): 37. [https://doi.org/10.5334/johd.483](https://doi.org/10.5334/johd.483).
+
+Roig-Sanz, Diana, and Laura Fólica. 2021. “Big Translation History: Data Science Applied to Translated Literature in the Spanish-Speaking World, 1898–1945.” _Translation Spaces_ 10 (2): 231–59. [https://doi.org/10.1075/ts.21012.roi](https://doi.org/10.1075/ts.21012.roi).
 
 Santini, Cristian, Genet Asefa Gesese, Silvio Peroni, Aldo Gangemi, Harald Sack, and Mehwish Alam. 2022. “A Knowledge Graph Embeddings Based Approach for Author Name Disambiguation Using Literals.” _Scientometrics_ 127 (8): 4887–912. [https://doi.org/10.1007/s11192-022-04426-2](https://doi.org/10.1007/s11192-022-04426-2).
 
@@ -119,13 +133,21 @@ Stegaeva, M. V. 2016. “Cooperative Cataloging: History and the Current State.�
 
 Suarez, Michael F. 2009. “Towards a Bibliometric Analysis of the Surviving Record, 1701–1800.” In _The Cambridge History of the Book in Britain_, 1st ed., edited by Michael F. Suarez, Sj and Michael L. Turner. Cambridge University Press. [https://doi.org/10.1017/CHOL9780521810173.003](https://doi.org/10.1017/CHOL9780521810173.003).
 
+Szemes, Botond, and Kata Dobás. 2025. “A visegrádi országok digitális irodalmi emlékezete: Wikipedia, Wikidata – a regionális irodalomtörténet új alakzatai.” _Irodalomtörténeti Közlemények_ 129 (2): 191–212. [https://doi.org/10.56232/itk.2025.2.04](https://doi.org/10.56232/itk.2025.2.04).
+
+Teichmann, Lisa Maria. 2022. _Mapping German fiction in translation in the German National Library catalogue (1980-2020)._ Doctoral thesis, McGill University. [https://escholarship.mcgill.ca/concern/theses/0p096d03z](https://escholarship.mcgill.ca/concern/theses/0p096d03z).
+
 Teichmann, Lisa. 2025. “The ‘Mapping German Fiction in Translation’ Dataset: Data Collection, Scope, and Data Quality.” _Journal of Cultural Analytics_ 10 (1): 918. [https://doi.org/10.22148/001c.128010](https://doi.org/10.22148/001c.128010).
+
+Teichmann, Lisa, and Karolina Roman. 2024. “Bibliographic Translation Data: Invisibility, Research Challenges, Institutional and Editorial Practices.” _Digital Humanities Quarterly_ 18 (3). [https://www.digitalhumanities.org/dhq/vol/18/3/000749/000749.html](https://www.digitalhumanities.org/dhq/vol/18/3/000749/000749.html).
 
 Tolonen, Mikko, Mark J. Hill, Ali Zeeshan Ijaz, Ville Vaara, and Leo Lahti. 2021. “Examining the Early Modern Canon: The English Short Title Catalogue and Large-Scale Patterns of Cultural Production.” In _Data Visualization in Enlightenment Literature and Culture_, edited by Ileana Baird. Springer International Publishing. [https://doi.org/10.1007/978-3-030-54913-8_3](https://doi.org/10.1007/978-3-030-54913-8_3).
 
 Tuppen, Sandra, Stephen Rose, and Loukia Drosopoulou. 2016. “Library Catalogue Records as a Research Resource: Introducing ‘A Big Data History of Music.’” _Fontes Artis Musicae_ 63 (2): 67–88. [https://doi.org/10.1353/fam.2016.0011](https://doi.org/10.1353/fam.2016.0011).
 
 Varin, Janelle. 2024. “Text Mining Bibliographic Metadata for Inclusivity: Analyzing Most Frequent Words in Titles, Summaries, and Subjects.” _Library Resources &amp; Technical Services_ 68 (4). [https://doi.org/10.5860/lrts.68n4.8329](https://doi.org/10.5860/lrts.68n4.8329).
+
+Vimr, Ondřej, and Cezary Rosiński. 2023. “Česká Literatura ve Světě: Možnosti Mapování ve Velkém Rozsahu (1820-2020).” _Česká Literatura_ 70 (6): 711–34. [https://doi.org/10.51305/cl.2022.06.03](https://doi.org/10.51305/cl.2022.06.03).
 
 Visser, Martijn, Nees Jan Van Eck, and Ludo Waltman. 2021. “Large-Scale Comparison of Bibliographic Data Sources: Scopus, Web of Science, Dimensions, Crossref, and Microsoft Academic.” _Quantitative Science Studies_ 2 (1): 20–41. [https://doi.org/10.1162/qss_a_00112](https://doi.org/10.1162/qss_a_00112).
 
