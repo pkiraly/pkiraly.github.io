@@ -50,7 +50,7 @@ Gasparini, Andrea, and Heli Kautonen. 2022. “Understanding Artificial Intellig
 Gooding, Paul, Melissa M. Terras, and Sarah Ames (eds). 2025. _Library Catalogues as Data: Research, Practice and Usage._ Facet Publishing. 228 p. [https://doi.org/10.29085/9781783306602](https://doi.org/10.29085/9781783306602)
 * Gooding, Paul, Melissa Terras, and Sarah Ames. _Introduction: The Library Catalogue Data Ecosystem._ pp. xxix-xl. [https://doi.org/10.29085/9781783306602.002](https://doi.org/10.29085/9781783306602.002).
 * Lavoie, Brian. _Making the Conceptual Concrete: Defining, Describing and Visualising Collective Collections._ pp. 1-18. [https://doi.org/10.29085/9781783306602.003](https://doi.org/10.29085/9781783306602.003).
-* Király, Péter, Tomasz Umerle, Vojtěch Malínek, et al. _Effects of Open Science and the Digital Transformation on the Bibliographical Data Landscape._ pp. 19-44. [https://doi.org/10.29085/9781783306602.004](https://doi.org/10.29085/9781783306602.004).
+* Király, Péter, Tomasz Umerle, Vojtěch Malínek, Elzbieta Herden, Beata Koper, Giovanni Colavizza, Rindert Jagersma, Leo Lahti, David Lindemann, Jakub Maciej Łubocki, Alexandra Milanova, Róbert Péter, Nanette Rißler-Pipka, Dorota Siwecka, Matteo Romanello, Marcin Roszkowski, Mikko Tolonen and Ondřej Vimr. _Effects of Open Science and the Digital Transformation on the Bibliographical Data Landscape._ pp. 19-44. [https://doi.org/10.29085/9781783306602.004](https://doi.org/10.29085/9781783306602.004).
 * Candela, Gustavo. _Data Quality in Library Catalogues and Its Impact on Access, Analysis and Reuse._ pp. 45-60. [https://doi.org/10.29085/9781783306602.005](https://doi.org/10.29085/9781783306602.005.
 * Havens, Lucy. _Data Bias and the Natural Language Processing of Metadata._ pp. 61-84. [https://doi.org/10.29085/9781783306602.006](https://doi.org/10.29085/9781783306602.006).
 * Eve, Martin Paul. _‘Contains Scenes of Mild Peril’: Illuminating the Catalogues of Dark Archives._ pp. 85-100. [https://doi.org/10.29085/9781783306602.007](https://doi.org/10.29085/9781783306602.007).
@@ -65,6 +65,12 @@ Groenland, Tim, and Michaela Králová. 2025. “Data, Discoverability, and Tran
 Guiliano, Jennifer, and Mia Ridge. 2016. “The Future of Digital Methods for Complex Datasets: An Introduction.” _International Journal of Humanities and Arts Computing_ 10 (1): 1–7. [https://doi.org/10.3366/ijhac.2016.0155](https://doi.org/10.3366/ijhac.2016.0155).
 
 Hanssen, Jens-Morten, and Sissel Furuseth, eds. 2025. _The Hermeneutics of Bibliographic Data and Cultural Metadata_. National Library of Norway. [https://hdl.handle.net/11250/3178351](https://hdl.handle.net/11250/3178351).
+* Hanssen, Jens Morten, Sissel Furuseth. _Introduction: The Crossroads of Bibliography and Digital Humanities._ pp. 11-26. [https://hdl.handle.net/11250/4907915](https://hdl.handle.net/11250/4907915)
+* Hanssen, Jens Morten. _The Rise of the Novel in Norway: Bibliographical Perspectives._ pp. 67-95. [https://hdl.handle.net/11250/3981046](https://hdl.handle.net/11250/3981046). 
+* Birkenes, Magnus Breder, Lars Gunnarsønn Bagøien Johnsen. _Corpus and the Bibliography: NB DH-LAB as an Infrastructure for Text and Metadata Mining_. pp. 96-117. [https://hdl.handle.net/11250/5242225](https://hdl.handle.net/11250/5242225).
+* Ohren, Oddrun Pauline. _Getting Meaning out of Metadata - Analysis of Selected Bibliographies at the National Library of Norway._ pp. 118-148. [https://hdl.handle.net/11250/4275206](https://hdl.handle.net/11250/4275206).
+* Furuseth, Sissel. _Bibliographic Needs in Literary Critical Reception and Periodical Studies: The Database 'Norsk litteraturkritikk' as a Case in Point._ pp. 149-174. [https://hdl.handle.net/11250/5046225](https://hdl.handle.net/11250/5046225).
+* Pharo, Nils, Pia Borlund. _The use of bibliographic and cultural metadata - how to investigate users' information search behaviour._ pp. 175-203. [https://hdl.handle.net/11250/4328956](https://hdl.handle.net/11250/4328956).
 
 Harper, Corey A. 2016. “Metadata Analytics, Visualization, and Optimization: Experiments in Statistical Analysis of the Digital Public Library of America (DPLA).” _Code4Lib Journal_, no. 33. [https://journal.code4lib.org/articles/11752](https://journal.code4lib.org/articles/11752).
 
@@ -90,11 +96,9 @@ Grashenko, Leonid, Alexander Modin, and Nikita Kuzmin. 2020. “Statistical Loca
 
 Lahti, Leo, Jani Marjanen, Hege Roivainen, and Mikko Tolonen. 2019. “Bibliographic Data Science and the History of the Book (c. 1500–1800).” _Cataloging &amp; Classification Quarterly_ 57 (1): 5–23. [https://doi.org/10.1080/01639374.2018.1543747](https://doi.org/10.1080/01639374.2018.1543747).
 
-Mäkelä, Eetu, Krista Lagus, Leo Lahti, et al. 2020. “Wrangling with Non-Standard Data: Digital Humanities in the Nordic Countries.” _Proceedings of the Digital Humanities in the Nordic Countries 5th Conference_ (Aachen), CEUR Workshop Proceedings, 81–96.
+Mäkelä, Eetu, Krista Lagus, Leo Lahti, Tanja Säily, Mikko Tolonen, Mika Hämäläinen, Samuli Kaislaniemi, and Terttu Nevalainen. 2020. “Wrangling with Non-Standard Data.” _Proceedings of the Digital Humanities in the Nordic Countries 5th Conference_ (Aachen), CEUR Workshop Proceedings, 81–96. [https://ceur-ws.org/Vol-2612/paper6.pdf](https://ceur-ws.org/Vol-2612/paper6.pdf)
 
 Matusiak, Krystyna K. 2012. “Perceptions of Usability and Usefulness of Digital Libraries.” _International Journal of Humanities and Arts Computing_ 6 (1–2): 133–47. [https://doi.org/10.3366/ijhac.2012.0044](https://doi.org/10.3366/ijhac.2012.0044).
-
-Ohren, Oddrun Pauline. 2025. “Getting Meaning out of Metadata - Analysis of Selected Bibliographies at the National Library of Norway.” In _The Hermeneutics of Bibliographic Data and Cultural Metadata_. National Library of Norway. [https://hdl.handle.net/11250/4275206](https://hdl.handle.net/11250/4275206).
 
 Pedersen, Jordan. 2022. “Measuring Collection Diversity via Exploratory Analysis of Collection Metadata.” _The Serials Librarian_ 82 (1–4): 186–93. [https://doi.org/10.1080/0361526X.2022.2028499](https://doi.org/10.1080/0361526X.2022.2028499).
 
