@@ -17,6 +17,8 @@ p {
 }
 </style>
 
+The following list contains papers that somehow related to the topic of _Bibliographic Data Science_, i.e. the computational analysis of bibliographic data science aiming to highlight patterns that are relevant either for some branch of Humanities (literature history, cultural history, translation history and so on) or for the library management. This is not a comprehensive list, so please send me your recommentations to pkiraly at gwdg point de. 
+
 Ames, Sarah, and Lucy Havens. 2022. “Exploring National Library of Scotland Datasets with Jupyter Notebooks.” _IFLA Journal_ 48 (1): 50–56. [https://doi.org/10.1177/03400352211065484](https://doi.org/10.1177/03400352211065484).
 
 Beaudiquez, Marcelle. 2001. “National Bibliographic Services at the Dawn of the 21st Century: Evolution and Revolution.” _ICNBS, Copenhagen, 25-27 November 1998: Proceedings of the International Conference on National Bibliographic Services_. [https://www.ifla.org/wp-content/uploads/2019/05/assets/bibliography/publications/beam-e.pdf](https://www.ifla.org/wp-content/uploads/2019/05/assets/bibliography/publications/beam-e.pdf).
