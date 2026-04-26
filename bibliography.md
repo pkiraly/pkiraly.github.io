@@ -215,6 +215,8 @@ Ungure, Elza. 2022. “A Statistical Overview of Bibliodiversity in the Latvian 
 
 Varin, Janelle. 2024. “Text Mining Bibliographic Metadata for Inclusivity: Analyzing Most Frequent Words in Titles, Summaries, and Subjects.” _Library Resources &amp; Technical Services_ 68 (4). [https://doi.org/10.5860/lrts.68n4.8329](https://doi.org/10.5860/lrts.68n4.8329).
 
+Vimr, Ondřej. 2025. “A Computational Approach to the History of Czech Literature in Translation during the Cold War (1948–1989).” _Translation Studies_ 18 (1): 137–55. [https://doi.org/10.1080/14781700.2024.2421550](https://doi.org/10.1080/14781700.2024.2421550).
+
 Vimr, Ondřej, and Cezary Rosiński. 2023. “Česká Literatura ve Světě: Možnosti Mapování ve Velkém Rozsahu (1820-2020).” _Česká Literatura_ 70 (6): 711–34. [https://doi.org/10.51305/cl.2022.06.03](https://doi.org/10.51305/cl.2022.06.03).
 
 Visser, Martijn, Nees Jan Van Eck, and Ludo Waltman. 2021. “Large-Scale Comparison of Bibliographic Data Sources: Scopus, Web of Science, Dimensions, Crossref, and Microsoft Academic.” _Quantitative Science Studies_ 2 (1): 20–41. [https://doi.org/10.1162/qss_a_00112](https://doi.org/10.1162/qss_a_00112).
