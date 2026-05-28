@@ -83,10 +83,10 @@ The following paper was rejected, and is not available
 
 Juliane Stiller, and Péter Király. “Multilinguality of Metadata Measuring the Multilingual Degree of Europeana’s Metadata.” In M. Gäde, V. Trkulja, V. Petras (Eds.): *Everything Changes, Everything Stays the Same? Understanding Information Spaces.* Proceedings of the 15th International Symposium of Information Science (ISI 2017), Berlin, 13th—15th March 2017. Glückstadt: Verlag Werner Hülsbusch, pp. 164—176. URL (whole book): [http://isi2017.ib.hu-berlin.de/ISI_17_ONLINE_FINAL.pdf](http://isi2017.ib.hu-berlin.de/ISI_17_ONLINE_FINAL.pdf) (this paper): [researchgate.net](https://www.researchgate.net/publication/314879735_Multilinguality_of_Metadata_Measuring_the_Multilingual_Degree_of_Europeana%27s_Metadata)<br/>
 cited by:<br/>
-
 1. Sarah Fallert. "Multilinguale Herausforderungen in der Sacherschließung." Master's thesis, Humboldt-Universität zu Berlin, 2020. [edoc.hu-berlin.de](https://edoc.hu-berlin.de/handle/18452/22048)
 2. August Wierling, Valeria Jana Schwanitz, Sebnem Altinci, Maria Bałazinska, Michael J. Barber, Mehmet Efe Biresselioglu, Christopher Burger-Scheidlin, Massimo Celino, Muhittin Hakan Demir, Richard Dennis, Nicolas Dintzner, Adel el Gammal, Carlos M. Fernández-Peruchena, Winston Gilcrease, Paweł Gładysz, Carsten Hoyer-Klick, Kevin Joshi, Mariusz Kruczek, David Lacroix, Małgorzata Markowska, Rafael Mayo-García, Robbie Morrison, Manfred Paier, Giuseppe Peronato, Mahendranath Ramakrishnan, Janeita Reid, Alessandro Sciullo, Berfu Solak, Demet Suna, Wolfgang Süß, Astrid Unger, Maria Luisa Fernandez Vanoni  and Nikola Vasiljevic. "FAIR Metadata Standards for Low Carbon Energy Research—A Review of Practices and How to Advance." _Energies_ 2021, 14, 6692. DOI: [10.3390/en14206692](https://doi.org/10.3390/en14206692)
 3. Elena Battaner, and Paul Spence. “The Linguistic Asymmetry Index (LAI): Benchmarking Equity in Multilingual Research Infrastructures”. _Journal of Open Humanities Data_ 2026. 12 (1): 28. DOI: [https://doi.org/10.5334/johd.474](https://doi.org/10.5334/johd.474)
+4. Dennis Donathan II, Mike Nason, Marco Tullney, Julie Shi, and Juan Pablo Alperin. "Evaluating Multilingual Metadata Quality in Crossref." _Journal of Librarianship and Scholarly Communication_, 2026. 14(1), eP19779. pp. 1-26. [10.31274/jlsc.19779](https://doi.org/10.31274/jlsc.19779)
 
 
 Péter Király. “Towards an extensible measurement of metadata quality.” In *Second International Conference on Digital Access to Textual Cultural Heritage.* Conference Proceedings. Göttingen, June 1-2, 2017. Published by ACM 2017. ISBN 978-1-4503-5265-9. pp. 111-115. DOI: [10.1145/3078081.3078109](https://doi.org/10.1145/3078081.3078109)
@@ -112,6 +112,7 @@ cited by:<br/>
 2. Subhi Issa, Onaopepo Adekunle, Fayçal Hamdi, Samira Si-Said Cherfi, Michel Dumontier, and Amrapali Zaveri. "Knowledge Graph Completeness: A Systematic Literature Review." _IEEE Access_ 9. (2021). pp. 31322-31339. DOI: [10.1109/ACCESS.2021.3056622](https://doi.org/10.1109/ACCESS.2021.3056622)
 3. Dennis Donathan II, Mike Nason, Marco Tullney, Julie Shi, and Juan Pablo Alperin. "Evaluating Multilingual Metadata Quality in Crossref." preprint. _arxiv_, 2025. arXiv:2503.11853. DOI [10.48550/arXiv.2503.11853](https://doi.org/10.48550/arXiv.2503.11853)
 4. Vyacheslav Zavalin, and Oksana L. Zavalina. "Assessing Comparative Effectiveness of Metadata Creation with Specialized and General Standards for Representing Artworks." _Journal of Library Metadata_, 2025 May, 1–31. DOI: [10.1080/19386389.2025.2499343](https://doi.org/10.1080/19386389.2025.2499343)
+5. Dennis Donathan II, Mike Nason, Marco Tullney, Julie Shi, and Juan Pablo Alperin. "Evaluating Multilingual Metadata Quality in Crossref." _Journal of Librarianship and Scholarly Communication_, 2026. 14(1), eP19779. pp. 1-26. [10.31274/jlsc.19779](https://doi.org/10.31274/jlsc.19779)
 
 
 ### 2019
