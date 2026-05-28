@@ -274,6 +274,8 @@ Erzsébet Tóth-Czifra, Marta Błaszczyńska, Francesco Gelati, Femmy Admiraal, 
 cited by:<br/>
 1. Ljiljana Poljak Bilić and Kristina Posavec. "FAIRness of Research Data in the European Humanities Landscape" _Publications_ 2024. 12, no. 1: 6. DOI: [10.3390/publications12010006](https://doi.org/10.3390/publications12010006)
 2. Sebastian Barzaghi, Alice Bordignon, Bianca Gualandi, Ivan Heibi, Arcangelo Massari, Arianna Moretti, Silvio Peroni, and Giulia Renda. "A Proposal for a FAIR Management of 3D Data in Cultural Heritage: The Aldrovandi Digital Twin Case." arXiv preprint arXiv:2407.02018 (2024). DOI: [10.48550/arXiv.2407.02018](https://doi.org/10.48550/arXiv.2407.02018)
+3. Silvio Peroni. "Are Digital Humanities really committed to open? An exploratory study on the availability of methodological workflows and open peer review practices." _arXiv preprint_, 2026. arXiv:2604.23827 [10.48550/arXiv.2604.23827](https://doi.org/10.48550/arXiv.2604.23827)
+4. Tibor Kálmán, Sally Chambers, and Peter Gietz. "Clouds for Crowds—Implementing Federated AAI for the Digital Humanities." In _Digital Humanities Tech Symposium 2025_, pp. 32-37. Anthology of Computers and the Humanities, 2025. [10.63744/a9oVejGuN3UN](https://doi.org/10.63744/a9oVejGuN3UN)
 
 Ungváry Rudolf, Király Péter. "Nemzeti könyvtárak és az OSZK MARC21 állományainak összehasonlító elemzése néhány adatmező alapján." (Short paper version) In: Networkshop, 2023. pp. 36-49. DOI: [10.31915/NWS.2023.7](https://doi.org/110.31915/NWS.2023.7)
 
@@ -295,6 +297,7 @@ cited by:<br/>
 8. Ivan Heibi, Silvio Peroni, and Elia Rizzetto. "Validating and monitoring bibliographic and citation data in OpenCitations collections".
   * Preprint. _arxiv_, 2025. DOI [10.48550/arXiv.2504.12195](https://doi.org/10.48550/arXiv.2504.12195)
   * _International Journal on Digital Libraries_ 2025. 26:16 pp. 1-15. DOI [10.1007/s00799-025-00425-9](https://doi.org/10.1007/s00799-025-00425-9)
+9. Zehra Taşkın. "Sustaining the “frozen footprints” of scholarly communication through open citations: An Annual Review of Information Science and Technology (ARIST) paper." _Journal of the Association for Information Science and Technology_, 2026. 77(1), pp. 23–39. [10.1002/asi.24982](https://doi.org/10.1002/asi.24982)
 
 Péter Király. "QA Catalogue - A Quality Assessment Tool for Library Catalogues". _GWDG Nachrichten_ 2024. 04-05. pp. 19-24. [gwdg.de](https://gwdg.de/about-us/gwdg-news/2024/GN_04-05-2024_www.pdf#page=19)
 cited by:<br/>
