@@ -315,6 +315,13 @@ cited by:<br/>
 
 Farkas Gabor Farkas, János Káldos and Péter Király. "A régi magyarországi kiadványok „sötét anyaga”". _Magyar Könyvszemle_ 141(2025):2. pp. 226-266. DOI [10.17167/MKSZ.2025.2.226-266](https://doi.org/10.17167/MKSZ.2025.2.226-266)
 
+### 2026
+
+Király Péter, Kiséry András. "Krasznahorkai mint világszerző - az irodalmi siker termelése a 21. században." In _Krasznahorkai - Út a Nobel-díjig_. Budapest : Könyves Magazin, 2026. pp. 124-134. ISBN 9786150268453.
+
+Péter Király, András Kiséry. "The Worlds of Hungarian Literature: Translationscapes and World Systems." In Péter Hajdu, Zoltán Z. Varga (eds.) _Hungarian Literature as World Literature_.  New York : Bloomsbury Academic, 2026. ISBN 9781501393129 pp. 273-286. [bloomsbury.com](https://www.bloomsbury.com/us/hungarian-literature-as-world-literature-9781501393129/)
+
+Farkas Gábor Farkas, Káldos János, and Péter Király. "The ‘dark matter’ of Early Hungarian Prints." In Philip Ajouri, Gerhard Lauer, Nikolaus Weichselbaumer (eds.) _Gutenberg-Jahrbuch 2026_. Heidelberg : Heidelberg University Publishing, 2026. pp. 181-208. DOI [10.82122/gj.2026.25348](https://doi.org/10.82122/gj.2026.25348)
 
 <!-- span id="badgeCont105"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont105&rid=AAW-9289-2021"></script></span -->
 
