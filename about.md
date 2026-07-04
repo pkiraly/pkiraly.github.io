@@ -321,7 +321,7 @@ Király Péter, Kiséry András. "Krasznahorkai mint világszerző - az irodalmi
 
 Péter Király, András Kiséry. "The Worlds of Hungarian Literature: Translationscapes and World Systems." In Péter Hajdu, Zoltán Z. Varga (eds.) _Hungarian Literature as World Literature_.  New York : Bloomsbury Academic, 2026. ISBN 9781501393129 pp. 273-286. [bloomsbury.com](https://www.bloomsbury.com/us/hungarian-literature-as-world-literature-9781501393129/)
 
-Farkas Gábor Farkas, Káldos János, and Péter Király. "The ‘dark matter’ of Early Hungarian Prints." In Philip Ajouri, Gerhard Lauer, Nikolaus Weichselbaumer (eds.) _Gutenberg-Jahrbuch 2026_. Heidelberg : Heidelberg University Publishing, 2026. pp. 181-208. DOI [10.82122/gj.2026.25348](https://doi.org/10.82122/gj.2026.25348)
+Farkas Gábor Farkas, Káldos János, and Péter Király. "The ‘dark matter’ of Early Hungarian Prints." In Philip Ajouri, Gerhard Lauer, Nikolaus Weichselbaumer (eds.) _Gutenberg-Jahrbuch 2026_. Heidelberg : Heidelberg University Publishing, 2026. pp. 181-208. DOI [10.82122/gj.2026.25348](https://doi.org/10.82122/gj.2026.25348), available at [academia.edu](https://www.academia.edu/169061064/The_dark_matter_of_Early_Hungarian_Prints)
 
 <!-- span id="badgeCont105"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont105&rid=AAW-9289-2021"></script></span -->
 
