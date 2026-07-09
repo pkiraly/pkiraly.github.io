@@ -316,15 +316,19 @@ Péter Király, Tomasz Umerle, Vojtěch Malínek, Elzbieta Herden, Beata Koper, 
 cited by:<br/>
 1. Vivien Petras. "Paul Gooding, Melissa Terras, Sarah Ames (Hrsg.): Library Catalogues as Data–Research, Practice and Usage. London: Facet Publishing, 2025. 228 S." _Bibliothek Forschung und Praxis_ 2025. pp. 1-3. DOI [10.1515/bfp-2025-0037](https://doi.org/10.1515/bfp-2025-0037)
 
+Péter Király. "Multilingual Metadata Standards and Metrics Through Europeana" In Francesco Gelati, Maroussia Bednarkiewicz, Françoise Gouzi, Alíz Horváth (eds.) _Creating, Managing and Archiving Textual Corpora in Under-resourced Languages. Workshop Proceedings_. DARIAH-EU - Universitätsdruckerei Hamburg, 2025. DOI [10.5281/zenodo.17143727](https://doi.org/10.5281/zenodo.17143727) pp. 21-26.
+
 Farkas Gabor Farkas, János Káldos and Péter Király. "A régi magyarországi kiadványok „sötét anyaga”". _Magyar Könyvszemle_ 141(2025):2. pp. 226-266. DOI [10.17167/MKSZ.2025.2.226-266](https://doi.org/10.17167/MKSZ.2025.2.226-266)
 
 ### 2026
 
-Király Péter, Kiséry András. "Krasznahorkai mint világszerző - az irodalmi siker termelése a 21. században." In _Krasznahorkai - Út a Nobel-díjig_. Budapest : Könyves Magazin, 2026. pp. 124-134. ISBN 9786150268453.
+Király Péter, Kiséry András. "Krasznahorkai mint világszerző - az irodalmi siker termelése a 21. században." In Valuska László, Ruff Orsolya (eds.) _Krasznahorkai - Út a Nobel-díjig_. Budapest : Könyves Magazin, 2026. ISBN 9786150268453, pp. 124-134.
 
-Péter Király, András Kiséry. "The Worlds of Hungarian Literature: Translationscapes and World Systems." In Péter Hajdu, Zoltán Z. Varga (eds.) _Hungarian Literature as World Literature_.  New York : Bloomsbury Academic, 2026. ISBN 9781501393129 pp. 273-286. [bloomsbury.com](https://www.bloomsbury.com/us/hungarian-literature-as-world-literature-9781501393129/)
+Péter Király, András Kiséry. "The Worlds of Hungarian Literature: Translationscapes and World Systems." In Péter Hajdu, Zoltán Z. Varga (eds.) _Hungarian Literature as World Literature_.  New York : Bloomsbury Academic, 2026. ISBN 9781501393129, pp. 273-286. [bloomsbury.com](https://www.bloomsbury.com/us/hungarian-literature-as-world-literature-9781501393129/)
 
-Farkas Gábor Farkas, Káldos János, and Péter Király. "The ‘dark matter’ of Early Hungarian Prints." In Philip Ajouri, Gerhard Lauer, Nikolaus Weichselbaumer (eds.) _Gutenberg-Jahrbuch 2026_. Heidelberg : Heidelberg University Publishing, 2026. pp. 181-208. DOI [10.82122/gj.2026.25348](https://doi.org/10.82122/gj.2026.25348), available at [academia.edu](https://www.academia.edu/169061064/The_dark_matter_of_Early_Hungarian_Prints)
+Farkas Gábor Farkas, Káldos János, and Péter Király. "The ‘dark matter’ of Early Hungarian Prints." In Philip Ajouri, Gerhard Lauer, Nikolaus Weichselbaumer (eds.) _Gutenberg-Jahrbuch 2026_. Heidelberg : Heidelberg University Publishing, 2026. ISBN 978-3-96822-385-8, pp. 181-208. DOI [10.82122/gj.2026.25348](https://doi.org/10.82122/gj.2026.25348), available at [academia.edu](https://www.academia.edu/169061064/The_dark_matter_of_Early_Hungarian_Prints)
+
+Király Péter. "Egy elképzelt, a bibliográfiai adattudományról szóló képzés vázlata". In Viskolcz Noémi, Zvara Edina, N. Kis Tímea, Nagy Andor (eds.) _Litterae et amicitia. Ünnepi kötet Monok István 70. születésnapjára._ Eger - Sárospatak : Eszterházy Károly Katolikus Egyetem - Tokaj-Hegyalja Egyetem, 2026. ISBN 978-963-496-325-7, pp. 305-317. DOI [10.46403/Litteraeetamicitia.2026.305](https://doi.org/10.46403/Litteraeetamicitia.2026.305)
 
 <!-- span id="badgeCont105"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont105&rid=AAW-9289-2021"></script></span -->
 
