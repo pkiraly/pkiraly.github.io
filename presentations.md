@@ -17,6 +17,15 @@ p {
 }
 </style>
 
+## 2026
+
+* Káldos János – Király Péter (közreműködött Farkas Gábor Farkas): 16-17. századi társadalomtörténeti tendenciák vizsgálata bibliográfiai adatforrások alapján. _A Hajnal István Kör konferenciája_, 2026 August 27, Debrecen. [https://doi.org/10.5281/zenodo.22170100](https://doi.org/10.5281/zenodo.22170100).
+* Farkas Gábor Farkas – Káldos János – Király Péter: A bibliográfiai adatok elemzésének lehetőségei
+és korlátai a kora újkori Kárpát-medencében kiadott nyomtatványok alapján. Kutatási helyzetjelentés. _IX. Hungarológiai Kongresszus_ 2026, August 28, Miskolc.
+* Király Péter – Kiséry András: Pisti a Hidegháborúban. A magyar szépirodalom fordításai az irodalom világrendszerében 1948 és 1990 között. _A Hajnal István Kör konferenciája_ 2026. August 29, Debrecen. [https://doi.org/10.5281/zenodo.22165104](https://doi.org/10.5281/zenodo.22165104).
+* Péter Király: Quality assessment of library catalogues with QA Catalogue. _WOLFcon_ 2026, September 1, Prague. [https://doi.org/10.5281/zenodo.22258017](https://doi.org/10.5281/zenodo.22258017)
+
+
 ## 2025
 
 * Péter Király – András Kiséry: Patterns of Translation. _Metadata-based Research in Arts, Humanities and Social Sciences workshop_ 2025, March 5, Prague. [https://bit.ly/patterns-of-translation-2025](https://bit.ly/patterns-of-translation-2025)
