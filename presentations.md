@@ -19,8 +19,8 @@ p {
 
 ## 2026
 
-* Péter Király: Metadata quality assessment. _Erasmus Akreditacija NSK Seminar_ day 1. Nacionalna i sveučilišna knjižnica u Zagrebu. 2026 April 27, Zagreb. [https://bit.ly/qa-zagreb-day1](https://bit.ly/qa-zagreb-day1)
-* Péter Király: Web Presence of Cultural Heritage. _Erasmus Akreditacija NSK Seminar_ day 2. Nacionalna i sveučilišna knjižnica u Zagrebu. 2026 April 28, Zagreb. [https://bit.ly/qa-zagreb-day2](https://bit.ly/qa-zagreb-day2)
+* Péter Király (with contributions from Julianne Stiller): Metadata quality assessment. _Erasmus Akreditacija NSK Seminar_ day 1. Nacionalna i sveučilišna knjižnica u Zagrebu. 2026 April 27, Zagreb. [https://bit.ly/qa-zagreb-day1](https://bit.ly/qa-zagreb-day1).
+* Péter Király (with contributions from András Kiséry and János Káldos): Web Presence of Cultural Heritage. _Erasmus Akreditacija NSK Seminar_ day 2. Nacionalna i sveučilišna knjižnica u Zagrebu. 2026 April 28, Zagreb. [https://bit.ly/qa-zagreb-day2](https://bit.ly/qa-zagreb-day2).
 * Káldos János – Király Péter (közreműködött Farkas Gábor Farkas): 16-17. századi társadalomtörténeti tendenciák vizsgálata bibliográfiai adatforrások alapján. _A Hajnal István Kör konferenciája_, 2026 August 27, Debrecen. [https://doi.org/10.5281/zenodo.22170100](https://doi.org/10.5281/zenodo.22170100).
 * Farkas Gábor Farkas – Káldos János – Király Péter: A bibliográfiai adatok elemzésének lehetőségei
 és korlátai a kora újkori Kárpát-medencében kiadott nyomtatványok alapján. Kutatási helyzetjelentés. _IX. Hungarológiai Kongresszus_ 2026, August 28, Miskolc.
