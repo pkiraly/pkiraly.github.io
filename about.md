@@ -161,7 +161,8 @@ cited by:<br/>
 36. Mohammadreza Tavakoli, Abdolali Faraji, Jarno Vrolijk, Mohammadreza Molavi, Stefan T. Mol, and Gábor Kismihók. “An AI-Based Open Recommender System for Personalized Labor Market Driven Education.” _Advanced Engineering Informatics_ 2022. 52: 101508. DOI: [10.1016/j.aei.2021.101508](https://doi.org/10.1016/j.aei.2021.101508).
 37. Dwi Fajar Saputra, Taufik Asmiyanto, and Nina Mayesti. “When metadata is not enough: Repository interoperability in a national library open-source discovery platform.” _Scire: Representación y Organización Del Conocimiento_ 2026. 32 (1): 25–36. DOI: [10.54886/scire.v32i1.5141](https://doi.org/10.54886/scire.v32i1.5141).
 38. Mengke Zhao, Qiaoyin Mo, and Fang Liu. “A Systematic Review of Metadata Quality Assessment for Cultural Heritage Digital Resources.” Paper presented at 17th International Conference on Applied Human Factors and Ergonomics (AHFE 2026). _Usability and User Experience_, Vol. 232, 2026, pp. 175–184. DOI: [10.54941/ahfe1008046](https://doi.org/10.54941/ahfe1008046).
-39. Peng Yue, Jia Hou, and Xiao Zhang. "Evidence aware multimodal auditing of museum image metadata consistency". Preprint (Version 1) available at Research Square, 22 September 2026. DOI: [10.21203/rs.3.rs-10971995/v1](https://doi.org/10.21203/rs.3.rs-10971995/v1)
+39. Peng Yue, Jia Hou, and Xiao Zhang. "Evidence aware multimodal auditing of museum image metadata consistency". Preprint (Version 1) available at Research Square, 22 September 2026. DOI: [10.21203/rs.3.rs-10971995/v1](https://doi.org/10.21203/rs.3.rs-10971995/v1).
+40. P. S. Ershov, and Yu. E. Khokhlov. “Digital Infrastructure for Big Data.” _Lobachevskii Journal of Mathematics_ 2026. 47 (S1). pp. S78–93. DOI: [10.1134/S1995080226700150](https://doi.org/10.1134/S1995080226700150).
 
 Péter Király, Juliane Stiller, Valentine Charles, Werner Bailer, and Nuno Freire. “Evaluating Data Quality in Europeana: Metrics for Multilinguality.” In *Metadata and Semantic Research 2019. 12th International Conference, MTSR 2018, Limassol, Cyprus, October 23-26, 2018, Revised Selected Papers* (Communications in Computer and Information Science, volume 846) Published by Springer, 2019. pp. 199–211. DOI: [10.1007/978-3-030-14401-2_19](https://doi.org/10.1007/978-3-030-14401-2_19)<br/>
 cited by:<br/>
@@ -263,6 +264,7 @@ cited by:<br/>
 9. Tolonen, Mikko. "From Text to Meaning. Historical Humanities in the Age of AI and Interdisciplinarity." In P. d’Hoine, D. Kohler and W. Decock (eds.) _Charting the Future of Historical Humanities_, Brepols, 2026. pp. 139-162. [10.1484/M.LECTIO-EB.5.151806](https://doi.org/10.1484/M.LECTIO-EB.5.151806)
 10. Akewak Jeba, Julia Matveeva, and Leo Lahti. "Automated Retrieval and Analysis of Finnish Cultural Metadata with Finna." _Data Science Journal_ 2026. 25:27, pp. 1–16. DOI: [10.5334/dsj-2026-027](https://doi.org/10.5334/dsj-2026-027)
 11. Vojtěch Malínek and Kateřina Zajíčková. "Czech Literary Bibliography 2025: Research Infrastructure in the Era of Digital Humanities." _Poznańskie Studia Slawistyczne_, 2026 (30), pp. 163–183. DOI: [10.14746/pss.2026.30.7](https://doi.org/10.14746/pss.2026.30.7)
+12. Agnieszka Podpora. “Representing Translation with Data: Computational Tools and Human Agency in Translation-Centered Bibliographic Metadata Curation.” In Diana Roig-Sanz and Philipp Hofeneder (eds.) _Digital Translation History. Processing historical data with digital humanities methods_ (Benjamins Translation Library, vol. 172.) John Benjamins Publishing Company, 2026. ISBN 978-90-272-3764-4. pp. 78–113. DOI [10.1075/btl.172.04pod](https://doi.org/10.1075/btl.172.04pod)
 
 Péter Király, and Hannes Lowagie. "Implementation of a daily MARC assessment with open source tools at KBR, the royal library of Belgium.". *IFLA Metadata Newsletter* Volume 8, Number 1, June 2022. pp. 12-15 [ifla.org](https://repository.ifla.org/bitstream/123456789/1976/1/IFLA_Metadata_Newsletter_June_2022.pdf)<br/>
 cited by:<br/>
@@ -291,6 +293,7 @@ Ungváry Rudolf, Király Péter. "Nemzeti könyvtárak és az OSZK MARC21 állom
 Mikko Tolonen, Ondřej Vimr, Péter Király, and Charlotte Panušková. "Bibliographical Data Science: from Catalogues to Research Data." _Social Sciences & Humanities Open Marketplace_, 2023. [marketplace.sshopencloud.eu](https://marketplace.sshopencloud.eu/workflow/tE2HiC)<br/>
 cited by:<br/>
 1. Ondřej Vimr. "A computational approach to the history of Czech literature in translation during the Cold War (1948–1989)." _Translation Studies_, 2024. pp. 1-19. DOI: [10.1080/14781700.2024.2421550](https://doi.org/10.1080/14781700.2024.2421550)
+2. Agnieszka Podpora. “Representing Translation with Data: Computational Tools and Human Agency in Translation-Centered Bibliographic Metadata Curation.” In Diana Roig-Sanz and Philipp Hofeneder (eds.) _Digital Translation History. Processing historical data with digital humanities methods_ (Benjamins Translation Library, vol. 172.) John Benjamins Publishing Company, 2026. ISBN 978-90-272-3764-4. pp. 78–113. DOI [10.1075/btl.172.04pod](https://doi.org/10.1075/btl.172.04pod)
 
 ### 2024
 
