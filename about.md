@@ -293,7 +293,8 @@ Ungváry Rudolf, Király Péter. "Nemzeti könyvtárak és az OSZK MARC21 állom
 Mikko Tolonen, Ondřej Vimr, Péter Király, and Charlotte Panušková. "Bibliographical Data Science: from Catalogues to Research Data." _Social Sciences & Humanities Open Marketplace_, 2023. [marketplace.sshopencloud.eu](https://marketplace.sshopencloud.eu/workflow/tE2HiC)<br/>
 cited by:<br/>
 1. Ondřej Vimr. "A computational approach to the history of Czech literature in translation during the Cold War (1948–1989)." _Translation Studies_, 2024. pp. 1-19. DOI: [10.1080/14781700.2024.2421550](https://doi.org/10.1080/14781700.2024.2421550)
-2. Agnieszka Podpora. “Representing Translation with Data: Computational Tools and Human Agency in Translation-Centered Bibliographic Metadata Curation.” In Diana Roig-Sanz and Philipp Hofeneder (eds.) _Digital Translation History. Processing historical data with digital humanities methods_ (Benjamins Translation Library, vol. 172.) John Benjamins Publishing Company, 2026. ISBN 978-90-272-3764-4. pp. 78–113. DOI [10.1075/btl.172.04pod](https://doi.org/10.1075/btl.172.04pod)
+2. Maximilian Görmar, Thea Lindquist, Eetu Mäkelä, and Christoph Boveland. "Using Bibliographic Data for Historical Research–Two Workflows for the VD17 Catalogue." _Transformations. A DARIAH Journal_ 2 (2026). pp. 1-17. DOI: [10.46298/transformations.17213](https://doi.org/10.46298/transformations.17213)
+3. Agnieszka Podpora. “Representing Translation with Data: Computational Tools and Human Agency in Translation-Centered Bibliographic Metadata Curation.” In Diana Roig-Sanz and Philipp Hofeneder (eds.) _Digital Translation History. Processing historical data with digital humanities methods_ (Benjamins Translation Library, vol. 172.) John Benjamins Publishing Company, 2026. ISBN 978-90-272-3764-4. pp. 78–113. DOI [10.1075/btl.172.04pod](https://doi.org/10.1075/btl.172.04pod)
 
 ### 2024
 
