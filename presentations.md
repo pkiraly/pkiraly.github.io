@@ -21,11 +21,16 @@ p {
 
 * Péter Király (with contributions from Julianne Stiller): Metadata quality assessment. _Erasmus Akreditacija NSK Seminar_ day 1. Nacionalna i sveučilišna knjižnica u Zagrebu. 2026 April 27, Zagreb. [https://bit.ly/qa-zagreb-day1](https://bit.ly/qa-zagreb-day1).
 * Péter Király (with contributions from András Kiséry and János Káldos): Web Presence of Cultural Heritage. _Erasmus Akreditacija NSK Seminar_ day 2. Nacionalna i sveučilišna knjižnica u Zagrebu. 2026 April 28, Zagreb. [https://bit.ly/qa-zagreb-day2](https://bit.ly/qa-zagreb-day2).
+* Anisa Hawes, Doreen Chen, and Péter Király. ENABLAR: Exploring Library Catalogues as Data: Using Metadata to Ask New Questions. _ENABLAR (ENABling Library and Archive participation in digital Research co-learning communities) workshop_ (ENABLAR is a Jisc-funded project from Programming Historian) 2026 July 9, online.
+  * slides. Zenodo, 2026. [https://doi.org/10.5281/zenodo.23326719](https://doi.org/10.5281/zenodo.23326719).
+  * video. YouTube, 2026. [https://www.youtube.com/watch?v=qcH_5yNy7oM](https://www.youtube.com/watch?v=qcH_5yNy7oM).
 * Káldos János – Király Péter (közreműködött Farkas Gábor Farkas): 16-17. századi társadalomtörténeti tendenciák vizsgálata bibliográfiai adatforrások alapján. _A Hajnal István Kör konferenciája_, 2026 August 27, Debrecen. [https://doi.org/10.5281/zenodo.22170100](https://doi.org/10.5281/zenodo.22170100).
 * Farkas Gábor Farkas – Káldos János – Király Péter: A bibliográfiai adatok elemzésének lehetőségei
 és korlátai a kora újkori Kárpát-medencében kiadott nyomtatványok alapján. Kutatási helyzetjelentés. _IX. Hungarológiai Kongresszus_ 2026, August 28, Miskolc.
 * Király Péter – Kiséry András: Pisti a Hidegháborúban. A magyar szépirodalom fordításai az irodalom világrendszerében 1948 és 1990 között. _A Hajnal István Kör konferenciája_ 2026. August 29, Debrecen. [https://doi.org/10.5281/zenodo.22165104](https://doi.org/10.5281/zenodo.22165104).
 * Péter Király: Quality assessment of library catalogues with QA Catalogue. _WOLFcon_ 2026, September 1, Prague. [https://doi.org/10.5281/zenodo.22258017](https://doi.org/10.5281/zenodo.22258017)
+* Péter Király: Bibliographic data science. A model for collaboration between researchers and the library. _Focus on Open Science_, 2026 October 15, Budapest. [https://doi.org/10.5281/zenodo.23404929](https://doi.org/10.5281/zenodo.23404929).
+* Péter Király, and András Kiséry: How to Find Translations in Library Catalogues? _Behind the records or how to prepare a digital database of translators and translations_ workshop, Austrian Centre for Digital Humanities (ACDH) of the Austrian Academy of Sciences (ÖAW). 2026 October 22, Vienna. https://doi.org/10.5281/zenodo.23691979.
 
 
 ## 2025
