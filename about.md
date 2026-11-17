@@ -165,6 +165,8 @@ cited by:<br/>
 40. P. S. Ershov, and Yu. E. Khokhlov. “Digital Infrastructure for Big Data.” _Lobachevskii Journal of Mathematics_ 2026. 47 (S1). pp. S78–93. DOI: [10.1134/S1995080226700150](https://doi.org/10.1134/S1995080226700150).
 41. Mengke Zhao, Linxian Hao, Fang Liu, Qiaoyin Mo, and Hangxuan Wen. "文物数字资源元数据质量评估体系设计" ("Design of a Metadata Quality Assessment Framework for Cultural Relic Digital Resources.") _Packaging Engineering_. 2026, 47(14). pp. 286-296. DOI: [10.19554/j.cnki.1001-3563.2026.14.024](https://doi.org/10.19554/j.cnki.1001-3563.2026.14.024)
 42. Peng Yue, Xiao Zhang, and Jia Hou. “Toward a Decorative Grammar of Chinese Lacquerware in the National Palace Museum Taipei.” Preprint. In Review. _npj Heritage Science_, 2026. October 20. DOI: [10.21203/rs.3.rs-11195742](https://doi.org/10.21203/rs.3.rs-11195742/v1).
+43. Robson Lopes de Almeida. “Presente, Mas Ausente: Um Índice Multidimensional de Completude Orcid.” _XXVI Encontro Nacional de Pesquisa e Pós-Graduação mm Ciência Da Informação_, Belém, Brasil. 2026. November 13. pp. 1-17. DOI: [10.59289/x8rp0y98](https://doi.org/10.59289/x8rp0y98)
+
 
 Péter Király, Juliane Stiller, Valentine Charles, Werner Bailer, and Nuno Freire. “Evaluating Data Quality in Europeana: Metrics for Multilinguality.” In *Metadata and Semantic Research 2019. 12th International Conference, MTSR 2018, Limassol, Cyprus, October 23-26, 2018, Revised Selected Papers* (Communications in Computer and Information Science, volume 846) Published by Springer, 2019. pp. 199–211. DOI: [10.1007/978-3-030-14401-2_19](https://doi.org/10.1007/978-3-030-14401-2_19)<br/>
 cited by:<br/>
