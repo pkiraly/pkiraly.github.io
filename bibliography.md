@@ -25,6 +25,9 @@ Beaudiquez, Marcelle. 2001. “National Bibliographic Services at the Dawn of th
 
 Benhamou, Françoise, and Stéphanie Peltier. 2007. “How Should Cultural Diversity Be Measured? An Application Using the French Publishing Industry.” _Journal of Cultural Economics_ 31 (2): 85–107. [https://doi.org/10.1007/s10824-007-9037-8](https://doi.org/10.1007/s10824-007-9037-8).
 
+Beyer, Hartmut, Jörn Münkner, Katrin Schmidt, and Timo Steyer. 2017. “Bibliotheken im Buch: Die Erschließung von
+privaten Büchersammlungen der Frühneuzeit über Auktionskataloge.” In _Kodikologie Und Paläographie Im Digitalen Zeitalter 4 – Codicology and Palaeography in the Digital Age 4_, edited by Hannah Busch, Franz Fischer, and Patrick Sahle. Books on Demand. pp. 43-70. [http://nbn-resolving.de/urn:nbn:de:hbz:38-77794](http://nbn-resolving.de/urn:nbn:de:hbz:38-77794).
+
 Blummer, Barbara, and Jeffrey M. Kenton. 2018. “Big Data and Libraries: Identifying Themes in the Literature.” _Internet Reference Services Quarterly_ 23 (1–2): 15–40. [https://doi.org/10.1080/10875301.2018.1524337](https://doi.org/10.1080/10875301.2018.1524337).
 
 Bourdieu, Pierre. 2008. “A Conservative Revolution in Publishing.” _Translation Studies_ 1 (2): 123–53. [https://doi.org/10.1080/14781700802113465](https://doi.org/10.1080/14781700802113465).
